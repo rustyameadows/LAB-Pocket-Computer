@@ -6,8 +6,8 @@ A small, designed collection of default apps should establish the product's pers
 | --- | --- | --- |
 | Clock | Beautiful, customizable glanceable time display; optional sunset/night glow | Time, typography, ambient lifecycle, LEDs |
 | Weather | Current conditions and simple forecast | Wi-Fi, caching, periodic updates, offline states |
-| Sensor studio | Live motion, light, temperature/humidity or external sensor data | Sensors, charts, BLE, data logging |
-| Color synth | Use the grid to mix, sample, save and play color palettes; synchronize screen and rear glow | Input mapping, graphics, persistence, lighting |
+| Sensor studio | Live acceleration, rotation, light, and optional external sensor data | Sensors, charts, BLE, data logging |
+| Color synth / colorscope | Use the grid to mix palettes and the rear illuminated color sensor to sample physical colors; save palettes and synchronize screen and rear glow | Color sensing, calibration, input mapping, graphics, persistence, lighting |
 | Visual toy | Generative patterns, pixel animations and interactive loops | Animation, sprites, performance |
 | Camera studio | Rear-camera live view, snapshots, pixel-art filters, stop-motion and optical experiments | Camera preview, image processing, controls, storage |
 | Voice recorder | Record, play, name and export a short clip | Microphone, audio, filesystem |
