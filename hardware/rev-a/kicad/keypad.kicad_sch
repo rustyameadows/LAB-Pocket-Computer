@@ -1,0 +1,1362 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid b592c38d-cd81-5165-a68d-9cc6db7822e5) (paper "A3") (title_block (title "Key matrix and scan port") (date "2026-11-26") (rev "A / placement study") (company "LAB Pocket Computer")) (lib_symbols (symbol "Device:D_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -1.27 2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Small"
+			(at -3.81 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_Small_0_1"
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Small_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.778)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Interface_Expansion:PCA9555PW"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -8.89 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCA9555PW"
+			(at 6.35 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "I2C TWI IO expander"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PCA9555PW_0_1"
+			(rectangle
+				(start -10.16 22.86)
+				(end 10.16 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "PCA9555PW_1_1"
+			(pin open_collector line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -17.78 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -20.32 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "IO0_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 17.78 180)
+				(length 2.54)
+				(name "IO0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "IO0_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "IO0_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "IO0_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "IO0_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "IO0_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "IO0_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "IO1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "IO1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "IO1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "IO1_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "IO1_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "IO1_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "IO1_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "IO1_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -15.24 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 25.4 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "01   /   KEY MATRIX" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 06f9f79f-7580-53aa-9089-e8abab3c0102))
+(text "Drive one row low at a time. Unselected rows are inputs. Read the four pulled-up columns." (at 18 26 0) (effects (font (size 1.5 1.5)) (justify left) ) (uuid a7f40255-89b0-5a1e-8fe4-c0e40873e0f6))
+(symbol (lib_id "Device:D_Small") (at 48.26 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid ae53a82d-716e-5040-b148-6f3f9efa0bb4) (property "Reference" "D1" (at 48.26 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 48.26 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 48.26 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 48.26 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D1") (unit 1)))))
+(wire (pts (xy 45.72 55.88) (xy 41.91 55.88)) (stroke (width 0) (type default)) (uuid d2c93698-beb3-5dc4-9c9b-ecc5497e9bda))
+(global_label "KEY_R0" (shape bidirectional) (at 41.91 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4534815d-4493-51b6-a33d-951bbd77ebbd))
+(symbol (lib_id "Switch:SW_Push") (at 68.58 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid bba57f49-de65-5586-90d1-65293eb24d52) (property "Reference" "SW1" (at 68.58 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 68.58 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 68.58 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW1") (unit 1)))))
+(wire (pts (xy 73.66 55.88) (xy 77.47 55.88)) (stroke (width 0) (type default)) (uuid ffd80d44-00aa-5e6c-83ca-23540bb23e01))
+(global_label "KEY_C0" (shape bidirectional) (at 77.47 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2044b636-5f3f-5e4c-ab1e-a904ec5beb0f))
+(wire (pts (xy 50.8 55.88) (xy 63.5 55.88)) (stroke (width 0) (type default)) (uuid 97f85e15-dc3f-52a0-a657-6045d1a06b71))
+(symbol (lib_id "Device:D_Small") (at 114.3 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid ebc46e32-187e-595b-9dfc-a737fd14267d) (property "Reference" "D2" (at 114.3 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 114.3 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 114.3 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 114.3 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D2") (unit 1)))))
+(wire (pts (xy 111.76 55.88) (xy 107.95 55.88)) (stroke (width 0) (type default)) (uuid 1330613d-ba6c-5b1b-955d-63a986d1c8b4))
+(global_label "KEY_R0" (shape bidirectional) (at 107.95 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid eaff5751-8a28-539d-a0e1-93175344a4bd))
+(symbol (lib_id "Switch:SW_Push") (at 134.62 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid 33925e01-84b3-5434-b776-8cb645afabf0) (property "Reference" "SW2" (at 134.62 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 134.62 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 134.62 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 134.62 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW2") (unit 1)))))
+(wire (pts (xy 139.7 55.88) (xy 143.51 55.88)) (stroke (width 0) (type default)) (uuid 34a15785-d1c2-5a48-b4da-880a5e92f015))
+(global_label "KEY_C1" (shape bidirectional) (at 143.51 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 83b375d0-0845-5af0-abb1-a837ab1f6364))
+(wire (pts (xy 116.84 55.88) (xy 129.54 55.88)) (stroke (width 0) (type default)) (uuid 240f7cc6-6060-58c7-baaa-bbb327c433b5))
+(symbol (lib_id "Device:D_Small") (at 180.34 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid f17087db-2ced-5e09-aecb-c9cf218c1913) (property "Reference" "D3" (at 180.34 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 180.34 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D3") (unit 1)))))
+(wire (pts (xy 177.8 55.88) (xy 173.99 55.88)) (stroke (width 0) (type default)) (uuid 387a2386-4d67-59f9-acc2-8b23ade0eb37))
+(global_label "KEY_R0" (shape bidirectional) (at 173.99 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 573e1d16-2cce-5ee4-804b-a3b831d3241b))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid aff8ea59-ef88-5a69-9bf8-a0ea974eee63) (property "Reference" "SW3" (at 200.66 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 200.66 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 200.66 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW3") (unit 1)))))
+(wire (pts (xy 205.74 55.88) (xy 209.55 55.88)) (stroke (width 0) (type default)) (uuid 236ddb6b-9265-5637-a129-385dc03a56d8))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a42c7115-6908-5d75-bbcd-6c3c58f5f45f))
+(wire (pts (xy 182.88 55.88) (xy 195.58 55.88)) (stroke (width 0) (type default)) (uuid 5ad4e581-007e-56ce-92a1-2b4244b544d8))
+(symbol (lib_id "Device:D_Small") (at 246.38 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid cb56a999-15a8-5e90-8723-ff91706ede44) (property "Reference" "D4" (at 246.38 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 246.38 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 246.38 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 246.38 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D4") (unit 1)))))
+(wire (pts (xy 243.84 55.88) (xy 240.03 55.88)) (stroke (width 0) (type default)) (uuid dd570d79-6a94-527a-b275-4bdc86c9fd88))
+(global_label "KEY_R0" (shape bidirectional) (at 240.03 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9941c112-0666-55b9-a714-972b445a1a27))
+(symbol (lib_id "Switch:SW_Push") (at 266.7 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid d0a09e48-5d84-5ea8-bea0-8f7627e7d77d) (property "Reference" "SW4" (at 266.7 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 266.7 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 266.7 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 266.7 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW4") (unit 1)))))
+(wire (pts (xy 271.78 55.88) (xy 275.59 55.88)) (stroke (width 0) (type default)) (uuid 7630afb7-d784-5a00-b635-54ca3f85ab19))
+(global_label "KEY_C3" (shape bidirectional) (at 275.59 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3af6d314-d618-5ff8-bc9c-3c9a7243ca6e))
+(wire (pts (xy 248.92 55.88) (xy 261.62 55.88)) (stroke (width 0) (type default)) (uuid 1fdeb387-a9a7-5bc0-920e-53e8aa2cc5cc))
+(symbol (lib_id "Device:D_Small") (at 48.26 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 925ccef5-99ae-5278-bde3-505c909b1568) (property "Reference" "D5" (at 48.26 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 48.26 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 48.26 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 48.26 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D5") (unit 1)))))
+(wire (pts (xy 45.72 91.44) (xy 41.91 91.44)) (stroke (width 0) (type default)) (uuid dc43d682-557c-5a54-915c-ed81a8d88779))
+(global_label "KEY_R1" (shape bidirectional) (at 41.91 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid af9f583a-721c-5f13-a9ec-7f0f34a8f66d))
+(symbol (lib_id "Switch:SW_Push") (at 68.58 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 2d1f2b98-0d14-5c6a-a5b1-0f6015527b81) (property "Reference" "SW5" (at 68.58 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 68.58 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 68.58 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW5") (unit 1)))))
+(wire (pts (xy 73.66 91.44) (xy 77.47 91.44)) (stroke (width 0) (type default)) (uuid 9a134333-1530-5f27-ab08-6d5d13fa957e))
+(global_label "KEY_C0" (shape bidirectional) (at 77.47 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7d30e61c-62ac-5729-844c-e52d083f5e34))
+(wire (pts (xy 50.8 91.44) (xy 63.5 91.44)) (stroke (width 0) (type default)) (uuid 7c192884-ec9c-5564-a024-cf9907efd0b6))
+(symbol (lib_id "Device:D_Small") (at 114.3 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 18d73cfd-0ac9-5838-8bde-a4315b297f2a) (property "Reference" "D6" (at 114.3 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 114.3 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 114.3 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 114.3 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D6") (unit 1)))))
+(wire (pts (xy 111.76 91.44) (xy 107.95 91.44)) (stroke (width 0) (type default)) (uuid e8ff0f1d-732d-55e7-9f10-729b5b95a7f7))
+(global_label "KEY_R1" (shape bidirectional) (at 107.95 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid db59686b-6960-50d8-a67c-a824d876b4b9))
+(symbol (lib_id "Switch:SW_Push") (at 134.62 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid ba546afb-6307-515e-862a-6a9390f1e802) (property "Reference" "SW6" (at 134.62 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 134.62 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 134.62 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 134.62 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW6") (unit 1)))))
+(wire (pts (xy 139.7 91.44) (xy 143.51 91.44)) (stroke (width 0) (type default)) (uuid 8a285040-7e74-558f-b396-650c9f87a03e))
+(global_label "KEY_C1" (shape bidirectional) (at 143.51 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d87cce5e-dcb7-5e8a-bb6c-731430c2d3f2))
+(wire (pts (xy 116.84 91.44) (xy 129.54 91.44)) (stroke (width 0) (type default)) (uuid b71e7a4d-4769-567d-b927-c0b4b2b2a6f3))
+(symbol (lib_id "Device:D_Small") (at 180.34 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 37488ad6-97b4-51cb-a0b7-ce2337a5b357) (property "Reference" "D7" (at 180.34 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 180.34 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D7") (unit 1)))))
+(wire (pts (xy 177.8 91.44) (xy 173.99 91.44)) (stroke (width 0) (type default)) (uuid f481306d-92ea-580c-b646-a30cdd6448f0))
+(global_label "KEY_R1" (shape bidirectional) (at 173.99 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid adfe62f7-f7fe-574d-b521-410fec9dbd3a))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 89d34558-fa30-53fb-a66b-97036d6e8250) (property "Reference" "SW7" (at 200.66 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 200.66 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 200.66 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW7") (unit 1)))))
+(wire (pts (xy 205.74 91.44) (xy 209.55 91.44)) (stroke (width 0) (type default)) (uuid f92fea02-62fb-5e38-8a09-f87e39c8e04c))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 29bbaf02-4e71-5a50-b663-5d36f5c714ac))
+(wire (pts (xy 182.88 91.44) (xy 195.58 91.44)) (stroke (width 0) (type default)) (uuid 7062ef48-0a5d-5064-affd-8d73818d3adf))
+(symbol (lib_id "Device:D_Small") (at 246.38 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 65a5c233-9905-5dae-aef6-b31d43abd332) (property "Reference" "D8" (at 246.38 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 246.38 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 246.38 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 246.38 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D8") (unit 1)))))
+(wire (pts (xy 243.84 91.44) (xy 240.03 91.44)) (stroke (width 0) (type default)) (uuid df657b03-cad6-5150-8e20-5a53ee013fea))
+(global_label "KEY_R1" (shape bidirectional) (at 240.03 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 53260eb9-1dbc-56d7-a1af-4651a5660806))
+(symbol (lib_id "Switch:SW_Push") (at 266.7 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6dbcd8bd-d22b-5697-be09-6bb0c301588c) (property "Reference" "SW8" (at 266.7 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 266.7 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 266.7 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 266.7 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW8") (unit 1)))))
+(wire (pts (xy 271.78 91.44) (xy 275.59 91.44)) (stroke (width 0) (type default)) (uuid f734b35d-0126-5bb8-a52c-fe82d8c30d22))
+(global_label "KEY_C3" (shape bidirectional) (at 275.59 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f9f60075-a48b-5e06-9edf-f9b2f945fe7e))
+(wire (pts (xy 248.92 91.44) (xy 261.62 91.44)) (stroke (width 0) (type default)) (uuid 377351e2-3123-5999-83aa-609d81e27a97))
+(symbol (lib_id "Device:D_Small") (at 48.26 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 240980ee-5e10-5e8b-af94-b1693070bde9) (property "Reference" "D9" (at 48.26 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 48.26 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 48.26 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 48.26 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D9") (unit 1)))))
+(wire (pts (xy 45.72 127) (xy 41.91 127)) (stroke (width 0) (type default)) (uuid 86bc5778-684d-5131-bb8b-cea2f5b91acb))
+(global_label "KEY_R2" (shape bidirectional) (at 41.91 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b444fd67-e726-5c19-8409-8fdfe75b5aa4))
+(symbol (lib_id "Switch:SW_Push") (at 68.58 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5bc7a8b0-df4f-52f6-ab3a-6bd6ce886114) (property "Reference" "SW9" (at 68.58 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 68.58 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 68.58 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW9") (unit 1)))))
+(wire (pts (xy 73.66 127) (xy 77.47 127)) (stroke (width 0) (type default)) (uuid 346d3be2-f366-53d0-a234-963386cb3158))
+(global_label "KEY_C0" (shape bidirectional) (at 77.47 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 21e7932d-1b48-5440-a935-f1769e15082f))
+(wire (pts (xy 50.8 127) (xy 63.5 127)) (stroke (width 0) (type default)) (uuid 420a6457-8bc4-5189-84ff-0e211c11e227))
+(symbol (lib_id "Device:D_Small") (at 114.3 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5477f401-ed8d-5aca-88bd-b2147bad3869) (property "Reference" "D10" (at 114.3 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 114.3 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 114.3 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 114.3 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D10") (unit 1)))))
+(wire (pts (xy 111.76 127) (xy 107.95 127)) (stroke (width 0) (type default)) (uuid 4dd358bc-a052-5170-bf35-7e0ceef176ee))
+(global_label "KEY_R2" (shape bidirectional) (at 107.95 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8d23900c-c742-566e-a928-e8ed1f72f262))
+(symbol (lib_id "Switch:SW_Push") (at 134.62 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 795d0aa9-67b2-5ba1-8ed8-3e892b3ea83d) (property "Reference" "SW10" (at 134.62 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 134.62 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 134.62 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 134.62 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW10") (unit 1)))))
+(wire (pts (xy 139.7 127) (xy 143.51 127)) (stroke (width 0) (type default)) (uuid 81e703de-e940-5d9d-bfab-6521e2b2665b))
+(global_label "KEY_C1" (shape bidirectional) (at 143.51 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 71759c7c-6984-5730-bd91-9c96367d3e83))
+(wire (pts (xy 116.84 127) (xy 129.54 127)) (stroke (width 0) (type default)) (uuid 3d21dc99-bb8f-5d27-a50d-1e95ae96ff97))
+(symbol (lib_id "Device:D_Small") (at 180.34 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8c5339cb-8cea-5e08-b670-b50de850a36b) (property "Reference" "D11" (at 180.34 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 180.34 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D11") (unit 1)))))
+(wire (pts (xy 177.8 127) (xy 173.99 127)) (stroke (width 0) (type default)) (uuid 6d06c7b8-a8bd-5718-9612-544798f226e9))
+(global_label "KEY_R2" (shape bidirectional) (at 173.99 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cef1fe1e-d806-5ea0-a3af-0f4fb48807ba))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid b43f0703-85ab-5b13-bb4c-63fae0c7df99) (property "Reference" "SW11" (at 200.66 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 200.66 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 200.66 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW11") (unit 1)))))
+(wire (pts (xy 205.74 127) (xy 209.55 127)) (stroke (width 0) (type default)) (uuid e9ff7bbf-fdb0-5528-a77d-0e8a09e1973f))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 950f9128-f5c3-5dfb-97b2-8b11fc4f992f))
+(wire (pts (xy 182.88 127) (xy 195.58 127)) (stroke (width 0) (type default)) (uuid 62f3bcda-0823-5206-8b65-fc7d74cde636))
+(symbol (lib_id "Device:D_Small") (at 246.38 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 90d93907-47c0-59e3-a5b9-66e7fa8bca93) (property "Reference" "D12" (at 246.38 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 246.38 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 246.38 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 246.38 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D12") (unit 1)))))
+(wire (pts (xy 243.84 127) (xy 240.03 127)) (stroke (width 0) (type default)) (uuid db6a7edc-e0d2-565c-8e61-b09535422e41))
+(global_label "KEY_R2" (shape bidirectional) (at 240.03 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1be2b080-9092-58b5-8892-82fc5f0c7916))
+(symbol (lib_id "Switch:SW_Push") (at 266.7 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 643b02db-8c84-5a48-86bc-68d04716a333) (property "Reference" "SW12" (at 266.7 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 266.7 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 266.7 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 266.7 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW12") (unit 1)))))
+(wire (pts (xy 271.78 127) (xy 275.59 127)) (stroke (width 0) (type default)) (uuid be0d266d-e124-56a0-90f4-ec298bb7bde4))
+(global_label "KEY_C3" (shape bidirectional) (at 275.59 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f330eca6-0b92-5cda-8b58-c3679aedc2a6))
+(wire (pts (xy 248.92 127) (xy 261.62 127)) (stroke (width 0) (type default)) (uuid af9c19d0-3c32-5b7b-b07b-0c9b4a208d27))
+(symbol (lib_id "Device:D_Small") (at 48.26 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 07af629c-6874-58a8-92ec-28ba13727e0f) (property "Reference" "D13" (at 48.26 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 48.26 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 48.26 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 48.26 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D13") (unit 1)))))
+(wire (pts (xy 45.72 162.56) (xy 41.91 162.56)) (stroke (width 0) (type default)) (uuid 1252fb9b-097f-5cdd-8a98-3978a8c167f7))
+(global_label "KEY_R3" (shape bidirectional) (at 41.91 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid be44afa7-1536-5ff8-b02f-42fa296d9df4))
+(symbol (lib_id "Switch:SW_Push") (at 68.58 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid ba0b2a84-6b66-5ab7-b199-a79d3a498bb8) (property "Reference" "SW13" (at 68.58 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 68.58 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 68.58 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW13") (unit 1)))))
+(wire (pts (xy 73.66 162.56) (xy 77.47 162.56)) (stroke (width 0) (type default)) (uuid 00fcdd0d-d564-534a-96cb-87693db9ffb2))
+(global_label "KEY_C0" (shape bidirectional) (at 77.47 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 89b2e3bd-5645-50c8-ac85-f95f8f60ff42))
+(wire (pts (xy 50.8 162.56) (xy 63.5 162.56)) (stroke (width 0) (type default)) (uuid cd021aff-2b61-54f4-9669-0586fc2f5f62))
+(symbol (lib_id "Device:D_Small") (at 114.3 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6144ae5a-97b4-53ea-ae13-abd7dfbfa895) (property "Reference" "D14" (at 114.3 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 114.3 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 114.3 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 114.3 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D14") (unit 1)))))
+(wire (pts (xy 111.76 162.56) (xy 107.95 162.56)) (stroke (width 0) (type default)) (uuid 928a3302-a21c-5e02-a346-fef7c8d43191))
+(global_label "KEY_R3" (shape bidirectional) (at 107.95 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 236e43c8-5103-579a-853a-1d8db2fc69ef))
+(symbol (lib_id "Switch:SW_Push") (at 134.62 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid ef04e63d-aae3-58e1-934d-6294a434637f) (property "Reference" "SW14" (at 134.62 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 134.62 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 134.62 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 134.62 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW14") (unit 1)))))
+(wire (pts (xy 139.7 162.56) (xy 143.51 162.56)) (stroke (width 0) (type default)) (uuid 87eb1f77-b560-5ad7-9a21-21ec6e00c8a9))
+(global_label "KEY_C1" (shape bidirectional) (at 143.51 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b7bfff4e-3052-53c9-928f-6c9acb4e0a1c))
+(wire (pts (xy 116.84 162.56) (xy 129.54 162.56)) (stroke (width 0) (type default)) (uuid ec9ab24e-daa7-5933-8b69-755c1ee4bd36))
+(symbol (lib_id "Device:D_Small") (at 180.34 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid f3b1090d-fa51-578d-8325-15dfe97d61f1) (property "Reference" "D15" (at 180.34 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 180.34 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D15") (unit 1)))))
+(wire (pts (xy 177.8 162.56) (xy 173.99 162.56)) (stroke (width 0) (type default)) (uuid 9345a981-91bb-5228-b3e1-cab280bcb76d))
+(global_label "KEY_R3" (shape bidirectional) (at 173.99 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 77fde4c6-7aa4-5f8f-860b-a50ad8ed352f))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 785b3db1-766e-52bd-a5a2-acbfa366c148) (property "Reference" "SW15" (at 200.66 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 200.66 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 200.66 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW15") (unit 1)))))
+(wire (pts (xy 205.74 162.56) (xy 209.55 162.56)) (stroke (width 0) (type default)) (uuid 5041e547-b897-5b98-aba1-1f5482f21a76))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d52bad11-35c6-568c-890f-b487aa05c51d))
+(wire (pts (xy 182.88 162.56) (xy 195.58 162.56)) (stroke (width 0) (type default)) (uuid fcb84968-beea-5182-8bb0-5cf8c9e05497))
+(symbol (lib_id "Device:D_Small") (at 246.38 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8d1ba396-1e0a-5bca-a236-42faef3e8da9) (property "Reference" "D16" (at 246.38 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 246.38 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 246.38 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 246.38 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "D16") (unit 1)))))
+(wire (pts (xy 243.84 162.56) (xy 240.03 162.56)) (stroke (width 0) (type default)) (uuid 9c0edb2b-08c0-5334-aa12-329f7826672d))
+(global_label "KEY_R3" (shape bidirectional) (at 240.03 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cbbbd82b-e6c2-5220-82c6-278b1dc9b0e3))
+(symbol (lib_id "Switch:SW_Push") (at 266.7 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid fa97d6b1-c364-5cd4-9029-3212dfc3bded) (property "Reference" "SW16" (at 266.7 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 266.7 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG" (at 266.7 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 266.7 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "SW16") (unit 1)))))
+(wire (pts (xy 271.78 162.56) (xy 275.59 162.56)) (stroke (width 0) (type default)) (uuid 88eb7b25-ab8e-5ca4-9ae8-325aabae3576))
+(global_label "KEY_C3" (shape bidirectional) (at 275.59 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 32114786-d91a-5806-8438-6104e257e5bd))
+(wire (pts (xy 248.92 162.56) (xy 261.62 162.56)) (stroke (width 0) (type default)) (uuid c09a487f-6006-5d8b-b4b5-436d1e340d8b))
+(text "SCAN INTERFACE   /   PCA9555 at 0x20; P0[0:3] rows, P1[0:3] columns. Poll over I²C." (at 18 180 0) (effects (font (size 1.6 1.6)) (justify left) ) (uuid 31378996-c1ca-5d1c-99e4-5e3b78888c7c))
+(symbol (lib_id "Interface_Expansion:PCA9555PW") (at 91.44 224.79 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7c027d2f-cdd4-55b4-93e1-7241b60dd5ae) (property "Reference" "U4" (at 91.44 194.31 0) (effects (font (size 1 1)) ))(property "Value" "PCA9555PWR" (at 91.44 196.11 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" (at 91.44 224.79 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 91.44 224.79 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "U4") (unit 1)))))
+(no_connect (at 78.74 212.09) (uuid 0f44eb8d-fc5a-54a5-b553-1c4cbdba17f9))
+(wire (pts (xy 78.74 242.57) (xy 74.93 242.57)) (stroke (width 0) (type default)) (uuid 1e47d965-8f31-55f6-abb5-f7557606a598))
+(global_label "GND" (shape bidirectional) (at 74.93 242.57 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 32824c4a-a948-5b95-998c-39f66cc752ed))
+(wire (pts (xy 78.74 245.11) (xy 74.93 245.11)) (stroke (width 0) (type default)) (uuid 85278064-6b65-59d6-bd87-004c7ced8500))
+(global_label "GND" (shape bidirectional) (at 74.93 245.11 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 754d50f5-84d5-58b1-b24b-119078830463))
+(wire (pts (xy 104.14 204.47) (xy 107.95 204.47)) (stroke (width 0) (type default)) (uuid 8ba0038e-3780-5774-b723-f80ff5038478))
+(global_label "KEY_R0" (shape bidirectional) (at 107.95 204.47 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 804591dc-b70f-55c9-af8e-ebce3f297c35))
+(wire (pts (xy 104.14 207.01) (xy 107.95 207.01)) (stroke (width 0) (type default)) (uuid e24482b5-1e53-540e-af4d-d1f4e5cfbe9d))
+(global_label "KEY_R1" (shape bidirectional) (at 107.95 207.01 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid abe044c1-6b2c-5955-8478-45af53085921))
+(wire (pts (xy 104.14 209.55) (xy 107.95 209.55)) (stroke (width 0) (type default)) (uuid 7d69f15a-7818-5b4e-83d5-cd5c0052b201))
+(global_label "KEY_R2" (shape bidirectional) (at 107.95 209.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5d626c4f-4c3a-5af0-ab78-5955f845003f))
+(wire (pts (xy 104.14 212.09) (xy 107.95 212.09)) (stroke (width 0) (type default)) (uuid 6ba3bce0-db86-5169-aabb-e81f690542d9))
+(global_label "KEY_R3" (shape bidirectional) (at 107.95 212.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 64a3d77f-b532-58b7-8c6f-7af30f9fcbd0))
+(no_connect (at 104.14 214.63) (uuid 266bb03a-744b-5a45-baca-34d2742136a0))
+(no_connect (at 104.14 217.17) (uuid 08f87014-6e82-5eed-a8eb-3514254dbdfc))
+(no_connect (at 104.14 219.71) (uuid e3c895bb-9460-5714-bf4f-547c1b6d08ad))
+(no_connect (at 104.14 222.25) (uuid e7da056f-7cd6-5ff0-bf56-5001be96c130))
+(wire (pts (xy 91.44 250.19) (xy 91.44 254)) (stroke (width 0) (type default)) (uuid a32c8083-7276-5abc-9174-e3f6f0c03c08))
+(global_label "GND" (shape bidirectional) (at 91.44 254 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 59aa215b-a7ca-5a8d-9b88-97e177b4d7da))
+(wire (pts (xy 104.14 227.33) (xy 107.95 227.33)) (stroke (width 0) (type default)) (uuid f97a0ae4-4e88-5c4b-b08f-a6f8b87b0c71))
+(global_label "KEY_C0" (shape bidirectional) (at 107.95 227.33 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1c0944a9-1bc6-5185-a114-ecf31bfba52c))
+(wire (pts (xy 104.14 229.87) (xy 107.95 229.87)) (stroke (width 0) (type default)) (uuid 5600b9b3-fb62-523e-b360-31465ddc416e))
+(global_label "KEY_C1" (shape bidirectional) (at 107.95 229.87 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1df762d3-6e67-5ea5-b054-d58fa1b1f498))
+(wire (pts (xy 104.14 232.41) (xy 107.95 232.41)) (stroke (width 0) (type default)) (uuid 251e6b03-1049-5b23-b33e-c7dfb7656819))
+(global_label "KEY_C2" (shape bidirectional) (at 107.95 232.41 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a66dae38-1bb0-5f2a-ac04-65e860b8f040))
+(wire (pts (xy 104.14 234.95) (xy 107.95 234.95)) (stroke (width 0) (type default)) (uuid 0426095c-58d9-5b66-9dd1-dd00edf22b7d))
+(global_label "KEY_C3" (shape bidirectional) (at 107.95 234.95 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 194df89a-9ff6-5562-9c3d-76f9df324080))
+(no_connect (at 104.14 237.49) (uuid 6e0d88bf-8f63-5a99-80f3-11901bb2e5d6))
+(no_connect (at 104.14 240.03) (uuid dce2aedb-f398-5263-8055-913b1bf94aec))
+(no_connect (at 104.14 242.57) (uuid 4b0ac8f9-f70b-53ba-91c4-80c2eb6f6409))
+(no_connect (at 104.14 245.11) (uuid 170f593e-4821-5255-a1d7-3754b93de3e4))
+(wire (pts (xy 78.74 240.03) (xy 74.93 240.03)) (stroke (width 0) (type default)) (uuid 6cd9d51a-9e17-592f-9bfc-b718dee3d196))
+(global_label "GND" (shape bidirectional) (at 74.93 240.03 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c124f360-9485-53b2-8d8d-53cbd4210664))
+(wire (pts (xy 78.74 204.47) (xy 74.93 204.47)) (stroke (width 0) (type default)) (uuid 3c85d1be-e130-5172-aaaa-062ba3d3e9b9))
+(global_label "SYS_SCL" (shape bidirectional) (at 74.93 204.47 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 3c741922-251f-5f5b-9c82-7ce4cd3e5c3b))
+(wire (pts (xy 78.74 207.01) (xy 74.93 207.01)) (stroke (width 0) (type default)) (uuid a70e8ecb-37d6-5ace-a28a-c3ca35c201cd))
+(global_label "SYS_SDA" (shape bidirectional) (at 74.93 207.01 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5116de5d-1710-5c78-b8d8-92da39ba5509))
+(wire (pts (xy 91.44 199.39) (xy 91.44 195.58)) (stroke (width 0) (type default)) (uuid 7d040c21-6ab1-5e72-9eb9-dca27ebe7e32))
+(global_label "3V3" (shape bidirectional) (at 91.44 195.58 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2048fc60-d1fe-5229-9ff8-23414202c84d))
+(symbol (lib_id "Device:R_Small") (at 154.94 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 913f99a1-34a4-51dd-86a7-8287aca3fcca) (property "Reference" "R1" (at 163.94 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 163.94 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "R1") (unit 1)))))
+(wire (pts (xy 154.94 205.74) (xy 154.94 201.93)) (stroke (width 0) (type default)) (uuid 34ff4029-05f8-5a08-9540-cdd34b5a950c))
+(global_label "3V3" (shape bidirectional) (at 154.94 201.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b79778ee-e8f4-517a-9556-f045af96d4ff))
+(wire (pts (xy 154.94 210.82) (xy 154.94 214.63)) (stroke (width 0) (type default)) (uuid 3a3b8f75-6391-562a-b96b-3cec424f9065))
+(global_label "KEY_C0" (shape bidirectional) (at 154.94 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 96aa5884-0a29-594f-a5c4-31af0b93e042))
+(symbol (lib_id "Device:R_Small") (at 198.12 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7f7d5a25-dd59-5245-9e45-73d1b4db0314) (property "Reference" "R2" (at 207.12 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 207.12 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 198.12 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 198.12 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "R2") (unit 1)))))
+(wire (pts (xy 198.12 205.74) (xy 198.12 201.93)) (stroke (width 0) (type default)) (uuid 0e5dfb3e-f6b5-552e-9e9c-2beb538b9391))
+(global_label "3V3" (shape bidirectional) (at 198.12 201.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 085c0ca5-7b4f-5353-bda1-66ef545a648e))
+(wire (pts (xy 198.12 210.82) (xy 198.12 214.63)) (stroke (width 0) (type default)) (uuid ad1fcb07-7cbd-54fa-b724-af1b3b53be39))
+(global_label "KEY_C1" (shape bidirectional) (at 198.12 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid afaa37f3-e5c0-5e67-aecd-95d9a14dcb99))
+(symbol (lib_id "Device:R_Small") (at 241.3 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid a3e3e172-407a-5918-aaa5-28370ed566f7) (property "Reference" "R3" (at 250.3 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 250.3 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 241.3 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 241.3 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "R3") (unit 1)))))
+(wire (pts (xy 241.3 205.74) (xy 241.3 201.93)) (stroke (width 0) (type default)) (uuid b19e5104-6522-5b0e-9d0a-aed2a72cf220))
+(global_label "3V3" (shape bidirectional) (at 241.3 201.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 39731918-768d-5354-99f4-4f2b95733bb0))
+(wire (pts (xy 241.3 210.82) (xy 241.3 214.63)) (stroke (width 0) (type default)) (uuid 2bcb137e-2ff0-5e36-a16a-1c66bb80be52))
+(global_label "KEY_C2" (shape bidirectional) (at 241.3 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c6eb2946-7533-5612-93b0-4ece53e7a733))
+(symbol (lib_id "Device:R_Small") (at 284.48 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid a01bfcd8-6592-5b0b-a079-8db874f77976) (property "Reference" "R4" (at 293.48 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 293.48 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 284.48 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 284.48 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "R4") (unit 1)))))
+(wire (pts (xy 284.48 205.74) (xy 284.48 201.93)) (stroke (width 0) (type default)) (uuid cd07fd74-96a2-57d5-81f0-d42e4d06af51))
+(global_label "3V3" (shape bidirectional) (at 284.48 201.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid df1f1e88-a6c4-53f4-a8a6-b744a5d683a5))
+(wire (pts (xy 284.48 210.82) (xy 284.48 214.63)) (stroke (width 0) (type default)) (uuid 7e160dab-5f3e-54fb-8802-f8f9f5c2ea89))
+(global_label "KEY_C3" (shape bidirectional) (at 284.48 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ee19985f-8056-5f08-ab6f-344ae75added))
+(symbol (lib_id "Device:C_Small") (at 154.94 242.57 0) (unit 1) (in_bom yes) (on_board yes) (uuid f325f7b4-8afd-5e20-a3a2-facc9640cd90) (property "Reference" "C1" (at 163.94 240.97 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 163.94 242.77 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 154.94 242.57 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 154.94 242.57 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e" (reference "C1") (unit 1)))))
+(wire (pts (xy 154.94 240.03) (xy 154.94 236.22)) (stroke (width 0) (type default)) (uuid f245e7a6-b08b-58af-b371-b21c899c0a91))
+(global_label "3V3" (shape bidirectional) (at 154.94 236.22 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid bc40e144-b6c9-51a9-8492-c3a1eb0a9ddb))
+(wire (pts (xy 154.94 245.11) (xy 154.94 248.92)) (stroke (width 0) (type default)) (uuid ed571640-f665-56f6-bd09-ce8e9192e371))
+(global_label "GND" (shape bidirectional) (at 154.94 248.92 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7e8e27b6-d40c-5ddd-aa16-456f265c24b8))
+(embedded_fonts no))

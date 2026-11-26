@@ -1,0 +1,8 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid 536fed22-4200-5170-97ba-6689baea2d6e) (paper "A3") (title_block (title "System / first electrical pass") (date "2026-11-26") (rev "A / placement study") (company "LAB Pocket Computer")) (lib_symbols )
+(text "LAB  /  POCKET COMPUTER" (at 25 21 0) (effects (font (size 4.6 4.6)) (justify left) ) (uuid 48547488-8e70-5fd9-a598-9c7c3d5e519e))
+(text "REV A     •     EXPOSED PCB     /     FLAT-PACK STUDY" (at 25 30 0) (effects (font (size 1.9 1.9)) (justify left) ) (uuid 665f8516-4d2c-5da3-ad8c-07a4b6985103))
+(text "Open a sheet to inspect components and named electrical nets. Board is a placement prototype." (at 25 42 0) (effects (font (size 1.6 1.6)) (justify left) ) (uuid 3c136776-242a-53cc-bf15-a890d9cc1dc4))
+(sheet (at 25 59) (size 159 22) (stroke (width 0.32) (type default)) (fill (color 0 0 0 0)) (uuid bf19cc19-8e1d-5c8e-86c3-d1b8f6b70b6e) (property "Sheetname" "Key matrix and scan port" (at 25 57.1 0) (effects (font (size 1 1)) (justify left) ))(property "Sheetfile" "keypad.kicad_sch" (at 25 83 0) (effects (font (size 1 1)) (justify left) ))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e" (page "2")))))
+(text "16 momentary keys, isolation diodes and I²C scan port" (at 30 70 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 5fdf1f96-0efe-5824-9dad-3a7b6bdde8c1))
+(text "Open design work: regulated supplies and charger, host GPIO mux, radio interface, audio output, camera carrier and high-speed routing." (at 25 249 0) (effects (font (size 1.55 1.55)) (justify left) ) (uuid 53db2dd8-1da1-5825-bb5f-c0829f3a9ac4))
+(embedded_fonts no))
