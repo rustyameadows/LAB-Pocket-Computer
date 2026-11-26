@@ -28,14 +28,23 @@ Host-controlled reset, boot mode and a validated programming path (e.g. SWD or s
 ## Peripherals
 
 - Sixteen tactile switches; grid wiring/diodes if matrix-scanned, or direct GPIO where practical. Measure debounce, simultaneous presses and input latency.
+- Two vertical capacitive touch rails flanking the display, seven copper electrode segments per side. Use the ESP32-S3's 14 touch-capable GPIOs (GPIO1–14) as the starting approach, subject to the full pin map and module breakout. Expose independent touch states and derived slider positions/gestures through the host. Validate electrode size/spacing, exposed versus covered finish, ESD protection, noise, calibration, moisture and accidental grip touches. An external touch controller is a fallback only if integration requires it.
 - Twelve individually controllable rear RGB LEDs, candidate SK6812MINI-E. Check current, voltage/logic compatibility, diffusion and heat. Power gate the rail when off, set a configurable brightness cap.
 - USB-C for data and charging. Validate the host's USB-device path and provisioning/debug strategy.
 - Protected ~2,000 mAh single-cell rechargeable battery; charger with power-path management, fuel gauge, regulators, protection, thermal and USB current limits. Prefer dedicated charging/protection hardware rather than relying on application firmware.
 - Candidate digital microphone, small mono speaker with amplifier, wired headphone path. Verify audio routing and electrical compatibility before committing.
-- Candidate microSD for removable assets and user files; host-side filesystem, controlled access across the processor link.
+- Two microSD slots: one factory-installed internal card for persistent user/application storage, and one externally accessible removable card for imports, exports and expansion. See storage architecture below.
 - Candidate IMU, ambient light sensor and environmental sensor. Board heat can bias temperature readings; validate placement.
 - RTC or low-power timekeeping, plus Wi-Fi time synchronization.
 - Accessible user GPIO, safe power rails, ESD protection and clearly documented voltage/current limits.
+
+## Storage architecture
+
+- Dedicated soldered flash for ESP32-S3 host firmware, launcher/recovery and configuration required to boot; separate dedicated RP2350B flash for user firmware. The core recovery path should not depend on either card.
+- Internal microSD: factory-installed, service-replaceable, securely retained socket; target 32 GB initially, capacity and supplier subject to cost/endurance validation. Stores installed app packages, assets, recordings, music and user files. Device remains useful without an external card.
+- External microSD: accessible without opening the enclosure, for removable user media, transfers and expansion. No external card required or bundled by default (working assumption).
+- Host owns the filesystems and exposes scoped file operations to the user processor. Evaluate independent SDMMC/SPI interfaces or shared SPI with independent chip selects; verify simultaneous access, throughput, hot-plug handling and pin allocation alongside the display, touch rails, wireless and processor link. Do not assume two full-width SDMMC buses fit the selected module.
+- Choose a traceable, reputable card model; validate write endurance, power-loss behavior, safe removal, recovery from missing/corrupt internal media and drop/vibration retention. Consider bulk direct sourcing of cards and PCBA-installed sockets. Soldered eMMC remains an alternative if price or reliability warrants it.
 
 ## Power modes
 
