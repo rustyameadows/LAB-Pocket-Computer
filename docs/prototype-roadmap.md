@@ -4,10 +4,11 @@ This is a proposed learning sequence, not an engineering schedule or launch comm
 
 ## Phase 0: bench prototype
 
-Use readily available ESP32-S3 and RP2350 development boards. Connect a representative square LCD, tactile buttons, addressable LEDs and power-monitoring equipment. Verify exact candidate parts and availability separately.
+Use readily available ESP32-P4 and RP2350 development boards for the camera-enabled architecture; keep ESP32-S3 as the comparison baseline. Connect a representative square LCD, tactile buttons, addressable LEDs and power-monitoring equipment. Verify exact candidate parts and availability separately.
 
 - Bring up display scanout, input and host lighting; evaluate two seven-segment capacitive rails and their coexistence with other peripherals.
 - Test host access to internal and removable microSD volumes, simultaneous transfers, safe removal, missing/corrupt media recovery and power-loss behavior.
+- Bring up the lead Seeed IMX219 rear camera on P4, including connector verification, low-resolution live preview, snapshots, frame access and recording to storage if supported. Benchmark latency, frame rate, memory and power alongside the display and wireless. Evaluate the ST VD66GY global-shutter alternative separately if motion-oriented applications justify it.
 - Establish a two-way processor protocol and boot/recovery path.
 - Run the color synth and a representative 2D game.
 - Test both host-side drawing commands and bitmap transfers.
@@ -20,7 +21,7 @@ Develop the minimum launcher, SDK, app package/install path, virtual device and 
 
 ## Phase 2: form and power
 
-Prototype several 16-button grid layouts and a physical mock-up at the selected display size. Compare game ergonomics, two-thumb use, desk readability, key spacing and switch feel; prototype seven-segment rails along both display edges, including accidental grip touches and exposed/covered electrode options. Verify internal card retention/service access and external card access. Evaluate feet/standoff height and rear LED diffusion. Test display alternatives if the 320 × 320 panel does not meet brightness, viewing or performance needs.
+Prototype several 16-button grid layouts and a physical mock-up at the selected display size. Compare game ergonomics, two-thumb use, desk readability, key spacing and switch feel; prototype seven-segment rails along both display edges, including accidental grip touches and exposed/covered electrode options. Verify internal card retention/service access and external card access. Evaluate feet/standoff height, rear LED diffusion and rear camera aperture/clearance, including unwanted illumination from the LEDs. Test display alternatives if the 320 × 320 panel does not meet brightness, viewing or performance needs.
 
 Profile interactive, ambient, Wi-Fi and standby power on real hardware. Validate the battery protection and charging design with appropriate engineering review. Decide whether a more capable host or alternative display is warranted.
 
@@ -32,7 +33,8 @@ Validate assembly, factory programming, test coverage, thermals, battery runtime
 
 ## Decision gates
 
-- S3 versus P4: representative 60 FPS graphics with acceptable latency, memory headroom and power, not theoretical CPU speed.
+- S3 versus P4: representative 60 FPS graphics, camera interface and capture requirements, acceptable latency, memory headroom and power, not theoretical CPU speed. P4 is the leading MIPI camera path; verify a separate wireless solution before committing.
+- Camera: validate IMX219 module wiring, host capture/preview and app API; assess ST global shutter only as a distinct alternative with different integration requirements.
 - Display: availability, price, scanout interface, image quality, responsiveness and power.
 - Control layout: enjoyable gaming without sacrificing the general-purpose grid; reliable independent touch segments and slider gestures.
 - Storage: dependable factory-installed internal card and externally removable expansion, recovery independent of card health, pin/interface feasibility and verified bulk supply.
