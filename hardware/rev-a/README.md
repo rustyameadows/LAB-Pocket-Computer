@@ -6,6 +6,10 @@ Open [the KiCad project](kicad/LAB-Pocket.kicad_pro) in KiCad 10. The [nine-shee
 
 The front has the square LCD between two seven-pad gold touch rails and sixteen discrete tactile switches. The bare PCB has solid outside corners. On the rear, twelve RGB pixels flank a removable guard for the protected 4,800 mAh pouch. The camera, color sensor, connectors and speakers remain exposed. [Rear view](renders/rear.png) · [Guard removed](renders/service.png)
 
+## Full-scale hand model
+
+The [P1S print project](print/README.md) includes the front and rear halves, two alignment pins, a single-piece STL and editable geometry.
+
 ## Mechanical model
 
 The [Blender 5 scene](blender/LAB-Pocket.blend) contains the actual [KiCad board mesh](blender/LAB-Pocket.glb), including copper, mask, silkscreen, holes and available library component models. The scene uses millimetres. Its three camera markers select the front, rear and open guard views on frames 1, 2 and 3. The display artwork and typeface are packed. The assembled device, guard, battery and studio have separate collections.
