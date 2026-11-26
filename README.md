@@ -17,7 +17,7 @@ Make an app on your computer, with or without a coding agent. Preview it in a vi
 - Rear-facing programmable color camera: Seeed IMX219 (8 MP MIPI CSI-2) is the lead candidate, with ST VD66GY global shutter (1.5 MP) as a specialized alternative.
 - Twelve individually addressable rear-facing RGB LEDs and raised feet for an ambient pool of light.
 - USB-C rechargeable power: a thin, service-replaceable ~5,000 mAh flat LiPo is the lead concept; two 21700 Li-ion cells are an alternative form factor with roughly twice the energy and a possible integrated desk stand.
-- Four sensitive digital MEMS microphones with independent channels; two ultra-thin stereo speakers (four-speaker alternative) and a required 3.5 mm wired stereo headphone output.
+- Four sensitive digital MEMS microphones with independent channels; two ultra-thin stereo speakers (four-speaker alternative) and a required 3.5 mm CTIA TRRS headset jack with stereo output and mono microphone input.
 - Candidate sensors and expansion.
 - Raw PCB and enclosed editions.
 
