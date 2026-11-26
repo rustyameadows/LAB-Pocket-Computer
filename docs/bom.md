@@ -1,4 +1,4 @@
-# Preliminary bill of materials (v0.6)
+# Preliminary bill of materials (v0.7)
 
 Planning model: USD per unit at an assumed 1,000-unit run. These are rough estimates from concept discussion, not live inventory, supplier quotations, electrical validation or a production-ready BOM. Candidate part numbers must be checked against datasheets and supply before ordering. All lines include assumptions.
 
@@ -23,7 +23,10 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Digital microphone array | 4 × [Infineon IM70D122V01XTMA1](https://www.digikey.com/en/products/detail/infineon-technologies/IM70D122V01XTMA1/17399493), bottom-port PDM MEMS, 70 dB(A) SNR; synchronized independent channels | TBD |
 | Stereo speakers | 2 × [PUI Audio AS01808AO-SC18-WP-R](https://www.digikey.com/en/products/detail/pui-audio-inc/AS01808AO-SC18-WP-R/9687113), 18 × 13 × 2.5 mm, 8 Ω, 1 W each; 4 total as optional variant, not additive | TBD |
 | Audio input/output electronics | 3.5 mm CTIA TRRS headset jack, insertion/headset detection, ADC/DAC or codec, headset mic bias and input conditioning, headphone driver and stereo Class D speaker amplification; power gating and support | TBD |
-| Sensors | IMU, environmental, ambient light | $2.50 |
+| Motion sensor | 1 × [Bosch BMI270](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI270/9974486), 6-axis accelerometer/gyroscope | $2.83 catalog reference |
+| Rear colorscope | 1 × [Vishay VEML3328](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VEML3328/10673129), RGBCIR sensor | $1.32 catalog reference |
+| Colorscope support | Switchable white illumination LED, driver, optical window/baffle and calibration | TBD |
+| Ambient light | Rear RGBCIR sensor can measure incident light with illumination off; separate top/front ambient-light sensor optional, not included | TBD if fitted |
 | RTC | RTC and backup supply | $0.80 |
 | Connectors | USB-C, battery and expansion | $1.00 |
 | Support components | Crystals, passives, protection | $2.00 |
@@ -31,9 +34,9 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Assembly | Double-sided SMT estimate | $4.50 |
 | Testing | Firmware programming and functional tests | $1.50 |
 | Mechanical hardware | Feet, standoffs, screws | $1.00 |
-| **Priced subtotal** | **Raw-board device excluding revised storage, touch, camera, battery/power, audio and any host/wireless change** | **$34.00 + TBD** |
+| **Priced subtotal** | **Raw-board device excluding revised storage, touch, camera, battery/power, audio, unpriced colorscope support and any host/wireless change** | **$35.65 + TBD** |
 
-Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.6 subtotal until the two sockets, internal card, touch-related costs, camera integration, revised battery and power management, revised audio system and any P4/wireless processor changes are priced. The previous $3.40 mono-audio allowance is also removed; the new array, speakers and output electronics need separate quotes. The old $3 battery and $3 power management allowances are removed from the subtotal, not carried forward as new quotes. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
+Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.7 subtotal until the two sockets, internal card, touch-related costs, camera integration, revised battery and power management, revised audio system and any P4/wireless processor changes are priced. The previous $3.40 mono-audio allowance is also removed; the new array, speakers and output electronics need separate quotes. The previous $2.50 generic sensor allowance is replaced by $4.15 for the two selected sensor ICs at DigiKey 1,000-piece catalog prices, before illumination, optical support or optional sensors. The old $3 battery and $3 power management allowances are removed from the subtotal, not carried forward as new quotes. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
 
 ## Cost concentration
 
@@ -45,7 +48,7 @@ Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a si
 | Rear camera and integration | TBD |
 | Battery and power management | TBD |
 | Audio (four mics, two speakers, headphone jack and electronics) | TBD |
-| Sensors, connectors and support | $6.30 |
+| Sensors, connectors and support | $7.95 + colorscope support TBD |
 | PCB, assembly, test and mechanical hardware | $10.00 |
 
 The display is a major sourcing opportunity. The $6.50 figure assumes a comparable direct-sourced display, not the exact higher-priced DLC panel previously discussed. Substituting the earlier $21.48 distributor price would add $14.98 to the current subtotal before enclosure and unpriced items. Neither price is a verified 1,000-unit quote.
@@ -103,6 +106,21 @@ The four microphones and two speakers total $17.72 at single-unit reference pric
 - IM70D122: 70 dB(A) SNR, -26 dBFS sensitivity, 122 dB SPL overload point, 3.50 × 2.65 × 0.98 mm, bottom acoustic port, PDM, 1.62–3.6 V, 980 µA typical normal mode (260 µA low-power mode). Four consume about 3.92 mA in normal mode before host processing and regulator losses. [Infineon product reference](https://www.infineon.com/part/IM70D122).
 - PUI speaker: 8 Ω, 1 W rating (not continuous consumption), 420 Hz–14 kHz catalog bandwidth. Validate speaker placement, enclosure acoustics and impedance/amplifier loading before choosing two versus four.
 - Required 3.5 mm CTIA TRRS headset jack: stereo headphone output and mono external headset microphone input on the same connector. Support ordinary three-contact TRS headphones as well. Provide headset detection, mic bias, appropriate analog input gain/ADC and automatic speaker muting on insertion. True line-level or stereo analog input for external instruments would require an additional or switchable input design and remains open. Evaluate exact jack and codec/amp parts and power cost.
+
+## Motion and colorscope sourcing
+
+Baseline parts selected for evaluation. DigiKey indexed catalog prices checked November 26, 2026; these are reference prices, not supplier quotes or guaranteed checkout prices.
+
+| Part | Per device | 1 unit | 5 units | 1,000-unit price each |
+| --- | ---: | ---: | ---: | ---: |
+| [Bosch BMI270](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI270/9974486) | 1 | $4.23 | $18.94 | $2.83270 |
+| [Vishay VEML3328](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VEML3328/10673129) | 1 | $2.05 | $9.09 | $1.32102 |
+| **Two sensor ICs** | | **$6.28** | **$28.03** | **$4.15372** |
+
+- BMI270: 3-axis accelerometer and 3-axis gyroscope, I2C/SPI, 2.5 × 3.0 × 0.83 mm; ±2/4/8/16 g and ±125/250/500/1000/2000 degrees/s. Motion interrupts, low-power modes, FIFO and gesture/activity features. [Bosch reference](https://www.bosch-sensortec.com/en/products/motion-sensors/imus/bmi270). No magnetometer; absolute compass heading would require separate hardware, not included.
+- VEML3328: 16-bit red, green, blue, clear and infrared readings via I2C, 2 × 1.25 × 1 mm, 2.6–3.6 V supply. Rear-facing optical aperture and a separately controllable white LED for reflected-color sampling. [Vishay reference](https://www.vishay.com/en/product/84968/). The prior LCSC discussion referenced approximately $0.61 at 1,000 pieces; not independently refreshed here. Use the verified DigiKey catalog figure for the subtotal pending PCBA quotes.
+- Use the clear/IR and RGB channels for ambient-light estimation with the white LED off. Rear placement, desk surface occlusion and rear RGB lighting can bias readings; do not rely on this alone for screen auto-brightness. Evaluate a separate top/front-facing ambient light sensor only if useful; no second part is locked.
+- Temperature/humidity/pressure and other environmental sensors are not baseline requirements; possible expansion peripherals instead. Final optical stack, white LED and calibration, motion configuration and optional ambient sensor remain open. These are surface-mount ICs, not plug-in breakout boards.
 
 ## Candidate JLCPCB references
 
