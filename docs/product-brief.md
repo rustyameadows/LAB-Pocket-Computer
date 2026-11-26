@@ -25,6 +25,7 @@ A phone already has more compute and a better display. LAB earns its existence t
 - Sixteen tactile buttons in a calculator-like grid. Map controls per app; explore layouts that also feel excellent for games.
 - Two proposed seven-segment capacitive touch rails, one on either side of the display. Apps can treat each rail as seven discrete inputs or a slider/gesture surface; the physical button grid remains independent.
 - Factory-installed internal microSD for apps, assets, recordings and user data, with 32 GB as a working target. A separate externally accessible microSD slot is for removable media, imports and expansion. The internal card should be service-replaceable, with secure retention in a portable device.
+- Rear-mounted color camera as an app-accessible creative input, with live view, image capture, programmable filters and optical experiments. Seeed IMX219 is the lead candidate; STMicroelectronics VD66GY global shutter is a potential alternative or specialized upgrade. The front display acts as a viewfinder when an app requests it.
 - Twelve individually addressable rear-facing RGB LEDs. Feet or standoffs create a gap and a soft wash of light on the desk.
 - Rechargeable battery, USB-C, Wi-Fi and Bluetooth.
 - Candidate audio input/output, sensors and exposed expansion pins.
@@ -50,4 +51,4 @@ A phone already has more compute and a better display. LAB earns its existence t
 
 ## Open product questions
 
-Final layout and dimensions; touch rail geometry and feel; internal card capacity and access; D-pad/shoulder controls versus grid-only; display technology and brightness; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
+Final layout and dimensions; touch rail geometry and feel; internal card capacity and access; D-pad/shoulder controls versus grid-only; display technology and brightness; camera location, optics and capture modes; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
