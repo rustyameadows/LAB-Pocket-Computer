@@ -9,6 +9,7 @@ A small, designed collection of default apps should establish the product's pers
 | Sensor studio | Live motion, light, temperature/humidity or external sensor data | Sensors, charts, BLE, data logging |
 | Color synth | Use the grid to mix, sample, save and play color palettes; synchronize screen and rear glow | Input mapping, graphics, persistence, lighting |
 | Visual toy | Generative patterns, pixel animations and interactive loops | Animation, sprites, performance |
+| Camera studio | Rear-camera live view, snapshots, pixel-art filters, stop-motion and optical experiments | Camera preview, image processing, controls, storage |
 | Voice recorder | Record, play, name and export a short clip | Microphone, audio, filesystem |
 | Music toy/player | Tiny sequencer or local-file player; light reacts to playback | Audio timing, storage, lighting |
 | Arcade game | Original falling-block or similar responsive 2D game | Input latency, steady frame rate, collision and audio |
@@ -21,6 +22,6 @@ Apps should feel intentionally designed for this fixed physical device, not like
 
 ## Launch priority
 
-Start with the color synth, clock and an arcade game. Together these prove interactive graphics, the tactile input model, low-distraction ambient mode and the SDK. Add weather, sensors and audio once the corresponding hardware and APIs are stable.
+Start with the color synth, clock and an arcade game. Together these prove interactive graphics, the tactile input model, low-distraction ambient mode and the SDK. Add weather, sensors, camera and audio once the corresponding hardware and APIs are stable.
 
 Provide example source, a short explanation of what each project teaches and instructions for building, previewing and installing. Prefer small, forkable projects over one giant monolithic demo.
