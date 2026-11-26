@@ -6,6 +6,10 @@ LAB combines the tactile character of a Pocket Operator, the playful immediacy o
 
 Make an app on your computer, with or without a coding agent. Preview it in a virtual LAB, install it on the physical device, then play with it or leave it on your desk doing something delightful.
 
+## Bare-board Rev A
+
+The [first hardware revision](hardware/rev-a/README.md) includes an editable KiCad project, a full-size fit drawing, a Blender assembly, three renders and the component datasheet archive. Its 82 × 146 mm PCB has fourteen exposed touch pads, sixteen switches and clear outside corners. [Front render](hardware/rev-a/renders/front.png) · [Schematic PDF](hardware/rev-a/review/LAB-Pocket-schematics.pdf)
+
 ## Initial hardware direction
 
 - ESP32-S3 host as the original baseline; ESP32-P4 with a separate wireless processor (e.g. ESP32-C6) is the leading camera-capable host candidate.
@@ -40,4 +44,4 @@ Concept and feasibility stage. The current hardware configuration is a working h
 
 First milestone: connect development boards, a representative display, buttons and RGB LEDs. Demonstrate a color instrument, responsive 2D graphics, interprocessor communication and recovery from crashed user firmware. Measure performance and power before committing to custom PCBA.
 
-No production firmware, schematics, PCB layout or validated component BOM yet. Licensing is undecided.
+The Rev A schematics and layout are at design-review stage. Production firmware, full routing, supplier qualification and bench validation remain open. Licensing is undecided.
