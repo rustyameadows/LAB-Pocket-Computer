@@ -8,6 +8,7 @@ Use readily available ESP32-P4 and RP2350 development boards for the camera-enab
 
 - Bring up display scanout, input and host lighting; evaluate two seven-segment capacitive rails and their coexistence with other peripherals.
 - Prototype four synchronized IM70D122 PDM microphone channels, stereo playback, CTIA TRRS headset detection/muting, external headset microphone recording, and capture to microSD. The microphones are SMD parts; use an appropriate breakout or test PCB before custom PCBA. Verify simultaneous capture and playback, latency, quiet sound pickup and power.
+- Prototype BMI270 motion sampling, tilt/gesture input, interrupts and low-power behavior. Prototype VEML3328 rear colorscope with switchable white illumination; compare LED-on/off readings against color references under varied ambient light and distances. Test rear LED interference, optical baffling and desk/hand occlusion; decide whether a separate top/front ambient sensor is warranted.
 - Test host access to internal and removable microSD volumes, simultaneous transfers, safe removal, missing/corrupt media recovery and power-loss behavior.
 - Bring up the lead Seeed IMX219 rear camera on P4, including connector verification, low-resolution live preview, snapshots, frame access and recording to storage if supported. Benchmark latency, frame rate, memory and power alongside the display and wireless. Evaluate the ST VD66GY global-shutter alternative separately if motion-oriented applications justify it.
 - Establish a two-way processor protocol and boot/recovery path.
