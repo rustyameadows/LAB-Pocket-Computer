@@ -333,6 +333,209 @@
 (pin bidirectional line (at -15.24 -1.27 0) (length 2.54) (name "SDA" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
 (pin power_in line (at 15.24 1.27 180) (length 2.54) (name "VDD" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
 (pin input line (at 15.24 -1.27 180) (length 2.54) (name "SCL" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))))
+(symbol "Device:LED_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -1.27 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at -4.445 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode light-emitting-diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_Small_0_1"
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy -0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_Small_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.778)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 (symbol "LAB:CTIA_43515TS" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
 (property "Reference" "J" (at 0 8.08 0) (effects (font (size 1 1)) ))
 (property "Value" "CTIA_43515TS" (at 0 6.58 0) (effects (font (size 1 1)) ))
@@ -352,7 +555,7 @@
 (pin passive line (at 8.89 0 180) (length 2.54) (name "Minus" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) ))))))
 (text "04   /   SENSORS  /  AUDIO" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 8ef27eb8-170f-5fed-8611-fc9123cfb893))
 (text "Four PDM microphones on two data lines. Opposite LR straps select the sample edge for each pair." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid b20c0753-1c74-5e2b-a1c2-6f834c75ea1a))
-(symbol (lib_id "LAB:IM70D122V01") (at 53.34 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7949af32-f059-5ca6-81a4-6d11bd6f2641) (property "Reference" "MK1" (at 53.34 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 53.34 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 53.34 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 53.34 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK1") (unit 1)))))
+(symbol (lib_id "LAB:IM70D122V01") (at 53.34 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7949af32-f059-5ca6-81a4-6d11bd6f2641) (property "Reference" "MK1" (at 53.34 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 53.34 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:IM70D122" (at 53.34 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 53.34 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK1") (unit 1)))))
 (wire (pts (xy 38.1 58.42) (xy 34.29 58.42)) (stroke (width 0) (type default)) (uuid 5de790c2-9e12-56cc-ac9c-f8776e709310))
 (global_label "3V3" (shape bidirectional) (at 34.29 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7f8c71e2-8222-5cef-8bb8-abd74e213208))
 (wire (pts (xy 38.1 60.96) (xy 34.29 60.96)) (stroke (width 0) (type default)) (uuid 2b147191-2949-5973-9d8e-a5c1e86da161))
@@ -373,7 +576,7 @@
 (global_label "3V3" (shape bidirectional) (at 81.28 87.63 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8ef162b3-cf45-5503-8df2-52543c935286))
 (wire (pts (xy 81.28 96.52) (xy 81.28 100.33)) (stroke (width 0) (type default)) (uuid 48b7f832-97bb-5176-88d9-a815c53ddbf4))
 (global_label "GND" (shape bidirectional) (at 81.28 100.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 33d01170-f5dd-5bb8-834c-c04d342c9398))
-(symbol (lib_id "LAB:IM70D122V01") (at 144.78 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 74bd903f-6c2d-5f33-b242-826495ef8427) (property "Reference" "MK2" (at 144.78 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 144.78 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 144.78 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 144.78 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK2") (unit 1)))))
+(symbol (lib_id "LAB:IM70D122V01") (at 144.78 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 74bd903f-6c2d-5f33-b242-826495ef8427) (property "Reference" "MK2" (at 144.78 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 144.78 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:IM70D122" (at 144.78 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 144.78 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK2") (unit 1)))))
 (wire (pts (xy 129.54 58.42) (xy 125.73 58.42)) (stroke (width 0) (type default)) (uuid cb539919-30f8-5547-a212-f74cdda71ab6))
 (global_label "3V3" (shape bidirectional) (at 125.73 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ae3bf84f-e26e-59c6-8625-d4601021aac1))
 (wire (pts (xy 129.54 60.96) (xy 125.73 60.96)) (stroke (width 0) (type default)) (uuid 6ff076d7-fd70-58b1-91de-fd6c10bf62ee))
@@ -394,7 +597,7 @@
 (global_label "3V3" (shape bidirectional) (at 172.72 87.63 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5da5bc16-692e-5799-88df-d363c0716ed8))
 (wire (pts (xy 172.72 96.52) (xy 172.72 100.33)) (stroke (width 0) (type default)) (uuid b8adad7b-2d7d-5989-8804-3682e9f2c06f))
 (global_label "GND" (shape bidirectional) (at 172.72 100.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 69e85d93-4f86-52c9-9ff3-4289f01124aa))
-(symbol (lib_id "LAB:IM70D122V01") (at 236.22 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1a071feb-0877-5b55-84ce-f5e5e019f047) (property "Reference" "MK3" (at 236.22 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 236.22 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 236.22 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 236.22 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK3") (unit 1)))))
+(symbol (lib_id "LAB:IM70D122V01") (at 236.22 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1a071feb-0877-5b55-84ce-f5e5e019f047) (property "Reference" "MK3" (at 236.22 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 236.22 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:IM70D122" (at 236.22 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 236.22 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK3") (unit 1)))))
 (wire (pts (xy 220.98 58.42) (xy 217.17 58.42)) (stroke (width 0) (type default)) (uuid a0d6d98d-40b9-5bca-a951-e9dc3bfd5a6d))
 (global_label "3V3" (shape bidirectional) (at 217.17 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c4f49a48-3704-58c6-bdc8-da4222c61e2b))
 (wire (pts (xy 220.98 60.96) (xy 217.17 60.96)) (stroke (width 0) (type default)) (uuid 502c7ad7-44dd-5a13-8579-84dfae1cf3ab))
@@ -415,7 +618,7 @@
 (global_label "3V3" (shape bidirectional) (at 264.16 87.63 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e2252375-e0bd-5ce3-a831-734f6b28f953))
 (wire (pts (xy 264.16 96.52) (xy 264.16 100.33)) (stroke (width 0) (type default)) (uuid e351e3da-625d-5da6-aa27-d9bb6c0fcd24))
 (global_label "GND" (shape bidirectional) (at 264.16 100.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7a61867d-19f6-505c-be33-aff49697e3d9))
-(symbol (lib_id "LAB:IM70D122V01") (at 327.66 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid a75a007d-ff5d-553c-a8de-941711720ff5) (property "Reference" "MK4" (at 327.66 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 327.66 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 327.66 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 327.66 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK4") (unit 1)))))
+(symbol (lib_id "LAB:IM70D122V01") (at 327.66 60.96 0) (unit 1) (in_bom yes) (on_board yes) (uuid a75a007d-ff5d-553c-a8de-941711720ff5) (property "Reference" "MK4" (at 327.66 53.34 0) (effects (font (size 1 1)) ))(property "Value" "IM70D122V01" (at 327.66 55.14 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:IM70D122" (at 327.66 60.96 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 327.66 60.96 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "MK4") (unit 1)))))
 (wire (pts (xy 312.42 58.42) (xy 308.61 58.42)) (stroke (width 0) (type default)) (uuid 08437654-3364-5757-987b-8d2a63f11bd9))
 (global_label "3V3" (shape bidirectional) (at 308.61 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5076b8a4-0be0-5723-b816-11a88351d147))
 (wire (pts (xy 312.42 60.96) (xy 308.61 60.96)) (stroke (width 0) (type default)) (uuid b6c400cd-5a4b-511f-bdb8-2919026225e5))
@@ -460,7 +663,7 @@
 (no_connect (at 71.12 156.21) (uuid d0cca076-d302-531e-8c99-6bc31be2738f))
 (wire (pts (xy 71.12 158.75) (xy 74.93 158.75)) (stroke (width 0) (type default)) (uuid 11a42e07-4655-5304-9ac6-3e280073e0df))
 (global_label "3V3" (shape bidirectional) (at 74.93 158.75 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8cfa288c-ecda-5fc1-8085-3865cc2360f9))
-(symbol (lib_id "LAB:VEML3328") (at 163.83 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 67885e82-550a-5c70-9582-59936b4bbb58) (property "Reference" "U7" (at 163.83 144.78 0) (effects (font (size 1 1)) ))(property "Value" "VEML3328" (at 163.83 146.58 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 163.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 163.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "U7") (unit 1)))))
+(symbol (lib_id "LAB:VEML3328") (at 163.83 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 67885e82-550a-5c70-9582-59936b4bbb58) (property "Reference" "U7" (at 163.83 144.78 0) (effects (font (size 1 1)) ))(property "Value" "VEML3328" (at 163.83 146.58 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:VEML3328" (at 163.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 163.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "U7") (unit 1)))))
 (wire (pts (xy 148.59 149.86) (xy 144.78 149.86)) (stroke (width 0) (type default)) (uuid dd333aec-39f1-5a72-a541-9578aedc8cc9))
 (global_label "GND" (shape bidirectional) (at 144.78 149.86 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 6894d760-45d6-52c1-9b6b-c2b796759f2e))
 (wire (pts (xy 148.59 152.4) (xy 144.78 152.4)) (stroke (width 0) (type default)) (uuid 24026a43-cf51-56a9-8866-86e800bc27b1))
@@ -494,26 +697,36 @@
 (global_label "3V3" (shape bidirectional) (at 283.21 142.24 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 732a52c0-4ef8-513d-8679-516c899a590f))
 (wire (pts (xy 283.21 151.13) (xy 283.21 154.94)) (stroke (width 0) (type default)) (uuid 5116ba8a-4325-55a0-a083-5ff3cde56831))
 (global_label "SYS_SCL" (shape bidirectional) (at 283.21 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9aeb4a69-44c2-5811-8af0-f98b94082f6a))
-(symbol (lib_id "LAB:CTIA_43515TS") (at 68.58 230 0) (unit 1) (in_bom yes) (on_board yes) (uuid 15e8000e-ebf9-5ff2-8e0a-be574c1944bc) (property "Reference" "J5" (at 68.58 222.38 0) (effects (font (size 1 1)) ))(property "Value" "SJ-43515TS-SMT" (at 68.58 224.18 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 68.58 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "J5") (unit 1)))))
-(wire (pts (xy 53.34 227.46) (xy 49.53 227.46)) (stroke (width 0) (type default)) (uuid 65c4a9f4-12b5-53ea-b89b-6fc9a10191fd))
-(global_label "HEADSET_MIC" (shape bidirectional) (at 49.53 227.46 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 44b25953-9c4a-5131-bcfc-bfb485b2404c))
-(wire (pts (xy 53.34 230) (xy 49.53 230)) (stroke (width 0) (type default)) (uuid 9e973963-8912-5144-beea-23db07d320ac))
-(global_label "HP_L" (shape bidirectional) (at 49.53 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 71c8a46c-c557-5b45-a714-5d021c700a0d))
-(wire (pts (xy 53.34 232.54) (xy 49.53 232.54)) (stroke (width 0) (type default)) (uuid c1aaa5af-da8b-5b00-85e8-00652fe04e5b))
-(global_label "HP_R" (shape bidirectional) (at 49.53 232.54 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ec68b532-006d-5b55-b7cb-3ad57d832503))
-(wire (pts (xy 83.82 227.46) (xy 87.63 227.46)) (stroke (width 0) (type default)) (uuid bcdb83d4-780b-518e-959a-056571aecddf))
-(global_label "GND" (shape bidirectional) (at 87.63 227.46 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3984b34f-c356-5197-b14c-639497b04785))
-(wire (pts (xy 83.82 230) (xy 87.63 230)) (stroke (width 0) (type default)) (uuid c112dacc-3506-5d88-a592-5d4b3f65a6b7))
-(global_label "HP_TIP_SWITCH" (shape bidirectional) (at 87.63 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e477d916-348f-500b-b180-2a2b886c0035))
-(symbol (lib_id "LAB:PUI_Speaker") (at 189.23 230 0) (unit 1) (in_bom yes) (on_board yes) (uuid 198e7ab0-172d-5f1f-b0f1-78eaa5fc857d) (property "Reference" "LS1" (at 189.23 224.92 0) (effects (font (size 1 1)) ))(property "Value" "PUI 8R / 1 W" (at 189.23 226.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 189.23 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 189.23 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "LS1") (unit 1)))))
-(wire (pts (xy 180.34 230) (xy 176.53 230)) (stroke (width 0) (type default)) (uuid e9992960-cb8b-559a-95b7-375356be0286))
-(global_label "SPK_L_P" (shape bidirectional) (at 176.53 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 75c30e32-ac1c-5e9d-8e01-145450a5d40e))
-(wire (pts (xy 198.12 230) (xy 201.93 230)) (stroke (width 0) (type default)) (uuid 48c53717-d152-549f-82b0-58628c23ab7e))
-(global_label "SPK_L_N" (shape bidirectional) (at 201.93 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 879c2f9c-a208-5ffa-8888-548cad22bc22))
-(symbol (lib_id "LAB:PUI_Speaker") (at 267.97 230 0) (unit 1) (in_bom yes) (on_board yes) (uuid 69ed869d-9104-5dcd-8493-902db2986ca4) (property "Reference" "LS2" (at 267.97 224.92 0) (effects (font (size 1 1)) ))(property "Value" "PUI 8R / 1 W" (at 267.97 226.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 267.97 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 267.97 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "LS2") (unit 1)))))
-(wire (pts (xy 259.08 230) (xy 255.27 230)) (stroke (width 0) (type default)) (uuid 317df28f-15d1-5b4f-9cb3-67f0ab9f54d2))
-(global_label "SPK_R_P" (shape bidirectional) (at 255.27 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ebe23873-2d97-5ac5-906b-b42ee2596b2a))
-(wire (pts (xy 276.86 230) (xy 280.67 230)) (stroke (width 0) (type default)) (uuid 3d7a0409-7aa6-5409-b650-80133ba42c5b))
-(global_label "SPK_R_N" (shape bidirectional) (at 280.67 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 440983b5-c061-5504-9b82-b8f822fe8fa8))
-(text "Open: codec, mic bias, jack detection, stereo BTL amplifier and white illumination driver. Verify spring travel and all four acoustic ports." (at 24 258 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 0bd737fa-598c-5ab3-8b90-78fae6e21626))
+(symbol (lib_id "Device:R_Small") (at 347.98 148.59 0) (unit 1) (in_bom yes) (on_board yes) (uuid 46165faf-3e4c-5533-9680-90fd79235ced) (property "Reference" "R28" (at 356.98 146.99 0) (effects (font (size 1 1)) ))(property "Value" "150R" (at 356.98 148.79 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 347.98 148.59 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 347.98 148.59 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "R28") (unit 1)))))
+(wire (pts (xy 347.98 146.05) (xy 347.98 142.24)) (stroke (width 0) (type default)) (uuid 65c4a9f4-12b5-53ea-b89b-6fc9a10191fd))
+(global_label "3V3" (shape bidirectional) (at 347.98 142.24 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 44b25953-9c4a-5131-bcfc-bfb485b2404c))
+(wire (pts (xy 347.98 151.13) (xy 347.98 154.94)) (stroke (width 0) (type default)) (uuid 9e973963-8912-5144-beea-23db07d320ac))
+(global_label "WHITE_A" (shape bidirectional) (at 347.98 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 71c8a46c-c557-5b45-a714-5d021c700a0d))
+(symbol (lib_id "Device:LED_Small") (at 345.44 184.15 0) (unit 1) (in_bom yes) (on_board yes) (uuid a7b33b11-be3d-5cf2-ac6d-07930a8884fa) (property "Reference" "D17" (at 345.44 176 0) (effects (font (size 1 1)) ))(property "Value" "LTW-C191TS5" (at 345.44 177.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 345.44 184.15 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 345.44 184.15 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "D17") (unit 1)))))
+(wire (pts (xy 342.9 184.15) (xy 339.09 184.15)) (stroke (width 0) (type default)) (uuid c1aaa5af-da8b-5b00-85e8-00652fe04e5b))
+(global_label "LIGHT_SINK_N" (shape bidirectional) (at 339.09 184.15 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ec68b532-006d-5b55-b7cb-3ad57d832503))
+(wire (pts (xy 347.98 184.15) (xy 351.79 184.15)) (stroke (width 0) (type default)) (uuid bcdb83d4-780b-518e-959a-056571aecddf))
+(global_label "WHITE_A" (shape bidirectional) (at 351.79 184.15 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3984b34f-c356-5197-b14c-639497b04785))
+(symbol (lib_id "LAB:CTIA_43515TS") (at 68.58 230 0) (unit 1) (in_bom yes) (on_board yes) (uuid 15e8000e-ebf9-5ff2-8e0a-be574c1944bc) (property "Reference" "J5" (at 68.58 222.38 0) (effects (font (size 1 1)) ))(property "Value" "SJ-43515TS-SMT" (at 68.58 224.18 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SJ-43515TS" (at 68.58 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 68.58 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "J5") (unit 1)))))
+(wire (pts (xy 53.34 227.46) (xy 49.53 227.46)) (stroke (width 0) (type default)) (uuid c112dacc-3506-5d88-a592-5d4b3f65a6b7))
+(global_label "HEADSET_MIC" (shape bidirectional) (at 49.53 227.46 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e477d916-348f-500b-b180-2a2b886c0035))
+(wire (pts (xy 53.34 230) (xy 49.53 230)) (stroke (width 0) (type default)) (uuid e9992960-cb8b-559a-95b7-375356be0286))
+(global_label "HP_L" (shape bidirectional) (at 49.53 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 75c30e32-ac1c-5e9d-8e01-145450a5d40e))
+(wire (pts (xy 53.34 232.54) (xy 49.53 232.54)) (stroke (width 0) (type default)) (uuid 48c53717-d152-549f-82b0-58628c23ab7e))
+(global_label "HP_R" (shape bidirectional) (at 49.53 232.54 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 879c2f9c-a208-5ffa-8888-548cad22bc22))
+(wire (pts (xy 83.82 227.46) (xy 87.63 227.46)) (stroke (width 0) (type default)) (uuid 317df28f-15d1-5b4f-9cb3-67f0ab9f54d2))
+(global_label "GND" (shape bidirectional) (at 87.63 227.46 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ebe23873-2d97-5ac5-906b-b42ee2596b2a))
+(wire (pts (xy 83.82 230) (xy 87.63 230)) (stroke (width 0) (type default)) (uuid 3d7a0409-7aa6-5409-b650-80133ba42c5b))
+(global_label "HP_TIP_SWITCH" (shape bidirectional) (at 87.63 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 440983b5-c061-5504-9b82-b8f822fe8fa8))
+(symbol (lib_id "LAB:PUI_Speaker") (at 189.23 230 0) (unit 1) (in_bom yes) (on_board no) (uuid 198e7ab0-172d-5f1f-b0f1-78eaa5fc857d) (property "Reference" "LS1" (at 189.23 224.92 0) (effects (font (size 1 1)) ))(property "Value" "PUI 8R / 1 W" (at 189.23 226.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 189.23 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 189.23 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "LS1") (unit 1)))))
+(wire (pts (xy 180.34 230) (xy 176.53 230)) (stroke (width 0) (type default)) (uuid 0bd737fa-598c-5ab3-8b90-78fae6e21626))
+(global_label "SPK_L_P" (shape bidirectional) (at 176.53 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid abf8397e-8ef0-5962-8892-61d33536f552))
+(wire (pts (xy 198.12 230) (xy 201.93 230)) (stroke (width 0) (type default)) (uuid 95774362-3fbc-5920-a61a-39490104ef05))
+(global_label "SPK_L_N" (shape bidirectional) (at 201.93 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid cbe00159-3667-5fba-bcf5-4e1a4d9dc0ba))
+(symbol (lib_id "LAB:PUI_Speaker") (at 267.97 230 0) (unit 1) (in_bom yes) (on_board no) (uuid 69ed869d-9104-5dcd-8493-902db2986ca4) (property "Reference" "LS2" (at 267.97 224.92 0) (effects (font (size 1 1)) ))(property "Value" "PUI 8R / 1 W" (at 267.97 226.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 267.97 230 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 267.97 230 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "LS2") (unit 1)))))
+(wire (pts (xy 259.08 230) (xy 255.27 230)) (stroke (width 0) (type default)) (uuid bfbebacc-52f9-5116-805f-e2d86def42fb))
+(global_label "SPK_R_P" (shape bidirectional) (at 255.27 230 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2351827b-53dd-5795-bf83-f3309208bb33))
+(wire (pts (xy 276.86 230) (xy 280.67 230)) (stroke (width 0) (type default)) (uuid d5a80951-304d-5a0c-9e2f-b3fe06e94534))
+(global_label "SPK_R_N" (shape bidirectional) (at 280.67 230 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8943c261-9dc4-5d2f-8a59-2172a0297e72))
+(text "Open: codec, mic bias, jack detection, stereo BTL amplifier. White LED uses a low-current GPIO sink; verify brightness. Verify spring travel and all four acoustic ports." (at 24 258 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid fdba61f7-3dcd-5865-9e47-3b066e3fdcea))
 (embedded_fonts no))

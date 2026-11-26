@@ -1424,7 +1424,194 @@
 (symbol "ProtectedPouch_0_1" (rectangle (start -8.89 2.54) (end 8.89 -2.54) (stroke (width 0.254) (type default)) (fill (type background))))
 (symbol "ProtectedPouch_1_1"
 (pin passive line (at -11.43 0 0) (length 2.54) (name "PACK_POS" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
-(pin passive line (at 11.43 0 180) (length 2.54) (name "PACK_NEG" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) ))))))
+(pin passive line (at 11.43 0 180) (length 2.54) (name "PACK_NEG" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))))
+(symbol "Connector_Generic:Conn_01x03"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x03_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
 (text "08   /   USB  /  POWER PATH" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 4a55e0b2-9cb3-5b98-a1fd-7893ac63bf0e))
 (text "BQ24074 single-cell power path. Charging is held disabled for the first electrical review." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 43ac0483-6eef-5931-a31d-d21b3bc38644))
 (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0_16P") (at 62.23 82.55 0) (unit 1) (in_bom yes) (on_board yes) (uuid c9ccf081-5d03-5f3d-915a-1b8a6cd97d80) (property "Reference" "J1" (at 60 59 0) (effects (font (size 1 1)) ))(property "Value" "USB4105-GF-A" (at 60 60.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal" (at 62.23 82.55 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 62.23 82.55 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "J1") (unit 1)))))
@@ -1508,12 +1695,19 @@
 (global_label "ILIM_SET" (shape bidirectional) (at 351 71.65 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d6f34057-7517-54d1-a3ff-705428fe0158))
 (wire (pts (xy 351 80.54) (xy 351 84.35)) (stroke (width 0) (type default)) (uuid 934b7def-0795-544a-a0d1-eb58801f634d))
 (global_label "GND" (shape bidirectional) (at 351 84.35 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid bddbb079-e405-5717-905f-3cada4050baf))
-(symbol (lib_id "LAB:ProtectedPouch") (at 53 159 0) (unit 1) (in_bom yes) (on_board yes) (uuid ae66bd55-0d5e-5968-8814-9a975ecd7431) (property "Reference" "BT1" (at 53 153.92 0) (effects (font (size 1 1)) ))(property "Value" "LP735977JH" (at 53 155.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 53 159 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 53 159 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "BT1") (unit 1)))))
+(symbol (lib_id "LAB:ProtectedPouch") (at 53 159 0) (unit 1) (in_bom yes) (on_board no) (uuid ae66bd55-0d5e-5968-8814-9a975ecd7431) (property "Reference" "BT1" (at 53 153.92 0) (effects (font (size 1 1)) ))(property "Value" "LP735977JH" (at 53 155.72 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 53 159 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 53 159 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "BT1") (unit 1)))))
 (wire (pts (xy 41.57 159) (xy 37.76 159)) (stroke (width 0) (type default)) (uuid 2fc7d66f-2e4e-5722-b760-d11bf412dec1))
 (global_label "PACK_POS" (shape bidirectional) (at 37.76 159 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c312c971-e35d-580f-b208-ba5c85c00563))
 (wire (pts (xy 64.43 159) (xy 68.24 159)) (stroke (width 0) (type default)) (uuid 473da588-9421-549d-a327-59a35e1f6951))
 (global_label "GND" (shape bidirectional) (at 68.24 159 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8b7b18c1-1113-59b5-9133-6a398d160ab5))
-(text "EN1=EN2=0 selects USB100. CE tracks OUT to inhibit charging. Two-wire battery requires a separate qualified thermistor mount and keyed connector." (at 22 210 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid a8eb0d3d-42ed-52b0-af3c-32800f1077b8))
-(text "Review cable current, inrush, ESD, ISET, ILIM, temperature range and thermal layout before enabling charge. VSYS is an unregulated system output." (at 22 220 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 9ba2a40c-dcf9-5243-8505-e4ab79b20912))
-(text "Unimplemented: VSYS to 3V3 buck-boost, LCD/backlight supply, switched LED 5 V, MCU core rails and fuel gauge." (at 22 230 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 969f5353-4fb0-5b0e-b785-fe183e68406a))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 310 158 0) (unit 1) (in_bom yes) (on_board yes) (uuid df53b389-3e38-5c55-bc19-4aba47d1e57d) (property "Reference" "J6" (at 310 148 0) (effects (font (size 1 1)) ))(property "Value" "JST PH • keyed harness" (at 310 149.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (at 310 158 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 310 158 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket" (path "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "J6") (unit 1)))))
+(wire (pts (xy 304.92 155.46) (xy 301.11 155.46)) (stroke (width 0) (type default)) (uuid a8eb0d3d-42ed-52b0-af3c-32800f1077b8))
+(global_label "GND" (shape bidirectional) (at 301.11 155.46 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9ba2a40c-dcf9-5243-8505-e4ab79b20912))
+(wire (pts (xy 304.92 158) (xy 301.11 158)) (stroke (width 0) (type default)) (uuid 969f5353-4fb0-5b0e-b785-fe183e68406a))
+(global_label "PACK_TS" (shape bidirectional) (at 301.11 158 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5dacc746-48dd-56e8-a39c-b34acfccc2bd))
+(wire (pts (xy 304.92 160.54) (xy 301.11 160.54)) (stroke (width 0) (type default)) (uuid 4f48b504-4c8c-5300-835f-b593cc182e0a))
+(global_label "PACK_POS" (shape bidirectional) (at 301.11 160.54 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f72ad231-b02c-5138-b4b2-e0c66f16458a))
+(text "EN1=EN2=0 selects USB100. CE tracks OUT to inhibit charging. Two-wire battery requires a qualified external thermistor. J6 pin 1 = GND, 2 = TS, 3 = BAT+." (at 22 210 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 89372f0c-f9cf-5d17-8a7a-e210d5d99d70))
+(text "Review cable current, inrush, ESD, ISET, ILIM, temperature range and thermal layout before enabling charge. VSYS is an unregulated system output." (at 22 220 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid b2d453fb-25fb-50bd-859d-7e49a201fc97))
+(text "Unimplemented: VSYS to 3V3 buck-boost, LCD/backlight supply, switched LED 5 V, MCU core rails and fuel gauge." (at 22 230 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 42c6ee7e-dd32-5ce8-b387-c03ee41e570b))
 (embedded_fonts no))
