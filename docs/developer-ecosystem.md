@@ -17,6 +17,7 @@ The SDK should make the simple path delightful without blocking the advanced pat
 - Audio: tone/music synthesis, playback, recording where supported.
 - Light: 12 individually addressable LEDs with safe brightness limits and animation.
 - Sensors: motion, environmental data, ambient light and expansion peripherals.
+- Camera: host-managed rear-camera live preview, frame and pixel access, still capture, supported controls, storage and optional host-side image processing. Negotiate available formats/resolutions/rates and explicit capture permissions; do not require full-resolution transfer to the RP2350B.
 - Data: scoped persistent internal storage, separately mounted removable microSD media, card presence/mount events, safe removal and import/export, time, network requests and BLE with permission boundaries.
 - Lifecycle: launch, suspend, resume, exit, background/ambient behavior, reset and error reporting.
 
@@ -24,7 +25,7 @@ Consider app manifests containing identity, version, supported hardware/runtime,
 
 ## Playground and tooling
 
-A browser-based virtual LAB should reproduce the display, button grid, dual seven-segment touch rails and rear lighting. Simulate sensor values, time, connectivity, app lifecycle, separate storage volumes and card insertion/removal. Include a file editor or import, preview, input automation, console and install/export workflow. A local CLI can build and deploy without the web service.
+A browser-based virtual LAB should reproduce the display, button grid, dual seven-segment touch rails and rear lighting. Simulate sensor values, time, connectivity, app lifecycle, separate storage volumes and card insertion/removal; support simulated camera input from test images/video or an explicitly permitted webcam. Include a file editor or import, preview, input automation, console and install/export workflow. A local CLI can build and deploy without the web service.
 
 Provide agent-ready documentation and examples, a Codex plugin or skill, and MCP tools where useful. A coding agent should be able to discover the SDK, generate an app, build it, run it in the emulator, capture a screenshot, press buttons, inspect logs, test behavior and deploy to the device with user approval. Firmware replacement is a separate explicit action.
 
@@ -34,7 +35,7 @@ Keep AI off the device as a product default. The creation environment can use wh
 
 The virtual device must reflect real API semantics, not just render a mock interface. Start with host-protocol/API simulation; instruction-level RP2350 emulation is an open decision. Hardware-in-the-loop tests cover timing, memory, power and radio behavior that a simulator cannot establish.
 
-Create a small compatibility suite: drawing, controls, multi-button input, touch segment/slider gestures, animation, audio, LED timing, sensor injection, internal/external storage behavior and recovery. Enable repeatable screenshot and behavioral checks for agents.
+Create a small compatibility suite: drawing, controls, multi-button input, touch segment/slider gestures, animation, audio, LED timing, sensor injection, camera frames and capture behavior, internal/external storage behavior and recovery. Enable repeatable screenshot and behavioral checks for agents.
 
 ## Community and openness
 
