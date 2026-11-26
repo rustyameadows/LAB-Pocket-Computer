@@ -32,12 +32,23 @@ Host-controlled reset, boot mode and a validated programming path (e.g. SWD or s
 - Twelve individually controllable rear RGB LEDs, candidate SK6812MINI-E. Check current, voltage/logic compatibility, diffusion and heat. Power gate the rail when off, set a configurable brightness cap.
 - USB-C for data and charging. Validate the host's USB-device path and provisioning/debug strategy.
 - USB-C rechargeable battery with power-path management, fuel gauge, regulators, protection, thermal monitoring and USB current limits. Lead concept is a protected ~5,000 mAh flat pouch; alternate concept is dual 21700 cells. See battery architecture below.
-- Candidate digital microphone, small mono speaker with amplifier, wired headphone path. Verify audio routing and electrical compatibility before committing.
+- Four synchronized digital MEMS microphones, two thin stereo speakers (four-speaker option), and a required 3.5 mm stereo headphone output. See audio subsystem below.
 - Two microSD slots: one factory-installed internal card for persistent user/application storage, and one externally accessible removable card for imports, exports and expansion. See storage architecture below.
 - Rear-mounted color camera, connected to the host's camera interface and accessible to apps. See camera architecture below.
 - Candidate IMU, ambient light sensor and environmental sensor. Board heat can bias temperature readings; validate placement.
 - RTC or low-power timekeeping, plus Wi-Fi time synchronization.
 - Accessible user GPIO, safe power rails, ESD protection and clearly documented voltage/current limits.
+
+## Audio subsystem
+
+LAB should be unusually capable at listening as well as playing sound. Treat audio as an app-accessible creative medium, not merely notification beeps.
+
+- Input: four identical [Infineon IM70D122V01XTMA1](https://www.digikey.com/en/products/detail/infineon-technologies/IM70D122V01XTMA1/17399493) microphones as the lead candidate. High-sensitivity, 70 dB(A) SNR, 122 dB SPL overload, 3.50 × 2.65 × 0.98 mm bottom-port PDM MEMS; approximately 980 µA each in normal mode. [Infineon product reference](https://www.infineon.com/part/IM70D122). Start with a compact array distributed across the device (rather than four adjacent ports); prototype spacing and geometry for directional capture, stereo recording and sound localization. Exact placement remains open.
+- Capture four independent, time-aligned channels on the P4 using a shared PDM clock and two data lines with paired channel selection, subject to actual mic timing, pin allocation and ESP-IDF configuration. The P4 I2S0 PDM-to-PCM converter supports up to eight receive channels; target 16–48 kHz PCM and verify sustained multichannel capture under camera/display/storage loads. [ESP32-P4 I2S reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32p4/api-reference/peripherals/i2s.html).
+- Output: two [PUI Audio AS01808AO-SC18-WP-R](https://www.digikey.com/en/products/detail/pui-audio-inc/AS01808AO-SC18-WP-R/9687113) low-profile 18 × 13 × 2.5 mm, 8 Ω, 1 W speakers, left/right stereo. Four total (two per channel) is an alternate acoustic layout; compare actual sound and size, and engineer the amplifier/load configuration rather than assuming parallel wiring is safe. A piezo remains a simpler fallback if necessary.
+- Required 3.5 mm stereo headphone output, insertion detection and automatic speaker muting. Use a suitable DAC/codec and headphone driver plus efficient stereo Class D speaker amplification with idle shutdown. An optional analog line/mic input (separate or switchable) is not yet decided.
+- Use acoustically sealed microphone port paths and speaker chambers, isolate speaker vibration/air leakage from the mics, and evaluate speaker-to-mic echo and electrical noise. Benchmark quiet/far-field pickup, directionality, clipping, stereo image, power and simultaneous playback/recording. Beamforming, direction estimation, noise reduction and echo cancellation are software goals, not validated features.
+- SDK: expose independently sampled mic channels, mono/stereo/array capture, programmable gain/volume, stereo synthesis/playback and headphone state. Support recording, audio-reactive apps and optional derived direction/beamforming results as host processing allows. Do not force always-on capture; power-gate or use low-power modes when idle and respect user/app microphone permissions.
 
 ## Rear-facing camera
 
