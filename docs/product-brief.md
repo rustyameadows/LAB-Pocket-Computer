@@ -27,7 +27,7 @@ A phone already has more compute and a better display. LAB earns its existence t
 - Factory-installed internal microSD for apps, assets, recordings and user data, with 32 GB as a working target. A separate externally accessible microSD slot is for removable media, imports and expansion. The internal card should be service-replaceable, with secure retention in a portable device.
 - Rear-mounted color camera as an app-accessible creative input, with live view, image capture, programmable filters and optical experiments. Seeed IMX219 is the lead candidate; STMicroelectronics VD66GY global shutter is a potential alternative or specialized upgrade. The front display acts as a viewfinder when an app requests it.
 - Twelve individually addressable rear-facing RGB LEDs. Feet or standoffs create a gap and a soft wash of light on the desk.
-- Rechargeable battery, USB-C, Wi-Fi and Bluetooth.
+- Generous rechargeable battery, USB-C charging, Wi-Fi and Bluetooth. Prefer a slim, service-replaceable ~5,000 mAh flat pouch pack (potentially up to 6,000 mAh if the layout permits). Explore an alternate body using two replaceable 21700 cells, potentially arranged across the upper rear so the battery housing creates an intentional desk angle and doubles as the raised feet. The Pocket Operator's embrace of its battery geometry is a design reference, not a requirement to expose live cells. Neither battery form factor is locked.
 - Candidate audio input/output, sensors and exposed expansion pins.
 - A smaller companion device could eventually serve as a dedicated home for a finished app. It is outside the initial scope.
 
@@ -51,4 +51,4 @@ A phone already has more compute and a better display. LAB earns its existence t
 
 ## Open product questions
 
-Final layout and dimensions; touch rail geometry and feel; internal card capacity and access; D-pad/shoulder controls versus grid-only; display technology and brightness; camera location, optics and capture modes; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
+Final layout and dimensions; flat versus cylindrical battery packaging, weight and desk angle; touch rail geometry and feel; internal card capacity and access; D-pad/shoulder controls versus grid-only; display technology and brightness; camera location, optics and capture modes; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
