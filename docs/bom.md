@@ -1,4 +1,4 @@
-# Preliminary bill of materials (v0.1)
+# Preliminary bill of materials (v0.2)
 
 Planning model: USD per unit at an assumed 1,000-unit run. These are rough estimates from concept discussion, not live inventory, supplier quotations, electrical validation or a production-ready BOM. Candidate part numbers must be checked against datasheets and supply before ordering. All lines include assumptions.
 
@@ -8,10 +8,12 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | User processor | RP2350B | $1.00 |
 | User external RAM | 8 MB PSRAM | $2.10 |
 | User external flash | 16 MB | $0.80 |
-| Removable storage | MicroSD slot and card | $3.00 |
+| Internal user storage | Factory-installed 32 GB microSD (working target) and securely retained socket | TBD |
+| External removable storage | User-accessible microSD socket, card detect/ESD as needed; no bundled card assumed | TBD |
 | Display | 2.73-inch 320 × 320 IPS, candidate TTC273XSI-01 | $6.50 |
 | Display support | Connector, backlight driver, protective lens | $1.50 |
 | Buttons | 16 tactile switches and matrix diodes where needed | $1.20 |
+| Capacitive touch rails | 14 PCB electrodes (7 per display side), routing and any protection/support parts; native S3 touch preferred | TBD |
 | Rear lighting | 12 addressable RGB LEDs plus support circuit | $0.85 |
 | Battery | ~2,000 mAh protected LiPo | $3.00 |
 | Power management | Charger, power path, regulators, fuel gauge | $3.00 |
@@ -25,22 +27,29 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Assembly | Double-sided SMT estimate | $4.50 |
 | Testing | Firmware programming and functional tests | $1.50 |
 | Mechanical hardware | Feet, standoffs, screws | $1.00 |
-| **Total** | **Raw-board device with screen and battery** | **$46.40** |
+| **Priced subtotal** | **Raw-board device excluding revised storage and touch costs** | **$43.40 + TBD** |
 
-Enclosed device planning estimate: $50–55 (adds roughly $3.60–8.60 per unit for enclosure). Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
+Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.2 subtotal until the two sockets, internal card and touch-related incremental costs are priced. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
 
 ## Cost concentration
 
 | Group | Subtotal |
 | --- | ---: |
-| Compute and memory | $10.65 |
-| Display and controls | $10.05 |
+| Compute and memory (excluding microSD) | $7.65 |
+| Internal and external microSD | TBD |
+| Display and controls | $10.05 + touch costs TBD |
 | Power | $6.00 |
 | Audio | $3.40 |
 | Sensors, connectors and support | $6.30 |
 | PCB, assembly, test and mechanical hardware | $10.00 |
 
-The display is a major sourcing opportunity. The $6.50 figure assumes a comparable direct-sourced display, not the exact higher-priced DLC panel previously discussed. Substituting the earlier $21.48 distributor price would put this estimate near $61.38 before enclosure. Neither price is a verified 1,000-unit quote.
+The display is a major sourcing opportunity. The $6.50 figure assumes a comparable direct-sourced display, not the exact higher-priced DLC panel previously discussed. Substituting the earlier $21.48 distributor price would add $14.98 to the current subtotal before enclosure and unpriced items. Neither price is a verified 1,000-unit quote.
+
+## Storage and touch sourcing notes
+
+- Source both sockets through PCBA. Purchase the internal card in bulk through an authorized distributor or directly from a reputable memory supplier; confirm a stable model, capacity, endurance and written 1,000-unit pricing. The external slot does not require a bundled card.
+- Earlier catalog comparisons suggested removable microSD could be substantially cheaper than soldered eMMC; stock and pricing were not production quotes. Do not treat those catalog figures as approved BOM costs.
+- Native capacitive touch electrodes are PCB copper features, not fourteen purchased switches. Price the incremental routing, PCB area, protection/conditioning or optional controller only after layout and electrical evaluation. Confirm all 14 touch-capable pins can coexist with the selected display, dual storage and other peripherals.
 
 ## Candidate JLCPCB references
 
