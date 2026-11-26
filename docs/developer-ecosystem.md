@@ -13,18 +13,18 @@ The SDK should make the simple path delightful without blocking the advanced pat
 ## Proposed capability surface
 
 - Graphics: text, shapes, sprites, tiles, palettes, images, animation and framebuffer operations.
-- Input: button press/release, held state, chords and repeat timing.
+- Input: button press/release, held state, chords and repeat timing; two seven-segment capacitive rails with individual touch states, slider position and gesture events. Keep mappings app-defined.
 - Audio: tone/music synthesis, playback, recording where supported.
 - Light: 12 individually addressable LEDs with safe brightness limits and animation.
 - Sensors: motion, environmental data, ambient light and expansion peripherals.
-- Data: scoped storage, time, network requests and BLE with permission boundaries.
+- Data: scoped persistent internal storage, separately mounted removable microSD media, card presence/mount events, safe removal and import/export, time, network requests and BLE with permission boundaries.
 - Lifecycle: launch, suspend, resume, exit, background/ambient behavior, reset and error reporting.
 
 Consider app manifests containing identity, version, supported hardware/runtime, permissions, assets, controls, entrypoint and ambient support. Define package validation, atomic installs and rollback. Do not hard-code a manifest format before prototyping.
 
 ## Playground and tooling
 
-A browser-based virtual LAB should reproduce the display, button grid and rear lighting. Simulate sensor values, time, connectivity and app lifecycle. Include a file editor or import, preview, input automation, console and install/export workflow. A local CLI can build and deploy without the web service.
+A browser-based virtual LAB should reproduce the display, button grid, dual seven-segment touch rails and rear lighting. Simulate sensor values, time, connectivity, app lifecycle, separate storage volumes and card insertion/removal. Include a file editor or import, preview, input automation, console and install/export workflow. A local CLI can build and deploy without the web service.
 
 Provide agent-ready documentation and examples, a Codex plugin or skill, and MCP tools where useful. A coding agent should be able to discover the SDK, generate an app, build it, run it in the emulator, capture a screenshot, press buttons, inspect logs, test behavior and deploy to the device with user approval. Firmware replacement is a separate explicit action.
 
@@ -34,7 +34,7 @@ Keep AI off the device as a product default. The creation environment can use wh
 
 The virtual device must reflect real API semantics, not just render a mock interface. Start with host-protocol/API simulation; instruction-level RP2350 emulation is an open decision. Hardware-in-the-loop tests cover timing, memory, power and radio behavior that a simulator cannot establish.
 
-Create a small compatibility suite: drawing, controls, multi-button input, animation, audio, LED timing, sensor injection, storage and recovery. Enable repeatable screenshot and behavioral checks for agents.
+Create a small compatibility suite: drawing, controls, multi-button input, touch segment/slider gestures, animation, audio, LED timing, sensor injection, internal/external storage behavior and recovery. Enable repeatable screenshot and behavioral checks for agents.
 
 ## Community and openness
 
