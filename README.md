@@ -37,6 +37,7 @@ The host manages the device and its peripherals. The user processor is a playgro
 | [Developer ecosystem](docs/developer-ecosystem.md) | SDK, virtual device, native development and agent integrations |
 | [Starter applications](docs/starter-apps.md) | Candidate built-in apps and what they teach |
 | [Prototype roadmap](docs/prototype-roadmap.md) | Learning sequence, benchmarks and decision gates |
+| [Industrial design references](docs/design-references.md) | Original notebook sketch and generated open-board concept |
 
 ## Project status
 
