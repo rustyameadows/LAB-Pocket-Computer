@@ -14,7 +14,7 @@ The SDK should make the simple path delightful without blocking the advanced pat
 
 - Graphics: text, shapes, sprites, tiles, palettes, images, animation and framebuffer operations.
 - Input: button press/release, held state, chords and repeat timing; two seven-segment capacitive rails with individual touch states, slider position and gesture events. Keep mappings app-defined.
-- Audio: stereo synthesis/playback, programmable volume and headphone state; four synchronized independent microphone channels, mono/stereo or multichannel recording, sampling and audio-reactive apps. Explore beamforming, direction-of-arrival and noise reduction as optional host DSP capabilities, subject to validation and processing headroom. Require explicit app microphone access and visible capture status.
+- Audio: stereo synthesis/playback, programmable volume and headset state; selectable external headset microphone input with simultaneous stereo output; four synchronized independent microphone channels, mono/stereo or multichannel recording, sampling and audio-reactive apps. Explore beamforming, direction-of-arrival and noise reduction as optional host DSP capabilities, subject to validation and processing headroom. Require explicit app microphone access and visible capture status.
 - Light: 12 individually addressable LEDs with safe brightness limits and animation.
 - Sensors: motion, environmental data, ambient light and expansion peripherals.
 - Camera: host-managed rear-camera live preview, frame and pixel access, still capture, supported controls, storage and optional host-side image processing. Negotiate available formats/resolutions/rates and explicit capture permissions; do not require full-resolution transfer to the RP2350B.
