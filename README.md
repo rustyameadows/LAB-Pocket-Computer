@@ -17,7 +17,8 @@ Make an app on your computer, with or without a coding agent. Preview it in a vi
 - Rear-facing programmable color camera: Seeed IMX219 (8 MP MIPI CSI-2) is the lead candidate, with ST VD66GY global shutter (1.5 MP) as a specialized alternative.
 - Twelve individually addressable rear-facing RGB LEDs and raised feet for an ambient pool of light.
 - USB-C rechargeable power: a thin, service-replaceable ~5,000 mAh flat LiPo is the lead concept; two 21700 Li-ion cells are an alternative form factor with roughly twice the energy and a possible integrated desk stand.
-- Candidate audio, sensors and expansion.
+- Four sensitive digital MEMS microphones with independent channels; two ultra-thin stereo speakers (four-speaker alternative) and a required 3.5 mm wired stereo headphone output.
+- Candidate sensors and expansion.
 - Raw PCB and enclosed editions.
 
 The host manages the device and its peripherals. The user processor is a playground that developers can program through an SDK, native code or replacement firmware. Independent recovery is a key design goal.
@@ -35,7 +36,7 @@ The host manages the device and its peripherals. The user processor is a playgro
 
 ## Project status
 
-Concept and feasibility stage. The current hardware configuration is a working hypothesis, not a finalized design. The original preliminary cost model was $46.40 for a raw-board device at 1,000 units, including assembly, display and battery. The dual-card storage, touch rails, rear camera, revised battery/power system and possible host/wireless changes are not yet fully priced; see the updated BOM. These are not supplier quotations.
+Concept and feasibility stage. The current hardware configuration is a working hypothesis, not a finalized design. The original preliminary cost model was $46.40 for a raw-board device at 1,000 units, including assembly, display and battery. The dual-card storage, touch rails, rear camera, revised battery/power system, revised audio and possible host/wireless changes are not yet fully priced; see the updated BOM. These are not supplier quotations.
 
 First milestone: connect development boards, a representative display, buttons and RGB LEDs. Demonstrate a color instrument, responsive 2D graphics, interprocessor communication and recovery from crashed user firmware. Measure performance and power before committing to custom PCBA.
 
