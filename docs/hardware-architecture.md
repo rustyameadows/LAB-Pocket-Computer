@@ -35,9 +35,15 @@ Host-controlled reset, boot mode and a validated programming path (e.g. SWD or s
 - Four synchronized digital MEMS microphones, two thin stereo speakers (four-speaker option), and a required 3.5 mm CTIA TRRS headset jack (stereo output and mono microphone input). See audio subsystem below.
 - Two microSD slots: one factory-installed internal card for persistent user/application storage, and one externally accessible removable card for imports, exports and expansion. See storage architecture below.
 - Rear-mounted color camera, connected to the host's camera interface and accessible to apps. See camera architecture below.
-- Candidate IMU, ambient light sensor and environmental sensor. Board heat can bias temperature readings; validate placement.
+- Baseline six-axis motion sensor: [Bosch BMI270](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI270/9974486). Baseline rear colorscope: [Vishay VEML3328](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VEML3328/10673129) with controllable white illumination. Ambient light can be estimated from the rear color sensor with illumination off; an independent top/front ambient sensor is optional. No dedicated environmental sensors in the base design.
 - RTC or low-power timekeeping, plus Wi-Fi time synchronization.
 - Accessible user GPIO, safe power rails, ESD protection and clearly documented voltage/current limits.
+
+## Motion and optical sensors
+
+- BMI270: three-axis acceleration and angular velocity, 16-bit data, selectable range, I2C/SPI, motion interrupts and low-power operation. Mount rigidly to the PCB, record orientation relative to the enclosure and calibrate offsets. Expose raw six-axis readings, timestamps, configurable ranges/rates and derived tilt, gestures, motion-triggered wake and relative orientation through the SDK. No absolute magnetic heading without a separate magnetometer; not included in baseline.
+- VEML3328: rear-facing RGBCIR colorscope. Use a dedicated switchable white LED, optical baffle/window and repeatable sampling geometry for measuring reflected color from physical objects. Test ambient/LED-off and LED-on readings, subtract ambient contribution when appropriate, calibrate against reference targets, and expose raw channels and calibrated color estimates through the SDK. Do not promise spectrophotometer accuracy. Separate optical paths from the rear RGB LEDs; gate or compensate rear lighting during measurements. The sensor's ambient mode can report incident light when unoccluded, but rear-facing desk posture may make it unsuitable for screen brightness.
+- Optional separate top/front ambient light sensor: evaluate against hand occlusion and actual desk use before inclusion. Temperature, humidity and pressure sensors deferred to possible expansion.
 
 ## Audio subsystem
 
