@@ -1,4 +1,4 @@
-# Preliminary bill of materials (v0.4)
+# Preliminary bill of materials (v0.5)
 
 Planning model: USD per unit at an assumed 1,000-unit run. These are rough estimates from concept discussion, not live inventory, supplier quotations, electrical validation or a production-ready BOM. Candidate part numbers must be checked against datasheets and supply before ordering. All lines include assumptions.
 
@@ -20,8 +20,9 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Battery, variant A (lead) | Protected ~5,000 mAh flat 1S LiPo, service-replaceable | TBD |
 | Battery, variant B (alternate, not additive) | Two 21700 cells, matched/protected pack or engineered replaceable-cell system; holder and retention | TBD |
 | Power management | USB-C charger, power path, regulators, fuel gauge and protection for chosen topology | TBD |
-| Audio electronics | Mic, codec, amp, headphone output | $2.50 |
-| Speaker | Small mono speaker | $0.90 |
+| Digital microphone array | 4 × [Infineon IM70D122V01XTMA1](https://www.digikey.com/en/products/detail/infineon-technologies/IM70D122V01XTMA1/17399493), bottom-port PDM MEMS, 70 dB(A) SNR; synchronized independent channels | TBD |
+| Stereo speakers | 2 × [PUI Audio AS01808AO-SC18-WP-R](https://www.digikey.com/en/products/detail/pui-audio-inc/AS01808AO-SC18-WP-R/9687113), 18 × 13 × 2.5 mm, 8 Ω, 1 W each; 4 total as optional variant, not additive | TBD |
+| Audio output electronics | 3.5 mm stereo headphone jack, insertion detection, DAC/codec, headphone driver and stereo Class D speaker amplification; power gating and support | TBD |
 | Sensors | IMU, environmental, ambient light | $2.50 |
 | RTC | RTC and backup supply | $0.80 |
 | Connectors | USB-C, battery and expansion | $1.00 |
@@ -30,9 +31,9 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Assembly | Double-sided SMT estimate | $4.50 |
 | Testing | Firmware programming and functional tests | $1.50 |
 | Mechanical hardware | Feet, standoffs, screws | $1.00 |
-| **Priced subtotal** | **Raw-board device excluding revised storage, touch, camera, battery/power and any host/wireless change** | **$37.40 + TBD** |
+| **Priced subtotal** | **Raw-board device excluding revised storage, touch, camera, battery/power, audio and any host/wireless change** | **$34.00 + TBD** |
 
-Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.4 subtotal until the two sockets, internal card, touch-related costs, camera integration, revised battery and power management and any P4/wireless processor changes are priced. The old $3 battery and $3 power management allowances are removed from the subtotal, not carried forward as new quotes. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
+Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.5 subtotal until the two sockets, internal card, touch-related costs, camera integration, revised battery and power management, revised audio system and any P4/wireless processor changes are priced. The previous $3.40 mono-audio allowance is also removed; the new array, speakers and output electronics need separate quotes. The old $3 battery and $3 power management allowances are removed from the subtotal, not carried forward as new quotes. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
 
 ## Cost concentration
 
@@ -43,7 +44,7 @@ Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a si
 | Display and controls | $10.05 + touch costs TBD |
 | Rear camera and integration | TBD |
 | Battery and power management | TBD |
-| Audio | $3.40 |
+| Audio (four mics, two speakers, headphone jack and electronics) | TBD |
 | Sensors, connectors and support | $6.30 |
 | PCB, assembly, test and mechanical hardware | $10.00 |
 
@@ -85,6 +86,23 @@ Quantity columns are extended prices for the stated number of devices; the 21700
 - Display: the DigiKey DLC module is the high-brightness square candidate discussed earlier; the catalog lists an SPI interface (ST7365P). Validate actual supported interface, connector, scanout and frame rate. It is not assumed electrically interchangeable with the lower-cost RGB-interface TTC273XSI-01.
 - Camera: verify exact IMX219 module pinout before powering it; its small-quantity purchase price is separate from the production camera estimate.
 - microSD: use a reputable retail 32 GB card for internal storage and a second retail card as needed to test external imports.
+
+## Audio sourcing (prototype quantities)
+
+Lead component candidates, DigiKey catalog reference prices checked November 26, 2026. These are not production quotes or live checkout confirmations.
+
+| Part | Quantity per device | Unit reference price | Extended reference price |
+| --- | ---: | ---: | ---: |
+| [Infineon IM70D122V01XTMA1](https://www.digikey.com/en/products/detail/infineon-technologies/IM70D122V01XTMA1/17399493) | 4 | $2.00 | $8.00 |
+| [PUI Audio AS01808AO-SC18-WP-R](https://www.digikey.com/en/products/detail/pui-audio-inc/AS01808AO-SC18-WP-R/9687113) | 2 | $4.86 | $9.72 |
+| Same PUI speaker, four-speaker alternative | 4 total | $4.86 | $19.44 |
+| 3.5 mm stereo headphone jack with detection, DAC/codec, headphone driver, stereo Class D amplification | TBD | TBD | TBD |
+
+The four microphones and two speakers total $17.72 at single-unit reference pricing ($27.44 for four microphones and four speakers instead), before audio electronics, assembly, tax and shipping. Obtain quotes for 4,000 microphones and 2,000 or 4,000 speakers per 1,000 devices; do not use prototype prices as a production estimate.
+
+- IM70D122: 70 dB(A) SNR, -26 dBFS sensitivity, 122 dB SPL overload point, 3.50 × 2.65 × 0.98 mm, bottom acoustic port, PDM, 1.62–3.6 V, 980 µA typical normal mode (260 µA low-power mode). Four consume about 3.92 mA in normal mode before host processing and regulator losses. [Infineon product reference](https://www.infineon.com/part/IM70D122).
+- PUI speaker: 8 Ω, 1 W rating (not continuous consumption), 420 Hz–14 kHz catalog bandwidth. Validate speaker placement, enclosure acoustics and impedance/amplifier loading before choosing two versus four.
+- Headphone output is a firm wired stereo requirement; a separate or switchable analog line/mic input is an open decision, not implied by the output jack. Mute speakers on headphone insertion. Evaluate exact jack and codec/amp parts and power cost.
 
 ## Candidate JLCPCB references
 
