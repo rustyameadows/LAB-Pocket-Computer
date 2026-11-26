@@ -23,6 +23,8 @@ A phone already has more compute and a better display. LAB earns its existence t
 - Pocketable fixed hardware, with a raw PCB edition and an enclosed edition.
 - Square color display, initially targeting approximately 2.7 inches and 320 × 320 pixels.
 - Sixteen tactile buttons in a calculator-like grid. Map controls per app; explore layouts that also feel excellent for games.
+- Two proposed seven-segment capacitive touch rails, one on either side of the display. Apps can treat each rail as seven discrete inputs or a slider/gesture surface; the physical button grid remains independent.
+- Factory-installed internal microSD for apps, assets, recordings and user data, with 32 GB as a working target. A separate externally accessible microSD slot is for removable media, imports and expansion. The internal card should be service-replaceable, with secure retention in a portable device.
 - Twelve individually addressable rear-facing RGB LEDs. Feet or standoffs create a gap and a soft wash of light on the desk.
 - Rechargeable battery, USB-C, Wi-Fi and Bluetooth.
 - Candidate audio input/output, sensors and exposed expansion pins.
@@ -48,4 +50,4 @@ A phone already has more compute and a better display. LAB earns its existence t
 
 ## Open product questions
 
-Final layout and dimensions; D-pad/shoulder controls versus grid-only; display technology and brightness; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
+Final layout and dimensions; touch rail geometry and feel; internal card capacity and access; D-pad/shoulder controls versus grid-only; display technology and brightness; speaker/headphone requirements; sensors; distribution and app library; eventual price; enclosure materials and mini-device scope.
