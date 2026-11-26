@@ -23,7 +23,9 @@ Develop the minimum launcher, SDK, app package/install path, virtual device and 
 
 Prototype several 16-button grid layouts and a physical mock-up at the selected display size. Compare game ergonomics, two-thumb use, desk readability, key spacing and switch feel; prototype seven-segment rails along both display edges, including accidental grip touches and exposed/covered electrode options. Verify internal card retention/service access and external card access. Evaluate feet/standoff height, rear LED diffusion and rear camera aperture/clearance, including unwanted illumination from the LEDs. Test display alternatives if the 320 × 320 panel does not meet brightness, viewing or performance needs.
 
-Profile interactive, ambient, Wi-Fi and standby power on real hardware. Validate the battery protection and charging design with appropriate engineering review. Decide whether a more capable host or alternative display is warranted.
+Before selecting battery or enclosure geometry, make actual-size volumetric 3D prints of two variants. Use inert battery mock-ups (and safe ballast to simulate mass), not live loose cells. Variant A uses the thin 78.5 × 59.5 × 7.8 mm flat-pack reference; variant B uses two approximately 21.4 × 70.8 mm cylindrical cells plus realistic holder, protection and shell allowance. Explore an upper-rear battery spine that acts as a desk stand, compare it with separate feet and other orientations. Assess pocketability, grip, center of gravity, desk angle, screen readability, rear LED wash, camera aperture and battery service access. Do not assume the cylindrical version is too bulky until it has been held and viewed at scale.
+
+Profile interactive, ambient, Wi-Fi, camera and standby power on real hardware. Validate the battery protection and USB-C charging/power-path design with appropriate engineering review. Compare runtime, charge time, mass, temperature and cost for both battery options before locking a topology or ordering a PCB. Decide whether a more capable host or alternative display is warranted.
 
 ## Phase 3: custom PCBA
 
@@ -39,7 +41,7 @@ Validate assembly, factory programming, test coverage, thermals, battery runtime
 - Control layout: enjoyable gaming without sacrificing the general-purpose grid; reliable independent touch segments and slider gestures.
 - Storage: dependable factory-installed internal card and externally removable expansion, recovery independent of card health, pin/interface feasibility and verified bulk supply.
 - Dual processor: meaningful user freedom, robust recovery and acceptable overhead.
-- Battery: realistic workload measurements against the initial ten-hour active / two-week standby goals.
+- Battery: volumetric/weighted mock-ups of flat pouch versus dual 21700, realistic workload measurements against the initial ten-hour active / two-week standby goals, validated USB-C charging and safe service/replacement.
 - Manufacturing: verified parts, repeatable assembly, enclosure fit, testability, quote and compliance plan.
 
 No schematic, firmware, industrial design, validated BOM or supplier quote exists in this repository yet.
