@@ -1,5 +1,7 @@
 # LAB Pocket Computer
 
+[Rev 2 bonded-core design](hardware/rev-2/README.md) includes the narrower PCB, matched top-entry card slots, centered camera, exposed Jauch pack and an actual-size review drawing.
+
 A pocket-sized creative computer for making, playing and living with tiny programs.
 
 LAB combines the tactile character of a Pocket Operator, the playful immediacy of a Game Boy, the programmability of a calculator and the openness of a microcontroller development board. It is a platform for small games, visual and musical instruments, personal utilities, experiments and ambient desk displays.
