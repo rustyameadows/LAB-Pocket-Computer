@@ -18,7 +18,7 @@ Make an app on your computer, with or without a coding agent. Preview it in a vi
 - Twelve individually addressable rear-facing RGB LEDs and raised feet for an ambient pool of light.
 - USB-C rechargeable power: a thin, service-replaceable ~5,000 mAh flat LiPo is the lead concept; two 21700 Li-ion cells are an alternative form factor with roughly twice the energy and a possible integrated desk stand.
 - Four sensitive digital MEMS microphones with independent channels; two ultra-thin stereo speakers (four-speaker alternative) and a required 3.5 mm CTIA TRRS headset jack with stereo output and mono microphone input.
-- Candidate sensors and expansion.
+- Bosch BMI270 six-axis IMU and rear-facing Vishay VEML3328 colorscope with white illumination; optional separate ambient light sensor and expansion.
 - Raw PCB and enclosed editions.
 
 The host manages the device and its peripherals. The user processor is a playground that developers can program through an SDK, native code or replacement firmware. Independent recovery is a key design goal.
