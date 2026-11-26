@@ -1,10 +1,10 @@
-# Preliminary bill of materials (v0.2)
+# Preliminary bill of materials (v0.3)
 
 Planning model: USD per unit at an assumed 1,000-unit run. These are rough estimates from concept discussion, not live inventory, supplier quotations, electrical validation or a production-ready BOM. Candidate part numbers must be checked against datasheets and supply before ordering. All lines include assumptions.
 
 | Component | Candidate / specification | Extended cost |
 | --- | --- | ---: |
-| Host processor module | ESP32-S3-WROOM-1-N8R8 or equivalent, 8 MB flash / 8 MB PSRAM | $3.75 |
+| Host processor module (original S3 baseline) | ESP32-S3-WROOM-1-N8R8 or equivalent; P4 with separate wireless is the leading camera-capable alternative, not priced here | $3.75 baseline |
 | User processor | RP2350B | $1.00 |
 | User external RAM | 8 MB PSRAM | $2.10 |
 | User external flash | 16 MB | $0.80 |
@@ -13,7 +13,9 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Display | 2.73-inch 320 × 320 IPS, candidate TTC273XSI-01 | $6.50 |
 | Display support | Connector, backlight driver, protective lens | $1.50 |
 | Buttons | 16 tactile switches and matrix diodes where needed | $1.20 |
-| Capacitive touch rails | 14 PCB electrodes (7 per display side), routing and any protection/support parts; native S3 touch preferred | TBD |
+| Capacitive touch rails | 14 PCB electrodes (7 per display side), routing and any protection/support parts; native S3 or P4 touch preferred | TBD |
+| Rear camera | Seeed IMX219 114992267, MIPI CSI-2; ST CAM-6GY-084VIS alternate, not additive | TBD |
+| Camera integration | FPC/connector, power, support parts and optical/mechanical mounting | TBD |
 | Rear lighting | 12 addressable RGB LEDs plus support circuit | $0.85 |
 | Battery | ~2,000 mAh protected LiPo | $3.00 |
 | Power management | Charger, power path, regulators, fuel gauge | $3.00 |
@@ -27,9 +29,9 @@ Planning model: USD per unit at an assumed 1,000-unit run. These are rough estim
 | Assembly | Double-sided SMT estimate | $4.50 |
 | Testing | Firmware programming and functional tests | $1.50 |
 | Mechanical hardware | Feet, standoffs, screws | $1.00 |
-| **Priced subtotal** | **Raw-board device excluding revised storage and touch costs** | **$43.40 + TBD** |
+| **Priced subtotal** | **Raw-board device excluding revised storage, touch, camera and any host/wireless change** | **$43.40 + TBD** |
 
-Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.2 subtotal until the two sockets, internal card and touch-related incremental costs are priced. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
+Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a single $3.00 microSD slot/card allowance; it is superseded as a total by the v0.3 subtotal until the two sockets, internal card, touch-related costs, camera integration and any P4/wireless processor changes are priced. The previous $3.60–8.60 enclosure allowance is unchanged pending mechanical review. Tooling, certification, packaging, shipping, tariffs, yield loss, software and engineering are excluded. Prototype and small-run prices will differ substantially.
 
 ## Cost concentration
 
@@ -38,6 +40,7 @@ Original v0.1 baseline: $46.40 raw-board / $50–55 enclosed. This included a si
 | Compute and memory (excluding microSD) | $7.65 |
 | Internal and external microSD | TBD |
 | Display and controls | $10.05 + touch costs TBD |
+| Rear camera and integration | TBD |
 | Power | $6.00 |
 | Audio | $3.40 |
 | Sensors, connectors and support | $6.30 |
@@ -50,6 +53,17 @@ The display is a major sourcing opportunity. The $6.50 figure assumes a comparab
 - Source both sockets through PCBA. Purchase the internal card in bulk through an authorized distributor or directly from a reputable memory supplier; confirm a stable model, capacity, endurance and written 1,000-unit pricing. The external slot does not require a bundled card.
 - Earlier catalog comparisons suggested removable microSD could be substantially cheaper than soldered eMMC; stock and pricing were not production quotes. Do not treat those catalog figures as approved BOM costs.
 - Native capacitive touch electrodes are PCB copper features, not fourteen purchased switches. Price the incremental routing, PCB area, protection/conditioning or optional controller only after layout and electrical evaluation. Confirm all 14 touch-capable pins can coexist with the selected display, dual storage and other peripherals.
+
+## Rear camera sourcing (prototype quantities)
+
+These are small-quantity DigiKey catalog reference prices, not production estimates or confirmed checkout totals. Source camera modules through established distributors. Do not include both cameras in the same unit cost.
+
+| Priority | Module / source | 1 unit | 2 units | 5 units |
+| --- | --- | ---: | ---: | ---: |
+| Lead | [Seeed 114992267, IMX219](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/114992267/12396961) | $9.90 | $19.80 | $49.50 |
+| Alternative | [ST CAM-6GY-084VIS, VD66GY global shutter](https://www.digikey.com/en/products/detail/stmicroelectronics/CAM-6GY-084VIS/24737764) | $21.44 | $42.88 | $107.20 |
+
+Totals assume the listed single-unit price, before shipping, tax or tariffs. Obtain current quotes separately for production volumes. Camera connector, power rails, optical mounting, support components and P4 plus radio BOM remain open. The 1,000-unit subtotal above deliberately excludes these unpriced changes.
 
 ## Candidate JLCPCB references
 
