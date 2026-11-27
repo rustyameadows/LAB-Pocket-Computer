@@ -1,0 +1,683 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid a6063ba5-8987-5b5a-8386-fca4441d6ad5) (paper "A3") (title_block (title "Twelve rear RGB pixels") (date "2026-11-26") (rev "3 / engineering") (company "LAB Pocket Computer")) (lib_symbols (symbol "LAB:AHCT1G125" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "AHCT1G125" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "AHCT1G125_0_1" (rectangle (start -12.7 5.08) (end 12.7 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "AHCT1G125_1_1"
+(pin input line (at -15.24 2.54 0) (length 2.54) (name "OE_N" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -15.24 0 0) (length 2.54) (name "A" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -15.24 -2.54 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 15.24 2.54 180) (length 2.54) (name "VCC" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 15.24 0 180) (length 2.54) (name "Y" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "LAB:WS2812B-V6"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5.08 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B-V6"
+			(at 1.27 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LAB:WS2812B-V6"
+			(at 1.27 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf"
+			(at 2.54 -9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_1_1"
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "05   /   REAR LIGHT FIELD" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 7f6e2a98-c860-557f-92d2-ccad5b77891c))
+(text "Twelve rear WS2812B-V6 emitters feed the keypad chain. U19 supplies switched 5 V. U8 translates the first data signal." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 3fb0d6c7-6242-5879-b37a-47bfce467d36))
+(symbol (lib_id "LAB:AHCT1G125") (at 58.42 58.42 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8950e308-7fce-5b08-aac1-f0fe338f38bd) (property "Reference" "U8" (at 58.42 50.8 0) (effects (font (size 1 1)) ))(property "Value" "SN74AHCT1G125DBVR" (at 58.42 52.6 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/74AHCT1G125.pdf" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SN74AHCT1G125DBVR" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "U8") (unit 1)))))
+(wire (pts (xy 43.18 55.88) (xy 39.37 55.88)) (stroke (width 0) (type default)) (uuid 1f2c2b7b-e4c8-57a3-be08-ec3f0ae0f8b2))
+(global_label "GND" (shape bidirectional) (at 39.37 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 05f8fed1-cff8-51f0-9b50-2b367bab5f42))
+(wire (pts (xy 43.18 58.42) (xy 39.37 58.42)) (stroke (width 0) (type default)) (uuid 473975b1-c030-57d5-b496-e70bca105496))
+(global_label "RGB_DATA_3V3" (shape bidirectional) (at 39.37 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 21d880c7-4b09-5b9e-a565-361ef60683c7))
+(wire (pts (xy 43.18 60.96) (xy 39.37 60.96)) (stroke (width 0) (type default)) (uuid c097c44e-7aa8-5364-aea4-139f8f65490b))
+(global_label "GND" (shape bidirectional) (at 39.37 60.96 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9c456be7-99fc-59b3-a44e-0fd19724413e))
+(wire (pts (xy 73.66 55.88) (xy 77.47 55.88)) (stroke (width 0) (type default)) (uuid e06168b2-f053-5154-8d1c-543d6bdc6dcc))
+(global_label "LED_5V_SW" (shape bidirectional) (at 77.47 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ab423945-60c5-5437-b087-1cfe20bb81e4))
+(wire (pts (xy 73.66 58.42) (xy 77.47 58.42)) (stroke (width 0) (type default)) (uuid 86cc2638-ed86-50dc-90c6-f0526a35064e))
+(global_label "RGB_DRIVE_5V" (shape bidirectional) (at 77.47 58.42 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 51243353-be7d-5d6c-ac79-aeef53ae962b))
+(symbol (lib_id "Device:C_Small") (at 139.7 58.42 0) (unit 1) (in_bom yes) (on_board yes) (uuid 14b58f66-8b7d-5caa-836e-67ee161a4d1b) (property "Reference" "C14" (at 148.7 56.82 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 148.7 58.62 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 139.7 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 139.7 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 139.7 58.42 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "C14") (unit 1)))))
+(wire (pts (xy 139.7 55.88) (xy 139.7 52.07)) (stroke (width 0) (type default)) (uuid fc24c9dd-b78d-5630-87f5-64a5923b99d8))
+(global_label "LED_5V_SW" (shape bidirectional) (at 139.7 52.07 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 81cbb8a0-ab7d-5576-81cc-93c3b4814d1a))
+(wire (pts (xy 139.7 60.96) (xy 139.7 64.77)) (stroke (width 0) (type default)) (uuid c678bd0b-6779-5d7f-aef0-48ca1be0617f))
+(global_label "GND" (shape bidirectional) (at 139.7 64.77 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b56c91dd-ef00-5de4-9cfc-697f14be35b9))
+(symbol (lib_id "Device:R_Small") (at 203.2 58.42 0) (unit 1) (in_bom yes) (on_board yes) (uuid a308309d-8044-55eb-925e-16cd6e17f83f) (property "Reference" "R20" (at 212.2 56.82 0) (effects (font (size 1 1)) ))(property "Value" "100R" (at 212.2 58.62 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 203.2 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 203.2 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW0603100RFKEA" (at 203.2 58.42 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "R20") (unit 1)))))
+(wire (pts (xy 203.2 55.88) (xy 203.2 52.07)) (stroke (width 0) (type default)) (uuid 4f6c8b00-8e42-56de-9a70-8d4971b8fe52))
+(global_label "RGB_DRIVE_5V" (shape bidirectional) (at 203.2 52.07 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3a7cc3ae-38b8-5fef-b4dd-8e6772285f40))
+(wire (pts (xy 203.2 60.96) (xy 203.2 64.77)) (stroke (width 0) (type default)) (uuid 3fa8e4e8-22a5-5516-92b7-6394bb1136f8))
+(global_label "RGB_IN" (shape bidirectional) (at 203.2 64.77 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4446359a-cb05-5a93-af24-50a2579f6290))
+(symbol (lib_id "LAB:WS2812B-V6") (at 63.5 113.03 0) (unit 1) (in_bom yes) (on_board yes) (uuid cbcc0fda-b0cb-5897-842b-6c4e2cb9b0d3) (property "Reference" "LED1" (at 82.5 105.03 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 82.5 106.83 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 63.5 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 63.5 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 63.5 113.03 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED1") (unit 1)))))
+(wire (pts (xy 63.5 105.41) (xy 63.5 101.6)) (stroke (width 0) (type default)) (uuid b351f5bb-d7ac-567c-864e-685803030989))
+(global_label "LED_5V_SW" (shape bidirectional) (at 63.5 101.6 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9ba2c498-ee4d-5cbe-b241-c8523a708138))
+(wire (pts (xy 63.5 120.65) (xy 63.5 124.46)) (stroke (width 0) (type default)) (uuid 2305c93a-ac09-5098-8c92-69f43e2d4f33))
+(global_label "GND" (shape bidirectional) (at 63.5 124.46 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 959b9bd6-3110-50a6-8ae9-f01f10425a09))
+(wire (pts (xy 55.88 113.03) (xy 52.07 113.03)) (stroke (width 0) (type default)) (uuid c330af59-ea91-5b21-80cb-fda08880afd7))
+(global_label "RGB_IN" (shape bidirectional) (at 52.07 113.03 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a84b3f92-4165-56c6-be06-99a28e6dc6d8))
+(symbol (lib_id "LAB:WS2812B-V6") (at 142.24 113.03 0) (unit 1) (in_bom yes) (on_board yes) (uuid 264b5c71-38b1-57e8-9d57-548bc882cd35) (property "Reference" "LED2" (at 161.24 105.03 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 161.24 106.83 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 142.24 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 142.24 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 142.24 113.03 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED2") (unit 1)))))
+(wire (pts (xy 142.24 105.41) (xy 142.24 101.6)) (stroke (width 0) (type default)) (uuid 629ae08c-91b7-5c97-857d-eb6feac0877a))
+(global_label "LED_5V_SW" (shape bidirectional) (at 142.24 101.6 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 14506f7e-ac5e-5693-9e89-d8c4f03654aa))
+(wire (pts (xy 142.24 120.65) (xy 142.24 124.46)) (stroke (width 0) (type default)) (uuid 9f54f04f-29ea-5831-939b-fdaf430b2dbf))
+(global_label "GND" (shape bidirectional) (at 142.24 124.46 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1c05923e-2c05-5fe3-9e7f-0dd521a26b4b))
+(wire (pts (xy 71.12 113.03) (xy 134.62 113.03)) (stroke (width 0) (type default)) (uuid 3cf1fd47-5bea-5f8f-a32a-6563db1c664f))
+(symbol (lib_id "LAB:WS2812B-V6") (at 220.98 113.03 0) (unit 1) (in_bom yes) (on_board yes) (uuid 12114ac4-06e1-5c70-9efa-746c148eae13) (property "Reference" "LED3" (at 239.98 105.03 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 239.98 106.83 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 220.98 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 220.98 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 220.98 113.03 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED3") (unit 1)))))
+(wire (pts (xy 220.98 105.41) (xy 220.98 101.6)) (stroke (width 0) (type default)) (uuid 736d088c-1ace-5cc7-b2cc-3762c8f691ca))
+(global_label "LED_5V_SW" (shape bidirectional) (at 220.98 101.6 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid cf9ac5e5-d660-51ad-b516-57dd3af16470))
+(wire (pts (xy 220.98 120.65) (xy 220.98 124.46)) (stroke (width 0) (type default)) (uuid 31e28f03-c72a-5e4c-8167-92fba861ebc2))
+(global_label "GND" (shape bidirectional) (at 220.98 124.46 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 757cd426-bae9-5f46-a54d-c05dfabcf31e))
+(wire (pts (xy 149.86 113.03) (xy 213.36 113.03)) (stroke (width 0) (type default)) (uuid f808ee5d-c9c4-5767-b559-ded3fec30f1d))
+(symbol (lib_id "LAB:WS2812B-V6") (at 299.72 113.03 0) (unit 1) (in_bom yes) (on_board yes) (uuid 98907329-2e15-5123-bc5e-be5c57ea3e85) (property "Reference" "LED4" (at 318.72 105.03 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 318.72 106.83 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 299.72 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 299.72 113.03 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 299.72 113.03 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED4") (unit 1)))))
+(wire (pts (xy 299.72 105.41) (xy 299.72 101.6)) (stroke (width 0) (type default)) (uuid 689bd813-e9bf-5f3a-b163-8335ab0702af))
+(global_label "LED_5V_SW" (shape bidirectional) (at 299.72 101.6 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 74461949-4867-52fe-9671-8e31481e7b1e))
+(wire (pts (xy 307.34 113.03) (xy 311.15 113.03)) (stroke (width 0) (type default)) (uuid bea448c2-a371-5748-8e37-86c6ac00ddbd))
+(global_label "RGB_LINK_4" (shape bidirectional) (at 311.15 113.03 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 770a5520-208d-56e9-9646-2409f11e75c2))
+(wire (pts (xy 299.72 120.65) (xy 299.72 124.46)) (stroke (width 0) (type default)) (uuid f35fd686-9571-5939-8eb6-1036e7978240))
+(global_label "GND" (shape bidirectional) (at 299.72 124.46 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ff393a81-60a4-5e7e-b293-3e736cfa309a))
+(wire (pts (xy 228.6 113.03) (xy 292.1 113.03)) (stroke (width 0) (type default)) (uuid aace0fd9-9824-5c49-a224-a2038fbf9f11))
+(symbol (lib_id "LAB:WS2812B-V6") (at 63.5 166.37 0) (unit 1) (in_bom yes) (on_board yes) (uuid 71948331-7f3b-52df-b625-65448865e8f1) (property "Reference" "LED5" (at 82.5 158.37 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 82.5 160.17 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 63.5 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 63.5 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 63.5 166.37 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED5") (unit 1)))))
+(wire (pts (xy 63.5 158.75) (xy 63.5 154.94)) (stroke (width 0) (type default)) (uuid 6fc8e394-4575-56a0-8d5b-f64c6b82d9c8))
+(global_label "LED_5V_SW" (shape bidirectional) (at 63.5 154.94 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 10374c09-5767-55f6-93d6-4b3b345b7921))
+(wire (pts (xy 63.5 173.99) (xy 63.5 177.8)) (stroke (width 0) (type default)) (uuid 67bd037c-d7c7-5870-a574-f4dd70132f7c))
+(global_label "GND" (shape bidirectional) (at 63.5 177.8 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ed1868ad-0983-596d-86b6-d2f3330fb0a0))
+(wire (pts (xy 55.88 166.37) (xy 52.07 166.37)) (stroke (width 0) (type default)) (uuid 466ac9e2-15bf-5374-bf72-9b12d38a406a))
+(global_label "RGB_LINK_4" (shape bidirectional) (at 52.07 166.37 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f9c3e51e-fc49-5214-a3a1-229cd3828630))
+(symbol (lib_id "LAB:WS2812B-V6") (at 142.24 166.37 0) (unit 1) (in_bom yes) (on_board yes) (uuid c52c1052-0b34-5c1e-af87-2fe718f1c64c) (property "Reference" "LED6" (at 161.24 158.37 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 161.24 160.17 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 142.24 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 142.24 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 142.24 166.37 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED6") (unit 1)))))
+(wire (pts (xy 142.24 158.75) (xy 142.24 154.94)) (stroke (width 0) (type default)) (uuid 32f39ef5-9348-54b5-90cc-a6c7ca51a3fc))
+(global_label "LED_5V_SW" (shape bidirectional) (at 142.24 154.94 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c9f1184e-9242-5b76-8a78-c3d78bf004c4))
+(wire (pts (xy 142.24 173.99) (xy 142.24 177.8)) (stroke (width 0) (type default)) (uuid ec846774-2f90-5e57-9646-37ab1598a55c))
+(global_label "GND" (shape bidirectional) (at 142.24 177.8 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 92e14101-a693-5689-8d2e-e0393a71bfb4))
+(wire (pts (xy 71.12 166.37) (xy 134.62 166.37)) (stroke (width 0) (type default)) (uuid 7d873878-218a-510a-8256-ffaa84c98e85))
+(symbol (lib_id "LAB:WS2812B-V6") (at 220.98 166.37 0) (unit 1) (in_bom yes) (on_board yes) (uuid 74c85756-e6f9-590d-b085-1910dba11fc1) (property "Reference" "LED7" (at 239.98 158.37 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 239.98 160.17 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 220.98 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 220.98 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 220.98 166.37 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED7") (unit 1)))))
+(wire (pts (xy 220.98 158.75) (xy 220.98 154.94)) (stroke (width 0) (type default)) (uuid 655ded79-cb90-5442-84cb-43f43f23d517))
+(global_label "LED_5V_SW" (shape bidirectional) (at 220.98 154.94 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 885971f6-6f4c-556d-9281-badfdb8a6f73))
+(wire (pts (xy 220.98 173.99) (xy 220.98 177.8)) (stroke (width 0) (type default)) (uuid 12e7e04a-b275-5878-9184-cf0a3b788525))
+(global_label "GND" (shape bidirectional) (at 220.98 177.8 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 82ada9e4-693c-5b74-ad62-4dff35226a45))
+(wire (pts (xy 149.86 166.37) (xy 213.36 166.37)) (stroke (width 0) (type default)) (uuid b9db475e-2cdb-588e-9508-ddefbfd5c189))
+(symbol (lib_id "LAB:WS2812B-V6") (at 299.72 166.37 0) (unit 1) (in_bom yes) (on_board yes) (uuid 43049358-3a2e-5e0f-ba0f-9133ac3d103a) (property "Reference" "LED8" (at 318.72 158.37 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 318.72 160.17 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 299.72 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 299.72 166.37 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 299.72 166.37 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED8") (unit 1)))))
+(wire (pts (xy 299.72 158.75) (xy 299.72 154.94)) (stroke (width 0) (type default)) (uuid 3bca0d94-c220-5a4f-afdb-1d10ce5a31fe))
+(global_label "LED_5V_SW" (shape bidirectional) (at 299.72 154.94 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 436e476a-3989-5e12-a3a3-a21e079c7251))
+(wire (pts (xy 307.34 166.37) (xy 311.15 166.37)) (stroke (width 0) (type default)) (uuid 0dacf1c5-036a-5456-bdef-f50d84751fe7))
+(global_label "RGB_LINK_8" (shape bidirectional) (at 311.15 166.37 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ca5bcdc3-ee30-525b-adac-f3a6b886f514))
+(wire (pts (xy 299.72 173.99) (xy 299.72 177.8)) (stroke (width 0) (type default)) (uuid 95a00ea3-2261-5ec3-8f8f-c2b7525fd336))
+(global_label "GND" (shape bidirectional) (at 299.72 177.8 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9f79ce15-854b-53d7-aecd-3a308ff5be02))
+(wire (pts (xy 228.6 166.37) (xy 292.1 166.37)) (stroke (width 0) (type default)) (uuid 244cce9f-2cf5-5ff5-8bc9-5ab2e51c6897))
+(symbol (lib_id "LAB:WS2812B-V6") (at 63.5 219.71 0) (unit 1) (in_bom yes) (on_board yes) (uuid d9c4ee43-3e9c-5fdc-8d82-8b4d0da2120a) (property "Reference" "LED9" (at 82.5 211.71 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 82.5 213.51 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 63.5 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 63.5 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 63.5 219.71 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED9") (unit 1)))))
+(wire (pts (xy 63.5 212.09) (xy 63.5 208.28)) (stroke (width 0) (type default)) (uuid e8f12198-bf88-5d04-a52f-cdc728e9a04d))
+(global_label "LED_5V_SW" (shape bidirectional) (at 63.5 208.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b9671f07-840d-548e-9840-567f5c4c05be))
+(wire (pts (xy 63.5 227.33) (xy 63.5 231.14)) (stroke (width 0) (type default)) (uuid 65e85402-b955-5797-aa53-7aa82ea7ec39))
+(global_label "GND" (shape bidirectional) (at 63.5 231.14 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 6e77498b-e148-511a-85e6-51c5477085ba))
+(wire (pts (xy 55.88 219.71) (xy 52.07 219.71)) (stroke (width 0) (type default)) (uuid c2909ce1-efeb-53cb-8398-bdb7cd2a9d9f))
+(global_label "RGB_LINK_8" (shape bidirectional) (at 52.07 219.71 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cd179c41-bdab-59a8-a805-632cdc2d2f30))
+(symbol (lib_id "LAB:WS2812B-V6") (at 142.24 219.71 0) (unit 1) (in_bom yes) (on_board yes) (uuid 0b674f13-b284-5207-a59e-82606729769f) (property "Reference" "LED10" (at 161.24 211.71 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 161.24 213.51 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 142.24 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 142.24 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 142.24 219.71 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED10") (unit 1)))))
+(wire (pts (xy 142.24 212.09) (xy 142.24 208.28)) (stroke (width 0) (type default)) (uuid 3aab9f57-f9d5-5cd6-ab94-835eabee4c02))
+(global_label "LED_5V_SW" (shape bidirectional) (at 142.24 208.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5d68a9d3-1a16-507e-af95-1d8189de2d6b))
+(wire (pts (xy 142.24 227.33) (xy 142.24 231.14)) (stroke (width 0) (type default)) (uuid cf4bb2ad-eb44-576e-be97-69618b70d916))
+(global_label "GND" (shape bidirectional) (at 142.24 231.14 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 0bd9437a-715e-5ce7-bbcd-a9130377cc23))
+(wire (pts (xy 71.12 219.71) (xy 134.62 219.71)) (stroke (width 0) (type default)) (uuid 0844860c-85cb-5dc5-883f-a2cf775c6b56))
+(symbol (lib_id "LAB:WS2812B-V6") (at 220.98 219.71 0) (unit 1) (in_bom yes) (on_board yes) (uuid 0ba01a62-391d-53fb-9ad8-f7a7083948f3) (property "Reference" "LED11" (at 239.98 211.71 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 239.98 213.51 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 220.98 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 220.98 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 220.98 219.71 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED11") (unit 1)))))
+(wire (pts (xy 220.98 212.09) (xy 220.98 208.28)) (stroke (width 0) (type default)) (uuid b7002e1b-7e36-506c-9868-e40f26670f33))
+(global_label "LED_5V_SW" (shape bidirectional) (at 220.98 208.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ccb8cf17-9d16-51e8-8f07-00750e5382bf))
+(wire (pts (xy 220.98 227.33) (xy 220.98 231.14)) (stroke (width 0) (type default)) (uuid 784db72d-e617-58f5-a19b-1d93d4f6c869))
+(global_label "GND" (shape bidirectional) (at 220.98 231.14 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f635f7ba-4b65-5d1f-842b-86009d7a6116))
+(wire (pts (xy 149.86 219.71) (xy 213.36 219.71)) (stroke (width 0) (type default)) (uuid 1d9de173-9e75-53d9-bb38-c72422ea3aec))
+(symbol (lib_id "LAB:WS2812B-V6") (at 299.72 219.71 0) (unit 1) (in_bom yes) (on_board yes) (uuid 27fcb207-2b65-58f5-a468-7ff3658e0c06) (property "Reference" "LED12" (at 318.72 211.71 0) (effects (font (size 1 1)) ))(property "Value" "WS2812B-V6" (at 318.72 213.51 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:WS2812B-V6" (at 299.72 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf" (at 299.72 219.71 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "WS2812B-V6" (at 299.72 219.71 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3A" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "LED12") (unit 1)))))
+(wire (pts (xy 299.72 212.09) (xy 299.72 208.28)) (stroke (width 0) (type default)) (uuid 4f563ece-13c0-5a53-969b-10a8c24315fa))
+(global_label "LED_5V_SW" (shape bidirectional) (at 299.72 208.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a59f9b6c-2967-52b2-87a0-2237b3ad4a5c))
+(wire (pts (xy 307.34 219.71) (xy 314.96 219.71)) (stroke (width 0) (type default)) (uuid baec15d1-c6ad-560d-b019-51d3e48c7fbd))
+(global_label "KEY_RGB_IN" (shape output) (at 314.96 219.71 0) (effects (font (size 0.9 0.9)) (justify left)) (uuid 2275dff7-22a5-5e0d-a94b-a1c5d2da880c))
+(wire (pts (xy 299.72 227.33) (xy 299.72 231.14)) (stroke (width 0) (type default)) (uuid ac888d94-31ea-5bde-96d8-a72d8408abbf))
+(global_label "GND" (shape bidirectional) (at 299.72 231.14 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8f5b1954-3fbd-5a54-8adb-ce3f57a3480e))
+(wire (pts (xy 228.6 219.71) (xy 292.1 219.71)) (stroke (width 0) (type default)) (uuid 014ced59-89b5-5359-8fc3-6690d2ed3585))
+(embedded_fonts no))
