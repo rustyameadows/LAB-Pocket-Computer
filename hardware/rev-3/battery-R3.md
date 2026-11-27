@@ -1,6 +1,8 @@
 # Rev 3 battery and USB power
 
-BT1 is the protected Jauch 246524, 3.7 V nominal, 4.8 Ah minimum and 5 Ah typical. The pouch bonds to the rear face with the two existing 9495LE strips. Keep the NTC and the wire splice off the adhesive footprint. The foil pouch needs an even support surface with no components, wire crossings or raised solder joints pressing into it.
+BT1 is the protected Jauch 246524, 3.7 V nominal, 4.8 Ah minimum and 5 Ah typical. The pouch bonds to the rear face with the two existing 9495LE strips. The manufacturer drawing gives a 59.5 × 78.5 mm maximum outline, 7.3 mm thickness at delivery and 7.9 mm after cycling. The rear component keepout spans board coordinates X 71.25–130.75 mm and Y 92.00–170.50 mm. Leave the outward-facing pouch surface free to expand. [Jauch pack drawing](datasheets/Jauch-246524-pack-drawing.png)
+
+Keep the NTC and the wire splice off the adhesive footprint. The foil pouch needs an even support surface with no components, wire crossings or raised solder joints pressing into it.
 
 ## Hand harness
 
@@ -10,7 +12,7 @@ BT1 is the protected Jauch 246524, 3.7 V nominal, 4.8 Ah minimum and 5 Ah typica
 | 2 | SEMITEC 103AT-2 sensing lead |
 | 3 | Protected pack positive |
 
-Use the JST PHR-3 housing and three SPH-002T-P0.5S terminals. Use 24 AWG pigtails on the power contacts and transition the pack leads through an insulated splice if their gauge exceeds the terminal range. Fit each terminal to one conductor. Bond the insulated NTC head flat to the pouch face with thin electrically insulating tape and secure both sensor leads for strain relief. Keep the sensor away from the PCB charger, the PCM and the wire exit. Preserve the sealed pack and factory protection circuit. Check polarity with a meter at the keyed plug before first insertion.
+Use the JST PHR-3 housing and three SPH-002T-P0.5S terminals. Jauch supplies 24 AWG red and black leads, 70 ± 5 mm long. Crimp the positive lead directly and use an insulated return splice and one 24 AWG pigtail at the negative contact. Fit each terminal to one conductor. Bond the insulated NTC head flat to the pouch face with a strip of 3M 5413 polyimide tape and secure both sensor leads for strain relief. Keep the sensor away from the PCB charger, the PCM and the wire exit. Preserve the sealed pack and factory protection circuit. Check polarity with a meter at the keyed plug before first insertion.
 
 ## Charge controls
 

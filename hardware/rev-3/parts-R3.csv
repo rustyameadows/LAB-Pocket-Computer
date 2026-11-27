@@ -86,3 +86,4 @@ J6 mating,1,PHR-3,Mating 3-position housing,battery harness,datasheets/S3B-PH-SM
 J6-1 J6-2 J6-3,3,SPH-002T-P0.5S,Wire contacts for all three positions,24 AWG power pigtails and sensor lead. Shared return spliced outside the crimp.,datasheets/S3B-PH-SM4-TB.pdf
 CARD1,1,SDCS2/32GB,"32 GB microSD card, dimensional reference",internal removable media,datasheets/SDCS2-32GB.pdf
 ADH1 ADH2,2,9495LE,Die-cut PET-carrier acrylic adhesive strip,20 × 55 × 0.17 mm each; candidate bond,datasheets/3M-9495LE.pdf
+ADH3,1,5413 1/2 in,Sensor retention strip cut from 12.7 mm roll,Hand fit over insulated NTC on outer pouch,datasheets/3M-5413.pdf
