@@ -577,7 +577,7 @@
 		(embedded_fonts no)
 	))
 (text "05   /   REAR LIGHT FIELD" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 7f6e2a98-c860-557f-92d2-ccad5b77891c))
-(text "Twelve downward-facing WS2812B-V6 emitters. The 5 V boost/switch design and current budget are open." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 3fb0d6c7-6242-5879-b37a-47bfce467d36))
+(text "Twelve rear WS2812B-V6 emitters feed the keypad chain. U19 supplies switched 5 V. U8 translates the first data signal." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 3fb0d6c7-6242-5879-b37a-47bfce467d36))
 (symbol (lib_id "LAB:AHCT1G125") (at 58.42 58.42 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8950e308-7fce-5b08-aac1-f0fe338f38bd) (property "Reference" "U8" (at 58.42 50.8 0) (effects (font (size 1 1)) ))(property "Value" "SN74AHCT1G125DBVR" (at 58.42 52.6 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/74AHCT1G125.pdf" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SN74AHCT1G125DBVR" (at 58.42 58.42 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554" (reference "U8") (unit 1)))))
 (wire (pts (xy 43.18 55.88) (xy 39.37 55.88)) (stroke (width 0) (type default)) (uuid 1f2c2b7b-e4c8-57a3-be08-ec3f0ae0f8b2))
 (global_label "GND" (shape bidirectional) (at 39.37 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 05f8fed1-cff8-51f0-9b50-2b367bab5f42))

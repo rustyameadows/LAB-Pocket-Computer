@@ -495,5 +495,5 @@
 (global_label "SPK_R_P" (shape bidirectional) (at 255.27 229.87 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2351827b-53dd-5795-bf83-f3309208bb33))
 (wire (pts (xy 276.86 229.87) (xy 280.67 229.87)) (stroke (width 0) (type default)) (uuid d5a80951-304d-5a0c-9e2f-b3fe06e94534))
 (global_label "SPK_R_N" (shape bidirectional) (at 280.67 229.87 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8943c261-9dc4-5d2f-8a59-2172a0297e72))
-(text "Open: codec, mic bias, jack detection, stereo BTL amplifier. Verify spring travel and all four acoustic ports." (at 24 258 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid fdba61f7-3dcd-5865-9e47-3b066e3fdcea))
+(text "U31 supplies microphone bias, jack sensing, headphone drive and two bridge speaker outputs. Verify spring travel and all four acoustic ports." (at 24 258 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid fdba61f7-3dcd-5865-9e47-3b066e3fdcea))
 (embedded_fonts no))
