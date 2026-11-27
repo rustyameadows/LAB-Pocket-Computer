@@ -1,5 +1,7 @@
 # LAB Pocket Computer
 
+[Rev 3A audio revision and volume build budget](hardware/rev-3a/LAB-Pocket-R3A-handoff-r1.md) includes the routed stereo audio update, factory exports and 500- and 1,000-device cost comparisons.
+
 [Rev 3 manufacturing handoff and build costs](hardware/rev-3/LAB-Pocket-R3-manufacturing-handoff-r2.md) covers the corrected switch BOM, factory sourcing holds, prototype budget, KiCad project and upload files.
 
 [Rev 2 bonded-core design](hardware/rev-2/README.md) includes the narrower PCB, matched top-entry card slots, centered camera, exposed Jauch pack and an actual-size review drawing.
