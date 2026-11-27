@@ -379,7 +379,7 @@
 	)
 	(pad "A1" smd roundrect
 		(at -3.2 -3.68)
-		(size 0.6 1.15)
+		(size 0.6 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
@@ -435,7 +435,7 @@
 	)
 	(pad "A12" smd roundrect
 		(at 3.2 -3.68)
-		(size 0.6 1.15)
+		(size 0.6 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
@@ -443,7 +443,7 @@
 	)
 	(pad "B1" smd roundrect
 		(at 3.2 -3.68)
-		(size 0.6 1.15)
+		(size 0.6 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
@@ -499,7 +499,7 @@
 	)
 	(pad "B12" smd roundrect
 		(at -3.2 -3.68)
-		(size 0.6 1.15)
+		(size 0.6 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)

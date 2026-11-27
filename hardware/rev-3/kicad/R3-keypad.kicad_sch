@@ -1336,10 +1336,6 @@
 (global_label "KEY_R2" (shape bidirectional) (at 107.95 209.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 610068d7-435e-5510-b0a8-388e8f8c0744))
 (wire (pts (xy 104.14 212.09) (xy 107.95 212.09)) (stroke (width 0) (type default)) (uuid 61e25422-0e38-5405-ad4f-15a849999496))
 (global_label "KEY_R3" (shape bidirectional) (at 107.95 212.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 830a77de-53ef-537a-b2ff-634147754eef))
-(no_connect (at 104.14 214.63) (uuid 21dd4b89-1c56-5e2f-81e9-68ee6ca7573b))
-(no_connect (at 104.14 217.17) (uuid 5b2d4751-2c73-5f68-b4fc-e7e80947adff))
-(no_connect (at 104.14 219.71) (uuid 0f2590ab-15cf-582c-9091-08a7a4da18ff))
-(no_connect (at 104.14 222.25) (uuid eb986a57-3b4a-5461-9366-589f33b0fef0))
 (wire (pts (xy 91.44 250.19) (xy 91.44 254)) (stroke (width 0) (type default)) (uuid b7f602ba-d813-5ba4-ad59-c17c7ef7d9b7))
 (global_label "GND" (shape bidirectional) (at 91.44 254 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 87a19204-9e36-5877-9d04-1d509d53f4a0))
 (wire (pts (xy 104.14 227.33) (xy 107.95 227.33)) (stroke (width 0) (type default)) (uuid 00993909-a1c6-54ce-b51f-bfe7a9570a7b))
@@ -1363,6 +1359,18 @@
 (global_label "SYS_SDA" (shape bidirectional) (at 74.93 207.01 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7b353ede-7923-50b2-8509-77fcf975fa8d))
 (wire (pts (xy 91.44 199.39) (xy 91.44 195.58)) (stroke (width 0) (type default)) (uuid 739e558f-113d-5f83-a7e0-359104a86b0a))
 (global_label "3V3" (shape bidirectional) (at 91.44 195.58 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c2063054-7bf7-57e0-85bc-909b6dbea1d2))
+
+(wire (pts (xy 104.14 214.63) (xy 107.95 214.63)) (stroke (width 0) (type default)) (uuid d253020c-1dfb-54b7-8d3e-8097507bc773))
+(global_label "LED_ENABLE" (shape bidirectional) (at 107.95 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4b0a92f4-1ea7-5689-b712-51380acbabe2))
+
+(wire (pts (xy 104.14 217.17) (xy 107.95 217.17)) (stroke (width 0) (type default)) (uuid a2bed920-274a-598f-beec-695c125e92a7))
+(global_label "CHARGING_N" (shape bidirectional) (at 107.95 217.17 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ffc6e10a-db4e-581b-a7f1-1aa5090bba40))
+
+(wire (pts (xy 104.14 219.71) (xy 107.95 219.71)) (stroke (width 0) (type default)) (uuid a7254b09-e6ff-5e78-8a75-dc4eafdafee9))
+(global_label "VBUS_OK_N" (shape bidirectional) (at 107.95 219.71 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9ea9833d-916c-5078-b804-820a87a953d3))
+
+(wire (pts (xy 104.14 222.25) (xy 107.95 222.25)) (stroke (width 0) (type default)) (uuid 004a28f7-8161-5b6d-a9e3-6de50822fe81))
+(global_label "FUEL_ALERT_N" (shape bidirectional) (at 107.95 222.25 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid becb2eae-1480-556e-8c7a-55539977004a))
 (symbol (lib_id "Device:R_Small") (at 154.94 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 913f99a1-34a4-51dd-86a7-8287aca3fcca) (property "Reference" "R1" (at 163.94 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 163.94 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/60010778-0109-5760-a4b1-5306140504f1" (reference "R1") (unit 1)))))
 (wire (pts (xy 154.94 205.74) (xy 154.94 201.93)) (stroke (width 0) (type default)) (uuid a93e85ec-16e6-5563-9ce1-efab036d80c2))
 (global_label "3V3" (shape bidirectional) (at 154.94 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f9fe05e1-7bbd-5bd8-ac7f-580fdcc8b96c))
