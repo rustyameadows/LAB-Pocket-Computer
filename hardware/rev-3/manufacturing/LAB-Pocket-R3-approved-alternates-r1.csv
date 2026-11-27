@@ -1,0 +1,6 @@
+Designators,Schematic MPN,Assembly MPN,Matched specification,JLC part,Stock on 2026-11-27,Manufacturer document,JLC listing
+"C102,C103,C112,C113",C0603C150J5GACTU,CC0603JRNPO9BN150,"0603, 15 pF, 5%, C0G, 50 V",C107037,4650833,../datasheets/CC0603JRNPO9BN150.pdf,https://jlcpcb.com/partdetail/C107037
+"C108,C109,C110",C0402C475M9PACTU,GRM155R60J475ME47D,"0402, 4.7 µF, 20%, X5R, 6.3 V",C82453,324458,../datasheets/GRM155R60J475ME47D.pdf,https://jlcpcb.com/partdetail/C82453
+"C147,C148",C1210C107M9PACTU,GRM32ER60J107ME20L,"1210, 100 µF, 20%, X5R, 6.3 V",C88154,14389,../datasheets/GRM32ER60J107ME20L.pdf,https://jlcpcb.com/partdetail/C88154
+R32,CRCW0603169KFKEA,RC0603FR-07169KL,"0603, 169 kΩ, 1%, 100 ppm/°C, 0.1 W",C137791,32976,../datasheets/RC0603FR-07169KL.pdf,https://jlcpcb.com/partdetail/C137791
+R43,CRCW0603309KFKEA,RC0603FR-07309KL,"0603, 309 kΩ, 1%, 100 ppm/°C, 0.1 W",C273754,16261,../datasheets/RC0603FR-07309KL.pdf,https://jlcpcb.com/partdetail/C273754

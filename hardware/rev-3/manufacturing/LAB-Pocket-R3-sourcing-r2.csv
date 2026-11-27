@@ -1,0 +1,89 @@
+Designators,Units per board,Manufacturer part number,Assembly step,JLC inventory ID,Stock seen on 2026-11-27,Status,Source
+BT1,1,LP735977JH+PCM+2 WIRES 70MM,Hand assembly,,,Hand fit,../datasheets/LP735977JH.pdf
+C1 C5 C6 C7 C8 C9 C10 C11 C14 C15 C17 C41 C42 C43 C46 C47 C64 C107 C137,19,C0603C104K5RACTU,SMT,C127833,1750,Listed with stock,https://jlcpcb.com/partdetail/C127833
+C13,1,C0603C474K3RACTU,SMT,C22418879,3302,Listed with stock,https://jlcpcb.com/partdetail/C22418879
+C16 C18 C44 C45 C79 C84 C86 C88 C89 C90 C91 C92 C104 C105 C128 C129 C130 C131 C132 C133 C134 C135 C136 C138 C139 C145,26,C0603C105K8PACTU,SMT,C696361,545,Listed with stock,https://jlcpcb.com/partdetail/C696361
+C19 C20 C66 C82 C140 C146 C154 C155,8,C0805C475K8PACTU,SMT,C2167171,735,Listed with stock,https://jlcpcb.com/partdetail/C2167171
+C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C40 C68 C69 C70 C71 C72 C73 C74 C75 C76 C78 C81 C83 C85 C87 C94 C96 C97 C98 C111 C114 C115 C116 C117 C118 C119 C120 C121 C122 C123 C124 C125 C126 C127 C141 C142 C143 C144 C149 C150 C151 C152 C153,62,C0402C104K8RACTU,SMT,C2649529,10201,Listed with stock,https://jlcpcb.com/partdetail/C2649529
+C48 C49 C50 C51 C52 C53 C54 C55 C56 C57 C58 C59 C60 C61 C62 C63 C93 C95 C99 C100 C101 C106,22,C0805C106K4PACTU,SMT,C2167271,941,Listed with stock,https://jlcpcb.com/partdetail/C2167271
+C65,1,C0603C220J5GACTU,SMT,C2167297,2439,Listed with stock,https://jlcpcb.com/partdetail/C2167297
+C67,1,C0805C226M9PACTU,SMT,C452754,4,Listed with stock,https://jlcpcb.com/partdetail/C452754
+C77 C80,2,C0603C103K5RACTU,SMT,C116378,469,Listed with stock,https://jlcpcb.com/partdetail/C116378
+C102 C103 C112 C113,4,CC0603JRNPO9BN150,SMT,C107037,4650833,Listed with stock,https://jlcpcb.com/partdetail/C107037
+C108 C109 C110,3,GRM155R60J475ME47D,SMT,C82453,324458,Listed with stock,https://jlcpcb.com/partdetail/C82453
+C147 C148,2,GRM32ER60J107ME20L,SMT,C88154,14389,Listed with stock,https://jlcpcb.com/partdetail/C88154
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D18 D19 D20 D21,20,"BAS316,115",SMT,C109218,285047,Listed with stock,https://jlcpcb.com/partdetail/C109218
+D22,1,TPD2EUSB30DRTR,SMT,C97502,16553,Listed with stock,https://jlcpcb.com/partdetail/C97502
+J1,1,USB4110-GF-A,SMT,C5143397,3639,Listed with stock,https://jlcpcb.com/partdetail/C5143397
+J2,1,FH12-40S-0.5SH(55),SMT,C202114,8703,Listed with stock,https://jlcpcb.com/partdetail/C202114
+J3,1,DM3AT-SF-PEJM5,SMT,C114218,11401,Listed with stock,https://jlcpcb.com/partdetail/C114218
+J4,1,DM3AT-SF-PEJM5,SMT,C114218,11401,Listed with stock,https://jlcpcb.com/partdetail/C114218
+J5,1,SJ-43515TS-SMT-TR,SMT,C5353507,83,Listed with stock,https://jlcpcb.com/partdetail/C5353507
+J6,1,S3B-PH-SM4-TB,SMT,C265101,13440,Listed with stock,https://jlcpcb.com/partdetail/C265101
+J7,1,DF37NC-30DS-0.4V(51),SMT,C424634,0,Source before PCBA,https://jlcpcb.com/partdetail/C424634
+L1,1,XAL4020-152MEC,SMT,C18547833,349,Listed with stock,https://jlcpcb.com/partdetail/C18547833
+L2,1,XAL4020-102MEC,SMT,C4555951,4437,Listed with stock,https://jlcpcb.com/partdetail/C4555951
+L3,1,XAL4020-222MEC,SMT,C3151182,11947,Listed with stock,https://jlcpcb.com/partdetail/C3151182
+L4,1,AOTA-B201610S3R3-101-T,SMT,C42411119,4808,Listed with stock,https://jlcpcb.com/partdetail/C42411119
+LED1 LED2 LED3 LED4 LED5 LED6 LED7 LED8 LED9 LED10 LED11 LED12,12,WS2812B-V6,SMT,C52917433,152296,Listed with stock,https://jlcpcb.com/partdetail/C52917433
+LED13 LED14 LED15 LED16 LED17 LED18 LED19 LED20 LED21 LED22 LED23 LED24 LED25 LED26 LED27 LED28 LED29 LED30 LED31 LED32,20,SK6805-EC10-000,SMT,C22394946,50502,Listed with stock,https://jlcpcb.com/partdetail/C22394946
+LS1 LS2,2,AS01808AO-SC18-WP-R,Hand assembly,C3311089,0,Hand fit,https://jlcpcb.com/partdetail/C3311089
+MK1 MK2 MK3 MK4,4,IM70D122V01XTMA1,SMT,C6061785,265,Listed with stock,https://jlcpcb.com/partdetail/C6061785
+Q1,1,2N7002-7-F,SMT,C85049,179598,Listed with stock,https://jlcpcb.com/partdetail/C85049
+Q2 Q3,2,BSS138-7-F,SMT,C40912,399075,Listed with stock,https://jlcpcb.com/partdetail/C40912
+R1 R2 R3 R4 R21 R22 R23 R24 R29 R35 R37 R38 R39 R55 R56 R57 R58 R59 R60 R62 R71,21,CRCW060310K0FKEA,SMT,C844918,845230,Listed with stock,https://jlcpcb.com/partdetail/C844918
+R6 R7 R8 R9 R10 R11 R12 R13 R25 R34 R49 R69,12,CRCW060347K0FKEA,SMT,C844929,127512,Listed with stock,https://jlcpcb.com/partdetail/C844929
+R14 R15 R16 R17 R20,5,CRCW0603100RFKEA,SMT,C844917,312166,Listed with stock,https://jlcpcb.com/partdetail/C844917
+R18 R19 R45 R64 R66 R67,6,CRCW06034K70FKEA,SMT,C844931,1076336,Listed with stock,https://jlcpcb.com/partdetail/C844931
+R26 R63,2,CRCW06031K00FKEA,SMT,C844920,1035293,Listed with stock,https://jlcpcb.com/partdetail/C844920
+R27,1,CRCW06031K50FKEA,SMT,C844921,53944,Listed with stock,https://jlcpcb.com/partdetail/C844921
+R30 R33 R42 R44 R47,5,CRCW0603100KFKEA,SMT,C844916,1016310,Listed with stock,https://jlcpcb.com/partdetail/C844916
+R31 R70,2,CRCW06031M00FKEA,SMT,C844922,115127,Listed with stock,https://jlcpcb.com/partdetail/C844922
+R32,1,RC0603FR-07169KL,SMT,C137791,32976,Listed with stock,https://jlcpcb.com/partdetail/C137791
+R36,1,CRCW060368K0FKEA,SMT,C844803,53639,Listed with stock,https://jlcpcb.com/partdetail/C844803
+R40 R41,2,CRCW06031M80FKEA,SMT,C3151701,4529,Listed with stock,https://jlcpcb.com/partdetail/C3151701
+R43,1,RC0603FR-07309KL,SMT,C273754,16261,Listed with stock,https://jlcpcb.com/partdetail/C273754
+R46,1,CRCW0603732KFKEA,SMT,C2079739,1158,Listed with stock,https://jlcpcb.com/partdetail/C2079739
+R48 R68,2,CRCW06032K20FKEA,SMT,C844925,82899,Listed with stock,https://jlcpcb.com/partdetail/C844925
+R50,1,CRCW06030000Z0EA,SMT,C844915,375155,Listed with stock,https://jlcpcb.com/partdetail/C844915
+R51 R52,2,CRCW0603499KFKEA,SMT,C844787,83965,Listed with stock,https://jlcpcb.com/partdetail/C844787
+R53 R54,2,CRCW06034K02FKEA,SMT,C844790,9399,Listed with stock,https://jlcpcb.com/partdetail/C844790
+R61,1,CRCW060333R0FKEA,SMT,C844927,276714,Listed with stock,https://jlcpcb.com/partdetail/C844927
+R65,1,CRCW060322R0FKEA,SMT,C71618,158994,Listed with stock,https://jlcpcb.com/partdetail/C71618
+RT1,1,103AT-2,Hand assembly,C5346323,0,Hand fit,https://jlcpcb.com/partdetail/C5346323
+SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW19 SW20,20,TL3301NF160QG,SMT,C273526,1,Below one assembly before attrition,https://jlcpcb.com/partdetail/C273526
+SW21,1,JS102011SAQN,SMT,C221660,1414,Listed with stock,https://jlcpcb.com/partdetail/C221660
+U1,1,ESP32-P4NRW32X,SMT,C54540373,0,Source before PCBA,https://jlcpcb.com/partdetail/C54540373
+U2,1,RP2350B,SMT,C42415655,7735,Listed with stock,https://jlcpcb.com/partdetail/C42415655
+U3,1,ESP32-C6-MINI-1-N4,SMT,C5736265,5899,Listed with stock,https://jlcpcb.com/partdetail/C5736265
+U4,1,PCA9555PWR,SMT,C2864778,6002,Listed with stock,https://jlcpcb.com/partdetail/C2864778
+U6,1,BMI270,SMT,C2836813,16754,Listed with stock,https://jlcpcb.com/partdetail/C2836813
+U8,1,SN74AHCT1G125DBVR,SMT,C7484,21629,Listed with stock,https://jlcpcb.com/partdetail/C7484
+U9 U10,2,W25Q128JVSIQ,SMT,C97521,63443,Listed with stock,https://jlcpcb.com/partdetail/C97521
+U11,1,BQ24074RGTR,SMT,C54313,1770,Listed with stock,https://jlcpcb.com/partdetail/C54313
+U12,1,TPS3700DDCR,SMT,C33002,6662,Listed with stock,https://jlcpcb.com/partdetail/C33002
+U13,1,MAX17048G+T10,SMT,C2682616,395,Listed with stock,https://jlcpcb.com/partdetail/C2682616
+U14,1,TUSB320LAIRWBR,SMT,C132554,4296,Listed with stock,https://jlcpcb.com/partdetail/C132554
+U15,1,SN74LVC1G04DBVR,SMT,C7827,127617,Listed with stock,https://jlcpcb.com/partdetail/C7827
+U16,1,TLV75533PDBVR,SMT,C404027,64230,Listed with stock,https://jlcpcb.com/partdetail/C404027
+U17,1,TPS3839G33DBZR,SMT,C485802,1125,Listed with stock,https://jlcpcb.com/partdetail/C485802
+U18,1,TPS63070RNMR,SMT,C109322,26145,Listed with stock,https://jlcpcb.com/partdetail/C109322
+U19,1,TPS61023DRLR,SMT,C919459,10728,Listed with stock,https://jlcpcb.com/partdetail/C919459
+U20,1,CAT4104V-GT3,SMT,C236266,1703,Listed with stock,https://jlcpcb.com/partdetail/C236266
+U21,1,TLV62569DBVR,SMT,C141836,440773,Listed with stock,https://jlcpcb.com/partdetail/C141836
+U22,1,APS6404L-3SQR-SN,SMT,C5333729,0,Source before PCBA,https://jlcpcb.com/partdetail/C5333729
+U23,1,TLV75512PDBVR,SMT,C2877864,1741,Listed with stock,https://jlcpcb.com/partdetail/C2877864
+U24,1,TLV75518PDBVR,SMT,C2877863,3522,Listed with stock,https://jlcpcb.com/partdetail/C2877863
+U25 U26,2,TLV75528PDBVR,SMT,C2868951,0,Source before PCBA,https://jlcpcb.com/partdetail/C2868951
+U27 U28 U29 U30,4,SN74LVC541APWR,SMT,C113281,12192,Listed with stock,https://jlcpcb.com/partdetail/C113281
+U31,1,WM8960CGEFL/RV,SMT,C18752,0,Source before PCBA,https://jlcpcb.com/partdetail/C18752
+Y1,1,ABM8-40.000MHZ-10-1-U-T,SMT,C1986574,162,Listed with stock,https://jlcpcb.com/partdetail/C1986574
+Y2,1,ABM8-272-T3,SMT,C20625731,6294,Listed with stock,https://jlcpcb.com/partdetail/C20625731
+Y3,1,ASDMB-24.000MHZ-LY-T,SMT,C17243042,3,Listed with stock,https://jlcpcb.com/partdetail/C17243042
+LCD1,1,TTC273XSI-01,Hand assembly,,,Hand fit,../datasheets/TTC273XSI-01.pdf
+CAM1,1,114992267,Hand assembly,,,Hand fit,../datasheets/IMX219-77-114992267.pdf
+J6 mating,1,PHR-3,Hand assembly,C265393,948,Hand fit,https://jlcpcb.com/partdetail/C265393
+J6-1 J6-2 J6-3,3,SPH-002T-P0.5S,Hand assembly,C111515,2561964,Hand fit,https://jlcpcb.com/partdetail/C111515
+CARD1,1,SDCS2/32GB,Hand assembly,,,Hand fit,../datasheets/SDCS2-32GB.pdf
+ADH1 ADH2,2,9495LE,Hand assembly,,,Hand fit,../datasheets/3M-9495LE.pdf
+ADH3,1,5413 1/2 in,Hand assembly,,,Hand fit,../datasheets/3M-5413.pdf
