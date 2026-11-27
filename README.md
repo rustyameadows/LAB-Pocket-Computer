@@ -1,6 +1,6 @@
 # LAB Pocket Computer
 
-[Rev 3 routed prototype](hardware/rev-3/README.md) includes the native KiCad design, fabrication package, JLC assembly files and bonded-battery harness.
+[Rev 3 manufacturing handoff and build costs](hardware/rev-3/LAB-Pocket-R3-manufacturing-handoff-r2.md) covers the corrected switch BOM, factory sourcing holds, prototype budget, KiCad project and upload files.
 
 [Rev 2 bonded-core design](hardware/rev-2/README.md) includes the narrower PCB, matched top-entry card slots, centered camera, exposed Jauch pack and an actual-size review drawing.
 

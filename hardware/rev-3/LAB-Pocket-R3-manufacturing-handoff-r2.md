@@ -1,0 +1,43 @@
+# LAB Pocket Computer · Rev 3 prototype handoff r2
+
+**November 27, 2026. The layout and factory files are complete for a prototype quote. Hold the assembly order for parts allocation.** U1 has no confirmed small-lot source and U31 has reached end of life. An assembled unit still needs electrical, thermal, mechanical and firmware bring-up. No boards have been ordered or tested as part of this handoff.
+
+## Cost to build
+
+USD, before taxes and duties. The budget buys one hand kit per finished device, assumes owner assembly and assigns zero labor cost. It assumes all populated boards work and that the special-source parts can be bought in small quantities. [Editable Rev 3 workbook](manufacturing/LAB-Pocket-R3-build-cost-r1.xlsx)
+
+| Finished devices | Bare / populated | Bare PCB lot | Factory parts | Factory assembly | Hand kits | Freight + sourcing allowance | Estimated run | Per finished device |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 5 / 2 | $335.19 | $258.52 | $248.46 | $81.63 | $135 | $1,058.80 | $1,058.80 |
+| 3 | 5 / 5 | $335.19 | $572.30 | $265.76 | $244.89 | $135 | $1,553.14 | $517.71 |
+| 5 | 5 / 5 | $335.19 | $572.30 | $265.76 | $396.68 | $135 | $1,704.93 | $340.99 |
+| 10 | 10 / 10 | $350.36 | $1,023.98 | $308.90 | $747.09 | $135 | $2,565.33 | $256.53 |
+
+The three-device budget includes two spare populated boards. If JLC accepts three assemblies on a five-board fabrication run, the estimate falls to $1,335.21, or $445.07 per finished device. Finishing all five already-populated boards costs $151.79 more than finishing three. The five-unit run with a 15% contingency is $1,960.67. The contingency covers ordinary price or shipping movement. A reel minimum, engineering change, repeat fabrication or failed prototype can cost more.
+
+**Bare PCB.** JLC's public calculator returned $335.19 for five boards and $350.36 for ten with the released 74 × 152 mm outline. The estimate uses the eight-layer JLC08161H-3313 stack, 1.6 mm nominal thickness, 1 oz outer / 0.5 oz inner copper, 0.15 mm holes, filled and copper-capped vias, black mask, white silkscreen, ENIG, ±10% impedance and test report, with standard service. Gerber review and panel rails can affect the final invoice. [Calculator](https://cart.jlcpcb.com/quote) · [Order settings and two impedance targets](manufacturing/stackup-R3-r1.md)
+
+**Factory parts and services.** The 78 BOM lines represent 77 orderable IDs and 344 placements per board. J3 and J4 share an ordering ID. All 77 returned catalog prices. For each part the budget uses the larger of its library assembly minimum and its installed quantity plus the library loss quantity, then applies the corresponding price break. Zero-stock items retain their indicative catalog prices. The assembly estimate uses 90 part/side feeder loads, 1,411 paste-bearing copper lands, two-sided setup, stencil, two fixtures, packing and an estimate of 13 X-ray candidates per board. Actual X-ray assignments and price tiers are subject to CAM review. [Standard assembly prices](https://jlcpcb.com/help/article/pcb-assembly-price) · [Minimum component charges](https://jlcpcb.com/help/article/pcb-assembly-faqs-part-2)
+
+**Local finishing.** The five-unit case includes $396.68 for five Jauch protected packs, five thermistor harnesses, five panels, five camera modules, ten speakers, five internal 32 GB cards and consumed mounting materials. The panel uses the top of the maker's $5–8 published range, pending a sample quote. The storage budget uses a SanDisk retail proxy for the discontinued Kingston card. The five-device estimate assumes access to cut lengths of adhesive, crimp tooling and test equipment. The $135 allowance comprises $70 for combined US freight and $65 for special sourcing. Exact shipping, tariffs, tax, assembly labor, engineering and test time depend on the buyer. [Panel](https://tailorpixels.com/product/2-73-inch-ips-tft-square-lcd-rgbspi-320x320/) · [Pack](https://www.digikey.com/en/products/detail/jauch-quartz/LP735977JH-PCM-2-WIRES-70MM/9560998)
+
+## Parts to resolve before spending
+
+| Reference | What the snapshot supports | Action for a five-board build |
+|---|---|---|
+| SW1–SW20 | E-Switch TL3301NF160QG, drawing P010515. JLC lists it as TL3301NF160QG/P010515, C273527. Both catalog entries point to the same maker drawing. 360 in JLC stock. | Order 100 in the PCBA BOM. JLC places all 20 per board. No separate switch purchase is required at this stock level. [JLC switch](https://jlcpcb.com/partdetail/C273527) · [Maker drawing](datasheets/TL3301NF160QG.pdf) |
+| U1 | ESP32-P4NRW32X, C54540373. JLC and DigiKey showed zero for the exact processor. | Secure five compatible production parts plus any overage requested by JLC. Obtain a written allocation, then have JLC reflow and inspect the package. [DigiKey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-P4NRW32X/30310797) |
+| U31 | WM8960CGEFL/RV, C18752. JLC showed zero. Cirrus ended shipments January 17, 2024. | Confirm five traceable devices plus the assembler's overage through its authorized aftermarket channel. If that fails, a new audio design and fabrication revision are required. Cirrus lists WM8962B as a potential replacement. It has no approval for this BOM. [Manufacturer notice in the repository](datasheets/Cirrus-WM8960-EOL-000028.pdf) · [Cirrus EOL-000028 source](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3824/EOL-000028.pdf) · [Authorized aftermarket channel](https://www.cirrus.com/products/discontinued) |
+| J7 / U22 / U25–U26 | JLC showed zero Hirose DF37NC-30DS-0.4V(51), APS6404L-3SQR-SN and TLV75528PDBVR. | Source five camera connectors, five PSRAMs and ten regulators through JLC global sourcing or accepted consignment. Request feeder quantities when quoting. [Hirose at DigiKey](https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF37NC-30DS-0-4V-51/2230656) · [PSRAM at Mouser](https://www.mouser.com/en/ProductDetail/AP-Memory/APS6404L-3SQR-SN?qs=IS%252B4QmGtzzqsn3S5xo%2FEEg%3D%3D) · [Regulator at DigiKey](https://www.digikey.com/en/products/detail/texas-instruments/TLV75528PDBVR/9356538) |
+| C67 / Y3 | C67 has four in JLC stock. The five-board model budgets seven. Y3 has three for five placements. | Source additional 22 µF capacitors and 24 MHz oscillators before releasing five or ten assemblies. C67's library minimum also affects the two-board case. Y3 covers two and three at this snapshot. [C67](https://jlcpcb.com/partdetail/C452754) · [Y3 at DigiKey](https://www.digikey.com/en/products/detail/abracon-llc/ASDMB-24-000MHZ-LY-T/2623829) |
+
+All 12 perimeter WS2812B-V6 and 20 keypad SK6805-EC10 LEDs are in the assembly BOM. The remaining factory lines had sufficient listed inventory for ten assemblies including modeled attrition at this check. Catalog availability changes and stock has not been reserved. [Full sourcing snapshot](manufacturing/LAB-Pocket-R3-sourcing-r3.csv) · [JLC sourcing workflow](https://jlcpcb.com/help/article/pcba-parts-sourcing-instruction)
+
+## Files and assembly sequence
+
+1. Upload the [Gerbers and drills](manufacturing/LAB-Pocket-R3-fabrication-r1.zip). Use the [stackup and impedance instructions](manufacturing/stackup-R3-r1.md), including 90 Ω USB and 100 Ω camera pairs.
+2. Choose Standard double-sided assembly. Supply the [BOM r3](manufacturing/LAB-Pocket-R3-JLC-BOM-r3.csv) and [CPL r1](manufacturing/LAB-Pocket-R3-JLC-CPL-r1.csv). They cover the same 344 designators, 227 front and 117 rear. Check pin 1, polarity and rotation in both vendor placement previews. Approve the invoice only after source allocation and final CAM review.
+3. On the first board, check rails and the charge circuit with a current-limited source and battery simulator. Verify cold, hot and disconnected thermistor inhibition and keyed harness polarity. Then fit the protected Jauch pack, sensing harness, adhesive strips, panel, camera, speakers and internal card. Keep the battery bond area smooth and the pack free to expand. [Battery and harness instructions](battery-R3.md)
+4. Confirm charging temperature, enclosure-free retention, USB and CSI operation, both SD slots, audio, radio, keys, pixels and worst-case operating current before a repeat build. [Bring-up tests and layout limitations](validation/LAB-Pocket-R3-checks-r1.md)
+
+KiCad 10.0.6 reruns returned zero ERC and DRC violations, zero unconnected items and zero schematic parity issues. The interface-length and charger-threshold checks passed. These results cover CAD and modeled behavior. Physical measurements begin with the first assembled board. [Schematic PDF](manufacturing/LAB-Pocket-R3-schematics-r1.pdf) · [Native design](kicad/LAB-Pocket-R3.kicad_pro) · [Parts and datasheet inventory](parts-R3.csv)

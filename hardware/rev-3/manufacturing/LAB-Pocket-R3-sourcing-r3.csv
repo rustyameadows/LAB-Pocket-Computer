@@ -76,7 +76,7 @@ U23,1,TLV75512PDBVR,SMT,C2877864,1734,Stock covers 10 populated boards incl. mod
 U24,1,TLV75518PDBVR,SMT,C2877863,3522,Stock covers 10 populated boards incl. modeled loss,https://jlcpcb.com/partdetail/TexasInstruments-TLV75518PDBVR/C2877863
 U25 U26,2,TLV75528PDBVR,SMT,C2868951,0,Source before PCBA,https://jlcpcb.com/partdetail/TexasInstruments-TLV75528PDBVR/C2868951
 U27 U28 U29 U30,4,SN74LVC541APWR,SMT,C113281,12192,Stock covers 10 populated boards incl. modeled loss,https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC541APWR/C113281
-U31,1,WM8960CGEFL/RV,SMT,C18752,0,Source before PCBA,https://jlcpcb.com/partdetail/CirrusLogic-WM8960CGEFLRV/C18752
+U31,1,WM8960CGEFL/RV,SMT,C18752,0,Discontinued per Cirrus EOL-000028. Confirm traceable remaining stock or redesign,https://jlcpcb.com/partdetail/CirrusLogic-WM8960CGEFLRV/C18752
 Y1,1,ABM8-40.000MHZ-10-1-U-T,SMT,C1986574,162,Stock covers 10 populated boards incl. modeled loss,https://jlcpcb.com/partdetail/AbraconLLC-ABM8_40_000MHZ_10_1_UT/C1986574
 Y2,1,ABM8-272-T3,SMT,C20625731,6269,Stock covers 10 populated boards incl. modeled loss,https://jlcpcb.com/partdetail/AbraconLLC-ABM8_272T3/C20625731
 Y3,1,ASDMB-24.000MHZ-LY-T,SMT,C17243042,3,"Short for 5, 10 populated boards incl. modeled loss",https://jlcpcb.com/partdetail/AbraconLLC-ASDMB_24_000MHZ_LYT/C17243042
