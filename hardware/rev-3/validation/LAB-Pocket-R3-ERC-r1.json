@@ -1,0 +1,142 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-27T11:19:54",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e",
+            "violations": []
+        },
+        {
+            "path": "/Key matrix and scan port/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/60010778-0109-5760-a4b1-5306140504f1",
+            "violations": []
+        },
+        {
+            "path": "/Key illumination/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/79568977-3c4d-5f82-a6ac-e33e419c8461",
+            "violations": []
+        },
+        {
+            "path": "/Display and dual microSD/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/36bf7db2-cbda-5a68-b670-770231730771",
+            "violations": []
+        },
+        {
+            "path": "/Motion and audio/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8",
+            "violations": []
+        },
+        {
+            "path": "/Twelve rear RGB pixels/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/59ef1f7f-d86a-547f-bc7a-efa98d006554",
+            "violations": []
+        },
+        {
+            "path": "/Host compute and radio/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/faa0965a-fcd9-5224-8c3a-950d4f330245",
+            "violations": []
+        },
+        {
+            "path": "/User compute and recovery/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/34e818bb-b718-5a24-bdbf-621c5e94da5f",
+            "violations": []
+        },
+        {
+            "path": "/USB-C and power path/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86",
+            "violations": []
+        },
+        {
+            "path": "/Battery monitor and charge interlock/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/e51d5276-6e96-5b7c-974d-a17f94f51c71",
+            "violations": []
+        },
+        {
+            "path": "/USB Type-C current detection/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/350003fe-af18-5c4b-8f8b-4eca696dd665",
+            "violations": []
+        },
+        {
+            "path": "/System supply and low-voltage cutoff/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/8ae5cc22-97dc-5ba0-bf78-f05548508bcc",
+            "violations": []
+        },
+        {
+            "path": "/LED supply and display backlight/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/d969cf89-0310-586b-8ee4-75c07417cfc7",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-P4 processor supplies/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/bb7b0f60-0c5f-52c4-9665-59ced88394c9",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-P4 local bypass/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/2f35ee0c-fe81-5a97-8a74-b1054b73ea01",
+            "violations": []
+        },
+        {
+            "path": "/System clocks and programming pads/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db",
+            "violations": []
+        },
+        {
+            "path": "/RP2350B regulator, memory and clock/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/a71a9c84-0d3d-5292-a274-9cd956ff6d7f",
+            "violations": []
+        },
+        {
+            "path": "/IMX219 sensor and camera power/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/a59e1725-e4f8-5ea0-b1ff-62743ec10a4f",
+            "violations": []
+        },
+        {
+            "path": "/LCD logic-level translation/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/215ee9ea-1424-5d63-a6b3-f43b89d61080",
+            "violations": []
+        },
+        {
+            "path": "/Headset, stereo speakers and USB protection/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/b51b1f73-3378-5853-909e-c7d6d947f449",
+            "violations": []
+        },
+        {
+            "path": "/External supplies and regulator output nodes/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/96324318-dfe0-58f4-97a7-fd051258d29d",
+            "violations": []
+        },
+        {
+            "path": "/IMU I2C address/",
+            "uuid_path": "/536fed22-4200-5170-97ba-6689baea2d6e/7e1a2d13-b152-5408-8c66-88be343a32e4",
+            "violations": []
+        }
+    ],
+    "source": "LAB-Pocket-R3.kicad_sch"
+}
