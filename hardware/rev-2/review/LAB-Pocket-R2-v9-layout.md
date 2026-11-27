@@ -1,0 +1,11 @@
+# LAB Pocket Rev 2 v9 · Bottom USB and bare display edges
+
+With the keypad facing you, the 3.5 mm headset jack opens left at 45.300 mm from the top. The GCT USB4110 opens at the center of the bottom edge, 37.0 mm from either side. Both Hirose microSD sockets face down. USB's footprint clears the left and right card footprints by 7.430 and 7.370 mm in front-view coordinates. Its footprint clears the projected bottom-center key footprint by 2.415 mm. The board remains 74 × 152 mm with 2 mm corner radii.
+
+The Jauch pouch turns 180° from v8 with its protected end and lead tabs toward the bottom. Its center moves 2.4 mm toward the top, leaving the 59.5 × 78.5 mm maximum envelope clear of the left jack and bottom sockets. The JST battery socket sits 11.37 mm center-to-center from USB and opens toward the pack. Both 70 mm lead paths fit in the model with 0.52 mm minimum surface separation. Their closest approach to the microSD footprint courtyards is 0.55 mm. The modeled loops clear the pack body, PCM, port bodies and perimeter LEDs. Physical lead dress and retention need checking on a populated sample.
+
+The fourteen touch electrodes, two silk legends, touch controller, three capacitors and reset pull-up have been removed for this revision. Both display supports remain. The front includes 20 individually numbered tactile keys with key LEDs. Twelve perimeter LEDs, four microphones, the centered camera and both top speakers retain their v8 positions. The under-screen region holds 67 components and test points plus the display connector.
+
+The nominal assembly measures 14.967 mm thick. KiCad reports zero schematic parity findings, 312 unrouted connections, 104 inherited processor clearance findings and four inherited USB locator clearance findings. Connections needed for a stereo line-level input and thermal, acoustic and physical validation are still open. The current jack schematic assigns headphone left/right and a headset microphone. [Parts list](../parts-v9.csv) · [Board check](../check-layout-v9.py) · [Assembly check](../check-scene-v9.py)
+
+The two render pairs use the same cameras, scale and lighting as v8. [Assembled](../renders/LAB-Pocket-R2-v9-front-rear-assembled-r1.jpg) · [Screen and battery removed](../renders/LAB-Pocket-R2-v9-front-rear-screen-battery-removed-r1.jpg)
