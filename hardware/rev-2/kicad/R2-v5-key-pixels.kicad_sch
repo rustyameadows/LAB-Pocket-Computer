@@ -1,0 +1,653 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid c497cebb-2ea7-5216-9fdc-e790f5b0cc7c) (paper "A3") (title_block (title "Key illumination") (date "2026-11-26") (rev "2 v5") (company "LAB Pocket Computer")) (lib_symbols (symbol "LED:SK6812"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5.08 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 1.27 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 1.27 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 2.54 -9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SK6812_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "SK6812_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SK6812_1_1"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "KEY ILLUMINATION" (at 18 16 0) (effects (font (size 3.3 3.3)) (justify left) ) (uuid af215b33-beb0-557e-8df5-1c00afa7f369))
+(text "Front view, row-major key order. Pixel 01 receives the output of rear LED12. Each pixel has a local 100 nF bypass." (at 18 24 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid a76436d4-2533-509c-b0ac-67aa932d8333))
+(symbol (lib_id "LED:SK6812") (at 46.99 44.45 0) (unit 1) (in_bom yes) (on_board yes) (uuid fe5a38c0-ff67-5262-a17f-6aa467647f1a) (property "Reference" "LED13" (at 64 36 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 64 37.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 46.99 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 46.99 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 46.99 44.45 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED13") (unit 1)))))
+(wire (pts (xy 46.99 52.07) (xy 46.99 55.88)) (stroke (width 0) (type default)) (uuid 14016ecb-2483-5a44-88a5-734f210c18a3))
+(global_label "GND" (shape bidirectional) (at 46.99 55.88 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4927ba3c-28f1-5d05-b1c0-f5409ac1e5f5))
+(wire (pts (xy 39.37 44.45) (xy 35.56 44.45)) (stroke (width 0) (type default)) (uuid d5d47c4e-9416-5443-b870-81d9b0adce85))
+(global_label "KEY_RGB_IN" (shape bidirectional) (at 35.56 44.45 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 04a98565-86c7-5d65-8c23-bbb088037c6d))
+(wire (pts (xy 46.99 36.83) (xy 46.99 33.02)) (stroke (width 0) (type default)) (uuid ee9da6bc-8c45-5eee-ab2e-1654841cef6b))
+(global_label "LED_5V_SW" (shape bidirectional) (at 46.99 33.02 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 83e2e619-f0c3-534c-8e7e-6af77b0073ce))
+(wire (pts (xy 54.61 44.45) (xy 58.42 44.45)) (stroke (width 0) (type default)) (uuid 8ad4ca49-de42-5069-9846-31637016f6e3))
+(global_label "KEY_RGB_01" (shape bidirectional) (at 58.42 44.45 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7d3f6d41-6849-5e63-8ba2-25853de675f3))
+(symbol (lib_id "Device:C_Small") (at 73.66 63.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid c04d1a12-07bb-5728-807a-32f6f77ea000) (property "Reference" "C21" (at 83 61.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 83 63.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 73.66 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 73.66 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 73.66 63.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C21") (unit 1)))))
+(wire (pts (xy 73.66 60.96) (xy 73.66 57.15)) (stroke (width 0) (type default)) (uuid c8d97f37-0c0f-5684-9bb6-3be7df73d2fa))
+(global_label "LED_5V_SW" (shape bidirectional) (at 73.66 57.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 329ea0b8-366e-521e-8700-f05af4c1bc2d))
+(wire (pts (xy 73.66 66.04) (xy 73.66 69.85)) (stroke (width 0) (type default)) (uuid b339c8e4-9b63-5b03-a880-1e1f11f5d4bf))
+(global_label "GND" (shape bidirectional) (at 73.66 69.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 127808d8-e827-5b29-a510-51bc4091f1fc))
+(symbol (lib_id "LED:SK6812") (at 138.43 44.45 0) (unit 1) (in_bom yes) (on_board yes) (uuid e4eb6cd9-dade-5cad-9bfd-2f53e52e4065) (property "Reference" "LED14" (at 156 36 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 156 37.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 138.43 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 138.43 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 138.43 44.45 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED14") (unit 1)))))
+(wire (pts (xy 138.43 52.07) (xy 138.43 55.88)) (stroke (width 0) (type default)) (uuid bd67ef8f-40f8-5f7c-8129-f4de0b9d79f6))
+(global_label "GND" (shape bidirectional) (at 138.43 55.88 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 353db8ba-a83a-5a2d-9be5-f8c3f88a5b30))
+(wire (pts (xy 130.81 44.45) (xy 127 44.45)) (stroke (width 0) (type default)) (uuid 7b4ae94a-3d8d-5470-9cf9-40bbb0c2f9ed))
+(global_label "KEY_RGB_01" (shape bidirectional) (at 127 44.45 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 0386a9c0-d9bc-53f0-b996-c8940b722863))
+(wire (pts (xy 138.43 36.83) (xy 138.43 33.02)) (stroke (width 0) (type default)) (uuid 36152802-3c82-534c-b849-e6db69d44597))
+(global_label "LED_5V_SW" (shape bidirectional) (at 138.43 33.02 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d23c93e3-fcde-5eed-b039-6b5b672edad6))
+(wire (pts (xy 146.05 44.45) (xy 149.86 44.45)) (stroke (width 0) (type default)) (uuid 198da1b6-2eb3-5374-8976-9418adbb46e0))
+(global_label "KEY_RGB_02" (shape bidirectional) (at 149.86 44.45 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid aca2efe7-c5cf-5341-b4be-3bb042e92333))
+(symbol (lib_id "Device:C_Small") (at 166.37 63.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3890485b-c38f-5a2f-b7a7-3e3530a7bebe) (property "Reference" "C22" (at 175 61.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 175 63.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.37 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 166.37 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 166.37 63.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C22") (unit 1)))))
+(wire (pts (xy 166.37 60.96) (xy 166.37 57.15)) (stroke (width 0) (type default)) (uuid 13ef6a4f-ee22-515c-84f5-6256990484bc))
+(global_label "LED_5V_SW" (shape bidirectional) (at 166.37 57.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8fb0cb4a-6089-56be-aad6-bc9b18fadcf6))
+(wire (pts (xy 166.37 66.04) (xy 166.37 69.85)) (stroke (width 0) (type default)) (uuid 3fd442f6-1b5a-5e02-bde8-b493ebe52906))
+(global_label "GND" (shape bidirectional) (at 166.37 69.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5219c356-7812-5558-86de-f4079d926e49))
+(symbol (lib_id "LED:SK6812") (at 231.14 44.45 0) (unit 1) (in_bom yes) (on_board yes) (uuid a7412e09-56e1-575a-9a4a-3f88e8dc108e) (property "Reference" "LED15" (at 248 36 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 248 37.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 231.14 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 231.14 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 231.14 44.45 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED15") (unit 1)))))
+(wire (pts (xy 231.14 52.07) (xy 231.14 55.88)) (stroke (width 0) (type default)) (uuid 9dde5f18-74da-50cd-90cc-3e57dc496470))
+(global_label "GND" (shape bidirectional) (at 231.14 55.88 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 80806daa-26d8-54d8-ae8e-d4a30723f015))
+(wire (pts (xy 223.52 44.45) (xy 219.71 44.45)) (stroke (width 0) (type default)) (uuid d68f84b6-bc85-5ea8-88e2-5e602bf87452))
+(global_label "KEY_RGB_02" (shape bidirectional) (at 219.71 44.45 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 998e5a4a-7b91-5e47-91b5-3bb5fa9ec92b))
+(wire (pts (xy 231.14 36.83) (xy 231.14 33.02)) (stroke (width 0) (type default)) (uuid c783b129-6e63-5c22-a1bd-92e64134baf3))
+(global_label "LED_5V_SW" (shape bidirectional) (at 231.14 33.02 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d75f86d2-23a2-5698-b096-e4b612078c23))
+(wire (pts (xy 238.76 44.45) (xy 242.57 44.45)) (stroke (width 0) (type default)) (uuid e827c819-587c-5121-8f32-3d619cec9108))
+(global_label "KEY_RGB_03" (shape bidirectional) (at 242.57 44.45 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0aed3300-a597-52ae-b486-918739c29ac0))
+(symbol (lib_id "Device:C_Small") (at 257.81 63.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6ca88936-2b5e-57e6-9669-fdbd6698c192) (property "Reference" "C23" (at 267 61.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 267 63.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 257.81 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 257.81 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 257.81 63.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C23") (unit 1)))))
+(wire (pts (xy 257.81 60.96) (xy 257.81 57.15)) (stroke (width 0) (type default)) (uuid 75af00cf-b555-5e42-becf-0d9ec6277831))
+(global_label "LED_5V_SW" (shape bidirectional) (at 257.81 57.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e907199f-c20d-5fe1-8daa-99b0203b244c))
+(wire (pts (xy 257.81 66.04) (xy 257.81 69.85)) (stroke (width 0) (type default)) (uuid 60bd8844-4750-5b85-927a-1708303c8e86))
+(global_label "GND" (shape bidirectional) (at 257.81 69.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 921f9566-3e16-53f3-845d-209055b7975c))
+(symbol (lib_id "LED:SK6812") (at 322.58 44.45 0) (unit 1) (in_bom yes) (on_board yes) (uuid 476843b7-4d58-5d24-a9b4-f9c84c3c853c) (property "Reference" "LED16" (at 340 36 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 340 37.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 322.58 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 322.58 44.45 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 322.58 44.45 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED16") (unit 1)))))
+(wire (pts (xy 322.58 52.07) (xy 322.58 55.88)) (stroke (width 0) (type default)) (uuid 0f182016-0eeb-50a2-a72c-a8314736faf7))
+(global_label "GND" (shape bidirectional) (at 322.58 55.88 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4ea10826-7d57-57d0-a887-bd9b81fd1355))
+(wire (pts (xy 314.96 44.45) (xy 311.15 44.45)) (stroke (width 0) (type default)) (uuid 925fbd5d-8fd3-589f-a7a2-96647fda627c))
+(global_label "KEY_RGB_03" (shape bidirectional) (at 311.15 44.45 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9bbbb85b-c7d0-56d6-88e0-398cf5dc7209))
+(wire (pts (xy 322.58 36.83) (xy 322.58 33.02)) (stroke (width 0) (type default)) (uuid 2ba25ad3-9fa1-5607-be40-fb5f92a8db53))
+(global_label "LED_5V_SW" (shape bidirectional) (at 322.58 33.02 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 79b3d702-4ffa-5523-8471-75309ceffad7))
+(wire (pts (xy 330.2 44.45) (xy 334.01 44.45)) (stroke (width 0) (type default)) (uuid 6cdae914-beb7-5d33-bf4b-fcbe57cbdc67))
+(global_label "KEY_RGB_04" (shape bidirectional) (at 334.01 44.45 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5f85d23a-7152-5af7-b914-61fd3ada1a64))
+(symbol (lib_id "Device:C_Small") (at 350.52 63.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid c5d54e12-9e91-5c0a-a3c9-2f079b60b072) (property "Reference" "C24" (at 359 61.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 359 63.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 350.52 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 350.52 63.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 350.52 63.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C24") (unit 1)))))
+(wire (pts (xy 350.52 60.96) (xy 350.52 57.15)) (stroke (width 0) (type default)) (uuid b334112e-f971-5399-b21a-d73eed7e5f7e))
+(global_label "LED_5V_SW" (shape bidirectional) (at 350.52 57.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 82009e0a-19fd-5aca-9280-b74a5fdf1065))
+(wire (pts (xy 350.52 66.04) (xy 350.52 69.85)) (stroke (width 0) (type default)) (uuid 32a9af5d-15cc-557e-a850-427b6c2c39b3))
+(global_label "GND" (shape bidirectional) (at 350.52 69.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 51dad955-77be-5685-acd2-1f865b4ff2ca))
+(symbol (lib_id "LED:SK6812") (at 46.99 101.6 0) (unit 1) (in_bom yes) (on_board yes) (uuid 20be5f28-bc58-5d63-a6a9-6166fc19a0b2) (property "Reference" "LED17" (at 64 94 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 64 95.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 46.99 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 46.99 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 46.99 101.6 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED17") (unit 1)))))
+(wire (pts (xy 46.99 109.22) (xy 46.99 113.03)) (stroke (width 0) (type default)) (uuid 18b2bef4-2de0-5133-b288-0023152431b0))
+(global_label "GND" (shape bidirectional) (at 46.99 113.03 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1a992d3c-3eed-5da9-80e8-3a0b985757e0))
+(wire (pts (xy 39.37 101.6) (xy 35.56 101.6)) (stroke (width 0) (type default)) (uuid 742edcc0-c963-5438-bdea-5cbbdc7dbfec))
+(global_label "KEY_RGB_04" (shape bidirectional) (at 35.56 101.6 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c5bb96de-1ea1-5b12-bf20-627a27131389))
+(wire (pts (xy 46.99 93.98) (xy 46.99 90.17)) (stroke (width 0) (type default)) (uuid 451733d4-8729-51fc-8bf5-af4c55495913))
+(global_label "LED_5V_SW" (shape bidirectional) (at 46.99 90.17 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 19842e19-a776-50be-8c30-6298dc30fc5d))
+(wire (pts (xy 54.61 101.6) (xy 58.42 101.6)) (stroke (width 0) (type default)) (uuid 70092477-6cc9-5f51-ab8a-5de56db4a49e))
+(global_label "KEY_RGB_05" (shape bidirectional) (at 58.42 101.6 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 09fedf3a-1812-5157-bf0b-d70a56d3bcb7))
+(symbol (lib_id "Device:C_Small") (at 73.66 120.65 0) (unit 1) (in_bom yes) (on_board yes) (uuid ad3aecdb-25ac-546d-bd39-4a1b28924571) (property "Reference" "C25" (at 83 119.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 83 121.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 73.66 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 73.66 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 73.66 120.65 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C25") (unit 1)))))
+(wire (pts (xy 73.66 118.11) (xy 73.66 114.3)) (stroke (width 0) (type default)) (uuid 20843713-9a49-50c1-b773-5451922512e8))
+(global_label "LED_5V_SW" (shape bidirectional) (at 73.66 114.3 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c0660b91-4225-563b-99b2-bfa8052d9e2c))
+(wire (pts (xy 73.66 123.19) (xy 73.66 127)) (stroke (width 0) (type default)) (uuid eeeef60e-7066-5f01-bba8-c55395a66f4d))
+(global_label "GND" (shape bidirectional) (at 73.66 127 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 90e685c8-b144-5e85-a367-b884f29df0ec))
+(symbol (lib_id "LED:SK6812") (at 138.43 101.6 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7359c6f7-fea4-5ba1-a367-4f854cf81e72) (property "Reference" "LED18" (at 156 94 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 156 95.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 138.43 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 138.43 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 138.43 101.6 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED18") (unit 1)))))
+(wire (pts (xy 138.43 109.22) (xy 138.43 113.03)) (stroke (width 0) (type default)) (uuid e56fafd4-0005-5f69-88dd-b0762e00e49a))
+(global_label "GND" (shape bidirectional) (at 138.43 113.03 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 39ab775d-9751-52f9-872c-684042fb3058))
+(wire (pts (xy 130.81 101.6) (xy 127 101.6)) (stroke (width 0) (type default)) (uuid eb17b38f-bbc4-5214-ae07-381ea6b054ce))
+(global_label "KEY_RGB_05" (shape bidirectional) (at 127 101.6 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 20ac4e1a-5ffb-5fe6-abf9-f5646f936193))
+(wire (pts (xy 138.43 93.98) (xy 138.43 90.17)) (stroke (width 0) (type default)) (uuid 5796ba4a-7464-5da1-8fe9-e59b1102e27c))
+(global_label "LED_5V_SW" (shape bidirectional) (at 138.43 90.17 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8d8da4dc-2c4e-513d-8a34-32c676e9b5bb))
+(wire (pts (xy 146.05 101.6) (xy 149.86 101.6)) (stroke (width 0) (type default)) (uuid f60a9ac9-4a7e-5957-9ba8-23835dca8c1c))
+(global_label "KEY_RGB_06" (shape bidirectional) (at 149.86 101.6 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 98585080-7407-5e4c-a57c-ba80c838779b))
+(symbol (lib_id "Device:C_Small") (at 166.37 120.65 0) (unit 1) (in_bom yes) (on_board yes) (uuid a2175213-5a61-510d-a009-964a06a21708) (property "Reference" "C26" (at 175 119.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 175 121.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.37 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 166.37 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 166.37 120.65 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C26") (unit 1)))))
+(wire (pts (xy 166.37 118.11) (xy 166.37 114.3)) (stroke (width 0) (type default)) (uuid 72d824a6-b66a-5123-b11b-ccb5801e84a0))
+(global_label "LED_5V_SW" (shape bidirectional) (at 166.37 114.3 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6670f321-bb56-5221-b782-d0f23bccd3d0))
+(wire (pts (xy 166.37 123.19) (xy 166.37 127)) (stroke (width 0) (type default)) (uuid 8ac6bb91-bcde-555d-a4fb-a6de243b74be))
+(global_label "GND" (shape bidirectional) (at 166.37 127 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ba972883-a691-5f60-982f-1f4a4295f45e))
+(symbol (lib_id "LED:SK6812") (at 231.14 101.6 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1a94041b-e3ce-50fc-af11-f048c7c0edaa) (property "Reference" "LED19" (at 248 94 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 248 95.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 231.14 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 231.14 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 231.14 101.6 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED19") (unit 1)))))
+(wire (pts (xy 231.14 109.22) (xy 231.14 113.03)) (stroke (width 0) (type default)) (uuid 782c3b55-3dc9-5db2-831a-a74cf23bfcea))
+(global_label "GND" (shape bidirectional) (at 231.14 113.03 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 34b0c3d0-129b-5dc4-901a-dacf87d0211d))
+(wire (pts (xy 223.52 101.6) (xy 219.71 101.6)) (stroke (width 0) (type default)) (uuid 486a2fcb-2493-5ca8-a071-2604569c7120))
+(global_label "KEY_RGB_06" (shape bidirectional) (at 219.71 101.6 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 6c1d792c-68d5-55c1-ae8f-48e1f4ec1452))
+(wire (pts (xy 231.14 93.98) (xy 231.14 90.17)) (stroke (width 0) (type default)) (uuid 6cd93b36-2e27-5c61-961c-d82b13748bc3))
+(global_label "LED_5V_SW" (shape bidirectional) (at 231.14 90.17 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8d415d4f-4b0c-57c5-bef6-844705498da0))
+(wire (pts (xy 238.76 101.6) (xy 242.57 101.6)) (stroke (width 0) (type default)) (uuid 38ac9e1d-8c36-586f-ab57-192f4d0e09cf))
+(global_label "KEY_RGB_07" (shape bidirectional) (at 242.57 101.6 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3117fe18-e4d4-5058-9a6c-3675e67662cf))
+(symbol (lib_id "Device:C_Small") (at 257.81 120.65 0) (unit 1) (in_bom yes) (on_board yes) (uuid 331890a0-1608-5789-9a5d-f5bbf92b11c5) (property "Reference" "C27" (at 267 119.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 267 121.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 257.81 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 257.81 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 257.81 120.65 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C27") (unit 1)))))
+(wire (pts (xy 257.81 118.11) (xy 257.81 114.3)) (stroke (width 0) (type default)) (uuid 963d9b97-2577-52be-8465-2e189ca35b42))
+(global_label "LED_5V_SW" (shape bidirectional) (at 257.81 114.3 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d3809562-a870-5edd-93be-4a2858cc9cb9))
+(wire (pts (xy 257.81 123.19) (xy 257.81 127)) (stroke (width 0) (type default)) (uuid 2f4472dc-f9fc-501c-a119-87f431f93b86))
+(global_label "GND" (shape bidirectional) (at 257.81 127 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5ec6b1f1-32f4-5be2-b7d7-9d200d6c68ca))
+(symbol (lib_id "LED:SK6812") (at 322.58 101.6 0) (unit 1) (in_bom yes) (on_board yes) (uuid 97fc63f2-f768-5407-a99d-b7847d45deff) (property "Reference" "LED20" (at 340 94 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 340 95.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 322.58 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 322.58 101.6 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 322.58 101.6 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED20") (unit 1)))))
+(wire (pts (xy 322.58 109.22) (xy 322.58 113.03)) (stroke (width 0) (type default)) (uuid 00c96b09-c5ce-5eb1-b46d-0ea510e712ba))
+(global_label "GND" (shape bidirectional) (at 322.58 113.03 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 775b7898-b3c5-56e3-836c-6f17d29c638c))
+(wire (pts (xy 314.96 101.6) (xy 311.15 101.6)) (stroke (width 0) (type default)) (uuid aaccc0e7-9433-55b7-ad87-47dc080d22e1))
+(global_label "KEY_RGB_07" (shape bidirectional) (at 311.15 101.6 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7c4c4bb7-3f5f-584a-8669-690250e03c52))
+(wire (pts (xy 322.58 93.98) (xy 322.58 90.17)) (stroke (width 0) (type default)) (uuid 5135356d-285f-5b18-a321-c9cd3fb8c4b6))
+(global_label "LED_5V_SW" (shape bidirectional) (at 322.58 90.17 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid abb6f6d1-3e80-52e2-8708-2f9af8ee957f))
+(wire (pts (xy 330.2 101.6) (xy 334.01 101.6)) (stroke (width 0) (type default)) (uuid ed67db12-1f95-5080-8770-08a01118d324))
+(global_label "KEY_RGB_08" (shape bidirectional) (at 334.01 101.6 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2e55ec06-0789-5a48-aa96-48969302d449))
+(symbol (lib_id "Device:C_Small") (at 350.52 120.65 0) (unit 1) (in_bom yes) (on_board yes) (uuid 639d4e21-7aad-567b-9af9-b61f37ed3d63) (property "Reference" "C28" (at 359 119.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 359 121.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 350.52 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 350.52 120.65 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 350.52 120.65 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C28") (unit 1)))))
+(wire (pts (xy 350.52 118.11) (xy 350.52 114.3)) (stroke (width 0) (type default)) (uuid 79349b86-4bd6-5db4-95f6-e40cdaa1bb32))
+(global_label "LED_5V_SW" (shape bidirectional) (at 350.52 114.3 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid dafcf87a-168b-53d0-9d53-48572d27b4b7))
+(wire (pts (xy 350.52 123.19) (xy 350.52 127)) (stroke (width 0) (type default)) (uuid 80f5b833-5410-554e-a079-5206c1d0f191))
+(global_label "GND" (shape bidirectional) (at 350.52 127 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 38fdef90-417b-5f91-b0be-827e5d46e3a4))
+(symbol (lib_id "LED:SK6812") (at 46.99 160.02 0) (unit 1) (in_bom yes) (on_board yes) (uuid 005ad46a-d33a-5cd0-8c0c-d488ab26df2d) (property "Reference" "LED21" (at 64 152 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 64 153.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 46.99 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 46.99 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 46.99 160.02 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED21") (unit 1)))))
+(wire (pts (xy 46.99 167.64) (xy 46.99 171.45)) (stroke (width 0) (type default)) (uuid eae52d6f-0f57-5e58-93d3-4a0792fffecf))
+(global_label "GND" (shape bidirectional) (at 46.99 171.45 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 6797a1d2-472c-5195-97e6-a1b8be30aa36))
+(wire (pts (xy 39.37 160.02) (xy 35.56 160.02)) (stroke (width 0) (type default)) (uuid 51318f15-fa29-5c19-82bd-ddd6dd47699f))
+(global_label "KEY_RGB_08" (shape bidirectional) (at 35.56 160.02 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 662c231e-5a61-5b62-9a0d-221809c780a9))
+(wire (pts (xy 46.99 152.4) (xy 46.99 148.59)) (stroke (width 0) (type default)) (uuid 1ea65ad0-142a-5cba-8b13-f7306bde4004))
+(global_label "LED_5V_SW" (shape bidirectional) (at 46.99 148.59 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6577ea42-156c-53eb-86af-cdc875e71109))
+(wire (pts (xy 54.61 160.02) (xy 58.42 160.02)) (stroke (width 0) (type default)) (uuid af260f21-6309-5792-a3bf-b319534cb429))
+(global_label "KEY_RGB_09" (shape bidirectional) (at 58.42 160.02 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f325d0df-fcdd-57c2-b765-25b7a1628326))
+(symbol (lib_id "Device:C_Small") (at 73.66 179.07 0) (unit 1) (in_bom yes) (on_board yes) (uuid 500dd41f-ea6c-5c28-9fd8-a3f53cbdbde9) (property "Reference" "C29" (at 83 177.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 83 179.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 73.66 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 73.66 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 73.66 179.07 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C29") (unit 1)))))
+(wire (pts (xy 73.66 176.53) (xy 73.66 172.72)) (stroke (width 0) (type default)) (uuid 603ea7c6-bfb7-5c18-8309-3f754de3409a))
+(global_label "LED_5V_SW" (shape bidirectional) (at 73.66 172.72 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b2b20f75-a639-582a-8d39-46d70e233a13))
+(wire (pts (xy 73.66 181.61) (xy 73.66 185.42)) (stroke (width 0) (type default)) (uuid 788d352d-b298-5116-a7a1-b5bb198e5b83))
+(global_label "GND" (shape bidirectional) (at 73.66 185.42 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 84451b0f-23d7-589e-877e-4a5aa6b466e9))
+(symbol (lib_id "LED:SK6812") (at 138.43 160.02 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1873252e-88ab-563f-bee8-5b781c1705e8) (property "Reference" "LED22" (at 156 152 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 156 153.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 138.43 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 138.43 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 138.43 160.02 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED22") (unit 1)))))
+(wire (pts (xy 138.43 167.64) (xy 138.43 171.45)) (stroke (width 0) (type default)) (uuid d10a88bf-b918-503d-a141-b8deb86025f8))
+(global_label "GND" (shape bidirectional) (at 138.43 171.45 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 08b17178-89b3-5360-bf48-2b44b2ed65ec))
+(wire (pts (xy 130.81 160.02) (xy 127 160.02)) (stroke (width 0) (type default)) (uuid a2e2c293-0fa9-5921-8b64-35c5eaa589c0))
+(global_label "KEY_RGB_09" (shape bidirectional) (at 127 160.02 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8a7dcc54-7568-5f86-af40-47112c9e1d63))
+(wire (pts (xy 138.43 152.4) (xy 138.43 148.59)) (stroke (width 0) (type default)) (uuid 4a33b4bf-e7cd-569f-beb6-137d27e557af))
+(global_label "LED_5V_SW" (shape bidirectional) (at 138.43 148.59 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e96c8a3b-8f79-5610-9c92-981deff36bf1))
+(wire (pts (xy 146.05 160.02) (xy 149.86 160.02)) (stroke (width 0) (type default)) (uuid 411ffc66-f9f1-5bcd-b90f-43ae0d8605b4))
+(global_label "KEY_RGB_10" (shape bidirectional) (at 149.86 160.02 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 25c2402c-a324-53a8-81bc-73d4a1c85434))
+(symbol (lib_id "Device:C_Small") (at 166.37 179.07 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3f9d73ec-aaa4-53a4-b754-2e55f6da2dec) (property "Reference" "C30" (at 175 177.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 175 179.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.37 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 166.37 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 166.37 179.07 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C30") (unit 1)))))
+(wire (pts (xy 166.37 176.53) (xy 166.37 172.72)) (stroke (width 0) (type default)) (uuid b33d088d-c955-55ed-a9d4-e9fe96e9c732))
+(global_label "LED_5V_SW" (shape bidirectional) (at 166.37 172.72 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f3ab5b50-4f4a-5589-8ad0-e96f2371a24f))
+(wire (pts (xy 166.37 181.61) (xy 166.37 185.42)) (stroke (width 0) (type default)) (uuid 2f191b04-8b9d-54f6-a873-a5dd6ce4a71c))
+(global_label "GND" (shape bidirectional) (at 166.37 185.42 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cc9f48ab-f82f-5f03-b435-0c36f1235e30))
+(symbol (lib_id "LED:SK6812") (at 231.14 160.02 0) (unit 1) (in_bom yes) (on_board yes) (uuid 827db0f0-13b8-5559-9d46-66c811c328a0) (property "Reference" "LED23" (at 248 152 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 248 153.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 231.14 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 231.14 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 231.14 160.02 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED23") (unit 1)))))
+(wire (pts (xy 231.14 167.64) (xy 231.14 171.45)) (stroke (width 0) (type default)) (uuid 3ea48ae4-beb8-501b-9125-3cf213058073))
+(global_label "GND" (shape bidirectional) (at 231.14 171.45 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 700bf54e-1d39-568c-8618-2fa6c41f2882))
+(wire (pts (xy 223.52 160.02) (xy 219.71 160.02)) (stroke (width 0) (type default)) (uuid f4df3b2d-ca76-545c-a164-1ab74cc31349))
+(global_label "KEY_RGB_10" (shape bidirectional) (at 219.71 160.02 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 809f56fd-515c-54b9-9503-116ab5675c9d))
+(wire (pts (xy 231.14 152.4) (xy 231.14 148.59)) (stroke (width 0) (type default)) (uuid a62e66f0-66c9-5855-ab75-a0098614da72))
+(global_label "LED_5V_SW" (shape bidirectional) (at 231.14 148.59 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9dcabec1-7e2d-5a4c-b443-e18f0d6087d1))
+(wire (pts (xy 238.76 160.02) (xy 242.57 160.02)) (stroke (width 0) (type default)) (uuid 276092cf-5ad6-566b-8810-b83f035135d3))
+(global_label "KEY_RGB_11" (shape bidirectional) (at 242.57 160.02 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4a236798-1453-552f-a5a8-f527f3b39282))
+(symbol (lib_id "Device:C_Small") (at 257.81 179.07 0) (unit 1) (in_bom yes) (on_board yes) (uuid b085c796-811c-51d9-9c68-df5b4a87bbe2) (property "Reference" "C31" (at 267 177.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 267 179.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 257.81 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 257.81 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 257.81 179.07 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C31") (unit 1)))))
+(wire (pts (xy 257.81 176.53) (xy 257.81 172.72)) (stroke (width 0) (type default)) (uuid e5f070f7-e3fd-5f7a-b359-3327e6aaa1a6))
+(global_label "LED_5V_SW" (shape bidirectional) (at 257.81 172.72 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1d0124d3-43b0-59ee-86e6-51587edf60d6))
+(wire (pts (xy 257.81 181.61) (xy 257.81 185.42)) (stroke (width 0) (type default)) (uuid 680de968-7d6d-5585-b11c-97c378567b2d))
+(global_label "GND" (shape bidirectional) (at 257.81 185.42 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d97c1a32-45a3-5e8d-a963-49e91b81d2e5))
+(symbol (lib_id "LED:SK6812") (at 322.58 160.02 0) (unit 1) (in_bom yes) (on_board yes) (uuid 29a9c26c-3b39-5a64-b06c-fe20365c28c3) (property "Reference" "LED24" (at 340 152 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 340 153.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 322.58 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 322.58 160.02 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 322.58 160.02 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED24") (unit 1)))))
+(wire (pts (xy 322.58 167.64) (xy 322.58 171.45)) (stroke (width 0) (type default)) (uuid 6b9d11a0-63d6-56d3-add4-666e5f85c127))
+(global_label "GND" (shape bidirectional) (at 322.58 171.45 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2c0c0c2c-9c51-581a-9f9b-855b60b4f15f))
+(wire (pts (xy 314.96 160.02) (xy 311.15 160.02)) (stroke (width 0) (type default)) (uuid ce78fad5-b4d5-5927-8e74-988517a0fd8b))
+(global_label "KEY_RGB_11" (shape bidirectional) (at 311.15 160.02 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7d102783-8aba-5713-996d-5f07aa16ad56))
+(wire (pts (xy 322.58 152.4) (xy 322.58 148.59)) (stroke (width 0) (type default)) (uuid 078e7261-731f-5db6-84f0-ac5fdc39f1e6))
+(global_label "LED_5V_SW" (shape bidirectional) (at 322.58 148.59 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a228f52d-6ae1-5ced-a661-0f6e24e336b9))
+(wire (pts (xy 330.2 160.02) (xy 334.01 160.02)) (stroke (width 0) (type default)) (uuid 0fe4f19b-a722-568b-aa6c-d5c2ed156a6e))
+(global_label "KEY_RGB_12" (shape bidirectional) (at 334.01 160.02 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f370b52f-63f4-547b-ab50-94459faa9a5e))
+(symbol (lib_id "Device:C_Small") (at 350.52 179.07 0) (unit 1) (in_bom yes) (on_board yes) (uuid aefa3d20-095f-5703-8890-8b654734bdd0) (property "Reference" "C32" (at 359 177.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 359 179.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 350.52 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 350.52 179.07 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 350.52 179.07 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C32") (unit 1)))))
+(wire (pts (xy 350.52 176.53) (xy 350.52 172.72)) (stroke (width 0) (type default)) (uuid 52a5103d-5307-55de-8574-c80ca9f2d51c))
+(global_label "LED_5V_SW" (shape bidirectional) (at 350.52 172.72 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7ac3e16b-aba8-55fd-979f-63df59e3e612))
+(wire (pts (xy 350.52 181.61) (xy 350.52 185.42)) (stroke (width 0) (type default)) (uuid 40f087b3-0023-5a3b-b738-3a59ee84f636))
+(global_label "GND" (shape bidirectional) (at 350.52 185.42 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 3f9dc06e-c3b4-53a6-9dec-2222fd8db9c9))
+(symbol (lib_id "LED:SK6812") (at 46.99 218.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 4a98db50-c18e-58ce-9525-23b45f317118) (property "Reference" "LED25" (at 64 210 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 64 211.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 46.99 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 46.99 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 46.99 218.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED25") (unit 1)))))
+(wire (pts (xy 46.99 226.06) (xy 46.99 229.87)) (stroke (width 0) (type default)) (uuid dda1b295-9ffd-59d8-b9be-e9b65c70a9fc))
+(global_label "GND" (shape bidirectional) (at 46.99 229.87 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b50bcca6-a278-5d0a-b4e4-8e59bad0f39f))
+(wire (pts (xy 39.37 218.44) (xy 35.56 218.44)) (stroke (width 0) (type default)) (uuid 9d59bc02-94d4-5f2f-a651-0adff15ce136))
+(global_label "KEY_RGB_12" (shape bidirectional) (at 35.56 218.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f66a9597-3a05-5815-95e6-beb3ac27925e))
+(wire (pts (xy 46.99 210.82) (xy 46.99 207.01)) (stroke (width 0) (type default)) (uuid 60764b44-880f-525c-9c4c-0574032c5a8a))
+(global_label "LED_5V_SW" (shape bidirectional) (at 46.99 207.01 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 08c7c1b4-1db0-5103-8d2e-1924e3f5a465))
+(wire (pts (xy 54.61 218.44) (xy 58.42 218.44)) (stroke (width 0) (type default)) (uuid 52bd3a37-bcf7-56be-b7e3-6c6efaf1126f))
+(global_label "KEY_RGB_13" (shape bidirectional) (at 58.42 218.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 81440544-f859-5187-8be9-d485d7a548e8))
+(symbol (lib_id "Device:C_Small") (at 73.66 237.49 0) (unit 1) (in_bom yes) (on_board yes) (uuid e4053b84-bab7-53ce-be97-535b48adfb42) (property "Reference" "C33" (at 83 235.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 83 237.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 73.66 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 73.66 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 73.66 237.49 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C33") (unit 1)))))
+(wire (pts (xy 73.66 234.95) (xy 73.66 231.14)) (stroke (width 0) (type default)) (uuid fbe4ebe0-d393-51dd-9115-4393ceb78838))
+(global_label "LED_5V_SW" (shape bidirectional) (at 73.66 231.14 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3ebee9f4-c6c7-531a-bb26-73ff1d976df6))
+(wire (pts (xy 73.66 240.03) (xy 73.66 243.84)) (stroke (width 0) (type default)) (uuid e3c2d6d6-6e4a-5578-93c7-83737d7be640))
+(global_label "GND" (shape bidirectional) (at 73.66 243.84 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 67a5cb38-932d-50df-96c4-610285b3a3b7))
+(symbol (lib_id "LED:SK6812") (at 138.43 218.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 92d2f24d-f2cf-5f74-9873-e0a887ccad33) (property "Reference" "LED26" (at 156 210 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 156 211.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 138.43 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 138.43 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 138.43 218.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED26") (unit 1)))))
+(wire (pts (xy 138.43 226.06) (xy 138.43 229.87)) (stroke (width 0) (type default)) (uuid cf6c28b3-d0a5-5e6b-8fb9-45f7f457e6a6))
+(global_label "GND" (shape bidirectional) (at 138.43 229.87 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 3321d62e-f2bd-51cd-9609-e47ee4863d80))
+(wire (pts (xy 130.81 218.44) (xy 127 218.44)) (stroke (width 0) (type default)) (uuid 76107279-3fb2-54b5-87a7-3033765298bd))
+(global_label "KEY_RGB_13" (shape bidirectional) (at 127 218.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid eed3546d-13eb-52ce-8051-1b949c473683))
+(wire (pts (xy 138.43 210.82) (xy 138.43 207.01)) (stroke (width 0) (type default)) (uuid f025084e-3aeb-54d7-b53f-1f984e63155a))
+(global_label "LED_5V_SW" (shape bidirectional) (at 138.43 207.01 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 08cb5011-1004-58d4-9d97-34c9ce37bcf5))
+(wire (pts (xy 146.05 218.44) (xy 149.86 218.44)) (stroke (width 0) (type default)) (uuid f0441082-320e-59eb-88da-0c8e676283b9))
+(global_label "KEY_RGB_14" (shape bidirectional) (at 149.86 218.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 63dc5d77-a796-5c7d-b7ba-c70993782790))
+(symbol (lib_id "Device:C_Small") (at 166.37 237.49 0) (unit 1) (in_bom yes) (on_board yes) (uuid c8896f01-4b31-50b2-85fc-a31b3490152f) (property "Reference" "C34" (at 175 235.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 175 237.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 166.37 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 166.37 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 166.37 237.49 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C34") (unit 1)))))
+(wire (pts (xy 166.37 234.95) (xy 166.37 231.14)) (stroke (width 0) (type default)) (uuid f936e6d0-22a1-551a-af3c-28b556726e8e))
+(global_label "LED_5V_SW" (shape bidirectional) (at 166.37 231.14 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d38df52b-5c82-5abc-aff5-b15cbee5291a))
+(wire (pts (xy 166.37 240.03) (xy 166.37 243.84)) (stroke (width 0) (type default)) (uuid 6f7476cd-7e8e-59e4-8631-22dd25cb0260))
+(global_label "GND" (shape bidirectional) (at 166.37 243.84 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 70970500-1bc6-5462-885a-419e82f7f527))
+(symbol (lib_id "LED:SK6812") (at 231.14 218.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8f462d04-1f99-540d-8984-4977cd02dcad) (property "Reference" "LED27" (at 248 210 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 248 211.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 231.14 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 231.14 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 231.14 218.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED27") (unit 1)))))
+(wire (pts (xy 231.14 226.06) (xy 231.14 229.87)) (stroke (width 0) (type default)) (uuid 24d36a40-d859-503c-b4a9-60b8b237b7d7))
+(global_label "GND" (shape bidirectional) (at 231.14 229.87 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c84c21a9-989c-523a-8519-184d48198089))
+(wire (pts (xy 223.52 218.44) (xy 219.71 218.44)) (stroke (width 0) (type default)) (uuid 0b312da9-f6d3-59ab-b8cb-ad23b10831c8))
+(global_label "KEY_RGB_14" (shape bidirectional) (at 219.71 218.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid bec80f43-d4c0-5284-b755-b6817cd4fc35))
+(wire (pts (xy 231.14 210.82) (xy 231.14 207.01)) (stroke (width 0) (type default)) (uuid 8f3a51a5-fc87-5eab-91ee-4636952f8e24))
+(global_label "LED_5V_SW" (shape bidirectional) (at 231.14 207.01 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 944c10e1-c921-5a61-9bc4-d12babbdcd37))
+(wire (pts (xy 238.76 218.44) (xy 242.57 218.44)) (stroke (width 0) (type default)) (uuid 6fbb197e-fa25-5499-a7e6-c5c51a304a88))
+(global_label "KEY_RGB_15" (shape bidirectional) (at 242.57 218.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5d4239d9-21d1-5ffd-9eb9-60130885ed53))
+(symbol (lib_id "Device:C_Small") (at 257.81 237.49 0) (unit 1) (in_bom yes) (on_board yes) (uuid d1c1b8bc-d6c4-5b63-b15e-2db98f80052d) (property "Reference" "C35" (at 267 235.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 267 237.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 257.81 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 257.81 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 257.81 237.49 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C35") (unit 1)))))
+(wire (pts (xy 257.81 234.95) (xy 257.81 231.14)) (stroke (width 0) (type default)) (uuid c4b97298-a81e-564c-b01b-893346419aa9))
+(global_label "LED_5V_SW" (shape bidirectional) (at 257.81 231.14 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2e706e83-e95d-5d84-87c6-2d13fa81afa7))
+(wire (pts (xy 257.81 240.03) (xy 257.81 243.84)) (stroke (width 0) (type default)) (uuid a13f204e-5fad-57ca-b353-1adf24952e98))
+(global_label "GND" (shape bidirectional) (at 257.81 243.84 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ee32bada-29c2-544f-a80e-5603b386a56d))
+(symbol (lib_id "LED:SK6812") (at 322.58 218.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6ff85c4a-8db5-55a7-bb40-078f4d419703) (property "Reference" "LED28" (at 340 210 0) (effects (font (size 1 1)) ))(property "Value" "SK6805-EC10-000" (at 340 211.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:SK6805-EC10-v5" (at 322.58 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SK6805-EC10-000.pdf" (at 322.58 218.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SK6805-EC10-000" (at 322.58 218.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "LED28") (unit 1)))))
+(wire (pts (xy 322.58 226.06) (xy 322.58 229.87)) (stroke (width 0) (type default)) (uuid 36ba6bce-706d-5799-ae48-d8b7847f0768))
+(global_label "GND" (shape bidirectional) (at 322.58 229.87 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 0e515fa5-d220-50ae-9d4d-5d6073754bb2))
+(wire (pts (xy 314.96 218.44) (xy 311.15 218.44)) (stroke (width 0) (type default)) (uuid ad09142e-a16e-56a9-87f3-e06e488f22b6))
+(global_label "KEY_RGB_15" (shape bidirectional) (at 311.15 218.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7c7bd4d5-5050-5439-bcc2-97ec0aaf5ea6))
+(wire (pts (xy 322.58 210.82) (xy 322.58 207.01)) (stroke (width 0) (type default)) (uuid e6c0df30-84e9-581d-b430-8f3f51800567))
+(global_label "LED_5V_SW" (shape bidirectional) (at 322.58 207.01 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f2837a47-6951-5a25-8b05-948a8dc393d5))
+(no_connect (at 330.2 218.44) (uuid f0d58f07-9a77-56cf-a68f-583e69207787))
+(symbol (lib_id "Device:C_Small") (at 350.52 237.49 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7040e92f-8063-5a40-af70-17c180e31089) (property "Reference" "C36" (at 359 235.4 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 359 237.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 350.52 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 350.52 237.49 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 350.52 237.49 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v5" (path "/536fed22-4200-5170-97ba-6689baea2d6e/fb7762ec-e39d-5514-9ce9-7ee2f44c5f82" (reference "C36") (unit 1)))))
+(wire (pts (xy 350.52 234.95) (xy 350.52 231.14)) (stroke (width 0) (type default)) (uuid 7d6eec4c-917c-55b6-a011-ef6a5b7ebec0))
+(global_label "LED_5V_SW" (shape bidirectional) (at 350.52 231.14 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 191672e1-0f60-5e77-83a5-fdbd8799f7de))
+(wire (pts (xy 350.52 240.03) (xy 350.52 243.84)) (stroke (width 0) (type default)) (uuid 40cba095-e81e-571f-b8de-0557242ff90a))
+(global_label "GND" (shape bidirectional) (at 350.52 243.84 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid bd54ca46-04d7-5cff-af4f-02c38b32dc55))
+(embedded_fonts no))
