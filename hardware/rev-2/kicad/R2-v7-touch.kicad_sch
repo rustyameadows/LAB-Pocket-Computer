@@ -1,0 +1,1085 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid 7827fcfd-aec5-56c9-9277-39a3c19c5648) (paper "A3") (title_block (title "Touch rails and calibration") (date "2026-11-26") (rev "2 / placement study") (company "LAB Pocket Computer")) (lib_symbols (symbol "Sensor_Touch:CY8CMBR3116"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -10.16 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CY8CMBR3116"
+			(at 1.27 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 0 -29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.cypress.com/?docID=49119"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CapSense Controller, 16 Sensors, QFN-24+EP"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Touch Sensor 16ch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CY8CMBR3116_0_1"
+			(rectangle
+				(start -10.16 22.86)
+				(end 10.16 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CY8CMBR3116_1_1"
+			(pin passive line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "CS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "CS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "CS2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "CS3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "CMOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 25.4 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -17.78 0)
+				(length 2.54)
+				(name "CS15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -15.24 0)
+				(length 2.54)
+				(name "CS14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "CS13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "CS12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "CS11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "CS10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "CS9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "CS8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "CS7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "CS6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "CS5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "CS4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "~{HI}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "~{XRES}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -25.4 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector:TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "02   /   TOUCH RAILS" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid facf0186-be69-5170-8608-6561a7ffbad7))
+(text "Fourteen isolated copper electrodes. Two channels are reserved. Firmware combines segment readings into gestures." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 86153aff-3627-5ec2-ba24-5f7a71c63f44))
+(symbol (lib_id "Sensor_Touch:CY8CMBR3116") (at 83.82 93.98 0) (unit 1) (in_bom yes) (on_board yes) (uuid f014e75d-0656-5a86-99ff-13fe6fb714a2) (property "Reference" "U5" (at 48 49 0) (effects (font (size 1 1)) ))(property "Value" "CY8CMBR3116-LQXI" (at 48 50.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" (at 83.82 93.98 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CY8CMBR3116-LQXI.pdf" (at 83.82 93.98 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CY8CMBR3116-LQXI" (at 83.82 93.98 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "U5") (unit 1)))))
+(wire (pts (xy 71.12 73.66) (xy 67.31 73.66)) (stroke (width 0) (type default)) (uuid fe37eb5f-dfde-5f1c-9a7c-53f17c1857c1))
+(global_label "TOUCH_01" (shape bidirectional) (at 67.31 73.66 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b9f5fe30-5359-5595-b642-1f8598795c00))
+(wire (pts (xy 71.12 76.2) (xy 67.31 76.2)) (stroke (width 0) (type default)) (uuid 8497227c-653f-5926-8c3f-ead5cb44e370))
+(global_label "TOUCH_02" (shape bidirectional) (at 67.31 76.2 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fda8b213-12fe-530f-9ab3-00de7f045e94))
+(wire (pts (xy 71.12 78.74) (xy 67.31 78.74)) (stroke (width 0) (type default)) (uuid 6d29011b-3bd2-5972-8c66-4f0133839fd6))
+(global_label "TOUCH_03" (shape bidirectional) (at 67.31 78.74 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 3df9069e-bb8e-54e3-99fd-0ba2f8ae28fc))
+(wire (pts (xy 71.12 81.28) (xy 67.31 81.28)) (stroke (width 0) (type default)) (uuid 61c44b83-5cfd-5ece-93cf-0528a8311694))
+(global_label "TOUCH_04" (shape bidirectional) (at 67.31 81.28 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fde38fc5-5d2e-57d6-863b-5479746beea5))
+(wire (pts (xy 96.52 114.3) (xy 100.33 114.3)) (stroke (width 0) (type default)) (uuid 89c3374e-b21b-5672-a769-7205abaaa285))
+(global_label "TOUCH_CMOD" (shape bidirectional) (at 100.33 114.3 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 420d7383-f795-568e-9007-cc6f15ba399c))
+(wire (pts (xy 96.52 73.66) (xy 100.33 73.66)) (stroke (width 0) (type default)) (uuid d203de98-6b3f-58d7-a60b-477ca295378b))
+(global_label "TOUCH_VREG" (shape bidirectional) (at 100.33 73.66 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5dbae9d5-ac13-5b35-b59d-84a177a34fb1))
+(wire (pts (xy 83.82 68.58) (xy 83.82 64.77)) (stroke (width 0) (type default)) (uuid 18673236-2551-5e29-a187-58732e884ad9))
+(global_label "3V3" (shape bidirectional) (at 83.82 64.77 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9d921ec5-3ece-5573-bc06-132791528a09))
+(wire (pts (xy 83.82 119.38) (xy 83.82 123.19)) (stroke (width 0) (type default)) (uuid d35e165d-2647-53ef-a890-ac7c4b341a4c))
+(global_label "GND" (shape bidirectional) (at 83.82 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c892a65b-b7c7-5a26-9a59-3af0e78bb2a1))
+(no_connect (at 71.12 111.76) (uuid edb75b0f-2b42-59b8-9f0e-647502627a53))
+(no_connect (at 71.12 109.22) (uuid e6cd67be-6117-5e6d-bff0-3a2f491e8307))
+(wire (pts (xy 71.12 106.68) (xy 67.31 106.68)) (stroke (width 0) (type default)) (uuid 31f04d5d-f0f3-52ad-b8bd-03f67ab0cbf6))
+(global_label "TOUCH_14" (shape bidirectional) (at 67.31 106.68 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f8a3da57-afbf-5b73-b880-eb8d0d4bda93))
+(wire (pts (xy 71.12 104.14) (xy 67.31 104.14)) (stroke (width 0) (type default)) (uuid a435bc32-5deb-58ac-b919-f2698e540d8b))
+(global_label "TOUCH_13" (shape bidirectional) (at 67.31 104.14 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid decc566f-023a-5d79-b53e-d8cefb137fa7))
+(wire (pts (xy 71.12 101.6) (xy 67.31 101.6)) (stroke (width 0) (type default)) (uuid dd37bde6-ffbe-5fcf-b8b4-ab990d028f2f))
+(global_label "TOUCH_12" (shape bidirectional) (at 67.31 101.6 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 30b2ec90-28ea-5d81-96f8-78b49e801137))
+(wire (pts (xy 71.12 99.06) (xy 67.31 99.06)) (stroke (width 0) (type default)) (uuid 6d87d605-e2e8-5c17-9eab-b9f2b67fdef9))
+(global_label "TOUCH_11" (shape bidirectional) (at 67.31 99.06 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e5d6aa5d-5596-5191-a807-5c00bd4747fa))
+(wire (pts (xy 71.12 96.52) (xy 67.31 96.52)) (stroke (width 0) (type default)) (uuid 83d9d82a-2c99-55e7-91ab-299a6705f9d6))
+(global_label "TOUCH_10" (shape bidirectional) (at 67.31 96.52 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 60f1933e-ba79-5379-a238-16369e071ef3))
+(wire (pts (xy 71.12 93.98) (xy 67.31 93.98)) (stroke (width 0) (type default)) (uuid f3e46a22-1b4a-56d9-beee-f814f8865488))
+(global_label "TOUCH_09" (shape bidirectional) (at 67.31 93.98 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f3be43e8-7b37-5212-a4f7-e6caeb25d0a0))
+(wire (pts (xy 71.12 91.44) (xy 67.31 91.44)) (stroke (width 0) (type default)) (uuid 3a88bb59-ca5c-52ac-80c2-c4d0c0124e6c))
+(global_label "TOUCH_08" (shape bidirectional) (at 67.31 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 184a4759-5635-51c9-899f-89fbaade963f))
+(wire (pts (xy 71.12 88.9) (xy 67.31 88.9)) (stroke (width 0) (type default)) (uuid 03bfd382-c658-50c2-9070-0646bedf0253))
+(global_label "TOUCH_07" (shape bidirectional) (at 67.31 88.9 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 79b4248f-6c52-5441-9c56-85bf8ea47b72))
+(wire (pts (xy 71.12 86.36) (xy 67.31 86.36)) (stroke (width 0) (type default)) (uuid ab59f5cf-d1c3-548a-90b0-df596b770336))
+(global_label "TOUCH_06" (shape bidirectional) (at 67.31 86.36 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d625b6fb-f84f-5996-a7d8-66ca9146ca38))
+(wire (pts (xy 71.12 83.82) (xy 67.31 83.82)) (stroke (width 0) (type default)) (uuid 445fb4a5-dafc-5787-ae85-1108af61298b))
+(global_label "TOUCH_05" (shape bidirectional) (at 67.31 83.82 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f2827241-71fc-5767-8a93-295d936f14a9))
+(wire (pts (xy 96.52 78.74) (xy 100.33 78.74)) (stroke (width 0) (type default)) (uuid 2e7cb49a-0c10-5544-9b0d-689f5f222f1d))
+(global_label "SYS_SDA" (shape bidirectional) (at 100.33 78.74 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f91a3f00-f58a-534e-a908-0b9828656475))
+(wire (pts (xy 96.52 81.28) (xy 100.33 81.28)) (stroke (width 0) (type default)) (uuid 8c2ee500-0530-5f6f-9c3f-cd0b1dbf67a8))
+(global_label "SYS_SCL" (shape bidirectional) (at 100.33 81.28 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1c79d88a-e979-51e8-996c-9271015468de))
+(no_connect (at 96.52 88.9) (uuid 784c3131-b15a-5197-9758-11f4a7caa7af))
+(wire (pts (xy 96.52 86.36) (xy 100.33 86.36)) (stroke (width 0) (type default)) (uuid 19b8f17d-8fae-5010-80e0-adb4287e8946))
+(global_label "TOUCH_RESET_N" (shape bidirectional) (at 100.33 86.36 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 794fdcd2-6661-579d-aac4-3243fe2acd71))
+(wire (pts (xy 86.36 119.38) (xy 86.36 123.19)) (stroke (width 0) (type default)) (uuid 0361be52-bc01-5243-9579-d7779b86d44c))
+(global_label "GND" (shape bidirectional) (at 86.36 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid beaa70ad-b3f3-5a30-83f5-13f15121ca73))
+(symbol (lib_id "Device:C_Small") (at 170.18 66.04 0) (unit 1) (in_bom yes) (on_board yes) (uuid c8cb8b9a-71c4-501e-8ae4-0f8df41ee841) (property "Reference" "C2" (at 179.18 64.44 0) (effects (font (size 1 1)) ))(property "Value" "2.2n C0G" (at 179.18 66.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 170.18 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C222J5GACTU.pdf" (at 170.18 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C222J5GACTU" (at 170.18 66.04 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "C2") (unit 1)))))
+(wire (pts (xy 170.18 63.5) (xy 170.18 59.69)) (stroke (width 0) (type default)) (uuid b79ae534-0162-5f41-81c6-0877cc42fcf7))
+(global_label "TOUCH_CMOD" (shape bidirectional) (at 170.18 59.69 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 12c79678-9e66-5427-a700-2582a20c90f7))
+(wire (pts (xy 170.18 68.58) (xy 170.18 72.39)) (stroke (width 0) (type default)) (uuid cbb15114-f8a6-58d4-845c-39cce4a2b406))
+(global_label "GND" (shape bidirectional) (at 170.18 72.39 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d7529838-f29c-5727-a939-673c267145bc))
+(symbol (lib_id "Device:C_Small") (at 223.52 66.04 0) (unit 1) (in_bom yes) (on_board yes) (uuid cd08a322-b4d3-584a-a0f9-ba3c6d15a4d5) (property "Reference" "C3" (at 232.52 64.44 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 232.52 66.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 223.52 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 223.52 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 223.52 66.04 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "C3") (unit 1)))))
+(wire (pts (xy 223.52 63.5) (xy 223.52 59.69)) (stroke (width 0) (type default)) (uuid ec5f832a-b758-5e8e-9172-1160d61533b5))
+(global_label "TOUCH_VREG" (shape bidirectional) (at 223.52 59.69 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0ab17238-5477-5c04-a847-9e98ce08b900))
+(wire (pts (xy 223.52 68.58) (xy 223.52 72.39)) (stroke (width 0) (type default)) (uuid 84978595-8485-5a20-a568-35ac76278b35))
+(global_label "GND" (shape bidirectional) (at 223.52 72.39 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 52daffaf-693e-5590-ad17-79b0aa7412c6))
+(symbol (lib_id "Device:C_Small") (at 274.32 66.04 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3078132c-2f84-5ad1-b8d0-a42470ea2c41) (property "Reference" "C4" (at 283.32 64.44 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 283.32 66.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 274.32 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 274.32 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 274.32 66.04 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "C4") (unit 1)))))
+(wire (pts (xy 274.32 63.5) (xy 274.32 59.69)) (stroke (width 0) (type default)) (uuid 6362673f-11fc-578d-b548-e249964feb7e))
+(global_label "3V3" (shape bidirectional) (at 274.32 59.69 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid bfc7159c-ac38-5f9a-8df2-7f9901e760c4))
+(wire (pts (xy 274.32 68.58) (xy 274.32 72.39)) (stroke (width 0) (type default)) (uuid 09346398-708d-5217-90c8-1d65d1aaa317))
+(global_label "GND" (shape bidirectional) (at 274.32 72.39 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ebf0a576-1c7b-5cde-b77b-428722af5742))
+(symbol (lib_id "Device:R_Small") (at 330.2 66.04 0) (unit 1) (in_bom yes) (on_board yes) (uuid 061fd6f9-d735-5e33-b8d0-b161f68c36ad) (property "Reference" "R5" (at 339.2 64.44 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 339.2 66.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 330.2 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 330.2 66.04 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 330.2 66.04 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "R5") (unit 1)))))
+(wire (pts (xy 330.2 63.5) (xy 330.2 59.69)) (stroke (width 0) (type default)) (uuid 4ea62b1f-90e8-5566-9072-5d039e55a599))
+(global_label "3V3" (shape bidirectional) (at 330.2 59.69 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid cc35accf-0668-5b9e-b13e-d71fbcc52d90))
+(wire (pts (xy 330.2 68.58) (xy 330.2 72.39)) (stroke (width 0) (type default)) (uuid 054578ca-4662-5a01-9fc6-aa276a8259d0))
+(global_label "TOUCH_RESET_N" (shape bidirectional) (at 330.2 72.39 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 552e1e60-5fe4-5f7e-b504-4f23a97a3687))
+(text "LEFT  /  CS0–CS6" (at 32 158 0) (effects (font (size 1.7 1.7)) (justify left) ) (uuid 857e526d-b1ec-58fa-b6df-3abec055688e))
+(text "RIGHT  /  CS7–CS13" (at 32 199 0) (effects (font (size 1.7 1.7)) (justify left) ) (uuid 80d3423c-f729-507f-8645-534f7214b2dc))
+(symbol (lib_id "Connector:TestPoint") (at 45.72 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid 2ee2ea6a-c070-56af-96db-bf4f876a793f) (property "Reference" "E1" (at 45.72 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 45.72 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 45.72 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 45.72 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 45.72 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E1") (unit 1)))))
+(wire (pts (xy 45.72 180.34) (xy 45.72 184.15)) (stroke (width 0) (type default)) (uuid 4b6c51ea-745f-5f94-b461-8e97f4ac640a))
+(global_label "TOUCH_01" (shape bidirectional) (at 45.72 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 041a60e1-6089-5495-896b-1deb763ea47b))
+(symbol (lib_id "Connector:TestPoint") (at 95.25 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid aaeed562-e5a3-54fa-b9a3-f5d1527d5274) (property "Reference" "E2" (at 95.25 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 95.25 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 95.25 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 95.25 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 95.25 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E2") (unit 1)))))
+(wire (pts (xy 95.25 180.34) (xy 95.25 184.15)) (stroke (width 0) (type default)) (uuid e82523e4-40c1-5f99-ad11-32402624511c))
+(global_label "TOUCH_02" (shape bidirectional) (at 95.25 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9865f93f-72dc-552b-99d4-cc827ab54941))
+(symbol (lib_id "Connector:TestPoint") (at 144.78 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid e8d71f11-6df1-53b5-8166-4b75a77a6c07) (property "Reference" "E3" (at 144.78 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 144.78 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 144.78 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 144.78 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 144.78 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E3") (unit 1)))))
+(wire (pts (xy 144.78 180.34) (xy 144.78 184.15)) (stroke (width 0) (type default)) (uuid abb26826-3a24-5434-ac0c-5c20971c10d0))
+(global_label "TOUCH_03" (shape bidirectional) (at 144.78 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 124e768f-da0d-5e8b-8c53-ee3ff74a7bde))
+(symbol (lib_id "Connector:TestPoint") (at 194.31 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid b6d037fe-e61f-5ddd-8101-58cc5f61ce30) (property "Reference" "E4" (at 194.31 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 194.31 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 194.31 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 194.31 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 194.31 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E4") (unit 1)))))
+(wire (pts (xy 194.31 180.34) (xy 194.31 184.15)) (stroke (width 0) (type default)) (uuid dc85149d-eae8-5acf-8f0a-9eaa8a5c6df4))
+(global_label "TOUCH_04" (shape bidirectional) (at 194.31 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid eccc6402-8374-58d8-b946-8659a0cfb5c6))
+(symbol (lib_id "Connector:TestPoint") (at 243.84 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3036a522-b79f-5fd1-a435-6592553677bb) (property "Reference" "E5" (at 243.84 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 243.84 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 243.84 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 243.84 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 243.84 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E5") (unit 1)))))
+(wire (pts (xy 243.84 180.34) (xy 243.84 184.15)) (stroke (width 0) (type default)) (uuid 6a7d1d9f-eae0-56d4-bb96-ebbc36080718))
+(global_label "TOUCH_05" (shape bidirectional) (at 243.84 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1c243989-23ef-5e07-9b09-4502b6981295))
+(symbol (lib_id "Connector:TestPoint") (at 293.37 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid b16734ab-e4cd-56ff-a7e2-6242be29639b) (property "Reference" "E6" (at 293.37 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 293.37 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 293.37 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 293.37 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 293.37 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E6") (unit 1)))))
+(wire (pts (xy 293.37 180.34) (xy 293.37 184.15)) (stroke (width 0) (type default)) (uuid da29db48-174b-54cd-abb5-24b32af7a6f8))
+(global_label "TOUCH_06" (shape bidirectional) (at 293.37 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c5106ac2-f653-5839-ad9b-4482529b1762))
+(symbol (lib_id "Connector:TestPoint") (at 342.9 180.34 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5d27c1d1-9e01-58cd-88e5-ed05f153df1a) (property "Reference" "E7" (at 342.9 175.26 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 342.9 177.06 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 342.9 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 342.9 180.34 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 342.9 180.34 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E7") (unit 1)))))
+(wire (pts (xy 342.9 180.34) (xy 342.9 184.15)) (stroke (width 0) (type default)) (uuid 77a95282-85de-525b-8cba-e46b2df28ba4))
+(global_label "TOUCH_07" (shape bidirectional) (at 342.9 184.15 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e991b3e6-ea4b-51a6-8a64-1a42bbd254d2))
+(symbol (lib_id "Connector:TestPoint") (at 45.72 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid 4b9363c3-7ea3-543b-a553-103c849bc1d1) (property "Reference" "E8" (at 45.72 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 45.72 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 45.72 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 45.72 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 45.72 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E8") (unit 1)))))
+(wire (pts (xy 45.72 223.52) (xy 45.72 227.33)) (stroke (width 0) (type default)) (uuid 9499d458-41df-58d9-8821-3e00b645d4ed))
+(global_label "TOUCH_08" (shape bidirectional) (at 45.72 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 34b618cb-51d7-50e7-be23-ece99b7d9524))
+(symbol (lib_id "Connector:TestPoint") (at 95.25 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid 97b2b242-d84c-59dc-95cf-f4007bc1402e) (property "Reference" "E9" (at 95.25 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 95.25 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 95.25 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 95.25 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 95.25 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E9") (unit 1)))))
+(wire (pts (xy 95.25 223.52) (xy 95.25 227.33)) (stroke (width 0) (type default)) (uuid fb665866-8626-5736-9367-ea6ec2137a28))
+(global_label "TOUCH_09" (shape bidirectional) (at 95.25 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f1459412-5556-5eb5-9de2-28c56bacf0b0))
+(symbol (lib_id "Connector:TestPoint") (at 144.78 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid a5b13bd2-e33a-5fe3-aaeb-56f71541e25e) (property "Reference" "E10" (at 144.78 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 144.78 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 144.78 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 144.78 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 144.78 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E10") (unit 1)))))
+(wire (pts (xy 144.78 223.52) (xy 144.78 227.33)) (stroke (width 0) (type default)) (uuid 5203e0e9-8411-5399-bb11-db79b63f77e4))
+(global_label "TOUCH_10" (shape bidirectional) (at 144.78 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b84e207e-a25b-5fbb-a1a3-bcb44a2c209f))
+(symbol (lib_id "Connector:TestPoint") (at 194.31 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid 13546528-f048-5cff-95eb-0d00e85a281a) (property "Reference" "E11" (at 194.31 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 194.31 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 194.31 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 194.31 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 194.31 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E11") (unit 1)))))
+(wire (pts (xy 194.31 223.52) (xy 194.31 227.33)) (stroke (width 0) (type default)) (uuid 9ebf157c-37e4-5f44-85dd-86d119126382))
+(global_label "TOUCH_11" (shape bidirectional) (at 194.31 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9b984aa4-c2fa-5399-830b-9b7d5f3ea52b))
+(symbol (lib_id "Connector:TestPoint") (at 243.84 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid 886ee496-e4a6-5c8e-b3f8-ec78e3ed514f) (property "Reference" "E12" (at 243.84 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 243.84 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x4.4-v7" (at 243.84 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 243.84 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 243.84 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E12") (unit 1)))))
+(wire (pts (xy 243.84 223.52) (xy 243.84 227.33)) (stroke (width 0) (type default)) (uuid 97698851-b9eb-5cd2-aa0d-59cc80ec1fac))
+(global_label "TOUCH_12" (shape bidirectional) (at 243.84 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c39c2267-b93f-5fb0-b46b-30dd90e3ac8e))
+(symbol (lib_id "Connector:TestPoint") (at 293.37 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid aa62152e-dfc7-5264-b53a-a68f940795a1) (property "Reference" "E13" (at 293.37 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 293.37 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 293.37 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 293.37 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 293.37 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E13") (unit 1)))))
+(wire (pts (xy 293.37 223.52) (xy 293.37 227.33)) (stroke (width 0) (type default)) (uuid 4bab3324-ad52-5cac-b408-e697d255b0e3))
+(global_label "TOUCH_13" (shape bidirectional) (at 293.37 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 941ff1b6-f3ba-5fe6-bc02-3619d9c7e077))
+(symbol (lib_id "Connector:TestPoint") (at 342.9 223.52 0) (unit 1) (in_bom yes) (on_board yes) (uuid eea9f372-b3ab-5400-a032-448766f14714) (property "Reference" "E14" (at 342.9 218.44 0) (effects (font (size 1 1)) ))(property "Value" "Electrode" (at 342.9 220.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Touch_7.6x5.0" (at 342.9 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 342.9 223.52 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCB feature" (at 342.9 223.52 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R2-v7" (path "/536fed22-4200-5170-97ba-6689baea2d6e/c5091137-4288-550d-8ab4-8b3e636be961" (reference "E14") (unit 1)))))
+(wire (pts (xy 342.9 223.52) (xy 342.9 227.33)) (stroke (width 0) (type default)) (uuid 53626029-96cb-5ac8-9757-1772fdd7b0ab))
+(global_label "TOUCH_14" (shape bidirectional) (at 342.9 227.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 074612fa-3b7c-59e5-92d7-37e4045a084f))
+(embedded_fonts no))
