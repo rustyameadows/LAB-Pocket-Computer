@@ -1348,7 +1348,6 @@
 (global_label "KEY_C3" (shape bidirectional) (at 107.95 234.95 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1921745c-2ec3-59bd-a107-a38e453d8d58))
 (wire (pts (xy 104.14 237.49) (xy 107.95 237.49)) (stroke (width 0) (type default)) (uuid 137e4588-8ddd-5c8b-b949-e2d9b017632c))
 (global_label "KEY_C4" (shape bidirectional) (at 107.95 237.49 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e97a02dc-40f8-5ea0-a7fe-736b45ef7df2))
-(no_connect (at 104.14 240.03) (uuid 8d302f74-ecb3-5d35-918b-8700eccc4b84))
 (no_connect (at 104.14 242.57) (uuid aacad7a2-4685-51e9-bb70-e29fa8ebb3a8))
 (no_connect (at 104.14 245.11) (uuid 6bbeb7ef-5244-5526-bf67-0baabd657af0))
 (wire (pts (xy 78.74 240.03) (xy 74.93 240.03)) (stroke (width 0) (type default)) (uuid 6965f0c1-7a22-5306-9df9-2f86e097b9b3))
@@ -1371,6 +1370,10 @@
 
 (wire (pts (xy 104.14 222.25) (xy 107.95 222.25)) (stroke (width 0) (type default)) (uuid 004a28f7-8161-5b6d-a9e3-6de50822fe81))
 (global_label "FUEL_ALERT_N" (shape bidirectional) (at 107.95 222.25 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid becb2eae-1480-556e-8c7a-55539977004a))
+
+
+(wire (pts (xy 104.14 240.03) (xy 107.95 240.03)) (stroke (width 0) (type default)) (uuid 6021270d-fb9a-5af1-b4dd-c149f6c9dba6))
+(global_label "CAM_ENABLE" (shape bidirectional) (at 107.95 240.03 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6f01aeed-1a3f-572c-b2e5-3ecb6d3c5e53))
 (symbol (lib_id "Device:R_Small") (at 154.94 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 913f99a1-34a4-51dd-86a7-8287aca3fcca) (property "Reference" "R1" (at 163.94 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 163.94 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/60010778-0109-5760-a4b1-5306140504f1" (reference "R1") (unit 1)))))
 (wire (pts (xy 154.94 205.74) (xy 154.94 201.93)) (stroke (width 0) (type default)) (uuid a93e85ec-16e6-5563-9ce1-efab036d80c2))
 (global_label "3V3" (shape bidirectional) (at 154.94 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f9fe05e1-7bbd-5bd8-ac7f-580fdcc8b96c))

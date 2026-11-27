@@ -2047,7 +2047,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -24.13 44.45 270)
 				(length 2.54)
 				(name "VDD_ANA"
@@ -2065,7 +2065,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -26.67 44.45 270)
 				(length 2.54)
 				(name "VDD_BAT"
@@ -2512,4 +2512,483 @@
 (pin passive line (at 12.7 1.27 180) (length 2.54) (name "LED2" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
 (pin passive line (at 12.7 -1.27 180) (length 2.54) (name "LED3" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
 (pin passive line (at 12.7 -3.81 180) (length 2.54) (name "LED4" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "TLV62569DBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "TLV62569DBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "TLV62569DBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TLV62569DBVR_1_1"
+(pin input line (at -12.7 2.54 0) (length 2.54) (name "EN" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -2.54 0) (length 2.54) (name "VIN" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 2.54 180) (length 2.54) (name "SW" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin input line (at 12.7 0 180) (length 2.54) (name "FB" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "ABM8-40_000MHZ-10-1-U-T" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "ABM8-40_000MHZ-10-1-U-T" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "ABM8-40_000MHZ-10-1-U-T_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ABM8-40_000MHZ-10-1-U-T_1_1"
+(pin passive line (at -12.7 1.27 0) (length 2.54) (name "X1" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "X2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -1.27 180) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "APS6404L-3SQR-SN" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 9.35 0) (effects (font (size 1 1)) ))
+(property "Value" "APS6404L-3SQR-SN" (at 0 7.85 0) (effects (font (size 1 1)) ))
+(symbol "APS6404L-3SQR-SN_0_1" (rectangle (start -10.16 6.35) (end 10.16 -6.35) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "APS6404L-3SQR-SN_1_1"
+(pin input line (at -12.7 3.81 0) (length 2.54) (name "CE_N" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at -12.7 1.27 0) (length 2.54) (name "SIO1" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at -12.7 -1.27 0) (length 2.54) (name "SIO2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -3.81 0) (length 2.54) (name "VSS" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 3.81 180) (length 2.54) (name "VCC" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at 12.7 1.27 180) (length 2.54) (name "SIO3" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))
+(pin input line (at 12.7 -1.27 180) (length 2.54) (name "SCLK" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at 12.7 -3.81 180) (length 2.54) (name "SIO0" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "ABM8-272-T3" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "ABM8-272-T3" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "ABM8-272-T3_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ABM8-272-T3_1_1"
+(pin passive line (at -12.7 1.27 0) (length 2.54) (name "X1" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "X2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -1.27 180) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "DF37NC-30DS-0_4V_51_" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 23.32 0) (effects (font (size 1 1)) ))
+(property "Value" "DF37NC-30DS-0_4V_51_" (at 0 21.82 0) (effects (font (size 1 1)) ))
+(symbol "DF37NC-30DS-0_4V_51__0_1" (rectangle (start -10.16 20.32) (end 10.16 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "DF37NC-30DS-0_4V_51__1_1"
+(pin no_connect line (at -12.7 17.78 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at -12.7 15.24 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 12.7 0) (length 2.54) (name "CAM_1V8" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 10.16 0) (length 2.54) (name "CAM_1V2" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 7.62 0) (length 2.54) (name "CAM_1V8" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 5.08 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 2.54 0) (length 2.54) (name "CAM_MCLK" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -2.54 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "9" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -5.08 0) (length 2.54) (name "CAM_2V8" (effects (font (size 1 1)) )) (number "10" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at -12.7 -7.62 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "11" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -10.16 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "12" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at -12.7 -12.7 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "13" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at -12.7 -15.24 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "14" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -17.78 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "15" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 17.78 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "16" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 15.24 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "17" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 12.7 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "18" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 10.16 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "19" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 7.62 180) (length 2.54) (name "CSI_D1_N" (effects (font (size 1 1)) )) (number "20" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 5.08 180) (length 2.54) (name "CSI_D1_P" (effects (font (size 1 1)) )) (number "21" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 2.54 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "22" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 0 180) (length 2.54) (name "CSI_D0_N" (effects (font (size 1 1)) )) (number "23" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -2.54 180) (length 2.54) (name "CSI_D0_P" (effects (font (size 1 1)) )) (number "24" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -5.08 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "25" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -7.62 180) (length 2.54) (name "CSI_CLK_N" (effects (font (size 1 1)) )) (number "26" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -10.16 180) (length 2.54) (name "CSI_CLK_P" (effects (font (size 1 1)) )) (number "27" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -12.7 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "28" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -15.24 180) (length 2.54) (name "CAM_SCL" (effects (font (size 1 1)) )) (number "29" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -17.78 180) (length 2.54) (name "CAM_SDA" (effects (font (size 1 1)) )) (number "30" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "TLV75512PDBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "TLV75512PDBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "TLV75512PDBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TLV75512PDBVR_1_1"
+(pin power_in line (at -12.7 2.54 0) (length 2.54) (name "IN" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -2.54 0) (length 2.54) (name "EN" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_out line (at 12.7 2.54 180) (length 2.54) (name "OUT" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 0 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "TLV75518PDBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "TLV75518PDBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "TLV75518PDBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TLV75518PDBVR_1_1"
+(pin power_in line (at -12.7 2.54 0) (length 2.54) (name "IN" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -2.54 0) (length 2.54) (name "EN" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_out line (at 12.7 2.54 180) (length 2.54) (name "OUT" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 0 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "TLV75528PDBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "TLV75528PDBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "TLV75528PDBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TLV75528PDBVR_1_1"
+(pin power_in line (at -12.7 2.54 0) (length 2.54) (name "IN" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -2.54 0) (length 2.54) (name "EN" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_out line (at 12.7 2.54 180) (length 2.54) (name "OUT" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 0 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "ASDMB-24_000MHZ-LY-T" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "ASDMB-24_000MHZ-LY-T" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "ASDMB-24_000MHZ-LY-T_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ASDMB-24_000MHZ-LY-T_1_1"
+(pin input line (at -12.7 1.27 0) (length 2.54) (name "OE" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -1.27 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 1.27 180) (length 2.54) (name "VDD" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 -1.27 180) (length 2.54) (name "OUT" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "BSS138-7-F" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "BSS138-7-F" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "BSS138-7-F_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "BSS138-7-F_1_1"
+(pin input line (at -12.7 1.27 0) (length 2.54) (name "G" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "S" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "D" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "SN74LVC541APWR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 16.97 0) (effects (font (size 1 1)) ))
+(property "Value" "SN74LVC541APWR" (at 0 15.47 0) (effects (font (size 1 1)) ))
+(symbol "SN74LVC541APWR_0_1" (rectangle (start -10.16 13.97) (end 10.16 -13.97) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "SN74LVC541APWR_1_1"
+(pin input line (at -12.7 11.43 0) (length 2.54) (name "OE1_N" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 8.89 0) (length 2.54) (name "OE2_N" (effects (font (size 1 1)) )) (number "19" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 6.35 0) (length 2.54) (name "A1" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 3.81 0) (length 2.54) (name "A2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 1.27 0) (length 2.54) (name "A3" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -1.27 0) (length 2.54) (name "A4" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -3.81 0) (length 2.54) (name "A5" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -6.35 0) (length 2.54) (name "A6" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -8.89 0) (length 2.54) (name "A7" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -11.43 0) (length 2.54) (name "A8" (effects (font (size 1 1)) )) (number "9" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 11.43 180) (length 2.54) (name "VCC" (effects (font (size 1 1)) )) (number "20" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 8.89 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "10" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 6.35 180) (length 2.54) (name "Y1" (effects (font (size 1 1)) )) (number "18" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 3.81 180) (length 2.54) (name "Y2" (effects (font (size 1 1)) )) (number "17" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 1.27 180) (length 2.54) (name "Y3" (effects (font (size 1 1)) )) (number "16" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 -1.27 180) (length 2.54) (name "Y4" (effects (font (size 1 1)) )) (number "15" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 -3.81 180) (length 2.54) (name "Y5" (effects (font (size 1 1)) )) (number "14" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 -6.35 180) (length 2.54) (name "Y6" (effects (font (size 1 1)) )) (number "13" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 -8.89 180) (length 2.54) (name "Y7" (effects (font (size 1 1)) )) (number "12" (effects (font (size 0.85 0.85)) )))
+(pin tri_state line (at 12.7 -11.43 180) (length 2.54) (name "Y8" (effects (font (size 1 1)) )) (number "11" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "WM8960CGEFL_RV" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 25.86 0) (effects (font (size 1 1)) ))
+(property "Value" "WM8960CGEFL_RV" (at 0 24.36 0) (effects (font (size 1 1)) ))
+(symbol "WM8960CGEFL_RV_0_1" (rectangle (start -10.16 22.86) (end 10.16 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "WM8960CGEFL_RV_1_1"
+(pin output line (at -12.7 20.32 0) (length 2.54) (name "MICBIAS" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 17.78 0) (length 2.54) (name "JD2" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 15.24 0) (length 2.54) (name "LINPUT2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 12.7 0) (length 2.54) (name "LINPUT1" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 10.16 0) (length 2.54) (name "RINPUT1" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 7.62 0) (length 2.54) (name "RINPUT2" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 5.08 0) (length 2.54) (name "RINPUT3" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 2.54 0) (length 2.54) (name "DCVDD" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "DGND" (effects (font (size 1 1)) )) (number "9" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -2.54 0) (length 2.54) (name "DBVDD" (effects (font (size 1 1)) )) (number "10" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -5.08 0) (length 2.54) (name "MCLK" (effects (font (size 1 1)) )) (number "11" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -7.62 0) (length 2.54) (name "BCLK" (effects (font (size 1 1)) )) (number "12" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -10.16 0) (length 2.54) (name "DACLRC" (effects (font (size 1 1)) )) (number "13" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -12.7 0) (length 2.54) (name "DACDAT" (effects (font (size 1 1)) )) (number "14" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -15.24 0) (length 2.54) (name "ADCLRC" (effects (font (size 1 1)) )) (number "15" (effects (font (size 0.85 0.85)) )))
+(pin output line (at -12.7 -17.78 0) (length 2.54) (name "ADCDAT" (effects (font (size 1 1)) )) (number "16" (effects (font (size 0.85 0.85)) )))
+(pin input line (at 12.7 20.32 180) (length 2.54) (name "SCL" (effects (font (size 1 1)) )) (number "17" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at 12.7 17.78 180) (length 2.54) (name "SDA" (effects (font (size 1 1)) )) (number "18" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 15.24 180) (length 2.54) (name "SPK_RN" (effects (font (size 1 1)) )) (number "19" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 12.7 180) (length 2.54) (name "SPKGND2" (effects (font (size 1 1)) )) (number "20" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 10.16 180) (length 2.54) (name "SPKVDD2" (effects (font (size 1 1)) )) (number "21" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 7.62 180) (length 2.54) (name "SPK_RP" (effects (font (size 1 1)) )) (number "22" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 5.08 180) (length 2.54) (name "SPK_LN" (effects (font (size 1 1)) )) (number "23" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 2.54 180) (length 2.54) (name "SPKGND1" (effects (font (size 1 1)) )) (number "24" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 0 180) (length 2.54) (name "SPK_LP" (effects (font (size 1 1)) )) (number "25" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 -2.54 180) (length 2.54) (name "SPKVDD1" (effects (font (size 1 1)) )) (number "26" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 -5.08 180) (length 2.54) (name "VMID" (effects (font (size 1 1)) )) (number "27" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 -7.62 180) (length 2.54) (name "AGND" (effects (font (size 1 1)) )) (number "28" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 -10.16 180) (length 2.54) (name "HP_R" (effects (font (size 1 1)) )) (number "29" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 -12.7 180) (length 2.54) (name "OUT3" (effects (font (size 1 1)) )) (number "30" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 -15.24 180) (length 2.54) (name "HP_L" (effects (font (size 1 1)) )) (number "31" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 -17.78 180) (length 2.54) (name "AVDD" (effects (font (size 1 1)) )) (number "32" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 -20.32 180) (length 2.54) (name "EP" (effects (font (size 1 1)) )) (number "33" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "TPD2EUSB30DRTR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "TPD2EUSB30DRTR" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "TPD2EUSB30DRTR_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TPD2EUSB30DRTR_1_1"
+(pin passive line (at -12.7 1.27 0) (length 2.54) (name "D_P" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "D_N" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))))
+
+(symbol "WS2812B-V6"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 5.08 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B-V6"
+			(at 1.27 -5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "LAB:WS2812B-V6"
+			(at 1.27 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../datasheets/WS2812B-V6-EN-r1.pdf"
+			(at 2.54 -9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "WS2812B-V6_1_1"
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

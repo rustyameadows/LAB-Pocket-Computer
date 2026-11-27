@@ -430,8 +430,6 @@
 (wire (pts (xy 355.6 96.52) (xy 355.6 100.33)) (stroke (width 0) (type default)) (uuid 311f77e3-1233-5f6f-ba3b-1e479d087206))
 (global_label "GND" (shape bidirectional) (at 355.6 100.33 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e2ae468b-e524-5be3-977b-47975f6caaf4))
 (symbol (lib_id "LAB:BMI270") (at 55.88 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid ea8dc54f-75fe-5f81-aabd-dba042a7c8af) (property "Reference" "U6" (at 55.88 138.43 0) (effects (font (size 1 1)) ))(property "Value" "BMI270" (at 55.88 140.23 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" (at 55.88 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BMI270.pdf" (at 55.88 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BMI270" (at 55.88 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "U6") (unit 1)))))
-(wire (pts (xy 40.64 143.51) (xy 36.83 143.51)) (stroke (width 0) (type default)) (uuid ff75f7d6-85cd-5655-af79-73885b2ee927))
-(global_label "GND" (shape bidirectional) (at 36.83 143.51 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid de9e95fc-40f2-5205-ac79-3aeeb26ecb94))
 (no_connect (at 40.64 146.05) (uuid af4a26a4-355b-5b79-96c8-b3d545550abe))
 (no_connect (at 40.64 148.59) (uuid fe120098-a4e2-5803-a77b-8764190533c0))
 (wire (pts (xy 40.64 151.13) (xy 36.83 151.13)) (stroke (width 0) (type default)) (uuid 13fedfe0-e28b-5e89-9e4b-9fe362854508))
@@ -453,6 +451,9 @@
 (no_connect (at 71.12 156.21) (uuid d0cca076-d302-531e-8c99-6bc31be2738f))
 (wire (pts (xy 71.12 158.75) (xy 74.93 158.75)) (stroke (width 0) (type default)) (uuid 11a42e07-4655-5304-9ac6-3e280073e0df))
 (global_label "3V3" (shape bidirectional) (at 74.93 158.75 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8cfa288c-ecda-5fc1-8085-3865cc2360f9))
+
+(wire (pts (xy 40.64 143.51) (xy 36.83 143.51)) (stroke (width 0) (type default)) (uuid fef5b482-2e5a-54cc-b3bb-a7594a2b69b4))
+(global_label "BMI_ADDR" (shape bidirectional) (at 36.83 143.51 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 49e22cfd-4b6f-5a83-9b64-0b0d5365d58a))
 (symbol (lib_id "Device:C_Small") (at 31.75 184.15 0) (unit 1) (in_bom yes) (on_board yes) (uuid f1a29af0-4197-5f7e-ab96-5da52c899cae) (property "Reference" "C11" (at 40.75 182.55 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 40.75 184.35 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 31.75 184.15 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 31.75 184.15 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 31.75 184.15 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8" (reference "C11") (unit 1)))))
 (wire (pts (xy 31.75 181.61) (xy 31.75 177.8)) (stroke (width 0) (type default)) (uuid 73a07786-f260-54bb-a220-20828535624d))
 (global_label "3V3" (shape bidirectional) (at 31.75 177.8 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid bdcc9474-4d0a-52c6-9142-fb523a42cf80))

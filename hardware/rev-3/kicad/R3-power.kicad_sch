@@ -1621,20 +1621,28 @@
 (global_label "VBUS" (shape bidirectional) (at 81.28 67.31 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 389ccf25-9e15-5ec9-82d8-d06c8bc22bd7))
 (wire (pts (xy 77.47 72.39) (xy 81.28 72.39)) (stroke (width 0) (type default)) (uuid 149352f5-532e-50ad-82f5-de36c2ef5502))
 (global_label "CC1" (shape bidirectional) (at 81.28 72.39 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5e3352fe-278f-5f42-b738-25a6aeffabac))
-(wire (pts (xy 77.47 85.09) (xy 81.28 85.09)) (stroke (width 0) (type default)) (uuid 56a70c5a-c680-588b-b0d4-d6410bc6fe94))
-(global_label "USB_DP" (shape bidirectional) (at 81.28 85.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 165467a4-111f-5afe-a142-a5d15b592f53))
-(wire (pts (xy 77.47 80.01) (xy 81.28 80.01)) (stroke (width 0) (type default)) (uuid a5943df9-b7ab-5d00-b029-5963c83b2c60))
-(global_label "USB_DM" (shape bidirectional) (at 81.28 80.01 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 10944c59-e00b-5ec7-846b-963ccb62b65f))
 (no_connect (at 77.47 95.25) (uuid 8b5937a5-2820-5463-8033-b07c95c1fe79))
 (wire (pts (xy 77.47 74.93) (xy 81.28 74.93)) (stroke (width 0) (type default)) (uuid 21852b6e-96f8-5147-9ef9-664189dba7f0))
 (global_label "CC2" (shape bidirectional) (at 81.28 74.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid adfef03d-89d1-53cf-a6c4-cdbab3db5cc9))
-(wire (pts (xy 77.47 87.63) (xy 81.28 87.63)) (stroke (width 0) (type default)) (uuid 918ad806-9680-5791-8858-e316277262c7))
-(global_label "USB_DP" (shape bidirectional) (at 81.28 87.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e7d67647-0378-510f-b063-bd7d54845b56))
-(wire (pts (xy 77.47 82.55) (xy 81.28 82.55)) (stroke (width 0) (type default)) (uuid fc390d14-6bc2-5b8b-bf13-d81e3b93ef69))
-(global_label "USB_DM" (shape bidirectional) (at 81.28 82.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 89a02030-597d-5134-acd6-0ec23c093ba9))
 (no_connect (at 77.47 97.79) (uuid 56296b42-707e-5f5c-805b-18741c9e50c1))
 (wire (pts (xy 54.61 105.41) (xy 54.61 109.22)) (stroke (width 0) (type default)) (uuid 1d6c0369-9393-52bf-838c-3095dbd1af96))
 (global_label "GND" (shape bidirectional) (at 54.61 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5ad1384c-ef88-569e-8e3b-15923e93406c))
+
+
+
+
+
+(wire (pts (xy 77.47 85.09) (xy 81.28 85.09)) (stroke (width 0) (type default)) (uuid 87e831ac-ce43-572d-8d6d-a73214d5d45b))
+(global_label "USB_D_P" (shape bidirectional) (at 81.28 85.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 930bfccf-2258-5e8b-bc34-de25c548079a))
+
+(wire (pts (xy 77.47 80.01) (xy 81.28 80.01)) (stroke (width 0) (type default)) (uuid b1031cf3-61d1-59fe-8371-8b21b9ede834))
+(global_label "USB_D_N" (shape bidirectional) (at 81.28 80.01 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9af1c019-06a1-5dbf-a26a-0973e41df883))
+
+(wire (pts (xy 77.47 87.63) (xy 81.28 87.63)) (stroke (width 0) (type default)) (uuid 0aaf4556-acdd-5f8c-9a69-7f48c41c4f54))
+(global_label "USB_D_P" (shape bidirectional) (at 81.28 87.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 786c6c67-edc9-5648-909a-9ca899ec07b0))
+
+(wire (pts (xy 77.47 82.55) (xy 81.28 82.55)) (stroke (width 0) (type default)) (uuid cfd7b8d7-6fde-559b-9180-b06a310a70dc))
+(global_label "USB_D_N" (shape bidirectional) (at 81.28 82.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7b9b8851-d01c-5097-8c3a-dc3d11941e20))
 (symbol (lib_id "Device:R_Small") (at 116.84 59.69 0) (unit 1) (in_bom yes) (on_board yes) (uuid 56cbf8b1-6dfe-5ca2-acdb-bc691f8b7309) (property "Reference" "R24" (at 125.84 58.09 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 125.84 59.89 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "R24") (unit 1)))))
 
 (wire (pts (xy 116.84 57.15) (xy 116.84 53.34)) (stroke (width 0) (type default)) (uuid 3d6ed3c5-df9a-5a91-8599-ac0ab8e75616))

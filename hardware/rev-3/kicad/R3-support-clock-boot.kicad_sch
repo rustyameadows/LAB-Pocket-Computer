@@ -1,0 +1,531 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid c2ad763c-144e-5b4a-8487-cd85519e398f) (paper "A3") (title_block (title "System clocks and programming pads") (date "2026-11-27") (rev "3 / engineering") (company "LAB Pocket Computer")) (lib_symbols (symbol "LAB:ABM8-40_000MHZ-10-1-U-T" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "ABM8-40_000MHZ-10-1-U-T" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "ABM8-40_000MHZ-10-1-U-T_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ABM8-40_000MHZ-10-1-U-T_1_1"
+(pin passive line (at -12.7 1.27 0) (length 2.54) (name "X1" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "X2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -1.27 180) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector:TestPoint"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.762)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "TP"
+			(at 0 6.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "test point tp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Pin* Test*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TestPoint_0_1"
+			(circle
+				(center 0 3.302)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TestPoint_1_1"
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "System clocks and programming pads" (at 17 17 0) (effects (font (size 3.1 3.1)) (justify left) ) (uuid 340c13cd-481e-5441-b58e-09b28b58ab01))
+(text "Momentarily ground BOOT and pulse EN low to enter a processor bootloader. UART pads and logic levels are 3.3 V." (at 17 25 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid b270ffb9-e485-5737-bbc3-80fb621f7d4f))
+(symbol (lib_id "LAB:ABM8-40_000MHZ-10-1-U-T") (at 36.83 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid badff05c-b93f-517c-9f14-76dec465aba3) (property "Reference" "Y1" (at 36.83 48.26 0) (effects (font (size 1 1)) ))(property "Value" "ABM8-40.000MHZ-10-1-U-T" (at 36.83 50.06 0) (effects (font (size 1 1)) ))(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/ABM8.pdf" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "ABM8-40.000MHZ-10-1-U-T" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "Y1") (unit 1)))))
+(wire (pts (xy 24.13 53.34) (xy 20.32 53.34)) (stroke (width 0) (type default)) (uuid 6cbb480a-65b3-5940-8167-f13ee8537da0))
+(global_label "HOST_XTAL_P" (shape bidirectional) (at 20.32 53.34 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 6bf94607-da81-5fb7-921a-519072a9a219))
+(wire (pts (xy 24.13 55.88) (xy 20.32 55.88)) (stroke (width 0) (type default)) (uuid 0c6f65fa-33a2-5082-938a-acb3ee945682))
+(global_label "GND" (shape bidirectional) (at 20.32 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c65abe0e-81b5-5bb9-91df-6f516dc67838))
+(wire (pts (xy 49.53 53.34) (xy 53.34 53.34)) (stroke (width 0) (type default)) (uuid 81d972cd-8655-53ca-8332-2e057e473043))
+(global_label "HOST_XTAL_N" (shape bidirectional) (at 53.34 53.34 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid cc2c53b5-23d7-5607-aeaa-44b57d00eb65))
+(wire (pts (xy 49.53 55.88) (xy 53.34 55.88)) (stroke (width 0) (type default)) (uuid ad8ca0a0-7582-52a7-a615-b660609727d8))
+(global_label "GND" (shape bidirectional) (at 53.34 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ceed47a3-a277-5fa7-ada6-c579cd3d023f))
+(symbol (lib_id "Device:C_Small") (at 102.87 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 89f6bc95-2231-5072-905e-3822d309b116) (property "Reference" "C102" (at 113 53.5 0) (effects (font (size 1 1)) ))(property "Value" "15p" (at 113 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C150J5GACTU.pdf" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C150J5GACTU" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C102") (unit 1)))))
+(wire (pts (xy 102.87 52.07) (xy 102.87 48.26)) (stroke (width 0) (type default)) (uuid 4d47a050-db24-5bcc-b00b-845beaa27457))
+(global_label "HOST_XTAL_N" (shape bidirectional) (at 102.87 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 18f91253-6959-5b91-9818-410465ed08e6))
+(wire (pts (xy 102.87 57.15) (xy 102.87 60.96)) (stroke (width 0) (type default)) (uuid a7f3dd0d-985a-5a08-ac7c-c0c7c7d15d02))
+(global_label "GND" (shape bidirectional) (at 102.87 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c61f5990-bc09-575f-9549-8296b18bc6ae))
+(symbol (lib_id "Device:C_Small") (at 168.91 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 2c9ba929-35dd-5fa4-a9b0-a147b8486abc) (property "Reference" "C103" (at 179 53.5 0) (effects (font (size 1 1)) ))(property "Value" "15p" (at 179 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C150J5GACTU.pdf" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C150J5GACTU" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C103") (unit 1)))))
+(wire (pts (xy 168.91 52.07) (xy 168.91 48.26)) (stroke (width 0) (type default)) (uuid 76977119-b855-5412-a1fe-5d27b9dab2b9))
+(global_label "HOST_XTAL_P" (shape bidirectional) (at 168.91 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 81f1fb72-1bb8-53f8-953e-3f141f2cd96a))
+(wire (pts (xy 168.91 57.15) (xy 168.91 60.96)) (stroke (width 0) (type default)) (uuid 4e43fbf5-d8c5-57f9-9d13-1afb62a782f7))
+(global_label "GND" (shape bidirectional) (at 168.91 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f3883b32-4b8c-5562-a203-fe58e013d319))
+(symbol (lib_id "Device:R_Small") (at 234.95 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 235dc7ec-fece-5e9e-9e6f-d6ac30a2bc51) (property "Reference" "R55" (at 245 53.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 245 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R55") (unit 1)))))
+(wire (pts (xy 234.95 52.07) (xy 234.95 48.26)) (stroke (width 0) (type default)) (uuid aca724b9-0253-5896-ac83-f3b74617de28))
+(global_label "3V3" (shape bidirectional) (at 234.95 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 53c4925f-4a6e-5d7f-a291-dfcbed95868b))
+(wire (pts (xy 234.95 57.15) (xy 234.95 60.96)) (stroke (width 0) (type default)) (uuid fcbb18ec-c148-599e-b673-860fc392744a))
+(global_label "HOST_EN" (shape bidirectional) (at 234.95 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 22b31588-ab21-5614-ae19-d6051c6bbdfd))
+(symbol (lib_id "Device:C_Small") (at 300.99 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 442eef1a-4b35-5693-9743-4baad438512d) (property "Reference" "C104" (at 311 53.5 0) (effects (font (size 1 1)) ))(property "Value" "1u" (at 311 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C105K8PACTU.pdf" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C105K8PACTU" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C104") (unit 1)))))
+(wire (pts (xy 300.99 52.07) (xy 300.99 48.26)) (stroke (width 0) (type default)) (uuid d328c388-18be-5547-90c6-24e4542ae28c))
+(global_label "HOST_EN" (shape bidirectional) (at 300.99 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 80c70d71-bff0-52d9-8f8c-4ee53f5b13a7))
+(wire (pts (xy 300.99 57.15) (xy 300.99 60.96)) (stroke (width 0) (type default)) (uuid 80267fcf-8028-5456-a580-5362193afe14))
+(global_label "GND" (shape bidirectional) (at 300.99 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4828bcb6-5bd0-5b89-9fc4-aa129476dc75))
+(symbol (lib_id "Device:R_Small") (at 367.03 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 417358c1-0e6b-578c-a627-2ed2d71daab1) (property "Reference" "R56" (at 377 53.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 377 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R56") (unit 1)))))
+(wire (pts (xy 367.03 52.07) (xy 367.03 48.26)) (stroke (width 0) (type default)) (uuid a39a7cab-5fab-5ea3-85d2-2e67a4f18df2))
+(global_label "3V3" (shape bidirectional) (at 367.03 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5141904b-a240-5c20-a2f0-2ca49958c191))
+(wire (pts (xy 367.03 57.15) (xy 367.03 60.96)) (stroke (width 0) (type default)) (uuid 42622074-0539-5beb-ad2f-ab28b351bae6))
+(global_label "HOST_BOOT_N" (shape bidirectional) (at 367.03 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 48f359d0-8035-5a4d-9ffa-f9ad3df662e9))
+(symbol (lib_id "Device:R_Small") (at 36.83 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 39aae171-151f-5f52-8456-6ef80c0ff96c) (property "Reference" "R57" (at 47 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 47 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R57") (unit 1)))))
+(wire (pts (xy 36.83 85.09) (xy 36.83 81.28)) (stroke (width 0) (type default)) (uuid 92a7f3cd-1c10-5d38-a1b0-30c1ddacaa0c))
+(global_label "3V3" (shape bidirectional) (at 36.83 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c50c62fb-a9f0-53b8-8712-e94efb3f6d4e))
+(wire (pts (xy 36.83 90.17) (xy 36.83 93.98)) (stroke (width 0) (type default)) (uuid 9f760fd9-2a25-53e3-a79e-b210d8b52ada))
+(global_label "HOST_STRAP36" (shape bidirectional) (at 36.83 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid deb6c6de-0c1c-50f5-bcfb-834139123758))
+(symbol (lib_id "Device:R_Small") (at 102.87 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6a0a75b0-0049-5d1f-a77f-33de3cfd9b90) (property "Reference" "R58" (at 113 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 113 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R58") (unit 1)))))
+(wire (pts (xy 102.87 85.09) (xy 102.87 81.28)) (stroke (width 0) (type default)) (uuid 8c052ed8-1520-54f4-8b73-555a16e5886c))
+(global_label "HOST_FLASH_VDD" (shape bidirectional) (at 102.87 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid cadbca63-a4af-5d77-8f29-51d8d5235d95))
+(wire (pts (xy 102.87 90.17) (xy 102.87 93.98)) (stroke (width 0) (type default)) (uuid e19bef4e-ec81-5e53-a2ba-af750134e4d9))
+(global_label "HOST_NOR_CS_N" (shape bidirectional) (at 102.87 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e8fbc8e8-12a6-50eb-816c-a515efc8388a))
+(symbol (lib_id "Device:R_Small") (at 168.91 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid d028fb86-1dac-5b74-ae19-b82e2dde8db8) (property "Reference" "R59" (at 179 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 179 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R59") (unit 1)))))
+(wire (pts (xy 168.91 85.09) (xy 168.91 81.28)) (stroke (width 0) (type default)) (uuid 9685f6da-a3f7-58ce-b588-a9561ff7dd1a))
+(global_label "3V3" (shape bidirectional) (at 168.91 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a13ac78e-87a4-59bd-86a6-94a5f9a7115c))
+(wire (pts (xy 168.91 90.17) (xy 168.91 93.98)) (stroke (width 0) (type default)) (uuid 0c4a8f5a-e23b-517b-9a85-92dd9a9f08a0))
+(global_label "RADIO_STRAP8" (shape bidirectional) (at 168.91 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7038c23a-74b2-5f94-8b6f-c4829131e079))
+(symbol (lib_id "Device:R_Small") (at 234.95 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 287d4687-e9a8-5192-b770-357ed89330fc) (property "Reference" "R60" (at 245 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 245 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "R60") (unit 1)))))
+(wire (pts (xy 234.95 85.09) (xy 234.95 81.28)) (stroke (width 0) (type default)) (uuid 3865ed90-b142-51d3-b05f-5c0fbb5081ac))
+(global_label "3V3" (shape bidirectional) (at 234.95 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 700b3aaa-5d60-5549-9b60-eca630cc20dd))
+(wire (pts (xy 234.95 90.17) (xy 234.95 93.98)) (stroke (width 0) (type default)) (uuid cf51b3e0-7094-5aff-ae5c-8ffff54ca0f3))
+(global_label "RADIO_BOOT_N" (shape bidirectional) (at 234.95 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1e86b8d9-1691-50cd-b35a-d1ed81328f4d))
+(symbol (lib_id "Device:C_Small") (at 300.99 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid c08ca3d9-5b51-5c04-9599-24776527afea) (property "Reference" "C105" (at 311 85.5 0) (effects (font (size 1 1)) ))(property "Value" "1u" (at 311 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C105K8PACTU.pdf" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C105K8PACTU" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C105") (unit 1)))))
+(wire (pts (xy 300.99 85.09) (xy 300.99 81.28)) (stroke (width 0) (type default)) (uuid b28eeb74-0005-592d-a995-e9d16256a31d))
+(global_label "C6_EN" (shape bidirectional) (at 300.99 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4e14ea30-f620-57a0-aedc-7938d10edbd3))
+(wire (pts (xy 300.99 90.17) (xy 300.99 93.98)) (stroke (width 0) (type default)) (uuid 3fe4f47b-b9ee-547a-80a1-93d66689e300))
+(global_label "GND" (shape bidirectional) (at 300.99 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f6539dd0-3817-52c0-aa17-5ab711420b8e))
+(symbol (lib_id "Device:C_Small") (at 367.03 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid f5a08e8f-845f-503a-862c-484f2270d691) (property "Reference" "C106" (at 377 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10u" (at 377 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0805C106K4PACTU.pdf" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0805C106K4PACTU" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C106") (unit 1)))))
+(wire (pts (xy 367.03 85.09) (xy 367.03 81.28)) (stroke (width 0) (type default)) (uuid be7fc331-516b-52ba-ab00-267bd157f8de))
+(global_label "3V3" (shape bidirectional) (at 367.03 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d9670a01-51d7-5abe-8c2c-0bd3ed2c4c96))
+(wire (pts (xy 367.03 90.17) (xy 367.03 93.98)) (stroke (width 0) (type default)) (uuid e7db1975-3128-5932-840b-6c72780b1303))
+(global_label "GND" (shape bidirectional) (at 367.03 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 989ff6f3-3d4b-52c2-b3cf-9852d6f3256e))
+(symbol (lib_id "Device:C_Small") (at 36.83 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3c334dca-10ec-58e7-ad61-dec7e1d480da) (property "Reference" "C107" (at 47 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 47 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "C107") (unit 1)))))
+(wire (pts (xy 36.83 116.84) (xy 36.83 113.03)) (stroke (width 0) (type default)) (uuid 29865f1a-3b4f-5435-a0bd-241e1e483e75))
+(global_label "3V3" (shape bidirectional) (at 36.83 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid fa658ab7-e996-554f-835f-c44e9d6c5092))
+(wire (pts (xy 36.83 121.92) (xy 36.83 125.73)) (stroke (width 0) (type default)) (uuid daecd20d-be83-5608-b2d9-bb8f387f9adf))
+(global_label "GND" (shape bidirectional) (at 36.83 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fbbb7f7a-825f-51df-a5f1-7c26138de9c1))
+(symbol (lib_id "Connector:TestPoint") (at 102.87 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid d18c1cd0-59b8-5f1b-9cc5-753a30c2b1a6) (property "Reference" "TP7" (at 102.87 114.3 0) (effects (font (size 1 1)) ))(property "Value" "HOST_BOOT_N" (at 102.87 116.1 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP7") (unit 1)))))
+(wire (pts (xy 102.87 119.38) (xy 102.87 123.19)) (stroke (width 0) (type default)) (uuid f7b80d54-e8bc-53e1-8231-9fc35a6d54e4))
+(global_label "HOST_BOOT_N" (shape bidirectional) (at 102.87 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 311eaaf3-d8ef-54d4-98a6-c91978625889))
+(symbol (lib_id "Connector:TestPoint") (at 168.91 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8caca497-f4e8-5582-b7c8-aa50924cfb5b) (property "Reference" "TP8" (at 168.91 114.3 0) (effects (font (size 1 1)) ))(property "Value" "HOST_EN" (at 168.91 116.1 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP8") (unit 1)))))
+(wire (pts (xy 168.91 119.38) (xy 168.91 123.19)) (stroke (width 0) (type default)) (uuid e89cb6cd-8cff-52b5-af75-008c7ccc2084))
+(global_label "HOST_EN" (shape bidirectional) (at 168.91 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2cf76692-13d4-5d28-ae88-467a1266e1f0))
+(symbol (lib_id "Connector:TestPoint") (at 234.95 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid bae26af1-9ce4-593d-a81d-1020c91e0595) (property "Reference" "TP9" (at 234.95 114.3 0) (effects (font (size 1 1)) ))(property "Value" "HOST_TX" (at 234.95 116.1 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP9") (unit 1)))))
+(wire (pts (xy 234.95 119.38) (xy 234.95 123.19)) (stroke (width 0) (type default)) (uuid 638df923-8809-5199-a6a5-7fbc7f5ee9f0))
+(global_label "HOST_TX" (shape bidirectional) (at 234.95 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 75096911-004a-5cd5-b160-7224b5c70103))
+(symbol (lib_id "Connector:TestPoint") (at 300.99 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid bd20fe63-3b13-58f5-a68b-81edd87706ae) (property "Reference" "TP10" (at 300.99 114.3 0) (effects (font (size 1 1)) ))(property "Value" "HOST_RX" (at 300.99 116.1 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP10") (unit 1)))))
+(wire (pts (xy 300.99 119.38) (xy 300.99 123.19)) (stroke (width 0) (type default)) (uuid 44dd7dad-6a85-5ee8-ba39-0995e3f07737))
+(global_label "HOST_RX" (shape bidirectional) (at 300.99 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 186ea4b6-8560-5b81-a803-a3f397111253))
+(symbol (lib_id "Connector:TestPoint") (at 367.03 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid c6d95651-46bc-5f9d-84c7-3b5b29553e02) (property "Reference" "TP11" (at 367.03 114.3 0) (effects (font (size 1 1)) ))(property "Value" "GND" (at 367.03 116.1 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP11") (unit 1)))))
+(wire (pts (xy 367.03 119.38) (xy 367.03 123.19)) (stroke (width 0) (type default)) (uuid 84e668ad-0832-5eac-99ca-f0c201deca0d))
+(global_label "GND" (shape bidirectional) (at 367.03 123.19 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d76aad44-e6e2-54e4-bf69-757df8916f9c))
+(symbol (lib_id "Connector:TestPoint") (at 36.83 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid e78218a4-9ffd-5752-899e-1fb2c5854fb9) (property "Reference" "TP12" (at 36.83 146.05 0) (effects (font (size 1 1)) ))(property "Value" "3V3" (at 36.83 147.85 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP12") (unit 1)))))
+(wire (pts (xy 36.83 151.13) (xy 36.83 154.94)) (stroke (width 0) (type default)) (uuid 5acfa22d-11c8-5217-a7db-83ad7fe10603))
+(global_label "3V3" (shape bidirectional) (at 36.83 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cc8f98bb-3bd6-5b85-9154-da924b2af967))
+(symbol (lib_id "Connector:TestPoint") (at 102.87 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid d1835e6f-a2a4-52d9-9e54-8025d6c310e4) (property "Reference" "TP13" (at 102.87 146.05 0) (effects (font (size 1 1)) ))(property "Value" "RADIO_BOOT_N" (at 102.87 147.85 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP13") (unit 1)))))
+(wire (pts (xy 102.87 151.13) (xy 102.87 154.94)) (stroke (width 0) (type default)) (uuid 3a07470e-0aaa-5d42-b4dd-400db061d08a))
+(global_label "RADIO_BOOT_N" (shape bidirectional) (at 102.87 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 287cb665-6029-5034-98c0-87b689b95708))
+(symbol (lib_id "Connector:TestPoint") (at 168.91 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1cec0736-e438-529c-9762-def346eaced8) (property "Reference" "TP14" (at 168.91 146.05 0) (effects (font (size 1 1)) ))(property "Value" "C6_EN" (at 168.91 147.85 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP14") (unit 1)))))
+(wire (pts (xy 168.91 151.13) (xy 168.91 154.94)) (stroke (width 0) (type default)) (uuid 00c2c29a-ef12-5c32-8888-2c8ddafa6510))
+(global_label "C6_EN" (shape bidirectional) (at 168.91 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 39c21db4-71b9-5ffc-a1ad-6ff59359ab9f))
+(symbol (lib_id "Connector:TestPoint") (at 234.95 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 18a993ec-3114-51fb-88d0-9a4eb7ad1492) (property "Reference" "TP15" (at 234.95 146.05 0) (effects (font (size 1 1)) ))(property "Value" "RADIO_TX" (at 234.95 147.85 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP15") (unit 1)))))
+(wire (pts (xy 234.95 151.13) (xy 234.95 154.94)) (stroke (width 0) (type default)) (uuid b517fc7d-01c5-54fd-a586-7946e621117d))
+(global_label "RADIO_TX" (shape bidirectional) (at 234.95 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c3d5b5fe-be63-5c3c-a696-6da990cddd4a))
+(symbol (lib_id "Connector:TestPoint") (at 300.99 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 24e837cd-6a3d-5d05-8056-8f98113cd930) (property "Reference" "TP16" (at 300.99 146.05 0) (effects (font (size 1 1)) ))(property "Value" "RADIO_RX" (at 300.99 147.85 0) (effects (font (size 1 1)) ))(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-R3" (path "/536fed22-4200-5170-97ba-6689baea2d6e/0381de2b-d909-54a6-b099-6a2e955a00db" (reference "TP16") (unit 1)))))
+(wire (pts (xy 300.99 151.13) (xy 300.99 154.94)) (stroke (width 0) (type default)) (uuid 6502718e-4b29-5580-bab0-0338ae46b37d))
+(global_label "RADIO_RX" (shape bidirectional) (at 300.99 154.94 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cd877ec4-1726-5740-8007-92a1ad09b6df))
+(embedded_fonts no))
