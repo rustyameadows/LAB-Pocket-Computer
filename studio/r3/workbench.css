@@ -1,0 +1,6 @@
+.r3-search { background: #36483f; border: 1px solid #65776a; color: #f4f8ef; margin: 0 9px 9px; min-height: 29px; border-radius: 5px; }
+.r3-search text, .r3-search image { color: #edf4ec; }
+.r3-form { background: #fafaf4; border-radius: 7px; border: 1px solid #cad2c6; }
+.r3-form entry { background: #fffefa; color: #27382d; border: 1px solid #acb9aa; border-radius: 4px; padding: 4px 8px; }
+.r3-form expander { color: #283c30; font-weight: 600; }
+.r3-form expander .description { font-weight: 400; }
