@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "LAB")(type "KiCad")(uri "${KIPRJMOD}/../libraries/LAB-r1.kicad_sym")(options "")(descr "")) (lib (name "S31_34")(type "KiCad")(uri "${KIPRJMOD}/S31_34-r3.kicad_sym")(options "")(descr "")))

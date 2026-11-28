@@ -1,0 +1,171 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-27T20:13:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-S31 processor and peripheral buses/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/df004124-4f7b-5491-aa85-073455dd3fe0",
+            "violations": []
+        },
+        {
+            "path": "/Processor power and reference bypass/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/fda71e12-2833-5876-bf57-5a79f2b05df7",
+            "violations": []
+        },
+        {
+            "path": "/16 MB host NOR and 40 MHz reference/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a805eb93-5e19-5f8a-a675-939fca09fb89",
+            "violations": []
+        },
+        {
+            "path": "/Boot straps, reset and programming pads/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/dfb2b1d2-a218-5eda-bded-445103ec0054",
+            "violations": []
+        },
+        {
+            "path": "/Display, camera and system controls/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/c00128b3-b739-57af-af06-1d60b3f2fe2f",
+            "violations": []
+        },
+        {
+            "path": "/2.4 GHz radio and onboard antenna/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/5bfaf68d-0bce-5a7f-87a3-6de094ef382d",
+            "violations": []
+        },
+        {
+            "path": "/OV5640 autofocus flex and local bypass/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a8b4b58c-471e-5e60-b600-b589c8f9dea3",
+            "violations": []
+        },
+        {
+            "path": "/Camera pixel bus and clock translation/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/32f87d3f-c151-51b1-8e01-cfe6970183ff",
+            "violations": []
+        },
+        {
+            "path": "/Camera supply sequencing and SCCB/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/24a23b07-1f70-5da0-b6ba-c47afc2aecae",
+            "violations": []
+        },
+        {
+            "path": "/3.4-inch 480 x 480 RGB display/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/4e898a86-2270-5200-a34d-2ae46492103a",
+            "violations": []
+        },
+        {
+            "path": "/Dual-string display backlight/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/0e4c46cc-1ca8-56ad-b85c-66f942c0a2a5",
+            "violations": []
+        },
+        {
+            "path": "/Key matrix and scan port/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/60010778-0109-5760-a4b1-5306140504f1",
+            "violations": []
+        },
+        {
+            "path": "/Key illumination/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/79568977-3c4d-5f82-a6ac-e33e419c8461",
+            "violations": []
+        },
+        {
+            "path": "/Perimeter LEDs/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/59ef1f7f-d86a-547f-bc7a-efa98d006554",
+            "violations": []
+        },
+        {
+            "path": "/Dual microSD/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/36bf7db2-cbda-5a68-b670-770231730771",
+            "violations": []
+        },
+        {
+            "path": "/RP2350B user processor/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/34e818bb-b718-5a24-bdbf-621c5e94da5f",
+            "violations": []
+        },
+        {
+            "path": "/RP2350B supplies and memory/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f",
+            "violations": []
+        },
+        {
+            "path": "/Audio connectors and IMU/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/3c349cd4-b6ac-57e8-aec7-a92f8c2765e8",
+            "violations": []
+        },
+        {
+            "path": "/Stereo codec and amplifier/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/b51b1f73-3378-5853-909e-c7d6d947f449",
+            "violations": []
+        },
+        {
+            "path": "/IMU address/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/7e1a2d13-b152-5408-8c66-88be343a32e4",
+            "violations": []
+        },
+        {
+            "path": "/Battery and USB connector/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/b17074c9-ac95-58cd-b09c-db13ef1b0c86",
+            "violations": []
+        },
+        {
+            "path": "/Charge interlock and gauge/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/e51d5276-6e96-5b7c-974d-a17f94f51c71",
+            "violations": []
+        },
+        {
+            "path": "/Type-C current detection/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/350003fe-af18-5c4b-8f8b-4eca696dd665",
+            "violations": []
+        },
+        {
+            "path": "/System voltage regulator/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/8ae5cc22-97dc-5ba0-bf78-f05548508bcc",
+            "violations": []
+        },
+        {
+            "path": "/Pixel boost supply/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/d969cf89-0310-586b-8ee4-75c07417cfc7",
+            "violations": []
+        },
+        {
+            "path": "/Supply entry points/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/96324318-dfe0-58f4-97a7-fd051258d29d",
+            "violations": []
+        },
+        {
+            "path": "/GNSS receiver and RP2350B serial interface/",
+            "uuid_path": "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/166217f3-a511-520d-9c09-f4323e7fbd00",
+            "violations": []
+        }
+    ],
+    "source": "LAB-Pocket-S31-34-r3.kicad_sch"
+}
