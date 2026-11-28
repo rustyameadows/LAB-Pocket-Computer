@@ -1,0 +1,31 @@
+#!/usr/bin/python3
+"""Launch LAB Studio or expose its tools over MCP standard I/O."""
+import argparse
+import sys
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    commands = parser.add_subparsers(dest="command")
+    commands.add_parser("mcp", help="start the local stdio MCP server")
+    opener = commands.add_parser("open", help="import a .lab cartridge and open its source")
+    opener.add_argument("cartridge")
+    args = parser.parse_args()
+    if args.command == "mcp":
+        from lab_mcp import main as serve
+        serve()
+        return 0
+    if args.command == "open":
+        from studio_store import Store, StoreError
+        try:
+            Store().import_project(args.cartridge)
+        except (OSError, ValueError, StoreError) as error:
+            parser.exit(1, f"Could not import cartridge: {error}\n")
+    # The command-line arguments above belong to this launcher, not GApplication.
+    sys.argv = [sys.argv[0]]
+    from ui import run
+    return run() or 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

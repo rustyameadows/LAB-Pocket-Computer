@@ -1,0 +1,56 @@
+window.studio, .desk { background: #f4f3eb; color: #232c27; font-family: "Inter","Lato","Sans"; }
+.studio-header { background: #f9f8f2; border-bottom: 1px solid #c9cdc3; padding: 6px 10px; color: #202a25; box-shadow: none; }
+.brand { font-size: 21px; font-weight: 800; letter-spacing: -1px; }
+.version, .overline, .caption, .number, .footer-meta, .file-label, .stage-tag { font-family: "IBM Plex Mono","DejaVu Sans Mono",monospace; }
+.version { font-size: 10px; color: #57655c; padding: 2px 5px; background: #e5e8dc; border-radius: 3px; }
+.top-action, .minor-action, .mode-tab, .new-cart, .primary-action, .secondary-action, .icon-action, .bridge-button { border-radius: 5px; box-shadow: none; text-shadow: none; background-image: none; font-weight: 600; }
+.top-action { background: transparent; color:#28382d; border:1px solid #bdc5b7; padding: 4px 10px; }
+.top-action:hover, .secondary-action:hover { background: #dfe6d8; }
+.new-cart, .primary-action { background: #d5f880; color:#22351f; border:1px solid #aac75f; padding: 5px 12px; }
+.new-cart:hover, .primary-action:hover { background: #bcf155; }
+.shelf { background: #25332d; color: #eef2e6; border-right: 1px solid #19281f; }
+.overline { font-size: 10px; letter-spacing: 1px; font-weight: 700; color: #566158; }
+.shelf .overline { color: #bacbbd; }
+.number { font-size: 11px; color: #adbead; }
+.shelf-list, .shelf-list > row { background: transparent; color: #eef2e6; }
+.shelf-list > row { margin: 2px 8px; border-radius: 5px; padding: 0; }
+.shelf-list > row:hover { background: #324239; }
+.shelf-list > row:selected { background: #445346; color: #ffffff; }
+.cart-name { font-size: 14px; font-weight: 700; }
+.cart-kind { font-size: 10px; color: #c2cebf; }
+.bridge-button { border: 1px solid #5f7163; background: transparent; color: #e9efe5; padding: 6px 10px; }
+.bridge-button:hover { background: #384b3d; }
+.shelf-footer { border-top: 1px solid #48584c; }
+.shelf-caption { font-size:11px; color: #c1cdc2; }
+.game-name { font-size: 33px; letter-spacing: -1.5px; font-weight: 800; }
+.description { font-size: 13px; color: #516056; }
+.mode-bar { background: #e2e6da; border: 1px solid #cdd2c5; border-radius: 6px; padding: 3px; }
+.mode-tab { background: transparent; color:#526056; border:0; border-radius: 3px; padding: 3px 10px; font-size: 12px; }
+.mode-tab:checked { color:#203225; background: #fafbf5; box-shadow: 0 1px 2px alpha(black,0.12); }
+.stage { background: #e1e5d9; border:1px solid #bcc5b8; border-radius: 8px; }
+.stage-head { background: #edf0e6; border-radius: 8px 8px 0 0; border-bottom: 1px solid #c4cbbf; }
+.stage-tag { font-size: 10px; font-weight: 700; letter-spacing:.6px; color:#314a38; }
+.stage-foot { border-top: 1px solid #c3cabe; background: #edf0e6; border-radius:0 0 8px 8px; }
+.rail { background: #faf9f3; border: 1px solid #d1d5ca; border-radius: 8px; }
+.rail-title { font-size: 15px; font-weight: 750; color: #26382a; }
+.caption, .footer-meta { color: #556558; font-size: 10px; }
+.minor-action, .icon-action { background:transparent; border:0; color:#324739; padding: 3px 6px; }
+.minor-action:hover, .icon-action:hover { background:#d4ddce; }
+.secondary-action { background:#f8f9f3; border:1px solid #b9c4b6; color:#2d4031; padding: 4px 9px; }
+.input-action { color:#27352c; font-size:12px; }
+.binding { background:#e8ebe2; border:1px solid #c7d0c1; border-radius: 3px; padding: 1px 5px; font-family:monospace; font-size:10px; color:#314537; }
+.section-rule { background:#d7dcd0; min-height:1px; }
+.keycap { min-width: 22px; min-height: 24px; padding: 1px; border-radius: 3px; background:#e5e9df; color:#859181; border: 1px solid #ccd4c6; font-family:monospace; font-size:10px; box-shadow:none; text-shadow:none; }
+.keycap.mapped { background:#cdddbb; border-color:#b3c4a4; color:#32482b; }
+.keycap.lit { background:#d6f789; color:#24411b; border-color:#91ac63; }
+.keycap.held { background:#3e5f3d; border-color:#2b472a; color:#f4ffe5; }
+.keycap:hover { border-color:#668163; }
+.source-pane { background:#fbfbf6; border:1px solid #c4cdbe; border-radius:7px; }
+.source-head { border-bottom:1px solid #d4d9ce; padding:7px 10px; }
+.code, .code text { font-family:"IBM Plex Mono","DejaVu Sans Mono",monospace; background:#fbfbf6; color:#26392d; font-size:12px; }
+.file-label { font-size:11px; color:#3c5041; font-weight:700; }
+.statusbar { background:#eeefe6; border-top:1px solid #cbd2c5; }
+.notice { background:#edf4d9; color:#30462c; border:1px solid #c6d6a7; border-radius:4px; padding:4px 8px; }
+.notice.error { background:#fff1dc; color:#653c1c; border-color:#e1c59f; }
+.dialog-content { background:#f5f5ee; color:#26352b; }
+.dialog-title { font-size:22px; font-weight:800; }

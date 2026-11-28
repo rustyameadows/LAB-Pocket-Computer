@@ -1,0 +1,6 @@
+{
+  "title": "Prism Break",
+  "description": "Bank a bright ball through a rainbow of bricks. Clear the wall with three lives.",
+  "accent": "#fc967c",
+  "controls": {"left":"Slide left","right":"Slide right","a":"Launch ball","start":"Restart after game"}
+}

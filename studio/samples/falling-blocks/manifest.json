@@ -1,0 +1,6 @@
+{
+  "title": "Stackfall",
+  "description": "Rotate, drop, and clear seven luminous shapes in a ten-column well.",
+  "accent": "#eac756",
+  "controls": {"left":"Move left","right":"Move right","up":"Rotate","down":"Soft drop","a":"Rotate","b":"Hard drop","start":"Restart after loss"}
+}

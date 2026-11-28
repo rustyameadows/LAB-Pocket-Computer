@@ -1,0 +1,6 @@
+{
+  "title": "Switchback",
+  "description": "Guide a trail through a phosphor-green garden and collect seeds before you double back.",
+  "accent": "#a8dc78",
+  "controls": {"left":"Turn left","right":"Turn right","up":"Turn up","down":"Turn down","a":"Hold to boost","start":"Restart after loss"}
+}
