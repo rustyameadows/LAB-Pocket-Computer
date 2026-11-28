@@ -1,0 +1,1733 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid b80a03e7-812e-5d63-8e32-b1bb74bc48ba) (paper "A3") (title_block (title "Battery and USB connector") (date "2026-11-26") (rev "4 · S31 layout R2") (company "LAB Pocket Computer")) (lib_symbols (symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 0 19.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "USB*C*Receptacle*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+			(rectangle
+				(start -0.254 -17.78)
+				(end 0.254 -16.764)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 15.494)
+				(end 9.144 14.986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 10.414)
+				(end 9.144 9.906)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 7.874)
+				(end 9.144 7.366)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 2.794)
+				(end 9.144 2.286)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 0.254)
+				(end 9.144 -0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -2.286)
+				(end 9.144 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -4.826)
+				(end 9.144 -5.334)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -12.446)
+				(end 9.144 -12.954)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.16 -14.986)
+				(end 9.144 -15.494)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+			(rectangle
+				(start -10.16 17.78)
+				(end 10.16 -17.78)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -3.81) (xy -8.89 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -7.62 -3.81)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 3.81)
+				(mid -6.985 4.4423)
+				(end -6.35 3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -8.89 3.81)
+				(mid -6.985 5.7067)
+				(end -5.08 3.81)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 -3.81)
+				(mid -6.985 -5.7067)
+				(end -8.89 -3.81)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.35 -3.81)
+				(mid -6.985 -4.4423)
+				(end -7.62 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 3.81) (xy -5.08 -3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 1.143)
+				(radius 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.842) (xy 0 4.318)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.842)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.905 1.778)
+				(end 3.175 3.048)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -12.7 180)
+				(length 5.08)
+				(name "SBU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 5.08)
+				(name "SBU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -22.86 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Battery_Management:BQ24074RGT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -8.89 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BQ24074RGT"
+			(at 16.51 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+			(at 7.62 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24074.pdf"
+			(at 7.62 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "USB Charger"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BQ24074RGT_0_1"
+			(rectangle
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BQ24074RGT_1_1"
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "TS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "~{CE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "EN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "EN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "~{PGOOD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "~{CHG}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "TMR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "ITERM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "LAB:ProtectedPouch" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "BT" (at 0 5.54 0) (effects (font (size 1 1)) ))
+(property "Value" "ProtectedPouch" (at 0 4.04 0) (effects (font (size 1 1)) ))
+(symbol "ProtectedPouch_0_1" (rectangle (start -8.89 2.54) (end 8.89 -2.54) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ProtectedPouch_1_1"
+(pin passive line (at -11.43 0 0) (length 2.54) (name "PACK_POS" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 11.43 0 180) (length 2.54) (name "PACK_NEG" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))))
+(symbol "Connector_Generic:Conn_01x03"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x03_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "08   /   USB  /  POWER PATH" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 4a55e0b2-9cb3-5b98-a1fd-7893ac63bf0e))
+(text "BQ24074 PowerPath charger for the Jauch 1S pack. USB current is selected by the Type-C sink controller." (at 18 26 0) (effects (font (size 1.45 1.45)) (justify left) ) (uuid 43ac0483-6eef-5931-a31d-d21b3bc38644))
+(symbol (lib_id "Connector:USB_C_Receptacle_USB2.0_16P") (at 62.23 82.55 0) (unit 1) (in_bom yes) (on_board yes) (uuid c9ccf081-5d03-5f3d-915a-1b8a6cd97d80) (property "Reference" "J1" (at 60 59 0) (effects (font (size 1 1)) ))(property "Value" "USB4110-GF-A" (at 60 60.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:USB4110-v5" (at 62.23 82.55 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/USB4110-GF-A.pdf" (at 62.23 82.55 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "USB4110-GF-A" (at 62.23 82.55 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "J1") (unit 1)))))
+(wire (pts (xy 62.23 105.41) (xy 62.23 109.22)) (stroke (width 0) (type default)) (uuid c42b6586-2599-56ed-b9b3-f1f7857bde9e))
+(global_label "GND" (shape bidirectional) (at 62.23 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 574c936d-c033-5729-a2da-c95726f80613))
+(wire (pts (xy 77.47 67.31) (xy 81.28 67.31)) (stroke (width 0) (type default)) (uuid 1dffe796-e835-5808-97bf-f16626ff0f11))
+(global_label "VBUS" (shape bidirectional) (at 81.28 67.31 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 389ccf25-9e15-5ec9-82d8-d06c8bc22bd7))
+(wire (pts (xy 77.47 72.39) (xy 81.28 72.39)) (stroke (width 0) (type default)) (uuid 149352f5-532e-50ad-82f5-de36c2ef5502))
+(global_label "CC1" (shape bidirectional) (at 81.28 72.39 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5e3352fe-278f-5f42-b738-25a6aeffabac))
+(no_connect (at 77.47 95.25) (uuid 8b5937a5-2820-5463-8033-b07c95c1fe79))
+(wire (pts (xy 77.47 74.93) (xy 81.28 74.93)) (stroke (width 0) (type default)) (uuid 21852b6e-96f8-5147-9ef9-664189dba7f0))
+(global_label "CC2" (shape bidirectional) (at 81.28 74.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid adfef03d-89d1-53cf-a6c4-cdbab3db5cc9))
+(no_connect (at 77.47 97.79) (uuid 56296b42-707e-5f5c-805b-18741c9e50c1))
+(wire (pts (xy 54.61 105.41) (xy 54.61 109.22)) (stroke (width 0) (type default)) (uuid 1d6c0369-9393-52bf-838c-3095dbd1af96))
+(global_label "GND" (shape bidirectional) (at 54.61 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5ad1384c-ef88-569e-8e3b-15923e93406c))
+
+
+
+
+
+(wire (pts (xy 77.47 85.09) (xy 81.28 85.09)) (stroke (width 0) (type default)) (uuid 87e831ac-ce43-572d-8d6d-a73214d5d45b))
+(global_label "USB_D_P" (shape bidirectional) (at 81.28 85.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 930bfccf-2258-5e8b-bc34-de25c548079a))
+
+(wire (pts (xy 77.47 80.01) (xy 81.28 80.01)) (stroke (width 0) (type default)) (uuid b1031cf3-61d1-59fe-8371-8b21b9ede834))
+(global_label "USB_D_N" (shape bidirectional) (at 81.28 80.01 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9af1c019-06a1-5dbf-a26a-0973e41df883))
+
+(wire (pts (xy 77.47 87.63) (xy 81.28 87.63)) (stroke (width 0) (type default)) (uuid 0aaf4556-acdd-5f8c-9a69-7f48c41c4f54))
+(global_label "USB_D_P" (shape bidirectional) (at 81.28 87.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 786c6c67-edc9-5648-909a-9ca899ec07b0))
+
+(wire (pts (xy 77.47 82.55) (xy 81.28 82.55)) (stroke (width 0) (type default)) (uuid cfd7b8d7-6fde-559b-9180-b06a310a70dc))
+(global_label "USB_D_N" (shape bidirectional) (at 81.28 82.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7b9b8851-d01c-5097-8c3a-dc3d11941e20))
+(symbol (lib_id "Device:R_Small") (at 116.84 59.69 0) (unit 1) (in_bom yes) (on_board yes) (uuid 56cbf8b1-6dfe-5ca2-acdb-bc691f8b7309) (property "Reference" "R24" (at 125.84 58.09 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 125.84 59.89 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 116.84 59.69 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "R24") (unit 1)))))
+
+(wire (pts (xy 116.84 57.15) (xy 116.84 53.34)) (stroke (width 0) (type default)) (uuid 3d6ed3c5-df9a-5a91-8599-ac0ab8e75616))
+(global_label "CC_3V3" (shape bidirectional) (at 116.84 53.34 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7becd351-fc74-55d4-ad49-4f54b3098f27))
+
+(wire (pts (xy 116.84 62.23) (xy 116.84 66.04)) (stroke (width 0) (type default)) (uuid 8d3c9021-af70-5f8c-89a7-0b344f3c270a))
+(global_label "CC_HIGH_N" (shape bidirectional) (at 116.84 66.04 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d0887e51-4dc3-5972-a6db-e9ffea253c98))
+(symbol (lib_id "Device:R_Small") (at 151.13 59.69 0) (unit 1) (in_bom yes) (on_board yes) (uuid 79b6809b-664a-5697-a5e3-caf7cc790f3c) (property "Reference" "R25" (at 160.13 58.09 0) (effects (font (size 1 1)) ))(property "Value" "47k" (at 160.13 59.89 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 151.13 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 151.13 59.69 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060347K0FKEA" (at 151.13 59.69 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "R25") (unit 1)))))
+
+(wire (pts (xy 151.13 57.15) (xy 151.13 53.34)) (stroke (width 0) (type default)) (uuid ca9f8656-da55-5d4b-9c9e-72ae893a86f4))
+(global_label "USB_HIGH_CURRENT" (shape bidirectional) (at 151.13 53.34 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 26996bd3-2d58-5804-8be1-80779db6ef2d))
+
+(wire (pts (xy 151.13 62.23) (xy 151.13 66.04)) (stroke (width 0) (type default)) (uuid 5bdf22e2-8556-5255-9525-2435c9a5d77c))
+(global_label "GND" (shape bidirectional) (at 151.13 66.04 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e2b5885d-e72c-519f-96e4-164232486ab0))
+(symbol (lib_id "Battery_Management:BQ24074RGT") (at 224.79 85.09 0) (unit 1) (in_bom yes) (on_board yes) (uuid cce9dd4a-c92f-545b-961a-9dfe732d6087) (property "Reference" "U11" (at 224 56 0) (effects (font (size 1 1)) ))(property "Value" "BQ24074RGTR" (at 224 57.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm" (at 224.79 85.09 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BQ24074.pdf" (at 224.79 85.09 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BQ24074RGTR" (at 224.79 85.09 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "U11") (unit 1)))))
+(wire (pts (xy 237.49 87.63) (xy 241.3 87.63)) (stroke (width 0) (type default)) (uuid d30249c0-a066-5b87-88a7-d26f15713477))
+(global_label "PACK_TS" (shape bidirectional) (at 241.3 87.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 862c47af-afa8-52bd-897b-4684f3b115b4))
+(wire (pts (xy 237.49 82.55) (xy 241.3 82.55)) (stroke (width 0) (type default)) (uuid feee9bbd-4005-5ec8-bd89-8553f5e41a81))
+(global_label "PACK_POS" (shape bidirectional) (at 241.3 82.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0f8b6651-a871-5bf6-b66b-105c7063a4a8))
+(wire (pts (xy 212.09 85.09) (xy 208.28 85.09)) (stroke (width 0) (type default)) (uuid 093229d4-ce7b-561a-8ac4-ef24f79097ff))
+(global_label "GND" (shape bidirectional) (at 208.28 85.09 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 54483c4a-fcde-5a7d-867e-36489c65ea4f))
+(wire (pts (xy 224.79 100.33) (xy 224.79 104.14)) (stroke (width 0) (type default)) (uuid a0e5b2d2-65fc-56f5-acb7-aa6480bbfef6))
+(global_label "GND" (shape bidirectional) (at 224.79 104.14 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a41fc9a3-c356-5726-8d5e-1d350b9b8d68))
+(wire (pts (xy 237.49 74.93) (xy 241.3 74.93)) (stroke (width 0) (type default)) (uuid 6cdfdfd4-8aa9-5438-ab3d-e413d3644752))
+(global_label "VSYS" (shape bidirectional) (at 241.3 74.93 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9b3aa129-7104-5807-ac23-a0892b30800d))
+(wire (pts (xy 212.09 92.71) (xy 208.28 92.71)) (stroke (width 0) (type default)) (uuid 5035f2f7-e557-577a-b379-2df7fb590c53))
+(global_label "ILIM_SET" (shape bidirectional) (at 208.28 92.71 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c7e6c366-7429-5e37-9e52-a5951e472f38))
+(wire (pts (xy 224.79 69.85) (xy 224.79 66.04)) (stroke (width 0) (type default)) (uuid 3b35c343-e582-5be3-aa0e-f05a5a7ef9ed))
+(global_label "VBUS" (shape bidirectional) (at 224.79 66.04 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9666766d-1271-5f23-a226-731ba20da2b8))
+(no_connect (at 212.09 74.93) (uuid b021241b-7121-5566-b7ba-9b85957d4599))
+(wire (pts (xy 212.09 95.25) (xy 208.28 95.25)) (stroke (width 0) (type default)) (uuid 468ec5fa-b0e5-5d8a-ba23-e31ba8e7ddb1))
+(global_label "CHG_ISET" (shape bidirectional) (at 208.28 95.25 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e6aa39af-7fdf-5aa2-8dde-05fb74521a01))
+
+(wire (pts (xy 212.09 80.01) (xy 208.28 80.01)) (stroke (width 0) (type default)) (uuid f89663b2-7f5f-52b5-a389-83bb2c4677cc))
+(global_label "CHG_CE_N" (shape bidirectional) (at 208.28 80.01 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 534e99d6-7f75-55d4-b99d-13a70c0f7a13))
+
+(wire (pts (xy 212.09 87.63) (xy 208.28 87.63)) (stroke (width 0) (type default)) (uuid 0315f441-6106-521f-82de-096af9bcaf81))
+(global_label "USB_HIGH_CURRENT" (shape bidirectional) (at 208.28 87.63 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 352d3413-5611-547b-a7dc-72ae6eee7d39))
+
+(wire (pts (xy 237.49 92.71) (xy 241.3 92.71)) (stroke (width 0) (type default)) (uuid e3eca3b5-53d2-5ec6-9325-ca98f9926568))
+(global_label "VBUS_OK_N" (shape bidirectional) (at 241.3 92.71 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid dc05f317-2f88-53b2-b978-5b1845828f2c))
+
+(wire (pts (xy 237.49 95.25) (xy 241.3 95.25)) (stroke (width 0) (type default)) (uuid 5caaf524-f886-5eb4-9f52-6e0930fe7020))
+(global_label "CHARGING_N" (shape bidirectional) (at 241.3 95.25 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4e18092c-bc3a-5f1e-a4eb-15ffdb21cf16))
+
+(wire (pts (xy 212.09 82.55) (xy 208.28 82.55)) (stroke (width 0) (type default)) (uuid 2a3acb3e-1690-5ba7-b541-74a85327c675))
+(global_label "CHARGE_TIMER" (shape bidirectional) (at 208.28 82.55 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 89e7b184-f957-5bce-ad1e-b6451fa2467a))
+(symbol (lib_id "Device:C_Small") (at 114.3 158.75 0) (unit 1) (in_bom yes) (on_board yes) (uuid 1d372b07-8eea-57c5-b0f2-cf546461fcf9) (property "Reference" "C18" (at 123.3 157.4 0) (effects (font (size 1 1)) ))(property "Value" "1u" (at 123.3 159.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 114.3 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C105K8PACTU.pdf" (at 114.3 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C105K8PACTU" (at 114.3 158.75 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "C18") (unit 1)))))
+(wire (pts (xy 114.3 156.21) (xy 114.3 152.4)) (stroke (width 0) (type default)) (uuid a277a86c-863c-50aa-8ec4-9a3f6f8b1eb7))
+(global_label "VBUS" (shape bidirectional) (at 114.3 152.4 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid bafd964a-871a-50a1-8597-de7dbe568de0))
+(wire (pts (xy 114.3 161.29) (xy 114.3 165.1)) (stroke (width 0) (type default)) (uuid b28b60b1-b526-5a5a-af23-754a63382ec5))
+(global_label "GND" (shape bidirectional) (at 114.3 165.1 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d63f5d26-f47d-570f-b5ae-e3b40652d72b))
+(symbol (lib_id "Device:C_Small") (at 173.99 158.75 0) (unit 1) (in_bom yes) (on_board yes) (uuid decabd76-1290-5fa7-b877-80f822775432) (property "Reference" "C19" (at 182.99 157.4 0) (effects (font (size 1 1)) ))(property "Value" "4.7u" (at 182.99 159.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 173.99 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0805C475K8PACTU.pdf" (at 173.99 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0805C475K8PACTU" (at 173.99 158.75 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "C19") (unit 1)))))
+(wire (pts (xy 173.99 156.21) (xy 173.99 152.4)) (stroke (width 0) (type default)) (uuid 5936e420-10b9-5ffa-af73-8ab82ff5ef13))
+(global_label "VSYS" (shape bidirectional) (at 173.99 152.4 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 41a6f2c2-66c4-5180-b23d-c599ad15dc97))
+(wire (pts (xy 173.99 161.29) (xy 173.99 165.1)) (stroke (width 0) (type default)) (uuid f9445a41-bd11-5caf-835d-3cf2434bb163))
+(global_label "GND" (shape bidirectional) (at 173.99 165.1 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e82f7f16-7db0-5716-9fbf-8e112fd53049))
+(symbol (lib_id "Device:C_Small") (at 233.68 158.75 0) (unit 1) (in_bom yes) (on_board yes) (uuid 2768d6a5-49ce-5832-9086-c0a6bea47b69) (property "Reference" "C20" (at 242.68 157.4 0) (effects (font (size 1 1)) ))(property "Value" "4.7u" (at 242.68 159.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 233.68 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0805C475K8PACTU.pdf" (at 233.68 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0805C475K8PACTU" (at 233.68 158.75 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "C20") (unit 1)))))
+(wire (pts (xy 233.68 156.21) (xy 233.68 152.4)) (stroke (width 0) (type default)) (uuid e6457aea-adda-5912-9578-122680085bb2))
+(global_label "PACK_POS" (shape bidirectional) (at 233.68 152.4 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 555a25d8-24fb-5148-8fd9-baaff6ff2b00))
+(wire (pts (xy 233.68 161.29) (xy 233.68 165.1)) (stroke (width 0) (type default)) (uuid e75c8508-dbb7-5329-a22b-99e6dc8f2de4))
+(global_label "GND" (shape bidirectional) (at 233.68 165.1 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5db24309-1d9a-59f0-801a-36415aa88c46))
+(symbol (lib_id "Device:R_Small") (at 306.07 77.47 0) (unit 1) (in_bom yes) (on_board yes) (uuid 3e9657ce-1e0f-5058-883b-10651536c3c2) (property "Reference" "R26" (at 315 76.4 0) (effects (font (size 1 1)) ))(property "Value" "1k" (at 315 78.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 306.07 77.47 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 306.07 77.47 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW06031K00FKEA" (at 306.07 77.47 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "R26") (unit 1)))))
+(wire (pts (xy 306.07 74.93) (xy 306.07 71.12)) (stroke (width 0) (type default)) (uuid 8f7faed0-e7f8-5321-b00f-04f311e54bee))
+(global_label "CHG_ISET" (shape bidirectional) (at 306.07 71.12 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f1ea233a-9085-5cc7-b201-fb9fe3fcfc6b))
+(wire (pts (xy 306.07 80.01) (xy 306.07 83.82)) (stroke (width 0) (type default)) (uuid 778536d4-1cd0-5995-93b0-ae48ac5d5d5c))
+(global_label "GND" (shape bidirectional) (at 306.07 83.82 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 37f62bad-40a1-5add-912b-e4491b668d72))
+(symbol (lib_id "Device:R_Small") (at 350.52 77.47 0) (unit 1) (in_bom yes) (on_board yes) (uuid e970ab1d-e41d-5b35-9e9f-bee5f93bd1d4) (property "Reference" "R27" (at 360 76.4 0) (effects (font (size 1 1)) ))(property "Value" "1.5k" (at 360 78.2 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 350.52 77.47 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 350.52 77.47 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW06031K50FKEA" (at 350.52 77.47 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "R27") (unit 1)))))
+(wire (pts (xy 350.52 74.93) (xy 350.52 71.12)) (stroke (width 0) (type default)) (uuid 0ebc84ef-8373-5645-9cad-3888f3cc8dd7))
+(global_label "ILIM_SET" (shape bidirectional) (at 350.52 71.12 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d6f34057-7517-54d1-a3ff-705428fe0158))
+(wire (pts (xy 350.52 80.01) (xy 350.52 83.82)) (stroke (width 0) (type default)) (uuid 934b7def-0795-544a-a0d1-eb58801f634d))
+(global_label "GND" (shape bidirectional) (at 350.52 83.82 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid bddbb079-e405-5717-905f-3cada4050baf))
+(symbol (lib_id "LAB:ProtectedPouch") (at 53.34 158.75 0) (unit 1) (in_bom yes) (on_board no) (uuid ae66bd55-0d5e-5968-8814-9a975ecd7431) (property "Reference" "BT1" (at 53.34 153.67 0) (effects (font (size 1 1)) ))(property "Value" "LP735977JH" (at 53.34 155.47 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 53.34 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/LP735977JH.pdf" (at 53.34 158.75 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "LP735977JH+PCM+2 WIRES 70MM" (at 53.34 158.75 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "BT1") (unit 1)))))
+(wire (pts (xy 41.91 158.75) (xy 38.1 158.75)) (stroke (width 0) (type default)) (uuid 2fc7d66f-2e4e-5722-b760-d11bf412dec1))
+(global_label "PACK_POS" (shape bidirectional) (at 38.1 158.75 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c312c971-e35d-580f-b208-ba5c85c00563))
+(wire (pts (xy 64.77 158.75) (xy 68.58 158.75)) (stroke (width 0) (type default)) (uuid 473da588-9421-549d-a327-59a35e1f6951))
+(global_label "GND" (shape bidirectional) (at 68.58 158.75 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8b7b18c1-1113-59b5-9133-6a398d160ab5))
+(symbol (lib_id "Connector_Generic:Conn_01x03") (at 309.88 157.48 0) (unit 1) (in_bom yes) (on_board yes) (uuid df53b389-3e38-5c55-bc19-4aba47d1e57d) (property "Reference" "J6" (at 310 148 0) (effects (font (size 1 1)) ))(property "Value" "JST PH • keyed harness" (at 310 149.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" (at 309.88 157.48 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/S3B-PH-SM4-TB.pdf" (at 309.88 157.48 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "S3B-PH-SM4-TB" (at 309.88 157.48 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/b17074c9-ac95-58cd-b09c-db13ef1b0c86" (reference "J6") (unit 1)))))
+(wire (pts (xy 304.8 154.94) (xy 300.99 154.94)) (stroke (width 0) (type default)) (uuid a8eb0d3d-42ed-52b0-af3c-32800f1077b8))
+(global_label "GND" (shape bidirectional) (at 300.99 154.94 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9ba2a40c-dcf9-5243-8505-e4ab79b20912))
+(wire (pts (xy 304.8 157.48) (xy 300.99 157.48)) (stroke (width 0) (type default)) (uuid 969f5353-4fb0-5b0e-b785-fe183e68406a))
+(global_label "PACK_TS" (shape bidirectional) (at 300.99 157.48 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5dacc746-48dd-56e8-a39c-b34acfccc2bd))
+(wire (pts (xy 304.8 160.02) (xy 300.99 160.02)) (stroke (width 0) (type default)) (uuid 4f48b504-4c8c-5300-835f-b593cc182e0a))
+(global_label "PACK_POS" (shape bidirectional) (at 300.99 160.02 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f72ad231-b02c-5138-b4b2-e0c66f16458a))
+(text "J6 harness: pin 1 pack negative and sensor return, pin 2 pouch NTC, pin 3 protected pack positive." (at 22 210 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 89372f0c-f9cf-5d17-8a7a-e210d5d99d70))
+(text "R26 sets 890 mA nominal fast charge. R27 sets 1.07 A nominal input on a 1.5 A or 3 A Type-C source." (at 22 220 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid b2d453fb-25fb-50bd-859d-7e49a201fc97))
+(text "EN1 stays low. EN2 defaults low (100 mA). Hardware temperature logic drives CE. See Battery monitor and USB current sheets." (at 22 230 0) (effects (font (size 1.35 1.35)) (justify left) ) (uuid 42c6ee7e-dd32-5ce8-b387-c03ee41e570b))
+(embedded_fonts no))

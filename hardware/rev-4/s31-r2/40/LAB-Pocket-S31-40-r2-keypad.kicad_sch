@@ -1,0 +1,1407 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid 25f5835b-6e04-5862-acff-eab880a1f0c2) (paper "A3") (title_block (title "Key matrix and scan port") (date "2026-11-26") (rev "4 · S31 layout R2") (company "LAB Pocket Computer")) (lib_symbols (symbol "Device:D_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at -1.27 2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Small"
+			(at -3.81 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_Small_0_1"
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_Small_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.778)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Interface_Expansion:PCA9555PW"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -8.89 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCA9555PW"
+			(at 6.35 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "I2C TWI IO expander"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TSSOP*4.4x7.8mm*P0.65mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PCA9555PW_0_1"
+			(rectangle
+				(start -10.16 22.86)
+				(end 10.16 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "PCA9555PW_1_1"
+			(pin open_collector line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -17.78 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -20.32 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "IO0_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 17.78 180)
+				(length 2.54)
+				(name "IO0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "IO0_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "IO0_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "IO0_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "IO0_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "IO0_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "IO0_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "IO1_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "IO1_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "IO1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "IO1_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "IO1_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "IO1_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "IO1_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "IO1_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -15.24 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 20.32 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 25.4 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "KEY MATRIX" (at 18 17 0) (effects (font (size 3.8 3.8)) (justify left) ) (uuid 7535193e-4f26-5d41-8fb6-0627b693b658))
+(text "Keys 01–20 read left to right. Drive one row low, float the other three, then sample the five pulled-up columns." (at 18 26 0) (effects (font (size 1.5 1.5)) (justify left) ) (uuid c69482d2-1291-5bc0-8735-2746fe5734ce))
+(symbol (lib_id "Device:D_Small") (at 43.18 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid ae53a82d-716e-5040-b148-6f3f9efa0bb4) (property "Reference" "D1" (at 43.18 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 43.18 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 43.18 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 43.18 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 43.18 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D1") (unit 1)))))
+(wire (pts (xy 40.64 55.88) (xy 36.83 55.88)) (stroke (width 0) (type default)) (uuid 217fea6d-8400-5351-9294-f5290ed25441))
+(global_label "KEY_R0" (shape bidirectional) (at 36.83 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d04739d4-dfd8-5b5d-ad86-d67e68cb9e7d))
+(symbol (lib_id "Switch:SW_Push") (at 63.5 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid bba57f49-de65-5586-90d1-65293eb24d52) (property "Reference" "SW1" (at 63.5 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 63.5 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 63.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 63.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 63.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW1") (unit 1)))))
+(wire (pts (xy 68.58 55.88) (xy 72.39 55.88)) (stroke (width 0) (type default)) (uuid b50597cd-8d01-5b77-8768-7ff60647275e))
+(global_label "KEY_C0" (shape bidirectional) (at 72.39 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d9adfcad-644c-5dee-a7d2-a3233d14c77b))
+(wire (pts (xy 45.72 55.88) (xy 58.42 55.88)) (stroke (width 0) (type default)) (uuid f80f7c76-f7e2-5fc7-8f3d-6cc5546ca03f))
+(symbol (lib_id "Device:D_Small") (at 111.76 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid ebc46e32-187e-595b-9dfc-a737fd14267d) (property "Reference" "D2" (at 111.76 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 111.76 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 111.76 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 111.76 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 111.76 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D2") (unit 1)))))
+(wire (pts (xy 109.22 55.88) (xy 105.41 55.88)) (stroke (width 0) (type default)) (uuid 6b942f9d-059b-5568-bd5b-fb7f994c1442))
+(global_label "KEY_R0" (shape bidirectional) (at 105.41 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 0386d8ea-562f-536a-9400-a586301497fd))
+(symbol (lib_id "Switch:SW_Push") (at 132.08 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid 33925e01-84b3-5434-b776-8cb645afabf0) (property "Reference" "SW2" (at 132.08 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 132.08 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 132.08 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 132.08 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 132.08 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW2") (unit 1)))))
+(wire (pts (xy 137.16 55.88) (xy 140.97 55.88)) (stroke (width 0) (type default)) (uuid cebe3a69-26db-5500-b99d-b7a32e1d2ca7))
+(global_label "KEY_C1" (shape bidirectional) (at 140.97 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2bfe413f-9501-5502-a5f6-af45d6f4a81f))
+(wire (pts (xy 114.3 55.88) (xy 127 55.88)) (stroke (width 0) (type default)) (uuid 9a8fdcac-275e-5e78-af26-7d972e5b02c7))
+(symbol (lib_id "Device:D_Small") (at 180.34 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid f17087db-2ced-5e09-aecb-c9cf218c1913) (property "Reference" "D3" (at 180.34 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 180.34 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 180.34 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D3") (unit 1)))))
+(wire (pts (xy 177.8 55.88) (xy 173.99 55.88)) (stroke (width 0) (type default)) (uuid 36d4937b-6910-5c57-be78-e9afb52572a2))
+(global_label "KEY_R0" (shape bidirectional) (at 173.99 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8b2e0196-8b1d-5475-bdce-acb8895ee32e))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid aff8ea59-ef88-5a69-9bf8-a0ea974eee63) (property "Reference" "SW3" (at 200.66 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 200.66 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 200.66 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 200.66 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW3") (unit 1)))))
+(wire (pts (xy 205.74 55.88) (xy 209.55 55.88)) (stroke (width 0) (type default)) (uuid c380477c-88bc-5ea9-9e6e-cb3fc20ea1bc))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c4eede45-2d5c-50d9-8e98-65dfab37aaef))
+(wire (pts (xy 182.88 55.88) (xy 195.58 55.88)) (stroke (width 0) (type default)) (uuid 1618c2c5-23e7-55ce-a32f-b07770fc17a4))
+(symbol (lib_id "Device:D_Small") (at 248.92 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid cb56a999-15a8-5e90-8723-ff91706ede44) (property "Reference" "D4" (at 248.92 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 248.92 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 248.92 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 248.92 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 248.92 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D4") (unit 1)))))
+(wire (pts (xy 246.38 55.88) (xy 242.57 55.88)) (stroke (width 0) (type default)) (uuid 2163a1e2-0615-5c02-850c-9cae1aeba4aa))
+(global_label "KEY_R0" (shape bidirectional) (at 242.57 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a1bf4b7e-0abe-575a-8712-ed48d23d74ab))
+(symbol (lib_id "Switch:SW_Push") (at 269.24 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid d0a09e48-5d84-5ea8-bea0-8f7627e7d77d) (property "Reference" "SW4" (at 269.24 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 269.24 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 269.24 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 269.24 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 269.24 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW4") (unit 1)))))
+(wire (pts (xy 274.32 55.88) (xy 278.13 55.88)) (stroke (width 0) (type default)) (uuid f9f08b71-6c56-5d4e-87e5-5bea3663f8f3))
+(global_label "KEY_C3" (shape bidirectional) (at 278.13 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid fa505324-1d3d-5354-a810-3c12527c34d6))
+(wire (pts (xy 251.46 55.88) (xy 264.16 55.88)) (stroke (width 0) (type default)) (uuid 9a9a1ef0-63eb-51ab-83c5-d9becb46bfcf))
+(symbol (lib_id "Device:D_Small") (at 317.5 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid 925ccef5-99ae-5278-bde3-505c909b1568) (property "Reference" "D5" (at 317.5 50.88 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 317.5 52.68 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 317.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 317.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 317.5 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D5") (unit 1)))))
+(wire (pts (xy 314.96 55.88) (xy 311.15 55.88)) (stroke (width 0) (type default)) (uuid 500e3f9f-92ed-58a3-883d-1384ddd472d6))
+(global_label "KEY_R0" (shape bidirectional) (at 311.15 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 0ebe4b47-8ea2-5a5b-a495-b5c2edf911c8))
+(symbol (lib_id "Switch:SW_Push") (at 337.82 55.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid 2d1f2b98-0d14-5c6a-a5b1-0f6015527b81) (property "Reference" "SW5" (at 337.82 48.88 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 337.82 50.68 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 337.82 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 337.82 55.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 337.82 55.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW5") (unit 1)))))
+(wire (pts (xy 342.9 55.88) (xy 346.71 55.88)) (stroke (width 0) (type default)) (uuid d1d2b524-c4af-56dc-ba4f-ae50c106e5c6))
+(global_label "KEY_C4" (shape bidirectional) (at 346.71 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 51750d2b-6391-5ad0-8124-21821cd5e90f))
+(wire (pts (xy 320.04 55.88) (xy 332.74 55.88)) (stroke (width 0) (type default)) (uuid 2b917876-20da-59ef-8464-577ab386acb5))
+(symbol (lib_id "Device:D_Small") (at 43.18 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 18d73cfd-0ac9-5838-8bde-a4315b297f2a) (property "Reference" "D6" (at 43.18 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 43.18 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 43.18 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 43.18 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 43.18 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D6") (unit 1)))))
+(wire (pts (xy 40.64 91.44) (xy 36.83 91.44)) (stroke (width 0) (type default)) (uuid 79913da3-e043-537a-90dc-c650dba1140e))
+(global_label "KEY_R1" (shape bidirectional) (at 36.83 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8a0d95c4-b259-5b98-ba8d-06aa19454315))
+(symbol (lib_id "Switch:SW_Push") (at 63.5 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid ba546afb-6307-515e-862a-6a9390f1e802) (property "Reference" "SW6" (at 63.5 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 63.5 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 63.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 63.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 63.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW6") (unit 1)))))
+(wire (pts (xy 68.58 91.44) (xy 72.39 91.44)) (stroke (width 0) (type default)) (uuid 9682a9f8-0efe-5535-a499-54a8b3881629))
+(global_label "KEY_C0" (shape bidirectional) (at 72.39 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0a06b98c-89e1-5b37-96bd-aafad4aa7caa))
+(wire (pts (xy 45.72 91.44) (xy 58.42 91.44)) (stroke (width 0) (type default)) (uuid f3891e6e-9716-5c82-8e97-cde840120cc8))
+(symbol (lib_id "Device:D_Small") (at 111.76 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 37488ad6-97b4-51cb-a0b7-ce2337a5b357) (property "Reference" "D7" (at 111.76 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 111.76 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 111.76 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 111.76 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 111.76 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D7") (unit 1)))))
+(wire (pts (xy 109.22 91.44) (xy 105.41 91.44)) (stroke (width 0) (type default)) (uuid f2691d17-6a0d-55a7-95a7-84e04d40e94b))
+(global_label "KEY_R1" (shape bidirectional) (at 105.41 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 18d56b50-976e-5c50-ab42-1ae1f85af585))
+(symbol (lib_id "Switch:SW_Push") (at 132.08 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 89d34558-fa30-53fb-a66b-97036d6e8250) (property "Reference" "SW7" (at 132.08 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 132.08 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 132.08 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 132.08 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 132.08 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW7") (unit 1)))))
+(wire (pts (xy 137.16 91.44) (xy 140.97 91.44)) (stroke (width 0) (type default)) (uuid c17db869-97ff-52e3-a5d2-fd8b3fdee0b5))
+(global_label "KEY_C1" (shape bidirectional) (at 140.97 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a9d1161f-7bee-561c-980a-a36811feba52))
+(wire (pts (xy 114.3 91.44) (xy 127 91.44)) (stroke (width 0) (type default)) (uuid 5f3bb04f-2878-5236-a842-72099129928e))
+(symbol (lib_id "Device:D_Small") (at 180.34 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 65a5c233-9905-5dae-aef6-b31d43abd332) (property "Reference" "D8" (at 180.34 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 180.34 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 180.34 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D8") (unit 1)))))
+(wire (pts (xy 177.8 91.44) (xy 173.99 91.44)) (stroke (width 0) (type default)) (uuid 93b6adb5-ddb2-5f0e-ab4b-2e106a2c4d57))
+(global_label "KEY_R1" (shape bidirectional) (at 173.99 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid feaa9c31-50f3-57ff-a39c-d39aeb68d520))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6dbcd8bd-d22b-5697-be09-6bb0c301588c) (property "Reference" "SW8" (at 200.66 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 200.66 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 200.66 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 200.66 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW8") (unit 1)))))
+(wire (pts (xy 205.74 91.44) (xy 209.55 91.44)) (stroke (width 0) (type default)) (uuid e5c56d60-a418-55d3-a034-4170886b5b4e))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c35381a1-2790-53c5-955e-69e285c8d0ec))
+(wire (pts (xy 182.88 91.44) (xy 195.58 91.44)) (stroke (width 0) (type default)) (uuid 080b3552-f481-5545-b614-49fea3e841dc))
+(symbol (lib_id "Device:D_Small") (at 248.92 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 240980ee-5e10-5e8b-af94-b1693070bde9) (property "Reference" "D9" (at 248.92 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 248.92 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 248.92 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 248.92 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 248.92 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D9") (unit 1)))))
+(wire (pts (xy 246.38 91.44) (xy 242.57 91.44)) (stroke (width 0) (type default)) (uuid f8ee7b24-a0a8-5058-80b2-e392b4f7270e))
+(global_label "KEY_R1" (shape bidirectional) (at 242.57 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ef45bbd7-c4b1-5cb1-9b4d-74c11bb78773))
+(symbol (lib_id "Switch:SW_Push") (at 269.24 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5bc7a8b0-df4f-52f6-ab3a-6bd6ce886114) (property "Reference" "SW9" (at 269.24 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 269.24 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 269.24 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 269.24 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 269.24 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW9") (unit 1)))))
+(wire (pts (xy 274.32 91.44) (xy 278.13 91.44)) (stroke (width 0) (type default)) (uuid 08f53eb2-c7cc-5875-bc8a-bb250800afe2))
+(global_label "KEY_C3" (shape bidirectional) (at 278.13 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 84707993-7b5b-5e4e-a42c-9198816dcda9))
+(wire (pts (xy 251.46 91.44) (xy 264.16 91.44)) (stroke (width 0) (type default)) (uuid 2f359efe-817b-5e3e-a19f-cc8663df1241))
+(symbol (lib_id "Device:D_Small") (at 317.5 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5477f401-ed8d-5aca-88bd-b2147bad3869) (property "Reference" "D10" (at 317.5 86.44 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 317.5 88.24 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 317.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 317.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 317.5 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D10") (unit 1)))))
+(wire (pts (xy 314.96 91.44) (xy 311.15 91.44)) (stroke (width 0) (type default)) (uuid 8b36ad54-6106-5afe-bac1-7432b486c713))
+(global_label "KEY_R1" (shape bidirectional) (at 311.15 91.44 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5b43b95c-48aa-5f7a-94d3-d5d7b975ce1c))
+(symbol (lib_id "Switch:SW_Push") (at 337.82 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid 795d0aa9-67b2-5ba1-8ed8-3e892b3ea83d) (property "Reference" "SW10" (at 337.82 84.44 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 337.82 86.24 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 337.82 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 337.82 91.44 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 337.82 91.44 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW10") (unit 1)))))
+(wire (pts (xy 342.9 91.44) (xy 346.71 91.44)) (stroke (width 0) (type default)) (uuid 413ab2d2-4404-576a-8f20-f41db731eb2d))
+(global_label "KEY_C4" (shape bidirectional) (at 346.71 91.44 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f27c2e94-fb14-5367-8e89-6c3802e24d88))
+(wire (pts (xy 320.04 91.44) (xy 332.74 91.44)) (stroke (width 0) (type default)) (uuid 50fdaa00-f538-5865-9bc1-08278a2aef97))
+(symbol (lib_id "Device:D_Small") (at 43.18 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8c5339cb-8cea-5e08-b670-b50de850a36b) (property "Reference" "D11" (at 43.18 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 43.18 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 43.18 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 43.18 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 43.18 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D11") (unit 1)))))
+(wire (pts (xy 40.64 127) (xy 36.83 127)) (stroke (width 0) (type default)) (uuid fdbe3338-dc35-586b-b768-f55c4e0db47e))
+(global_label "KEY_R2" (shape bidirectional) (at 36.83 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid bd4ed730-61d3-53f5-a68e-9bed10d16ea2))
+(symbol (lib_id "Switch:SW_Push") (at 63.5 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid b43f0703-85ab-5b13-bb4c-63fae0c7df99) (property "Reference" "SW11" (at 63.5 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 63.5 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 63.5 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 63.5 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 63.5 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW11") (unit 1)))))
+(wire (pts (xy 68.58 127) (xy 72.39 127)) (stroke (width 0) (type default)) (uuid a1d81cfb-3289-547a-b3c3-4c5242ad613d))
+(global_label "KEY_C0" (shape bidirectional) (at 72.39 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7acaa526-beaa-57f3-8dfd-ed5b2eb8f34f))
+(wire (pts (xy 45.72 127) (xy 58.42 127)) (stroke (width 0) (type default)) (uuid ed28f743-75a2-587c-9439-c2a255ba99d1))
+(symbol (lib_id "Device:D_Small") (at 111.76 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 90d93907-47c0-59e3-a5b9-66e7fa8bca93) (property "Reference" "D12" (at 111.76 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 111.76 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 111.76 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 111.76 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 111.76 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D12") (unit 1)))))
+(wire (pts (xy 109.22 127) (xy 105.41 127)) (stroke (width 0) (type default)) (uuid 98175d3a-5238-5669-9a1f-549ab69cddb4))
+(global_label "KEY_R2" (shape bidirectional) (at 105.41 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 16b33011-29e6-54b0-9cd4-b61c96e945b9))
+(symbol (lib_id "Switch:SW_Push") (at 132.08 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 643b02db-8c84-5a48-86bc-68d04716a333) (property "Reference" "SW12" (at 132.08 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 132.08 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 132.08 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 132.08 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 132.08 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW12") (unit 1)))))
+(wire (pts (xy 137.16 127) (xy 140.97 127)) (stroke (width 0) (type default)) (uuid 5759293e-0274-5b2a-86eb-d1b37e3b3a01))
+(global_label "KEY_C1" (shape bidirectional) (at 140.97 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 064175d8-d7b1-51e1-a964-e30760285726))
+(wire (pts (xy 114.3 127) (xy 127 127)) (stroke (width 0) (type default)) (uuid c906fd01-0b3f-559a-8d3f-000a9b238f0f))
+(symbol (lib_id "Device:D_Small") (at 180.34 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 07af629c-6874-58a8-92ec-28ba13727e0f) (property "Reference" "D13" (at 180.34 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 180.34 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 180.34 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D13") (unit 1)))))
+(wire (pts (xy 177.8 127) (xy 173.99 127)) (stroke (width 0) (type default)) (uuid b5fe6b61-a2e9-5170-ac03-747fd7cf9bf7))
+(global_label "KEY_R2" (shape bidirectional) (at 173.99 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 85c8ea5b-f719-5f7d-98b0-5fbc36357d3a))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid ba0b2a84-6b66-5ab7-b199-a79d3a498bb8) (property "Reference" "SW13" (at 200.66 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 200.66 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 200.66 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 200.66 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW13") (unit 1)))))
+(wire (pts (xy 205.74 127) (xy 209.55 127)) (stroke (width 0) (type default)) (uuid a035a1cd-491c-5ef4-91c3-4e86c55e91bc))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d62ac499-79ba-57eb-b19e-d361c5409c3e))
+(wire (pts (xy 182.88 127) (xy 195.58 127)) (stroke (width 0) (type default)) (uuid 8fb5a97d-263d-5a64-9bb2-cd10324335dd))
+(symbol (lib_id "Device:D_Small") (at 248.92 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6144ae5a-97b4-53ea-ae13-abd7dfbfa895) (property "Reference" "D14" (at 248.92 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 248.92 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 248.92 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 248.92 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 248.92 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D14") (unit 1)))))
+(wire (pts (xy 246.38 127) (xy 242.57 127)) (stroke (width 0) (type default)) (uuid b2c97888-9f2c-573c-9ff8-86c9c4a93fed))
+(global_label "KEY_R2" (shape bidirectional) (at 242.57 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 88da32f8-ba36-5db6-a6b9-b37fac077be9))
+(symbol (lib_id "Switch:SW_Push") (at 269.24 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid ef04e63d-aae3-58e1-934d-6294a434637f) (property "Reference" "SW14" (at 269.24 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 269.24 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 269.24 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 269.24 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 269.24 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW14") (unit 1)))))
+(wire (pts (xy 274.32 127) (xy 278.13 127)) (stroke (width 0) (type default)) (uuid 804cc723-6adb-50ce-87c5-20c8d29eff59))
+(global_label "KEY_C3" (shape bidirectional) (at 278.13 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e3b02687-ac63-5a83-aa29-afaa6e373ad4))
+(wire (pts (xy 251.46 127) (xy 264.16 127)) (stroke (width 0) (type default)) (uuid fa573e88-365d-5dd5-93d0-94cd253f9c54))
+(symbol (lib_id "Device:D_Small") (at 317.5 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid f3b1090d-fa51-578d-8325-15dfe97d61f1) (property "Reference" "D15" (at 317.5 122 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 317.5 123.8 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 317.5 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 317.5 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 317.5 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D15") (unit 1)))))
+(wire (pts (xy 314.96 127) (xy 311.15 127)) (stroke (width 0) (type default)) (uuid 5b7aaa0b-6cb0-5e5c-a4f4-b5a5d73f96d3))
+(global_label "KEY_R2" (shape bidirectional) (at 311.15 127 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d79ad1b0-b69a-50d3-9a46-196b2194d6a1))
+(symbol (lib_id "Switch:SW_Push") (at 337.82 127 0) (unit 1) (in_bom yes) (on_board yes) (uuid 785b3db1-766e-52bd-a5a2-acbfa366c148) (property "Reference" "SW15" (at 337.82 120 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 337.82 121.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 337.82 127 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 337.82 127 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 337.82 127 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW15") (unit 1)))))
+(wire (pts (xy 342.9 127) (xy 346.71 127)) (stroke (width 0) (type default)) (uuid 64685d5b-9ad1-5710-934b-7bd9b99aba75))
+(global_label "KEY_C4" (shape bidirectional) (at 346.71 127 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 17168b38-7823-5765-8758-f7065d58c15e))
+(wire (pts (xy 320.04 127) (xy 332.74 127)) (stroke (width 0) (type default)) (uuid 4d71b960-1af1-5a91-9e3d-04548ce8f14c))
+(symbol (lib_id "Device:D_Small") (at 43.18 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8d1ba396-1e0a-5bca-a236-42faef3e8da9) (property "Reference" "D16" (at 43.18 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 43.18 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 43.18 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 43.18 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 43.18 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D16") (unit 1)))))
+(wire (pts (xy 40.64 162.56) (xy 36.83 162.56)) (stroke (width 0) (type default)) (uuid 4ff3710d-cf80-5fc4-9c4c-bd6250c4c7c8))
+(global_label "KEY_R3" (shape bidirectional) (at 36.83 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a8fadd10-7624-5609-994a-3781e53026e7))
+(symbol (lib_id "Switch:SW_Push") (at 63.5 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid fa97d6b1-c364-5cd4-9029-3212dfc3bded) (property "Reference" "SW16" (at 63.5 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 63.5 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 63.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 63.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 63.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW16") (unit 1)))))
+(wire (pts (xy 68.58 162.56) (xy 72.39 162.56)) (stroke (width 0) (type default)) (uuid dc5d340d-90f5-5c5c-b015-4dc52b1fbae6))
+(global_label "KEY_C0" (shape bidirectional) (at 72.39 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 38e6215e-bb31-57a1-acd6-aecd0dd3db74))
+(wire (pts (xy 45.72 162.56) (xy 58.42 162.56)) (stroke (width 0) (type default)) (uuid ac3f8952-f54d-56d6-973d-ea05b038e742))
+(symbol (lib_id "Device:D_Small") (at 111.76 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid c52ec708-4b23-519f-be42-5011bb72821e) (property "Reference" "D18" (at 111.76 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 111.76 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 111.76 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 111.76 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 111.76 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D18") (unit 1)))))
+(wire (pts (xy 109.22 162.56) (xy 105.41 162.56)) (stroke (width 0) (type default)) (uuid e825232e-9763-59bb-b925-1fa8d0f98104))
+(global_label "KEY_R3" (shape bidirectional) (at 105.41 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4e42cd34-47d2-5e5d-8a3a-d5f9c69c0916))
+(symbol (lib_id "Switch:SW_Push") (at 132.08 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid b2734ab5-2b35-5439-a649-9182dfb6f9f4) (property "Reference" "SW17" (at 132.08 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 132.08 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 132.08 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 132.08 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 132.08 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW17") (unit 1)))))
+(wire (pts (xy 137.16 162.56) (xy 140.97 162.56)) (stroke (width 0) (type default)) (uuid fb25a290-7640-5da8-9c88-7fec1f73fb77))
+(global_label "KEY_C1" (shape bidirectional) (at 140.97 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid adea0ccc-d86e-5e9c-be44-4a8026141fc5))
+(wire (pts (xy 114.3 162.56) (xy 127 162.56)) (stroke (width 0) (type default)) (uuid c7ea52bd-ea13-5f3f-ad0b-a7380f30cab8))
+(symbol (lib_id "Device:D_Small") (at 180.34 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 880db3f5-1e2c-5c71-ba95-a22955d4ce90) (property "Reference" "D19" (at 180.34 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 180.34 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 180.34 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 180.34 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 180.34 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D19") (unit 1)))))
+(wire (pts (xy 177.8 162.56) (xy 173.99 162.56)) (stroke (width 0) (type default)) (uuid 6d413fad-75de-5b9a-9858-3162a85f3595))
+(global_label "KEY_R3" (shape bidirectional) (at 173.99 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 93e5514d-dd37-5380-b8b3-bd2fbad3fd65))
+(symbol (lib_id "Switch:SW_Push") (at 200.66 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6eb572cf-3dc6-5d32-b49b-99d2195e0caa) (property "Reference" "SW18" (at 200.66 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 200.66 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 200.66 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 200.66 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 200.66 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW18") (unit 1)))))
+(wire (pts (xy 205.74 162.56) (xy 209.55 162.56)) (stroke (width 0) (type default)) (uuid d7666eb6-e77d-594a-9902-71ba47ad4b3a))
+(global_label "KEY_C2" (shape bidirectional) (at 209.55 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8b3831bb-e280-58f2-9888-beefa2ecc510))
+(wire (pts (xy 182.88 162.56) (xy 195.58 162.56)) (stroke (width 0) (type default)) (uuid dbd05651-624a-5d17-95ac-36a28d27fff5))
+(symbol (lib_id "Device:D_Small") (at 248.92 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid d63f1d1f-d615-5f08-9b04-1b370792818e) (property "Reference" "D20" (at 248.92 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 248.92 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 248.92 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 248.92 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 248.92 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D20") (unit 1)))))
+(wire (pts (xy 246.38 162.56) (xy 242.57 162.56)) (stroke (width 0) (type default)) (uuid 12dc8a78-c62a-50be-b64f-639e43ea466f))
+(global_label "KEY_R3" (shape bidirectional) (at 242.57 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ffdd4a92-6c85-546c-a0e3-1ef6895b74d5))
+(symbol (lib_id "Switch:SW_Push") (at 269.24 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 57ff8b5a-1c62-5b53-9035-41bb7ea6a387) (property "Reference" "SW19" (at 269.24 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 269.24 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 269.24 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 269.24 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 269.24 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW19") (unit 1)))))
+(wire (pts (xy 274.32 162.56) (xy 278.13 162.56)) (stroke (width 0) (type default)) (uuid fb122cf3-d793-5300-ac8c-4f7b7267d319))
+(global_label "KEY_C3" (shape bidirectional) (at 278.13 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d74729f8-c615-57a1-b429-3a8984def7ff))
+(wire (pts (xy 251.46 162.56) (xy 264.16 162.56)) (stroke (width 0) (type default)) (uuid 37bb7b2c-3d4b-53ce-8255-e440cecee6be))
+(symbol (lib_id "Device:D_Small") (at 317.5 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid 4132e4d4-4ce8-506f-bb4f-af63163fae5a) (property "Reference" "D21" (at 317.5 157.56 0) (effects (font (size 1 1)) ))(property "Value" "BAS316" (at 317.5 159.36 0) (effects (font (size 1 1)) ))(property "Footprint" "Diode_SMD:D_SOD-323" (at 317.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/BAS316.pdf" (at 317.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "BAS316,115" (at 317.5 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "D21") (unit 1)))))
+(wire (pts (xy 314.96 162.56) (xy 311.15 162.56)) (stroke (width 0) (type default)) (uuid aaa01626-65ef-5ef1-8655-18f339e00858))
+(global_label "KEY_R3" (shape bidirectional) (at 311.15 162.56 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d7e2a45a-d8bd-522f-8596-453c0955481d))
+(symbol (lib_id "Switch:SW_Push") (at 337.82 162.56 0) (unit 1) (in_bom yes) (on_board yes) (uuid bee2d4bf-909d-516f-be2a-f98b43b6f6ab) (property "Reference" "SW20" (at 337.82 155.56 0) (effects (font (size 1 1)) ))(property "Value" "TL3301" (at 337.82 157.36 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:TL3301-key-v5" (at 337.82 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TL3301NF160QG.pdf" (at 337.82 162.56 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TL3301NF160QG" (at 337.82 162.56 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "SW20") (unit 1)))))
+(wire (pts (xy 342.9 162.56) (xy 346.71 162.56)) (stroke (width 0) (type default)) (uuid 64cd1260-94d7-5fd6-8214-648431e65c4e))
+(global_label "KEY_C4" (shape bidirectional) (at 346.71 162.56 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d58b16ec-b13c-50ef-9f49-861a06719133))
+(wire (pts (xy 320.04 162.56) (xy 332.74 162.56)) (stroke (width 0) (type default)) (uuid bf457213-b047-5220-9b68-649904860fdd))
+(text "PCA9555 address 0x20. P0.0–P0.3 drive rows. P1.0–P1.4 read columns." (at 18 181 0) (effects (font (size 1.6 1.6)) (justify left) ) (uuid b3168f05-7fb6-5149-81cc-a5fd5dc36904))
+(symbol (lib_id "Interface_Expansion:PCA9555PW") (at 91.44 224.79 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7c027d2f-cdd4-55b4-93e1-7241b60dd5ae) (property "Reference" "U4" (at 91.44 194.31 0) (effects (font (size 1 1)) ))(property "Value" "PCA9555PWR" (at 91.44 196.11 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" (at 91.44 224.79 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/PCA9555PW.pdf" (at 91.44 224.79 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "PCA9555PWR" (at 91.44 224.79 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "U4") (unit 1)))))
+(no_connect (at 78.74 212.09) (uuid 3146d8d6-8c4d-5392-b44a-f393b7aae710))
+(wire (pts (xy 78.74 242.57) (xy 74.93 242.57)) (stroke (width 0) (type default)) (uuid f45d47b9-788a-5825-b6d2-9c56984701ec))
+(global_label "GND" (shape bidirectional) (at 74.93 242.57 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d0f6d78d-db38-5452-9246-59c9215e7cc7))
+(wire (pts (xy 78.74 245.11) (xy 74.93 245.11)) (stroke (width 0) (type default)) (uuid f0e2dd7d-dcf7-5a04-8cfd-062886180757))
+(global_label "GND" (shape bidirectional) (at 74.93 245.11 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 511b88bf-9e67-5e4b-b8ad-74da24640ba3))
+(wire (pts (xy 104.14 204.47) (xy 107.95 204.47)) (stroke (width 0) (type default)) (uuid 8203a76c-35a6-5492-b8eb-595c57894b10))
+(global_label "KEY_R0" (shape bidirectional) (at 107.95 204.47 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0843af74-6739-50e1-b57b-36c340e04969))
+(wire (pts (xy 104.14 207.01) (xy 107.95 207.01)) (stroke (width 0) (type default)) (uuid 75c472e7-fccc-521b-b91f-2da55149ca84))
+(global_label "KEY_R1" (shape bidirectional) (at 107.95 207.01 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6f6367a2-13c0-57b4-b068-0eea60882848))
+(wire (pts (xy 104.14 209.55) (xy 107.95 209.55)) (stroke (width 0) (type default)) (uuid 71644449-c9f2-5794-a393-05df9122f60d))
+(global_label "KEY_R2" (shape bidirectional) (at 107.95 209.55 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 610068d7-435e-5510-b0a8-388e8f8c0744))
+(wire (pts (xy 104.14 212.09) (xy 107.95 212.09)) (stroke (width 0) (type default)) (uuid 61e25422-0e38-5405-ad4f-15a849999496))
+(global_label "KEY_R3" (shape bidirectional) (at 107.95 212.09 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 830a77de-53ef-537a-b2ff-634147754eef))
+(wire (pts (xy 91.44 250.19) (xy 91.44 254)) (stroke (width 0) (type default)) (uuid b7f602ba-d813-5ba4-ad59-c17c7ef7d9b7))
+(global_label "GND" (shape bidirectional) (at 91.44 254 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 87a19204-9e36-5877-9d04-1d509d53f4a0))
+(wire (pts (xy 104.14 227.33) (xy 107.95 227.33)) (stroke (width 0) (type default)) (uuid 00993909-a1c6-54ce-b51f-bfe7a9570a7b))
+(global_label "KEY_C0" (shape bidirectional) (at 107.95 227.33 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid d9e3d972-01c9-54c1-877d-79ecb2c1151d))
+(wire (pts (xy 104.14 229.87) (xy 107.95 229.87)) (stroke (width 0) (type default)) (uuid f4bf43fb-82cd-509b-9d2a-cdaac9ba4096))
+(global_label "KEY_C1" (shape bidirectional) (at 107.95 229.87 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid aa2e4469-7975-5bcf-8bf3-0593b2728abd))
+(wire (pts (xy 104.14 232.41) (xy 107.95 232.41)) (stroke (width 0) (type default)) (uuid 6708dcc6-d6db-5632-a0ab-c31103de4909))
+(global_label "KEY_C2" (shape bidirectional) (at 107.95 232.41 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid dc71245f-b6e4-5fce-b066-7c5216290d26))
+(wire (pts (xy 104.14 234.95) (xy 107.95 234.95)) (stroke (width 0) (type default)) (uuid 77af8d00-8e2e-5cdb-aa39-4d82460e34e3))
+(global_label "KEY_C3" (shape bidirectional) (at 107.95 234.95 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 1921745c-2ec3-59bd-a107-a38e453d8d58))
+(wire (pts (xy 104.14 237.49) (xy 107.95 237.49)) (stroke (width 0) (type default)) (uuid 137e4588-8ddd-5c8b-b949-e2d9b017632c))
+(global_label "KEY_C4" (shape bidirectional) (at 107.95 237.49 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e97a02dc-40f8-5ea0-a7fe-736b45ef7df2))
+(no_connect (at 104.14 242.57) (uuid aacad7a2-4685-51e9-bb70-e29fa8ebb3a8))
+(no_connect (at 104.14 245.11) (uuid 6bbeb7ef-5244-5526-bf67-0baabd657af0))
+(wire (pts (xy 78.74 240.03) (xy 74.93 240.03)) (stroke (width 0) (type default)) (uuid 6965f0c1-7a22-5306-9df9-2f86e097b9b3))
+(global_label "GND" (shape bidirectional) (at 74.93 240.03 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid acfe0dd9-733d-511f-bfbe-281fe66ef54d))
+(wire (pts (xy 78.74 204.47) (xy 74.93 204.47)) (stroke (width 0) (type default)) (uuid 17042795-f2f3-5a25-bdee-737717152ffe))
+(global_label "SYS_SCL" (shape bidirectional) (at 74.93 204.47 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 5b5c7566-0871-5a3c-bb75-b3e22c024ba0))
+(wire (pts (xy 78.74 207.01) (xy 74.93 207.01)) (stroke (width 0) (type default)) (uuid acbe7bec-014d-5a53-9bd6-723c0002778d))
+(global_label "SYS_SDA" (shape bidirectional) (at 74.93 207.01 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7b353ede-7923-50b2-8509-77fcf975fa8d))
+(wire (pts (xy 91.44 199.39) (xy 91.44 195.58)) (stroke (width 0) (type default)) (uuid 739e558f-113d-5f83-a7e0-359104a86b0a))
+(global_label "3V3" (shape bidirectional) (at 91.44 195.58 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c2063054-7bf7-57e0-85bc-909b6dbea1d2))
+
+(wire (pts (xy 104.14 214.63) (xy 107.95 214.63)) (stroke (width 0) (type default)) (uuid d253020c-1dfb-54b7-8d3e-8097507bc773))
+(global_label "LED_ENABLE" (shape bidirectional) (at 107.95 214.63 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4b0a92f4-1ea7-5689-b712-51380acbabe2))
+
+(wire (pts (xy 104.14 217.17) (xy 107.95 217.17)) (stroke (width 0) (type default)) (uuid a2bed920-274a-598f-beec-695c125e92a7))
+(global_label "CHARGING_N" (shape bidirectional) (at 107.95 217.17 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ffc6e10a-db4e-581b-a7f1-1aa5090bba40))
+
+(wire (pts (xy 104.14 219.71) (xy 107.95 219.71)) (stroke (width 0) (type default)) (uuid a7254b09-e6ff-5e78-8a75-dc4eafdafee9))
+(global_label "VBUS_OK_N" (shape bidirectional) (at 107.95 219.71 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9ea9833d-916c-5078-b804-820a87a953d3))
+
+(wire (pts (xy 104.14 222.25) (xy 107.95 222.25)) (stroke (width 0) (type default)) (uuid 004a28f7-8161-5b6d-a9e3-6de50822fe81))
+(global_label "FUEL_ALERT_N" (shape bidirectional) (at 107.95 222.25 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid becb2eae-1480-556e-8c7a-55539977004a))
+
+
+(wire (pts (xy 104.14 240.03) (xy 107.95 240.03)) (stroke (width 0) (type default)) (uuid 6021270d-fb9a-5af1-b4dd-c149f6c9dba6))
+(global_label "CAM_ENABLE" (shape bidirectional) (at 107.95 240.03 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6f01aeed-1a3f-572c-b2e5-3ecb6d3c5e53))
+(symbol (lib_id "Device:R_Small") (at 154.94 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 913f99a1-34a4-51dd-86a7-8287aca3fcca) (property "Reference" "R1" (at 163.94 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 163.94 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 154.94 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "R1") (unit 1)))))
+(wire (pts (xy 154.94 205.74) (xy 154.94 201.93)) (stroke (width 0) (type default)) (uuid a93e85ec-16e6-5563-9ce1-efab036d80c2))
+(global_label "3V3" (shape bidirectional) (at 154.94 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f9fe05e1-7bbd-5bd8-ac7f-580fdcc8b96c))
+(wire (pts (xy 154.94 210.82) (xy 154.94 214.63)) (stroke (width 0) (type default)) (uuid a2d19289-11af-5329-a696-e8a02626f796))
+(global_label "KEY_C0" (shape bidirectional) (at 154.94 214.63 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8287fe5d-d2a4-5766-b33f-9ee3136adb27))
+(symbol (lib_id "Device:R_Small") (at 198.12 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 7f7d5a25-dd59-5245-9e45-73d1b4db0314) (property "Reference" "R2" (at 207.12 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 207.12 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 198.12 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 198.12 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 198.12 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "R2") (unit 1)))))
+(wire (pts (xy 198.12 205.74) (xy 198.12 201.93)) (stroke (width 0) (type default)) (uuid 3aef3b46-9092-5f45-8359-ae3c752ca201))
+(global_label "3V3" (shape bidirectional) (at 198.12 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid e8057892-abcb-5d27-884a-b173147f7fd4))
+(wire (pts (xy 198.12 210.82) (xy 198.12 214.63)) (stroke (width 0) (type default)) (uuid e444ac83-ba2b-54c3-850d-6eed85ec8a44))
+(global_label "KEY_C1" (shape bidirectional) (at 198.12 214.63 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7f017fe8-dc87-50a9-b4b9-e31456fdcdf4))
+(symbol (lib_id "Device:R_Small") (at 241.3 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid a3e3e172-407a-5918-aaa5-28370ed566f7) (property "Reference" "R3" (at 250.3 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 250.3 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 241.3 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 241.3 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 241.3 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "R3") (unit 1)))))
+(wire (pts (xy 241.3 205.74) (xy 241.3 201.93)) (stroke (width 0) (type default)) (uuid 5e1defb3-3f49-5e8a-aca9-ace884835e4f))
+(global_label "3V3" (shape bidirectional) (at 241.3 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 84b92a79-ec0c-5ec1-a447-b93cd1064263))
+(wire (pts (xy 241.3 210.82) (xy 241.3 214.63)) (stroke (width 0) (type default)) (uuid 7e0185e2-fc5f-59af-b3c1-c2a44797ca32))
+(global_label "KEY_C2" (shape bidirectional) (at 241.3 214.63 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e11cbde1-77e7-5a07-937a-4a0eb49d98b9))
+(symbol (lib_id "Device:R_Small") (at 284.48 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid a01bfcd8-6592-5b0b-a079-8db874f77976) (property "Reference" "R4" (at 293.48 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 293.48 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 284.48 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 284.48 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 284.48 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "R4") (unit 1)))))
+(wire (pts (xy 284.48 205.74) (xy 284.48 201.93)) (stroke (width 0) (type default)) (uuid 93a0f879-c843-50d8-a6a0-fd1ce9e4f315))
+(global_label "3V3" (shape bidirectional) (at 284.48 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 71e4379f-528c-5047-bd51-e1f5f02eacb4))
+(wire (pts (xy 284.48 210.82) (xy 284.48 214.63)) (stroke (width 0) (type default)) (uuid ff9b5a64-1cf0-5efd-a624-48d3302ff905))
+(global_label "KEY_C3" (shape bidirectional) (at 284.48 214.63 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 84c93820-2553-527c-8e62-0fce02ef171a))
+(symbol (lib_id "Device:R_Small") (at 327.66 208.28 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6e04af4e-15eb-5e3f-8d4e-b142c1a0d170) (property "Reference" "R29" (at 336.66 206.68 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 336.66 208.48 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 327.66 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 327.66 208.28 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 327.66 208.28 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "R29") (unit 1)))))
+(wire (pts (xy 327.66 205.74) (xy 327.66 201.93)) (stroke (width 0) (type default)) (uuid c4172105-c0dc-5135-bdd3-3ad1829e810a))
+(global_label "3V3" (shape bidirectional) (at 327.66 201.93 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 812145bd-3119-561d-93b8-cb927af7aee0))
+(wire (pts (xy 327.66 210.82) (xy 327.66 214.63)) (stroke (width 0) (type default)) (uuid f5c3d739-f659-55cb-aa03-e455486cbc25))
+(global_label "KEY_C4" (shape bidirectional) (at 327.66 214.63 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fb756998-2db7-5c83-be02-d103b42d6145))
+(symbol (lib_id "Device:C_Small") (at 154.94 242.57 0) (unit 1) (in_bom yes) (on_board yes) (uuid f325f7b4-8afd-5e20-a3a2-facc9640cd90) (property "Reference" "C1" (at 163.94 240.97 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 163.94 242.77 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 154.94 242.57 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 154.94 242.57 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 154.94 242.57 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r2" (path "/b147579f-4c35-5a31-b531-cca78c50f708/60010778-0109-5760-a4b1-5306140504f1" (reference "C1") (unit 1)))))
+(wire (pts (xy 154.94 240.03) (xy 154.94 236.22)) (stroke (width 0) (type default)) (uuid e926b1d1-1b3a-524f-af55-be1dcc794a35))
+(global_label "3V3" (shape bidirectional) (at 154.94 236.22 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 2e95f9d0-bf3e-5a41-8819-15fba616bd91))
+(wire (pts (xy 154.94 245.11) (xy 154.94 248.92)) (stroke (width 0) (type default)) (uuid 51599038-0774-53d5-a81f-fc7d30f6b06f))
+(global_label "GND" (shape bidirectional) (at 154.94 248.92 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 53784664-0f7e-55a7-9793-e401cf4b6b05))
+(embedded_fonts no))
