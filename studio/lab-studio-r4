@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+"""Launch LAB Studio r4 or its local MCP server."""
+import argparse
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    commands = parser.add_subparsers(dest="command")
+    commands.add_parser("mcp", help="run the local stdio MCP server")
+    opener = commands.add_parser("open", help="import a .lab cartridge and open Studio")
+    opener.add_argument("cartridge")
+    args = parser.parse_args()
+    if args.command == "mcp":
+        from r3.mcp import main as serve
+        serve()
+        return 0
+    if args.command == "open":
+        from studio_store import Store
+        try:
+            Store().import_project(args.cartridge)
+        except (OSError, ValueError) as error:
+            parser.exit(1, f"Could not import cartridge: {error}\n")
+    from r4.main import run
+    return run(open_local=args.command == "open") or 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

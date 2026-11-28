@@ -1,0 +1,5 @@
+.app-destination { min-height: 34px; background: transparent; color: #eaf1e7; border: 1px solid transparent; border-radius: 5px; box-shadow: none; padding: 3px 9px; font-weight: 650; }
+.app-destination:hover { background: #35483a; }
+.app-destination:checked { background: #d6edc3; color: #203422; border-color: #b6d59f; }
+.inventory-card { padding: 12px 15px; background: #fafaf4; border: 1px solid #c8d0c1; border-radius: 7px; }
+.device-name { color: #293b2c; font-weight: 700; }
