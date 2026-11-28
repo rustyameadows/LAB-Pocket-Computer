@@ -1,0 +1,4 @@
+{
+  "34": {"board_width":74, "board_height":152, "product":"Adafruit 5825", "panel":"TL034WVS05-B1477A", "pixels":480, "width":70.45, "height":70.32, "thickness":1.89, "active":60.48, "active_left":3.93, "active_top":3.90, "tongue_center_x":34.29, "tail_extension":27.15},
+  "40": {"board_width":80, "board_height":158, "product":"Adafruit 5795", "panel":"TL040HDS20-B1502A", "pixels":720, "width":74.83, "height":78.98, "thickness":1.46, "active":71.93, "active_left":1.45, "active_top":1.45, "tongue_center_x":37.54, "tail_extension":25.67}
+}

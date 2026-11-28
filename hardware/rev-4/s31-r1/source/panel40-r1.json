@@ -1,0 +1,661 @@
+{
+  "pages": [
+    {
+      "key": "panel40",
+      "title": "4.0-inch 720 x 720 RGB display",
+      "parts": [
+        {
+          "ref": "J601",
+          "mpn": "XF2M-4015-1A",
+          "footprint": "Connector_FFC-FPC:Omron_XF2M-4015-1A_1x40-1MP_P0.5mm_Horizontal",
+          "datasheet": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-xf2m.pdf",
+          "pins": [
+            [
+              "1",
+              "LEDA",
+              "passive",
+              "LCD_LED_A"
+            ],
+            [
+              "2",
+              "LEDK1",
+              "passive",
+              "LCD_LED_K1"
+            ],
+            [
+              "3",
+              "LEDK2",
+              "passive",
+              "LCD_LED_K2"
+            ],
+            [
+              "4",
+              "GND",
+              "passive",
+              "GND"
+            ],
+            [
+              "5",
+              "VCI",
+              "passive",
+              "3V3"
+            ],
+            [
+              "6",
+              "RESET",
+              "passive",
+              "LCD_RESET_N"
+            ],
+            [
+              "7",
+              "IM1_NC",
+              "passive",
+              null
+            ],
+            [
+              "8",
+              "IM0_NC",
+              "passive",
+              null
+            ],
+            [
+              "9",
+              "SDA",
+              "passive",
+              "LCD_SDI"
+            ],
+            [
+              "10",
+              "SCK",
+              "passive",
+              "LCD_SCK"
+            ],
+            [
+              "11",
+              "CS",
+              "passive",
+              "LCD_CS"
+            ],
+            [
+              "12",
+              "PCLK",
+              "passive",
+              "LCD_PCLK_FPC"
+            ],
+            [
+              "13",
+              "DE",
+              "passive",
+              "LCD_DE"
+            ],
+            [
+              "14",
+              "VSYNC",
+              "passive",
+              "LCD_VSYNC"
+            ],
+            [
+              "15",
+              "HSYNC",
+              "passive",
+              "LCD_HSYNC"
+            ],
+            [
+              "16",
+              "B0",
+              "passive",
+              "GND"
+            ],
+            [
+              "17",
+              "B1",
+              "passive",
+              "LCD_B0"
+            ],
+            [
+              "18",
+              "B2",
+              "passive",
+              "LCD_B1"
+            ],
+            [
+              "19",
+              "B3",
+              "passive",
+              "LCD_B2"
+            ],
+            [
+              "20",
+              "B4",
+              "passive",
+              "LCD_B3"
+            ],
+            [
+              "21",
+              "B5",
+              "passive",
+              "LCD_B4"
+            ],
+            [
+              "22",
+              "G0",
+              "passive",
+              "LCD_G0"
+            ],
+            [
+              "23",
+              "G1",
+              "passive",
+              "LCD_G1"
+            ],
+            [
+              "24",
+              "G2",
+              "passive",
+              "LCD_G2"
+            ],
+            [
+              "25",
+              "G3",
+              "passive",
+              "LCD_G3"
+            ],
+            [
+              "26",
+              "G4",
+              "passive",
+              "LCD_G4"
+            ],
+            [
+              "27",
+              "G5",
+              "passive",
+              "LCD_G5"
+            ],
+            [
+              "28",
+              "R0",
+              "passive",
+              "GND"
+            ],
+            [
+              "29",
+              "R1",
+              "passive",
+              "LCD_R0"
+            ],
+            [
+              "30",
+              "R2",
+              "passive",
+              "LCD_R1"
+            ],
+            [
+              "31",
+              "R3",
+              "passive",
+              "LCD_R2"
+            ],
+            [
+              "32",
+              "R4",
+              "passive",
+              "LCD_R3"
+            ],
+            [
+              "33",
+              "R5",
+              "passive",
+              "LCD_R4"
+            ],
+            [
+              "34",
+              "GND",
+              "passive",
+              "GND"
+            ],
+            [
+              "35",
+              "TP_INT_NC",
+              "passive",
+              null
+            ],
+            [
+              "36",
+              "TP_SDA_NC",
+              "passive",
+              null
+            ],
+            [
+              "37",
+              "TP_SCL_NC",
+              "passive",
+              null
+            ],
+            [
+              "38",
+              "TP_RESET_NC",
+              "passive",
+              null
+            ],
+            [
+              "39",
+              "TP_VCI_NC",
+              "passive",
+              null
+            ],
+            [
+              "40",
+              "GND",
+              "passive",
+              "GND"
+            ],
+            [
+              "MP",
+              "MECH",
+              "passive",
+              null
+            ]
+          ],
+          "value": "XF2M-4015-1A / RGB FPC",
+          "lcsc": "C225713",
+          "local_datasheet": "XF2M-4015-1A.pdf"
+        },
+        {
+          "ref": "R603",
+          "mpn": "RC0603FR-0710KL",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C98220",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_RESET_N"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "10k",
+          "lcsc": "C98220",
+          "local_datasheet": "Yageo-RC0603-family.pdf"
+        },
+        {
+          "ref": "R604",
+          "mpn": "RC0603FR-0710KL",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C98220",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "LCD_CS"
+            ]
+          ],
+          "value": "10k",
+          "lcsc": "C98220",
+          "local_datasheet": "Yageo-RC0603-family.pdf"
+        },
+        {
+          "ref": "R605",
+          "mpn": "RC0603FR-0733RL",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C98220",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_PCLK"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "LCD_PCLK_FPC"
+            ]
+          ],
+          "value": "33R",
+          "lcsc": "C108661",
+          "local_datasheet": "Yageo-RC0603-family.pdf"
+        },
+        {
+          "ref": "C605",
+          "mpn": "GRM188R71H104KA93D",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://s3.amazonaws.com/snapeda/datasheet/GRM188R71H104KA93D_Murata.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100 nF / 50 V",
+          "lcsc": "C77055",
+          "local_datasheet": "GRM188R71H104KA93D.pdf"
+        },
+        {
+          "ref": "C606",
+          "mpn": "GRM188R61E105KA12D",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1 uF / 25 V",
+          "lcsc": "C77046",
+          "local_datasheet": "GRM188R61E105KA12D.pdf"
+        },
+        {
+          "ref": "DS601",
+          "mpn": "TL040HDS20-B1502A",
+          "value": "Adafruit 5795 / 720 x 720 non-touch",
+          "footprint": "",
+          "datasheet": "https://cdn-shop.adafruit.com/product-files/5795/Specification_TL040HDS20-B1502A_20221208.pdf",
+          "pins": [],
+          "assembly": "hand-fit to J601",
+          "vendor_id": "Adafruit 5795",
+          "local_datasheet": "TL040HDS20-B1502A.pdf"
+        }
+      ],
+      "notes": [
+        "Adafruit 5795 / TL040HDS20-B1502A. Separate flex-mounted non-touch display installed by hand in J601.",
+        "RGB565 drives the upper five red and blue bits and all six green bits. DB0 and DB12 are grounded.",
+        "10k holds RESET low during host startup. 10k holds CS high. Place 33-ohm R605 at the host PCLK source.",
+        "Y17B boots in RGB mode. Leave CS high after panel reset. No serial initialization table.",
+        "Use J601 pin 1 and the actual flex contact face to verify placement before applying backlight power."
+      ]
+    },
+    {
+      "key": "backlight",
+      "title": "Dual-string display backlight",
+      "parts": [
+        {
+          "ref": "U601",
+          "mpn": "TPS61163AYFFR",
+          "footprint": "LABR4:TI_YFF0009_TPS61163A",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/tps61163a.pdf",
+          "pins": [
+            [
+              "A1",
+              "ISET",
+              "passive",
+              "LCD_BL_ISET"
+            ],
+            [
+              "A2",
+              "IFB2",
+              "passive",
+              "LCD_LED_K2"
+            ],
+            [
+              "A3",
+              "IFB1",
+              "passive",
+              "LCD_LED_K1"
+            ],
+            [
+              "B1",
+              "PWM",
+              "input",
+              "BL_PWM"
+            ],
+            [
+              "B2",
+              "COMP",
+              "output",
+              "LCD_BL_COMP"
+            ],
+            [
+              "B3",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "C1",
+              "EN",
+              "input",
+              "LCD_BL_VIN"
+            ],
+            [
+              "C2",
+              "VIN",
+              "power_in",
+              "LCD_BL_VIN"
+            ],
+            [
+              "C3",
+              "SW",
+              "passive",
+              "LCD_BL_SW"
+            ]
+          ],
+          "value": "TPS61163A / dual WLED",
+          "lcsc": "C544314",
+          "local_datasheet": "TPS61163A.pdf"
+        },
+        {
+          "ref": "L601",
+          "mpn": "LPS4018-472MRC",
+          "footprint": "Inductor_SMD:L_Coilcraft_LPS4018",
+          "datasheet": "https://www.coilcraft.com/getmedia/31b05c96-4c4c-4498-8dbb-fe092de76bad/lps4018.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "VSYS"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "LCD_BL_SW"
+            ]
+          ],
+          "value": "4.7 uH",
+          "lcsc": "C4153163",
+          "local_datasheet": "LPS4018-472MRC.pdf"
+        },
+        {
+          "ref": "D601",
+          "mpn": "MBR0540T1G",
+          "footprint": "Diode_SMD:D_SOD-123",
+          "datasheet": "https://www.onsemi.com/download/data-sheet/pdf/mbr0540t1-d.pdf",
+          "pins": [
+            [
+              "1",
+              "K",
+              "passive",
+              "LCD_LED_A"
+            ],
+            [
+              "2",
+              "A",
+              "passive",
+              "LCD_BL_SW"
+            ]
+          ],
+          "value": "MBR0540 / Schottky",
+          "lcsc": "C21353",
+          "local_datasheet": "MBR0540T1G.pdf"
+        },
+        {
+          "ref": "R601",
+          "mpn": "0603WAF6342T5E",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C23093",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_BL_ISET"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "63.4k",
+          "lcsc": "C23093",
+          "local_datasheet": "0603WAF6342T5E.pdf"
+        },
+        {
+          "ref": "R602",
+          "mpn": "RC0603FR-0710RL",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://datasheet.lcsc.com/datasheet/pdf/b426be3ce22c6de3e0c3a2248e49159e.pdf?productCode=C109318",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "VSYS"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "LCD_BL_VIN"
+            ]
+          ],
+          "value": "10R",
+          "lcsc": "C109318",
+          "local_datasheet": "Yageo-RC0603-family.pdf"
+        },
+        {
+          "ref": "C601",
+          "mpn": "GRM188R61E105KA12D",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "VSYS"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1 uF / 25 V",
+          "lcsc": "C77046",
+          "local_datasheet": "GRM188R61E105KA12D.pdf"
+        },
+        {
+          "ref": "C602",
+          "mpn": "GRM188R61E105KA12D",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_BL_VIN"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1 uF / 25 V",
+          "lcsc": "C77046",
+          "local_datasheet": "GRM188R61E105KA12D.pdf"
+        },
+        {
+          "ref": "C603",
+          "mpn": "GRM31CR71H225KA88L",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71H225KA88-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_LED_A"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "2.2 uF / 50 V",
+          "lcsc": "C77095",
+          "local_datasheet": "GRM31CR71H225KA88L.pdf"
+        },
+        {
+          "ref": "C604",
+          "mpn": "GRM188R71C334KA01D",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C334KA01-01A.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "LCD_BL_COMP"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "330 nF / 16 V",
+          "lcsc": "C361106",
+          "local_datasheet": "GRM188R71C334KA01D.pdf"
+        }
+      ],
+      "notes": [
+        "VSYS from BQ24074 powers boost. The two independent 4-LED strings each receive 19.97 mA with 63.4k at ISET.",
+        "EN follows filtered VIN. Native BL_PWM at 20 kHz sets brightness. Hold low through reset and panel initialization.",
+        "L601 4.7 uH. D601 band/cathode goes to LEDA. C603 2.2 uF / 50 V. C604 330 nF.",
+        "R602 10 ohms and C602 1 uF filter driver VIN. Keep the switching loop short and clear of microphone lines."
+      ]
+    }
+  ]
+}

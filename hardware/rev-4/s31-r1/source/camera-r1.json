@@ -1,0 +1,1365 @@
+{
+  "pages": [
+    {
+      "key": "camera_flex",
+      "title": "OV5640 autofocus flex and local bypass",
+      "parts": [
+        {
+          "ref": "J501",
+          "mpn": "AFC01-S24FCC-00",
+          "value": "Seeed 114993115 AF flex",
+          "footprint": "LABR4:JUSHUO_AFC01-S24FCC-00",
+          "datasheet": "https://jlcpcb.com/partdetail/JUSHUO-AFC01_S24FCC00/C262276",
+          "pins": [
+            [
+              "1",
+              "F24_AFVDD",
+              "passive",
+              "CAM_AF_2V8"
+            ],
+            [
+              "2",
+              "F23_AF_GND",
+              "passive",
+              "GND"
+            ],
+            [
+              "3",
+              "F22_Y4",
+              "passive",
+              "CAM_D2_1V8"
+            ],
+            [
+              "4",
+              "F21_Y3",
+              "passive",
+              "CAM_D1_1V8"
+            ],
+            [
+              "5",
+              "F20_Y5",
+              "passive",
+              "CAM_D3_1V8"
+            ],
+            [
+              "6",
+              "F19_Y2",
+              "passive",
+              "CAM_D0_1V8"
+            ],
+            [
+              "7",
+              "F18_Y6",
+              "passive",
+              "CAM_D4_1V8"
+            ],
+            [
+              "8",
+              "F17_PCLK",
+              "passive",
+              "CAM_PCLK_1V8"
+            ],
+            [
+              "9",
+              "F16_Y7",
+              "passive",
+              "CAM_D5_1V8"
+            ],
+            [
+              "10",
+              "F15_DGND",
+              "passive",
+              "GND"
+            ],
+            [
+              "11",
+              "F14_Y8",
+              "passive",
+              "CAM_D6_1V8"
+            ],
+            [
+              "12",
+              "F13_MCLK",
+              "passive",
+              "CAM_XCLK_1V8"
+            ],
+            [
+              "13",
+              "F12_Y9",
+              "passive",
+              "CAM_D7_1V8"
+            ],
+            [
+              "14",
+              "F11_DOVDD",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "15",
+              "F10_DVDD_INT",
+              "passive",
+              "CAM_DVDD_INT"
+            ],
+            [
+              "16",
+              "F09_HREF",
+              "passive",
+              "CAM_HREF_1V8"
+            ],
+            [
+              "17",
+              "F08_PWDN",
+              "passive",
+              "CAM_PWDN_1V8"
+            ],
+            [
+              "18",
+              "F07_VSYNC",
+              "passive",
+              "CAM_VSYNC_1V8"
+            ],
+            [
+              "19",
+              "F06_RESETB",
+              "passive",
+              "CAM_RESET_N_1V8"
+            ],
+            [
+              "20",
+              "F05_SCL",
+              "passive",
+              "CAM_SCL_1V8"
+            ],
+            [
+              "21",
+              "F04_AVDD",
+              "passive",
+              "CAM_AVDD_2V8"
+            ],
+            [
+              "22",
+              "F03_SDA",
+              "passive",
+              "CAM_SDA_1V8"
+            ],
+            [
+              "23",
+              "F02_AGND",
+              "passive",
+              "GND"
+            ],
+            [
+              "24",
+              "F01_STROBE",
+              "passive",
+              null
+            ],
+            [
+              "25",
+              "HOLD_L",
+              "passive",
+              "GND"
+            ],
+            [
+              "26",
+              "HOLD_R",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C262276",
+          "local_datasheet": "Jushuo-AFC01-S24FCC-00.pdf"
+        },
+        {
+          "ref": "C501",
+          "mpn": "C0603C105K8PACTU",
+          "value": "1u",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_DVDD_INT"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C696361",
+          "local_datasheet": "C0603C105K8PACTU.pdf"
+        },
+        {
+          "ref": "C502",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_DVDD_INT"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C503",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C504",
+          "mpn": "C0603C105K8PACTU",
+          "value": "1u",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_AVDD_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C696361",
+          "local_datasheet": "C0603C105K8PACTU.pdf"
+        },
+        {
+          "ref": "C505",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_AVDD_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C506",
+          "mpn": "GRM155R60J475ME47D",
+          "value": "4.7u",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_AF_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C82453",
+          "local_datasheet": "GRM155R60J475ME47D.pdf"
+        },
+        {
+          "ref": "C507",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_AF_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "FB501",
+          "mpn": "BLM18PG121SN1D",
+          "value": "120R at 100 MHz",
+          "footprint": "Inductor_SMD:L_0603_1608Metric",
+          "datasheet": "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA2345_PDF_FERRITEBEADINDUCTORTYPEFILTER",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "CAM_AVDD_2V8"
+            ]
+          ],
+          "jlc": "C14709",
+          "local_datasheet": "Murata-BLM18PG121SN1D.pdf"
+        },
+        {
+          "ref": "FB502",
+          "mpn": "BLM18PG121SN1D",
+          "value": "120R at 100 MHz",
+          "footprint": "Inductor_SMD:L_0603_1608Metric",
+          "datasheet": "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA2345_PDF_FERRITEBEADINDUCTORTYPEFILTER",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "CAM_AF_2V8"
+            ]
+          ],
+          "jlc": "C14709",
+          "local_datasheet": "Murata-BLM18PG121SN1D.pdf"
+        },
+        {
+          "ref": "R501",
+          "mpn": "CRCW060310K0FKEA",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_RESET_N_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C844918",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R502",
+          "mpn": "CRCW060310K0FKEA",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_PWDN_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "CAM_1V8"
+            ]
+          ],
+          "jlc": "C844918",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "CAM501",
+          "mpn": "114993115",
+          "value": "Seeed OV5640 autofocus module",
+          "footprint": "",
+          "datasheet": "https://files.seeedstudio.com/wiki/OV5640_for_ESP32S3_sense/OV5640_Datasheet.pdf",
+          "pins": [],
+          "assembly": "hand-fit to J501",
+          "vendor_id": "Seeed Studio 114993115",
+          "local_datasheet": "Seeed-114993115-autofocus-drawing.pdf"
+        }
+      ],
+      "notes": [
+        "J501 mates with Seeed 114993115. Bottom contacts, 24 x 0.5 mm, 0.30 mm stiffener.",
+        "J501 pad = 25 minus camera flex contact. The pin names below include the flex contact number.",
+        "At the connector, flex 10 is the internal core regulator output. C501 and C502 bypass this rail.",
+        "Fit the flex with power off. Verify GND on J501 pads 2, 10 and 23 before powering the sensor."
+      ]
+    },
+    {
+      "key": "camera_dvp",
+      "title": "Camera pixel bus and clock translation",
+      "parts": [
+        {
+          "ref": "U503",
+          "mpn": "SN74AXC8T245PWR",
+          "value": "SN74AXC8T245PWR",
+          "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+          "pins": [
+            [
+              "1",
+              "VCCA",
+              "power_in",
+              "+3V3"
+            ],
+            [
+              "2",
+              "DIR1",
+              "input",
+              "GND"
+            ],
+            [
+              "3",
+              "A1",
+              "output",
+              "CAM_D0"
+            ],
+            [
+              "4",
+              "A2",
+              "output",
+              "CAM_D1"
+            ],
+            [
+              "5",
+              "A3",
+              "output",
+              "CAM_D2"
+            ],
+            [
+              "6",
+              "A4",
+              "output",
+              "CAM_D3"
+            ],
+            [
+              "7",
+              "A5",
+              "output",
+              "CAM_D4"
+            ],
+            [
+              "8",
+              "A6",
+              "output",
+              "CAM_D5"
+            ],
+            [
+              "9",
+              "A7",
+              "output",
+              "CAM_D6"
+            ],
+            [
+              "10",
+              "A8",
+              "output",
+              "CAM_D7"
+            ],
+            [
+              "11",
+              "DIR2",
+              "input",
+              "GND"
+            ],
+            [
+              "12",
+              "GND_1",
+              "power_in",
+              "GND"
+            ],
+            [
+              "13",
+              "GND_2",
+              "power_in",
+              "GND"
+            ],
+            [
+              "14",
+              "B8",
+              "input",
+              "CAM_D7_1V8"
+            ],
+            [
+              "15",
+              "B7",
+              "input",
+              "CAM_D6_1V8"
+            ],
+            [
+              "16",
+              "B6",
+              "input",
+              "CAM_D5_1V8"
+            ],
+            [
+              "17",
+              "B5",
+              "input",
+              "CAM_D4_1V8"
+            ],
+            [
+              "18",
+              "B4",
+              "input",
+              "CAM_D3_1V8"
+            ],
+            [
+              "19",
+              "B3",
+              "input",
+              "CAM_D2_1V8"
+            ],
+            [
+              "20",
+              "B2",
+              "input",
+              "CAM_D1_1V8"
+            ],
+            [
+              "21",
+              "B1",
+              "input",
+              "CAM_D0_1V8"
+            ],
+            [
+              "22",
+              "OE_N",
+              "input",
+              "CAM_BUS_OE_N"
+            ],
+            [
+              "23",
+              "VCCB_1",
+              "power_in",
+              "CAM_1V8"
+            ],
+            [
+              "24",
+              "VCCB_2",
+              "power_in",
+              "CAM_1V8"
+            ]
+          ],
+          "jlc": "C882718",
+          "local_datasheet": "TI-SN74AXC8T245.pdf"
+        },
+        {
+          "ref": "U504",
+          "mpn": "SN74AXC8T245PWR",
+          "value": "SN74AXC8T245PWR",
+          "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+          "pins": [
+            [
+              "1",
+              "VCCA",
+              "power_in",
+              "+3V3"
+            ],
+            [
+              "2",
+              "DIR1",
+              "input",
+              "+3V3"
+            ],
+            [
+              "3",
+              "A1",
+              "input",
+              "CAM_XCLK"
+            ],
+            [
+              "4",
+              "A2",
+              "input",
+              "CAM_PWDN"
+            ],
+            [
+              "5",
+              "A3",
+              "input",
+              "CAM_RESET_N"
+            ],
+            [
+              "6",
+              "A4",
+              "input",
+              "GND"
+            ],
+            [
+              "7",
+              "A5",
+              "output",
+              "CAM_PCLK_DRV"
+            ],
+            [
+              "8",
+              "A6",
+              "output",
+              "CAM_HREF"
+            ],
+            [
+              "9",
+              "A7",
+              "output",
+              "CAM_VSYNC"
+            ],
+            [
+              "10",
+              "A8",
+              "output",
+              null
+            ],
+            [
+              "11",
+              "DIR2",
+              "input",
+              "+3V3"
+            ],
+            [
+              "12",
+              "GND_1",
+              "power_in",
+              "GND"
+            ],
+            [
+              "13",
+              "GND_2",
+              "power_in",
+              "GND"
+            ],
+            [
+              "14",
+              "B8",
+              "input",
+              "GND"
+            ],
+            [
+              "15",
+              "B7",
+              "input",
+              "CAM_VSYNC_1V8"
+            ],
+            [
+              "16",
+              "B6",
+              "input",
+              "CAM_HREF_1V8"
+            ],
+            [
+              "17",
+              "B5",
+              "input",
+              "CAM_PCLK_1V8"
+            ],
+            [
+              "18",
+              "B4",
+              "output",
+              null
+            ],
+            [
+              "19",
+              "B3",
+              "output",
+              "CAM_RESET_N_1V8"
+            ],
+            [
+              "20",
+              "B2",
+              "output",
+              "CAM_PWDN_1V8"
+            ],
+            [
+              "21",
+              "B1",
+              "output",
+              "CAM_XCLK_DRV_1V8"
+            ],
+            [
+              "22",
+              "OE_N",
+              "input",
+              "CAM_BUS_OE_N"
+            ],
+            [
+              "23",
+              "VCCB_1",
+              "power_in",
+              "CAM_1V8"
+            ],
+            [
+              "24",
+              "VCCB_2",
+              "power_in",
+              "CAM_1V8"
+            ]
+          ],
+          "jlc": "C882718",
+          "local_datasheet": "TI-SN74AXC8T245.pdf"
+        },
+        {
+          "ref": "C508",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "+3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C509",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C510",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "+3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C511",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "R508",
+          "mpn": "CRCW060322R0FKEA",
+          "value": "22R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_XCLK_DRV_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "CAM_XCLK_1V8"
+            ]
+          ],
+          "jlc": "C71618",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R509",
+          "mpn": "CRCW060322R0FKEA",
+          "value": "22R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_PCLK_DRV"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "CAM_PCLK"
+            ]
+          ],
+          "jlc": "C71618",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R510",
+          "mpn": "CRCW060310K0FKEA",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_XCLK"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C844918",
+          "local_datasheet": "CRCW0603.pdf"
+        }
+      ],
+      "notes": [
+        "U503 takes all eight data bits from 1.8 V to 3.3 V. U504 translates the clocks and controls.",
+        "TI AXC8 function table: DIR1=0, DIR2=0 gives both banks B to A. Both high gives A1:4 to B and B5:8 to A.",
+        "R508 damps XCLK at U504. R509 damps the translated PCLK at U504. Scope clocks at both receiving ends.",
+        "Use the sensor color-bar pattern to set the sampling edge in firmware and confirm lane order at the selected PCLK."
+      ]
+    },
+    {
+      "key": "camera_power",
+      "title": "Camera supply sequencing and SCCB",
+      "parts": [
+        {
+          "ref": "U501",
+          "mpn": "TLV75518PDBVR",
+          "value": "TLV75518PDBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+          "pins": [
+            [
+              "1",
+              "IN",
+              "power_in",
+              "+3V3"
+            ],
+            [
+              "2",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "3",
+              "EN",
+              "input",
+              "CAM_ENABLE"
+            ],
+            [
+              "4",
+              "NC",
+              "no_connect",
+              null
+            ],
+            [
+              "5",
+              "OUT",
+              "power_out",
+              "CAM_1V8"
+            ]
+          ],
+          "jlc": "C2877863",
+          "local_datasheet": "TI-TLV755P.pdf"
+        },
+        {
+          "ref": "U502",
+          "mpn": "TLV75728PDBVR",
+          "value": "TLV75728PDBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/tlv757p.pdf",
+          "pins": [
+            [
+              "1",
+              "IN",
+              "power_in",
+              "+3V3"
+            ],
+            [
+              "2",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "3",
+              "EN",
+              "input",
+              "CAM_ANALOG_ENABLE"
+            ],
+            [
+              "4",
+              "NC",
+              "no_connect",
+              null
+            ],
+            [
+              "5",
+              "OUT",
+              "power_out",
+              "CAM_2V8"
+            ]
+          ],
+          "jlc": "C2863639",
+          "local_datasheet": "TI-TLV757P.pdf"
+        },
+        {
+          "ref": "C512",
+          "mpn": "GRM155R60J475ME47D",
+          "value": "4.7u",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "+3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C82453",
+          "local_datasheet": "GRM155R60J475ME47D.pdf"
+        },
+        {
+          "ref": "C513",
+          "mpn": "GRM155R60J475ME47D",
+          "value": "4.7u",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C82453",
+          "local_datasheet": "GRM155R60J475ME47D.pdf"
+        },
+        {
+          "ref": "C514",
+          "mpn": "GRM155R60J475ME47D",
+          "value": "4.7u",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "+3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C82453",
+          "local_datasheet": "GRM155R60J475ME47D.pdf"
+        },
+        {
+          "ref": "C515",
+          "mpn": "GRM155R60J475ME47D",
+          "value": "4.7u",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME47-01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_2V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C82453",
+          "local_datasheet": "GRM155R60J475ME47D.pdf"
+        },
+        {
+          "ref": "R503",
+          "mpn": "CRCW06034K70FKEA",
+          "value": "4.7k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_ENABLE"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C844931",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R504",
+          "mpn": "CRCW06034K70FKEA",
+          "value": "4.7k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_ANALOG_ENABLE"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C844931",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R505",
+          "mpn": "CRCW060310K0FKEA",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_PWDN"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "+3V3"
+            ]
+          ],
+          "jlc": "C844918",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R506",
+          "mpn": "CRCW06034K70FKEA",
+          "value": "4.7k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_RESET_N"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C844931",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "R507",
+          "mpn": "CRCW060310K0FKEA",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_BUS_OE_N"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "+3V3"
+            ]
+          ],
+          "jlc": "C844918",
+          "local_datasheet": "CRCW0603.pdf"
+        },
+        {
+          "ref": "Q501",
+          "mpn": "2N7002-7-F",
+          "value": "2N7002",
+          "footprint": "Package_TO_SOT_SMD:SOT-23",
+          "datasheet": "https://www.diodes.com/assets/Datasheets/ds11303.pdf",
+          "pins": [
+            [
+              "1",
+              "G",
+              "input",
+              "CAM_ANALOG_ENABLE"
+            ],
+            [
+              "2",
+              "S",
+              "passive",
+              "GND"
+            ],
+            [
+              "3",
+              "D",
+              "open_collector",
+              "CAM_BUS_OE_N"
+            ]
+          ],
+          "jlc": "C85049",
+          "local_datasheet": "2N7002.pdf"
+        },
+        {
+          "ref": "U505",
+          "mpn": "TCA9406DCUR",
+          "value": "TCA9406DCUR",
+          "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+          "datasheet": "https://www.ti.com/lit/ds/symlink/tca9406.pdf",
+          "pins": [
+            [
+              "1",
+              "SDA_B",
+              "bidirectional",
+              "SYS_SDA"
+            ],
+            [
+              "2",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "3",
+              "VCCA",
+              "power_in",
+              "CAM_1V8"
+            ],
+            [
+              "4",
+              "SDA_A",
+              "bidirectional",
+              "CAM_SDA_1V8"
+            ],
+            [
+              "5",
+              "SCL_A",
+              "bidirectional",
+              "CAM_SCL_1V8"
+            ],
+            [
+              "6",
+              "OE",
+              "input",
+              "CAM_1V8"
+            ],
+            [
+              "7",
+              "VCCB",
+              "power_in",
+              "+3V3"
+            ],
+            [
+              "8",
+              "SCL_B",
+              "bidirectional",
+              "SYS_SCL"
+            ]
+          ],
+          "jlc": "C840107",
+          "local_datasheet": "TI-TCA9406.pdf"
+        },
+        {
+          "ref": "C516",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "CAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        },
+        {
+          "ref": "C517",
+          "mpn": "C0603C104K5RACTU",
+          "value": "100n",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "https://search.kemet.com/component-documentation/download/datasheet/C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "+3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "jlc": "C127833",
+          "local_datasheet": "C0603C104K5RACTU.pdf"
+        }
+      ],
+      "notes": [
+        "CAM_ENABLE enables digital I/O first. CAM_ANALOG_ENABLE then enables analog and VCM and the DVP buffers.",
+        "With default PWDN high and RESET low: enable 1.8 V, wait for settling, enable 2.8 V, then wait at least 5 ms.",
+        "Start XCLK, deassert PWDN, wait at least 1 ms, release RESET, then wait at least 20 ms before SCCB at 0x3C.",
+        "Shut down with PWDN high, RESET low, XCLK off, 2.8 V off and discharged, then switch off 1.8 V."
+      ]
+    }
+  ]
+}

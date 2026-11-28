@@ -1,0 +1,1916 @@
+{
+  "pages": [
+    {
+      "key": "host",
+      "title": "ESP32-S31 processor and peripheral buses",
+      "parts": [
+        {
+          "ref": "U1",
+          "mpn": "ESP32-S31NRV16",
+          "footprint": "LABR4:S31-QFN80",
+          "datasheet": "ESP32-S31_datasheet.pdf",
+          "pins": [
+            [
+              "1",
+              "ANT",
+              "bidirectional",
+              "S31_ANT"
+            ],
+            [
+              "2",
+              "VDDA3",
+              "power_in",
+              "S31_RF_VDD"
+            ],
+            [
+              "3",
+              "VDDA4",
+              "power_in",
+              "S31_RF_VDD"
+            ],
+            [
+              "4",
+              "CHIP_PU",
+              "input",
+              "HOST_EN"
+            ],
+            [
+              "5",
+              "GPIO0/XTAL32_N",
+              "bidirectional",
+              "PDM_A"
+            ],
+            [
+              "6",
+              "GPIO1/XTAL32_P",
+              "bidirectional",
+              "PDM_B"
+            ],
+            [
+              "7",
+              "GPIO2",
+              "bidirectional",
+              "SYS_SDA"
+            ],
+            [
+              "8",
+              "GPIO3",
+              "bidirectional",
+              "SYS_SCL"
+            ],
+            [
+              "9",
+              "GPIO4",
+              "bidirectional",
+              "PDM_CLK"
+            ],
+            [
+              "10",
+              "GPIO5",
+              "bidirectional",
+              "I2S_MCLK"
+            ],
+            [
+              "11",
+              "VDDPST_1",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "12",
+              "GPIO6",
+              "bidirectional",
+              "I2S_BCLK"
+            ],
+            [
+              "13",
+              "GPIO7",
+              "bidirectional",
+              "I2S_LRCLK"
+            ],
+            [
+              "14",
+              "GPIO8",
+              "bidirectional",
+              "LCD_B0"
+            ],
+            [
+              "15",
+              "GPIO9",
+              "bidirectional",
+              "LCD_B1"
+            ],
+            [
+              "16",
+              "GPIO10",
+              "bidirectional",
+              "LCD_B2"
+            ],
+            [
+              "17",
+              "GPIO11",
+              "bidirectional",
+              "LCD_B3"
+            ],
+            [
+              "18",
+              "VREF_TOUCH",
+              "passive",
+              null
+            ],
+            [
+              "19",
+              "GPIO12",
+              "bidirectional",
+              "LCD_B4"
+            ],
+            [
+              "20",
+              "GPIO13",
+              "bidirectional",
+              "LCD_G0"
+            ],
+            [
+              "21",
+              "GPIO14",
+              "bidirectional",
+              "LCD_G1"
+            ],
+            [
+              "22",
+              "GPIO15",
+              "bidirectional",
+              "LCD_G2"
+            ],
+            [
+              "23",
+              "GPIO16",
+              "bidirectional",
+              "LCD_G3"
+            ],
+            [
+              "24",
+              "GPIO17",
+              "bidirectional",
+              "LCD_G4"
+            ],
+            [
+              "25",
+              "GPIO18",
+              "bidirectional",
+              "LCD_G5"
+            ],
+            [
+              "26",
+              "GPIO19",
+              "bidirectional",
+              "LCD_R0"
+            ],
+            [
+              "27",
+              "GPIO20/SDIO_D0",
+              "bidirectional",
+              "I2S_ADC"
+            ],
+            [
+              "28",
+              "GPIO21/SDIO_D1",
+              "bidirectional",
+              "I2S_DAC"
+            ],
+            [
+              "29",
+              "GPIO22/SDIO_D2",
+              "bidirectional",
+              "BUS_MISO"
+            ],
+            [
+              "30",
+              "VDD_PSRAM_1P8_1",
+              "power_in",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "31",
+              "GPIO23/SDIO_D3",
+              "bidirectional",
+              "BUS_MOSI"
+            ],
+            [
+              "32",
+              "GPIO24/SDIO_CLK",
+              "bidirectional",
+              "BUS_CLK"
+            ],
+            [
+              "33",
+              "GPIO25/SDIO_CMD",
+              "bidirectional",
+              "RP_CS_N"
+            ],
+            [
+              "34",
+              "VDD_PSRAM_1P8_2",
+              "power_in",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "35",
+              "VDD_LDO_1P8",
+              "power_out",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "36",
+              "SPICS",
+              "output",
+              "S31_NOR_CS_N"
+            ],
+            [
+              "37",
+              "SPIQ",
+              "bidirectional",
+              "S31_NOR_D1"
+            ],
+            [
+              "38",
+              "SPIWP",
+              "bidirectional",
+              "S31_NOR_D2"
+            ],
+            [
+              "39",
+              "VDD_SPI",
+              "power_out",
+              "HOST_FLASH_VDD"
+            ],
+            [
+              "40",
+              "SPIHD",
+              "bidirectional",
+              "S31_NOR_D3"
+            ],
+            [
+              "41",
+              "SPICLK",
+              "output",
+              "S31_NOR_CLK"
+            ],
+            [
+              "42",
+              "SPID",
+              "bidirectional",
+              "S31_NOR_D0"
+            ],
+            [
+              "43",
+              "VCCA/VDDPST_2",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "44",
+              "USB_DP",
+              "bidirectional",
+              "USB_D_P"
+            ],
+            [
+              "45",
+              "USB_DM",
+              "bidirectional",
+              "USB_D_N"
+            ],
+            [
+              "46",
+              "GPIO33",
+              "bidirectional",
+              "LCD_R1"
+            ],
+            [
+              "47",
+              "GPIO34",
+              "bidirectional",
+              "LCD_R2"
+            ],
+            [
+              "48",
+              "GPIO35",
+              "bidirectional",
+              "LCD_R3"
+            ],
+            [
+              "49",
+              "GPIO36",
+              "bidirectional",
+              "LCD_R4"
+            ],
+            [
+              "50",
+              "GPIO37",
+              "bidirectional",
+              "SD_INT_CS_N"
+            ],
+            [
+              "51",
+              "GPIO38",
+              "bidirectional",
+              "IMU_INT"
+            ],
+            [
+              "52",
+              "GPIO39",
+              "bidirectional",
+              "RGB_DATA_3V3"
+            ],
+            [
+              "53",
+              "GPIO40",
+              "bidirectional",
+              "LCD_PCLK"
+            ],
+            [
+              "54",
+              "VDDPST_3",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "55",
+              "GPIO42",
+              "bidirectional",
+              "BL_PWM"
+            ],
+            [
+              "56",
+              "GPIO43",
+              "bidirectional",
+              "LCD_DE"
+            ],
+            [
+              "57",
+              "GPIO44",
+              "bidirectional",
+              "LCD_HSYNC"
+            ],
+            [
+              "58",
+              "GPIO45",
+              "bidirectional",
+              "LCD_VSYNC"
+            ],
+            [
+              "59",
+              "GPIO46",
+              "bidirectional",
+              "CAM_D0"
+            ],
+            [
+              "60",
+              "GPIO47",
+              "bidirectional",
+              "CAM_D1"
+            ],
+            [
+              "61",
+              "GPIO48",
+              "bidirectional",
+              "CAM_D2"
+            ],
+            [
+              "62",
+              "GPIO49",
+              "bidirectional",
+              "CAM_D3"
+            ],
+            [
+              "63",
+              "VREF_ADC",
+              "passive",
+              "S31_ADC_REF"
+            ],
+            [
+              "64",
+              "VDDPST_4",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "65",
+              "GPIO50",
+              "bidirectional",
+              "CAM_D4"
+            ],
+            [
+              "66",
+              "GPIO51",
+              "bidirectional",
+              "CAM_D5"
+            ],
+            [
+              "67",
+              "GPIO52",
+              "bidirectional",
+              "CAM_D6"
+            ],
+            [
+              "68",
+              "GPIO53",
+              "bidirectional",
+              "CAM_D7"
+            ],
+            [
+              "69",
+              "GPIO54/MTDO",
+              "bidirectional",
+              "CAM_PCLK"
+            ],
+            [
+              "70",
+              "GPIO55/MTCK",
+              "bidirectional",
+              "CAM_XCLK"
+            ],
+            [
+              "71",
+              "GPIO56/MTDI",
+              "bidirectional",
+              "CAM_VSYNC"
+            ],
+            [
+              "72",
+              "GPIO57/MTMS",
+              "bidirectional",
+              "CAM_HREF"
+            ],
+            [
+              "73",
+              "GPIO58/U0TXD",
+              "bidirectional",
+              "S31_UART0_TX"
+            ],
+            [
+              "74",
+              "GPIO59/U0RXD",
+              "bidirectional",
+              "HOST_RX"
+            ],
+            [
+              "75",
+              "GPIO60",
+              "bidirectional",
+              "SD_EXT_CS_N"
+            ],
+            [
+              "76",
+              "GPIO61",
+              "bidirectional",
+              "HOST_BOOT_N"
+            ],
+            [
+              "77",
+              "VDDA1",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "78",
+              "XTAL_N",
+              "passive",
+              "HOST_XTAL_N"
+            ],
+            [
+              "79",
+              "XTAL_P",
+              "passive",
+              "S31_XTAL_P"
+            ],
+            [
+              "80",
+              "VDDA2",
+              "power_in",
+              "3V3"
+            ],
+            [
+              "81",
+              "GND/EP",
+              "power_in",
+              "GND"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "RGB565 and 8-bit DVP use separate native IO-MUX buses (Espressif hardware guide, tables 11 and 12).",
+        "HS OTG is on dedicated pads 44/45. GPIO33/34 are used by RGB after disabling their reset USB-Serial/JTAG function.",
+        "GPIO36 is both LCD red MSB and flash-voltage strap. R403 pulls it high for the 3.3 V NOR at reset.",
+        "GPIO37 and GPIO60 use the existing pulled-up SD select nets. GPIO61 low plus GPIO60 high selects joint download.",
+        "Use I2S0 for two microphone data lines and I2S1 for the full-duplex codec. SPI mode keeps GPIO20..25 at 3.3 V.",
+        "R3A RP2350B pin assignments are preserved. Radio is integrated and the former C6 is removed."
+      ]
+    },
+    {
+      "key": "host-power",
+      "title": "Processor power and reference bypass",
+      "parts": [
+        {
+          "ref": "C401",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C402",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C403",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C404",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C405",
+          "mpn": "C0603C103K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C103K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "10n"
+        },
+        {
+          "ref": "C406",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C407",
+          "mpn": "C0603C103K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C103K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "10n"
+        },
+        {
+          "ref": "C408",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C409",
+          "mpn": "C0805C106K4PACTU",
+          "footprint": "Capacitor_SMD:C_0805_2012Metric",
+          "datasheet": "C0805C106K4PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "10u"
+        },
+        {
+          "ref": "C410",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_RF_VDD"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C411",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C412",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "L401",
+          "mpn": "0402DC-2N0XJRW",
+          "footprint": "Inductor_SMD:L_0402_1005Metric",
+          "datasheet": "Coilcraft-0402DC.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "S31_RF_VDD"
+            ]
+          ],
+          "value": "2n / 35mOhm"
+        },
+        {
+          "ref": "C413",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C414",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C415",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C416",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C417",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_PSRAM_1V8"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C418",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_ADC_REF"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "C419",
+          "mpn": "C0805C106K4PACTU",
+          "footprint": "Capacitor_SMD:C_0805_2012Metric",
+          "datasheet": "C0805C106K4PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "10u"
+        }
+      ],
+      "notes": [
+        "C401-C404 sit at U1 pads 11, 43, 54 and 64, respectively. C405 and C406 sit at VDDA1, C407 and C408 at VDDA2.",
+        "L401 is 2 nH, 35 milliohms max and 2 A rated at 25 C. Keep C410 close to VDDA3/4 and scope the local rail under radio load.",
+        "C413/C414 at U1 pad 30 and C415/C416 at pad 34 bypass the internal PSRAM LDO. C417 bypasses its output at pad 35.",
+        "Provide at least 600 mA at the processor 3.3 V supply. Check combined radio, display, LEDs and audio load on the battery converter."
+      ]
+    },
+    {
+      "key": "host-flash",
+      "title": "16 MB host NOR and 40 MHz reference",
+      "parts": [
+        {
+          "ref": "U9",
+          "mpn": "W25Q128JVSIQ",
+          "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+          "datasheet": "W25Q128JV.pdf",
+          "pins": [
+            [
+              "1",
+              "CS#",
+              "input",
+              "HOST_NOR_CS_N"
+            ],
+            [
+              "2",
+              "DO/IO1",
+              "bidirectional",
+              "HOST_NOR_D1"
+            ],
+            [
+              "3",
+              "WP#/IO2",
+              "bidirectional",
+              "HOST_NOR_D2"
+            ],
+            [
+              "4",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "5",
+              "DI/IO0",
+              "bidirectional",
+              "HOST_NOR_D0"
+            ],
+            [
+              "6",
+              "CLK",
+              "input",
+              "HOST_NOR_CLK"
+            ],
+            [
+              "7",
+              "HOLD#/IO3",
+              "bidirectional",
+              "HOST_NOR_D3"
+            ],
+            [
+              "8",
+              "VCC",
+              "power_in",
+              "HOST_FLASH_VDD"
+            ]
+          ]
+        },
+        {
+          "ref": "R410",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_CS_N"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_CS_N"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R411",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_D1"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_D1"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R412",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_D2"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_D2"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R413",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_D3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_D3"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R414",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_CLK"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_CLK"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R415",
+          "mpn": "CRCW06030000Z0EA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_NOR_D0"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_D0"
+            ]
+          ],
+          "value": "0"
+        },
+        {
+          "ref": "R404",
+          "mpn": "CRCW060310K0FKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_FLASH_VDD"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_NOR_CS_N"
+            ]
+          ],
+          "value": "10k"
+        },
+        {
+          "ref": "C420",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_FLASH_VDD"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "C421",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_FLASH_VDD"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        },
+        {
+          "ref": "Y1",
+          "mpn": "ABM8-40.000MHZ-10-1-U-T",
+          "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+          "datasheet": "ABM8.pdf",
+          "pins": [
+            [
+              "1",
+              "XTAL",
+              "passive",
+              "HOST_XTAL_P"
+            ],
+            [
+              "2",
+              "CASE",
+              "passive",
+              "GND"
+            ],
+            [
+              "3",
+              "XTAL",
+              "passive",
+              "HOST_XTAL_N"
+            ],
+            [
+              "4",
+              "CASE",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "40MHz, CL 10pF"
+        },
+        {
+          "ref": "L402",
+          "mpn": "LQP03TN24NJ02D",
+          "footprint": "Inductor_SMD:L_0201_0603Metric",
+          "datasheet": "Murata-LQP03TN.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_XTAL_P"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_XTAL_P"
+            ]
+          ],
+          "value": "24n"
+        },
+        {
+          "ref": "C422",
+          "mpn": "C0603C150J5GACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C150J5GACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_XTAL_P"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "15p"
+        },
+        {
+          "ref": "C423",
+          "mpn": "C0603C150J5GACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C150J5GACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_XTAL_N"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "15p"
+        }
+      ],
+      "notes": [
+        "R410\u2013R415 are 0 ohm tuning links on the six quad-NOR lines. C420 sits at U1.39 and C421 at U9.8.",
+        "Y1 CL is 10 pF. The initial equal 15 pF loads assume 2.5 pF board stray capacitance. Verify oscillator startup and frequency on prototypes.",
+        "L402 is required on XTAL_P for ESP32-S31 normal startup. R403 on LCD_R4 is also required for this 3.3 V flash."
+      ]
+    },
+    {
+      "key": "host-boot",
+      "title": "Boot straps, reset and programming pads",
+      "parts": [
+        {
+          "ref": "R401",
+          "mpn": "CRCW060310K0FKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_EN"
+            ]
+          ],
+          "value": "10k"
+        },
+        {
+          "ref": "C424",
+          "mpn": "C0603C105K8PACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C105K8PACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "HOST_EN"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1u"
+        },
+        {
+          "ref": "R402",
+          "mpn": "CRCW060310K0FKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_BOOT_N"
+            ]
+          ],
+          "value": "10k"
+        },
+        {
+          "ref": "R403",
+          "mpn": "CRCW060310K0FKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "LCD_R4"
+            ]
+          ],
+          "value": "10k"
+        },
+        {
+          "ref": "R405",
+          "mpn": "CRCW0603499RFKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_UART0_TX"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "HOST_TX"
+            ]
+          ],
+          "value": "499"
+        },
+        {
+          "ref": "R406",
+          "mpn": "CRCW060310K0FKEA",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "datasheet": "CRCW0603.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "RP_CS_N"
+            ]
+          ],
+          "value": "10k"
+        },
+        {
+          "ref": "TP401",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "HOST_BOOT_N"
+            ]
+          ],
+          "value": "HOST_BOOT_N",
+          "procurement": "etched copper"
+        },
+        {
+          "ref": "TP402",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "HOST_EN"
+            ]
+          ],
+          "value": "HOST_EN",
+          "procurement": "etched copper"
+        },
+        {
+          "ref": "TP403",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "HOST_TX"
+            ]
+          ],
+          "value": "HOST_TX",
+          "procurement": "etched copper"
+        },
+        {
+          "ref": "TP404",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "HOST_RX"
+            ]
+          ],
+          "value": "HOST_RX",
+          "procurement": "etched copper"
+        },
+        {
+          "ref": "TP405",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "GND",
+          "procurement": "etched copper"
+        },
+        {
+          "ref": "TP406",
+          "mpn": "PCB test pad",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "datasheet": "",
+          "pins": [
+            [
+              "1",
+              "PAD",
+              "passive",
+              "3V3"
+            ]
+          ],
+          "value": "3V3",
+          "procurement": "etched copper"
+        }
+      ],
+      "notes": [
+        "The UART programming fixture uses 3.3 V logic. Connect host TX to fixture RX and host RX to fixture TX.",
+        "Drive HOST_BOOT_N low, pulse HOST_EN low for at least 1 ms and release EN. Keep BOOT low 3 ms after EN rises.",
+        "Release BOOT and reset after flashing. USB-HS joint-download is also possible on the existing USB-C connector.",
+        "GPIO60 is held high by R11 on SD_EXT_CS_N. Socket DAT3 is an input in SPI mode. Confirm hot reset with both cards installed."
+      ]
+    },
+    {
+      "key": "host-control",
+      "title": "Display, camera and system controls",
+      "parts": [
+        {
+          "ref": "U401",
+          "mpn": "PCA9555PWR",
+          "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+          "datasheet": "PCA9555PWR.pdf",
+          "pins": [
+            [
+              "1",
+              "INT#",
+              "open_collector",
+              null
+            ],
+            [
+              "2",
+              "A1",
+              "input",
+              "GND"
+            ],
+            [
+              "3",
+              "A2",
+              "input",
+              "GND"
+            ],
+            [
+              "4",
+              "P00",
+              "bidirectional",
+              "LCD_CS"
+            ],
+            [
+              "5",
+              "P01",
+              "bidirectional",
+              "LCD_SCK"
+            ],
+            [
+              "6",
+              "P02",
+              "bidirectional",
+              "LCD_SDI"
+            ],
+            [
+              "7",
+              "P03",
+              "bidirectional",
+              "LCD_RESET_N"
+            ],
+            [
+              "8",
+              "P04",
+              "bidirectional",
+              "CAM_RESET_N"
+            ],
+            [
+              "9",
+              "P05",
+              "bidirectional",
+              "CAM_PWDN"
+            ],
+            [
+              "10",
+              "P06",
+              "bidirectional",
+              "CAM_ANALOG_ENABLE"
+            ],
+            [
+              "11",
+              "P07",
+              "bidirectional",
+              "RP_RUN_N"
+            ],
+            [
+              "12",
+              "GND",
+              "power_in",
+              "GND"
+            ],
+            [
+              "13",
+              "P10",
+              "bidirectional",
+              "SD_EXT_DET_N"
+            ],
+            [
+              "14",
+              "P11",
+              "bidirectional",
+              "SD_INT_DET_N"
+            ],
+            [
+              "15",
+              "P12",
+              "bidirectional",
+              null
+            ],
+            [
+              "16",
+              "P13",
+              "bidirectional",
+              null
+            ],
+            [
+              "17",
+              "P14",
+              "bidirectional",
+              null
+            ],
+            [
+              "18",
+              "P15",
+              "bidirectional",
+              null
+            ],
+            [
+              "19",
+              "P16",
+              "bidirectional",
+              null
+            ],
+            [
+              "20",
+              "P17",
+              "bidirectional",
+              null
+            ],
+            [
+              "21",
+              "A0",
+              "input",
+              "3V3"
+            ],
+            [
+              "22",
+              "SCL",
+              "input",
+              "SYS_SCL"
+            ],
+            [
+              "23",
+              "SDA",
+              "bidirectional",
+              "SYS_SDA"
+            ],
+            [
+              "24",
+              "VCC",
+              "power_in",
+              "3V3"
+            ]
+          ]
+        },
+        {
+          "ref": "C425",
+          "mpn": "C0603C104K5RACTU",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "datasheet": "C0603C104K5RACTU.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "3V3"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "100n"
+        }
+      ],
+      "notes": [
+        "U401 I2C address is 0x21 (A2:A1:A0 = 001); the existing keypad expander U4 remains at 0x20. Poll both card detect inputs.",
+        "For the 3.4-inch ST7701S, bit-bang the 9-bit setup via P00/P01/P02. The 4-inch panel uses its module defaults. Pixel data uses RGB565.",
+        "The expander resets to inputs with weak pull-ups. Apply external safe-state pulls at the LCD and camera before enabling outputs.",
+        "Write output-latch safe levels first, then direction. U4 CAM_ENABLE controls DOVDD. U401 CAM_ANALOG_ENABLE controls the subsequent 2.8 V rail."
+      ]
+    },
+    {
+      "key": "host-radio",
+      "title": "2.4 GHz radio and onboard antenna",
+      "parts": [
+        {
+          "ref": "C426",
+          "mpn": "GRM0335C1H1R5BA01D",
+          "footprint": "Capacitor_SMD:C_0201_0603Metric",
+          "datasheet": "Murata-GRM0335C1H1R5BA01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_ANT"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1.5p"
+        },
+        {
+          "ref": "C427",
+          "mpn": "GRM0335C1H1R5BA01D",
+          "footprint": "Capacitor_SMD:C_0201_0603Metric",
+          "datasheet": "Murata-GRM0335C1H1R5BA01.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_RF_MATCH"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "1.5p"
+        },
+        {
+          "ref": "L403",
+          "mpn": "LQP03TN2N7B02D",
+          "footprint": "Inductor_SMD:L_0201_0603Metric",
+          "datasheet": "Murata-LQP03TN.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_ANT"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "S31_RF_MATCH"
+            ]
+          ],
+          "value": "2.7n"
+        },
+        {
+          "ref": "R416",
+          "mpn": "CRCW02010000Z0ED",
+          "footprint": "Resistor_SMD:R_0201_0603Metric",
+          "datasheet": "CRCW0201.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "S31_RF_MATCH"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "RF_FEED_50R"
+            ]
+          ],
+          "value": "0 / RF tune"
+        },
+        {
+          "ref": "L406",
+          "mpn": "LQP03TN2N7B02D",
+          "footprint": "Inductor_SMD:L_0201_0603Metric",
+          "datasheet": "Murata-LQP03TN.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "RF_FEED_50R"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "DNP / RF tune",
+          "dnp": true
+        },
+        {
+          "ref": "C428",
+          "mpn": "QSCF500Q1R0B1GV001T",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "datasheet": "QSCF500Q1R0B1GV001T.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "RF_FEED_50R"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "RF_TEE"
+            ]
+          ],
+          "value": "1p"
+        },
+        {
+          "ref": "L404",
+          "mpn": "LRC0402CS2N7GV001T",
+          "footprint": "Inductor_SMD:L_0402_1005Metric",
+          "datasheet": "LRC0402CS2N7GV001T.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "RF_TEE"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "GND"
+            ]
+          ],
+          "value": "2.7n"
+        },
+        {
+          "ref": "L405",
+          "mpn": "LRC0402CS3N9GV001T",
+          "footprint": "Inductor_SMD:L_0402_1005Metric",
+          "datasheet": "LRC0402CS3N9GV001T.pdf",
+          "pins": [
+            [
+              "1",
+              "1",
+              "passive",
+              "RF_TEE"
+            ],
+            [
+              "2",
+              "2",
+              "passive",
+              "RF_ANT_FEED"
+            ]
+          ],
+          "value": "3.9n"
+        },
+        {
+          "ref": "ANT401",
+          "mpn": "2450AT18A0100001E",
+          "footprint": "LABR4:Johanson-2450AT18A0100001E",
+          "datasheet": "Johanson-2450AT18A0100001E.pdf",
+          "pins": [
+            [
+              "1",
+              "FEED",
+              "passive",
+              "RF_ANT_FEED"
+            ],
+            [
+              "2",
+              "NC_ANCHOR",
+              "no_connect",
+              null
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Chip end CLCCL: C426/L403/C427, followed by R416 (series cap tuning site, initially 0 ohm) and L406 (shunt inductor, initially DNP). Use the RF stub.",
+        "Follow with 50 ohm grounded coplanar waveguide over a continuous reference plane. Populate the Johanson series/shunt/series antenna tee close to ANT401.",
+        "Reserve 6.5 x 6.5 mm of all-layer antenna ground clearance at a corner per the Johanson mounting drawing. Solder both terminals. Pin 2 has no electrical connection.",
+        "Initial match values come from two manufacturers on their reference boards. Tune both ends and test spurious emissions, range and loaded S11 with the LAB display and pack installed."
+      ]
+    }
+  ]
+}
