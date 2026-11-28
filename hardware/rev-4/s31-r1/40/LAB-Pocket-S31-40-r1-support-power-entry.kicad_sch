@@ -1,0 +1,136 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid acf5c9e4-cc36-5b04-8f16-a416a12430d1) (paper "A3") (title_block (title "Supply entry points") (date "2026-11-27") (rev "4 · S31 study R1") (company "LAB Pocket Computer")) (lib_symbols (symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "External supplies and regulator output nodes" (at 17 17 0) (effects (font (size 3.1 3.1)) (justify left) ) (uuid 8b405a80-4134-5e07-9934-390a3b484092))
+(text "VBUS enters at J1. L4 supplies the RP core. R61 feeds its analog regulator supply." (at 17 25 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid 31a3b77f-89db-58ae-864b-071903ef98c2))
+(symbol (lib_id "power:PWR_FLAG") (at 44.45 105.41 0) (unit 1) (in_bom yes) (on_board no) (uuid 8e050bea-52bc-538f-b7bb-e043fae85578) (property "Reference" "#FLG01" (at 44.45 100.33 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 44.45 102.13 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 44.45 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 44.45 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 44.45 105.41 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG01") (unit 1)))))
+(wire (pts (xy 44.45 105.41) (xy 44.45 109.22)) (stroke (width 0) (type default)) (uuid 60c6ffed-2729-5c08-be54-c4945aa11e34))
+(global_label "VBUS" (shape bidirectional) (at 44.45 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4241945a-3fdc-5296-8205-7686f21f9c7b))
+(symbol (lib_id "power:PWR_FLAG") (at 118.11 105.41 0) (unit 1) (in_bom yes) (on_board no) (uuid 07ee4bb2-044f-5515-a89f-6b1e503d3d18) (property "Reference" "#FLG02" (at 118.11 100.33 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 118.11 102.13 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 118.11 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 118.11 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 118.11 105.41 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG02") (unit 1)))))
+(wire (pts (xy 118.11 105.41) (xy 118.11 109.22)) (stroke (width 0) (type default)) (uuid 15144aa4-54ac-54fd-acff-d857c5c94e06))
+(global_label "GND" (shape bidirectional) (at 118.11 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fefaa9f6-f435-538c-8a43-6ffd2f4e7902))
+(symbol (lib_id "power:PWR_FLAG") (at 264.16 105.41 0) (unit 1) (in_bom yes) (on_board no) (uuid db7df79f-a6c1-5fb8-927f-4b838f0db1e2) (property "Reference" "#FLG04" (at 264.16 100.33 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 264.16 102.13 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 264.16 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 264.16 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 264.16 105.41 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG04") (unit 1)))))
+(wire (pts (xy 264.16 105.41) (xy 264.16 109.22)) (stroke (width 0) (type default)) (uuid 8364df4d-4a50-585c-a10a-e95ecdc212a3))
+(global_label "RP_CORE" (shape bidirectional) (at 264.16 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid aae71807-dc3a-5900-8395-ed1818099b9c))
+(symbol (lib_id "power:PWR_FLAG") (at 336.55 105.41 0) (unit 1) (in_bom yes) (on_board no) (uuid 9921d3be-d44f-5bb2-a78c-c25bdba6648d) (property "Reference" "#FLG05" (at 336.55 100.33 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 336.55 102.13 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 336.55 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 336.55 105.41 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 336.55 105.41 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG05") (unit 1)))))
+(wire (pts (xy 336.55 105.41) (xy 336.55 109.22)) (stroke (width 0) (type default)) (uuid e3a6e43d-f426-5168-95dd-b0be8dc7b3d9))
+(global_label "RP_REG_AVDD" (shape bidirectional) (at 336.55 109.22 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 68b21e45-7dd5-57b6-9545-2649e8e84e5e))
+(symbol (lib_id "power:PWR_FLAG") (at 44.45 156.21 0) (unit 1) (in_bom yes) (on_board no) (uuid 10d223ba-43a0-5624-952d-a34d41de6412) (property "Reference" "#FLG041" (at 44.45 151.13 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 44.45 152.93 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 44.45 156.21 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 44.45 156.21 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 44.45 156.21 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG041") (unit 1)))))
+(wire (pts (xy 44.45 156.21) (xy 44.45 160.02)) (stroke (width 0) (type default)) (uuid bd55a40b-add4-501f-970a-af171fdeb361))
+(global_label "S31_RF_VDD" (shape bidirectional) (at 44.45 160.02 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f760ba87-7b66-54e4-a83f-64a3c40dc1f0))
+(symbol (lib_id "power:PWR_FLAG") (at 120.65 156.21 0) (unit 1) (in_bom yes) (on_board no) (uuid e92f0177-cab6-54d2-808e-e1b42e96ab89) (property "Reference" "#FLG061" (at 120.65 151.13 0) (effects (font (size 1 1)) ))(property "Value" "PWR_FLAG" (at 120.65 152.93 0) (effects (font (size 1 1)) ))(property "Footprint" "" (at 120.65 156.21 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "" (at 120.65 156.21 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "" (at 120.65 156.21 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/96324318-dfe0-58f4-97a7-fd051258d29d" (reference "#FLG061") (unit 1)))))
+(wire (pts (xy 120.65 156.21) (xy 120.65 160.02)) (stroke (width 0) (type default)) (uuid bc3668d6-a1f0-562d-a33b-7b30090a189d))
+(global_label "LCD_BL_VIN" (shape bidirectional) (at 120.65 160.02 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 70085f5b-ebd2-59fc-8f80-6fc71ec1221b))
+(embedded_fonts no))

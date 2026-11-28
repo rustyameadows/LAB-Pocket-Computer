@@ -1,0 +1,410 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid 8cff5615-46ce-5d3b-a168-34e0cd28f3a4) (paper "A3") (title_block (title "Type-C current detection") (date "2026-11-27") (rev "4 · S31 study R1") (company "LAB Pocket Computer")) (lib_symbols (symbol "LAB:TUSB320LAIRWBR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 11.89 0) (effects (font (size 1 1)) ))
+(property "Value" "TUSB320LAIRWBR" (at 0 10.39 0) (effects (font (size 1 1)) ))
+(symbol "TUSB320LAIRWBR_0_1" (rectangle (start -10.16 8.89) (end 10.16 -8.89) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TUSB320LAIRWBR_1_1"
+(pin bidirectional line (at -12.7 6.35 0) (length 2.54) (name "CC1" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at -12.7 3.81 0) (length 2.54) (name "CC2" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 1.27 0) (length 2.54) (name "PORT" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -1.27 0) (length 2.54) (name "VBUS_DET" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -3.81 0) (length 2.54) (name "ADDR" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin open_collector line (at -12.7 -6.35 0) (length 2.54) (name "OUT3" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 6.35 180) (length 2.54) (name "VDD" (effects (font (size 1 1)) )) (number "12" (effects (font (size 0.85 0.85)) )))
+(pin input line (at 12.7 3.81 180) (length 2.54) (name "EN_N" (effects (font (size 1 1)) )) (number "11" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 1.27 180) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "10" (effects (font (size 0.85 0.85)) )))
+(pin open_collector line (at 12.7 -1.27 180) (length 2.54) (name "ID" (effects (font (size 1 1)) )) (number "9" (effects (font (size 0.85 0.85)) )))
+(pin open_collector line (at 12.7 -3.81 180) (length 2.54) (name "OUT2" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin open_collector line (at 12.7 -6.35 180) (length 2.54) (name "OUT1" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))))
+(symbol "LAB:SN74LVC1G04DBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "SN74LVC1G04DBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "SN74LVC1G04DBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "SN74LVC1G04DBVR_1_1"
+(pin no_connect line (at -12.7 2.54 0) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 0 0) (length 2.54) (name "A" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -2.54 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 2.54 180) (length 2.54) (name "VCC" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin output line (at 12.7 0 180) (length 2.54) (name "Y" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+(symbol "LAB:TLV75533PDBVR" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 8.08 0) (effects (font (size 1 1)) ))
+(property "Value" "TLV75533PDBVR" (at 0 6.58 0) (effects (font (size 1 1)) ))
+(symbol "TLV75533PDBVR_0_1" (rectangle (start -10.16 5.08) (end 10.16 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "TLV75533PDBVR_1_1"
+(pin power_in line (at -12.7 2.54 0) (length 2.54) (name "IN" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 0 0) (length 2.54) (name "GND" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin input line (at -12.7 -2.54 0) (length 2.54) (name "EN" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_out line (at 12.7 2.54 180) (length 2.54) (name "OUT" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))
+(pin no_connect line (at 12.7 0 180) (length 2.54) (name "NC" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))))
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "USB Type-C current detection" (at 17 17 0) (effects (font (size 3.1 3.1)) (justify left) ) (uuid 15805ae9-8c5d-53bc-b0cc-66324ffbf407))
+(text "Sink-only, GPIO mode. OUT1 low authorizes the programmed input limit. USB default current stays at 100 mA." (at 17 25 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid 160a4c92-cd13-5908-b7b5-e947d1554d0c))
+(symbol (lib_id "LAB:TUSB320LAIRWBR") (at 91.44 72.39 0) (unit 1) (in_bom yes) (on_board yes) (uuid 6c330ef7-0adc-521a-a35c-bb04c058a402) (property "Reference" "U14" (at 91.44 60.96 0) (effects (font (size 1 1)) ))(property "Value" "TUSB320LAIRWBR" (at 91.44 62.76 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm" (at 91.44 72.39 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TUSB320LAI.pdf" (at 91.44 72.39 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TUSB320LAIRWBR" (at 91.44 72.39 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "U14") (unit 1)))))
+(wire (pts (xy 78.74 66.04) (xy 74.93 66.04)) (stroke (width 0) (type default)) (uuid ab1ecf17-6609-52ca-8135-c15ab1bbe6d4))
+(global_label "CC1" (shape bidirectional) (at 74.93 66.04 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 84b1d9a0-447b-5440-94c6-e090bb0d7ecc))
+(wire (pts (xy 78.74 68.58) (xy 74.93 68.58)) (stroke (width 0) (type default)) (uuid 1a47fb78-5169-54ee-9534-c0659355ad7f))
+(global_label "CC2" (shape bidirectional) (at 74.93 68.58 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 717e4897-66b8-5cb2-aee5-3937a6bbe0b6))
+(wire (pts (xy 78.74 71.12) (xy 74.93 71.12)) (stroke (width 0) (type default)) (uuid 6e36fef4-a0ef-5803-b47f-78e8727f9c51))
+(global_label "GND" (shape bidirectional) (at 74.93 71.12 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid afc5efcb-4db6-56fb-b8ee-0caf94020857))
+(wire (pts (xy 78.74 73.66) (xy 74.93 73.66)) (stroke (width 0) (type default)) (uuid 9d9f1f05-0d88-599a-adcb-6ca18fdba389))
+(global_label "CC_VBUS_DET" (shape bidirectional) (at 74.93 73.66 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid fefa5a43-edb2-5757-a88d-6d7e1565d347))
+(no_connect (at 78.74 76.2) (uuid db3dc58f-1a3d-5293-b664-73f3e21986ac))
+(no_connect (at 78.74 78.74) (uuid fdbc50ff-7247-5119-a52e-871418abdc11))
+(wire (pts (xy 104.14 66.04) (xy 107.95 66.04)) (stroke (width 0) (type default)) (uuid 35b8c3f6-96d6-5659-816f-f032952628e7))
+(global_label "CC_3V3" (shape bidirectional) (at 107.95 66.04 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6150843c-1b21-55e2-ac2e-a4b4b6e30982))
+(wire (pts (xy 104.14 68.58) (xy 107.95 68.58)) (stroke (width 0) (type default)) (uuid be6caca9-da73-5d01-b451-9491bacffab7))
+(global_label "GND" (shape bidirectional) (at 107.95 68.58 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5d5894ab-a7b7-5e48-a59f-39f5434b0e88))
+(wire (pts (xy 104.14 71.12) (xy 107.95 71.12)) (stroke (width 0) (type default)) (uuid 3b789b32-c910-59c3-ad56-a3eed5f139db))
+(global_label "GND" (shape bidirectional) (at 107.95 71.12 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4cc52397-4fdd-5ecc-bd30-0cb34871af71))
+(no_connect (at 104.14 73.66) (uuid 01163df2-44e9-5a1b-9fd4-fc3e3c585567))
+(no_connect (at 104.14 76.2) (uuid d21c2319-1ace-5d77-9af1-ed8a04cc77ff))
+(wire (pts (xy 104.14 78.74) (xy 107.95 78.74)) (stroke (width 0) (type default)) (uuid 77ac8a0b-4466-5f22-8d57-d0c453e3c050))
+(global_label "CC_HIGH_N" (shape bidirectional) (at 107.95 78.74 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7dc8defc-38f7-56a2-91bd-afb3ba6ef1a2))
+(symbol (lib_id "LAB:SN74LVC1G04DBVR") (at 227.33 71.12 0) (unit 1) (in_bom yes) (on_board yes) (uuid e8ffb804-2da4-55a6-b387-861a808f7541) (property "Reference" "U15" (at 227.33 63.5 0) (effects (font (size 1 1)) ))(property "Value" "SN74LVC1G04DBVR" (at 227.33 65.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 227.33 71.12 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/SN74LVC1G04.pdf" (at 227.33 71.12 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "SN74LVC1G04DBVR" (at 227.33 71.12 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "U15") (unit 1)))))
+(no_connect (at 214.63 68.58) (uuid 52ac39b0-aa86-53e2-a125-0f0b324c1c56))
+(wire (pts (xy 214.63 71.12) (xy 210.82 71.12)) (stroke (width 0) (type default)) (uuid e69fa0b8-f54e-5e62-be0d-79fdfbe43d07))
+(global_label "CC_HIGH_N" (shape bidirectional) (at 210.82 71.12 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid c24a04e0-e80e-535f-963f-3b8106004e0f))
+(wire (pts (xy 214.63 73.66) (xy 210.82 73.66)) (stroke (width 0) (type default)) (uuid bd90d422-3f6a-5452-93cb-f45120cff380))
+(global_label "GND" (shape bidirectional) (at 210.82 73.66 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4f6f8e4d-c593-57c3-991a-cf681df60ed0))
+(wire (pts (xy 240.03 68.58) (xy 243.84 68.58)) (stroke (width 0) (type default)) (uuid 2a9deb45-d0bb-5dd5-a511-dc81ab6fdf28))
+(global_label "CC_3V3" (shape bidirectional) (at 243.84 68.58 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 15c81354-ca9a-5c01-a66c-2d0a0d8fa2c6))
+(wire (pts (xy 240.03 71.12) (xy 243.84 71.12)) (stroke (width 0) (type default)) (uuid f25582b3-840e-518c-b0f1-c78ba57f3a43))
+(global_label "USB_HIGH_CURRENT" (shape bidirectional) (at 243.84 71.12 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 42373172-09bb-5575-95a9-13a42fe3a355))
+(symbol (lib_id "LAB:TLV75533PDBVR") (at 330.2 71.12 0) (unit 1) (in_bom yes) (on_board yes) (uuid ad59159d-aa81-5d1b-8c71-d8c3e937ca88) (property "Reference" "U16" (at 330.2 63.5 0) (effects (font (size 1 1)) ))(property "Value" "TLV75533PDBVR" (at 330.2 65.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 330.2 71.12 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/TLV755P.pdf" (at 330.2 71.12 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "TLV75533PDBVR" (at 330.2 71.12 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "U16") (unit 1)))))
+(wire (pts (xy 317.5 68.58) (xy 313.69 68.58)) (stroke (width 0) (type default)) (uuid f7450e6d-e794-5938-ae90-7050d42659c6))
+(global_label "VBUS" (shape bidirectional) (at 313.69 68.58 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 006447cd-d946-5252-a6e6-09e9c3e9a30c))
+(wire (pts (xy 317.5 71.12) (xy 313.69 71.12)) (stroke (width 0) (type default)) (uuid 142be165-00ad-521e-a3cc-42a5bc6dbe20))
+(global_label "GND" (shape bidirectional) (at 313.69 71.12 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ac2133ca-4dda-57ec-bb64-6c617b22f6d3))
+(wire (pts (xy 317.5 73.66) (xy 313.69 73.66)) (stroke (width 0) (type default)) (uuid b70523e7-c3e1-5a5d-8c55-ece36c209ebe))
+(global_label "VBUS" (shape bidirectional) (at 313.69 73.66 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d4d3aa2e-0938-5c0d-aeef-ec574f90d00e))
+(wire (pts (xy 342.9 68.58) (xy 346.71 68.58)) (stroke (width 0) (type default)) (uuid ebdbdae4-543c-5e35-9eb2-a58b2b7a1c80))
+(global_label "CC_3V3" (shape bidirectional) (at 346.71 68.58 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid a53e6625-eac2-5048-88ed-a79d7c852678))
+(no_connect (at 342.9 71.12) (uuid 3908f13f-f00c-5fdf-ba54-a66b14fb3b73))
+(symbol (lib_id "Device:R_Small") (at 54.61 134.62 0) (unit 1) (in_bom yes) (on_board yes) (uuid 4ff2c848-362a-5314-be18-44cf0c6b4e50) (property "Reference" "R40" (at 65 132.5 0) (effects (font (size 1 1)) ))(property "Value" "1.8M" (at 65 134.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 54.61 134.62 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 54.61 134.62 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW06031M80FKEA" (at 54.61 134.62 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "R40") (unit 1)))))
+(wire (pts (xy 54.61 132.08) (xy 54.61 128.27)) (stroke (width 0) (type default)) (uuid 307e1893-fb58-5603-b111-ff0cd956fd30))
+(global_label "VBUS" (shape bidirectional) (at 54.61 128.27 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4e7da8a3-b5f6-5543-84e5-17d3bb6e3a3c))
+(wire (pts (xy 54.61 137.16) (xy 54.61 140.97)) (stroke (width 0) (type default)) (uuid e411f7bb-d4eb-53c4-a439-b51db29a0bd6))
+(global_label "CC_VBUS_DET" (shape bidirectional) (at 54.61 140.97 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid cb0e7a25-d2a0-5dbe-8f40-670cb16cf0ad))
+(symbol (lib_id "Device:R_Small") (at 137.16 134.62 0) (unit 1) (in_bom yes) (on_board yes) (uuid 46aa7ecd-e922-5554-873a-27962223b32a) (property "Reference" "R41" (at 147 132.5 0) (effects (font (size 1 1)) ))(property "Value" "1.8M" (at 147 134.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 137.16 134.62 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 137.16 134.62 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW06031M80FKEA" (at 137.16 134.62 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "R41") (unit 1)))))
+(wire (pts (xy 137.16 132.08) (xy 137.16 128.27)) (stroke (width 0) (type default)) (uuid 6d71ee20-4a23-58a4-8795-51dbaa9a5f29))
+(global_label "VBUS" (shape bidirectional) (at 137.16 128.27 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 81dddccd-0bbf-5b83-861b-a7f7b7a0217f))
+(wire (pts (xy 137.16 137.16) (xy 137.16 140.97)) (stroke (width 0) (type default)) (uuid 5d1780f7-1030-5cc5-9ef8-3a23038e8a99))
+(global_label "CC_VBUS_DET" (shape bidirectional) (at 137.16 140.97 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 8986cb74-600b-5e2b-935e-60ba705e66e4))
+(symbol (lib_id "Device:C_Small") (at 229.87 132.08 0) (unit 1) (in_bom yes) (on_board yes) (uuid a2f80dc0-2b98-5fac-92b0-37d1d8dedeb8) (property "Reference" "C43" (at 240 130.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 240 132.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 229.87 132.08 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 229.87 132.08 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 229.87 132.08 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "C43") (unit 1)))))
+(wire (pts (xy 229.87 129.54) (xy 229.87 125.73)) (stroke (width 0) (type default)) (uuid d576fad3-b0a5-5da8-a74d-75dafb56d01b))
+(global_label "CC_3V3" (shape bidirectional) (at 229.87 125.73 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f94ee8b2-06a7-57db-9b07-8da616e98bff))
+(wire (pts (xy 229.87 134.62) (xy 229.87 138.43)) (stroke (width 0) (type default)) (uuid 6a07f540-a0f6-54c1-898d-58e78400c0cf))
+(global_label "GND" (shape bidirectional) (at 229.87 138.43 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 073631b6-7348-57fb-b91d-e8eabd5f1910))
+(symbol (lib_id "Device:C_Small") (at 312.42 132.08 0) (unit 1) (in_bom yes) (on_board yes) (uuid a24a505d-ee3c-5757-8bd7-0fe839452abb) (property "Reference" "C44" (at 323 130.5 0) (effects (font (size 1 1)) ))(property "Value" "1u" (at 323 132.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 312.42 132.08 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C105K8PACTU.pdf" (at 312.42 132.08 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C105K8PACTU" (at 312.42 132.08 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "C44") (unit 1)))))
+(wire (pts (xy 312.42 129.54) (xy 312.42 125.73)) (stroke (width 0) (type default)) (uuid 028b2fd5-307c-5fad-93be-781b64e8a8a4))
+(global_label "CC_3V3" (shape bidirectional) (at 312.42 125.73 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f97a8634-db22-5d42-8302-0b9b0e3f6c1d))
+(wire (pts (xy 312.42 134.62) (xy 312.42 138.43)) (stroke (width 0) (type default)) (uuid 6194d6a7-0e80-5ea8-b500-5ee8d238cf9d))
+(global_label "GND" (shape bidirectional) (at 312.42 138.43 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 41d3c9d8-8eef-5c58-be75-876ea9351d99))
+(symbol (lib_id "Device:C_Small") (at 57.15 190.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid d0f5b15f-4382-577b-a25d-598fc73a4ce8) (property "Reference" "C45" (at 67 188.5 0) (effects (font (size 1 1)) ))(property "Value" "1u" (at 67 190.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 57.15 190.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C105K8PACTU.pdf" (at 57.15 190.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C105K8PACTU" (at 57.15 190.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "C45") (unit 1)))))
+(wire (pts (xy 57.15 187.96) (xy 57.15 184.15)) (stroke (width 0) (type default)) (uuid a6218d04-3241-5777-abc8-90ef9c347f7d))
+(global_label "VBUS" (shape bidirectional) (at 57.15 184.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ec676903-6c6c-5bcd-a239-229d001b6a97))
+(wire (pts (xy 57.15 193.04) (xy 57.15 196.85)) (stroke (width 0) (type default)) (uuid a66716fb-ba5d-5acf-8100-fa52347eb5de))
+(global_label "GND" (shape bidirectional) (at 57.15 196.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a62d5956-b2a5-5dfb-8fdc-320099d46827))
+(symbol (lib_id "Device:C_Small") (at 143.51 190.5 0) (unit 1) (in_bom yes) (on_board yes) (uuid d583ea9b-5b3c-5dbc-a294-160caf1e7b09) (property "Reference" "C46" (at 153 188.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 153 190.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 143.51 190.5 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C104K5RACTU.pdf" (at 143.51 190.5 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C104K5RACTU" (at 143.51 190.5 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-40-r1" (path "/b147579f-4c35-5a31-b531-cca78c50f708/350003fe-af18-5c4b-8f8b-4eca696dd665" (reference "C46") (unit 1)))))
+(wire (pts (xy 143.51 187.96) (xy 143.51 184.15)) (stroke (width 0) (type default)) (uuid e60fb854-3f0f-570d-8b13-01f168a82112))
+(global_label "CC_3V3" (shape bidirectional) (at 143.51 184.15 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 297c8ea5-f472-5799-82e1-185c852aa890))
+(wire (pts (xy 143.51 193.04) (xy 143.51 196.85)) (stroke (width 0) (type default)) (uuid 74de68f5-c23a-599b-bb8d-5010332b50bd))
+(global_label "GND" (shape bidirectional) (at 143.51 196.85 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ac5efda3-ad61-5ee2-a978-4fe7863bc504))
+(text "VBUS powers the CC detector independently of the battery and main processor. Unpowered CC1/CC2 present dead-battery Rd." (at 19 239 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid 298e93eb-b2b7-5901-a693-cf0a8cf83a91))
+(text "R24 pulls OUT1 up to the detector rail. R25 holds EN2 low until the detector and inverter have power." (at 19 252 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid b558687d-0d1a-57e6-a09d-b76e55e17376))
+(embedded_fonts no))

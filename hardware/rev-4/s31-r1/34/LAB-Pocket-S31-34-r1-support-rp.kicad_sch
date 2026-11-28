@@ -1,0 +1,648 @@
+(kicad_sch (version 20260101) (generator eeschema) (uuid 6b093c66-8f24-580c-8e07-d475c12fc7d8) (paper "A3") (title_block (title "RP2350B supplies and memory") (date "2026-11-27") (rev "4 · S31 study R1") (company "LAB Pocket Computer")) (lib_symbols (symbol "Device:L_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0.762 1.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L_Small"
+			(at 0.762 -1.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "L_Small_0_1"
+			(arc
+				(start 0 2.032)
+				(mid 0.5058 1.524)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:C_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.254 1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 0.254 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "capacitor cap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_Small_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3302)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Device:R_Small"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_Small_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_Small_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "LAB:APS6404L-3SQR-SN" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 9.35 0) (effects (font (size 1 1)) ))
+(property "Value" "APS6404L-3SQR-SN" (at 0 7.85 0) (effects (font (size 1 1)) ))
+(symbol "APS6404L-3SQR-SN_0_1" (rectangle (start -10.16 6.35) (end 10.16 -6.35) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "APS6404L-3SQR-SN_1_1"
+(pin input line (at -12.7 3.81 0) (length 2.54) (name "CE_N" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at -12.7 1.27 0) (length 2.54) (name "SIO1" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at -12.7 -1.27 0) (length 2.54) (name "SIO2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at -12.7 -3.81 0) (length 2.54) (name "VSS" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) )))
+(pin power_in line (at 12.7 3.81 180) (length 2.54) (name "VCC" (effects (font (size 1 1)) )) (number "8" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at 12.7 1.27 180) (length 2.54) (name "SIO3" (effects (font (size 1 1)) )) (number "7" (effects (font (size 0.85 0.85)) )))
+(pin input line (at 12.7 -1.27 180) (length 2.54) (name "SCLK" (effects (font (size 1 1)) )) (number "6" (effects (font (size 0.85 0.85)) )))
+(pin bidirectional line (at 12.7 -3.81 180) (length 2.54) (name "SIO0" (effects (font (size 1 1)) )) (number "5" (effects (font (size 0.85 0.85)) )))))
+(symbol "LAB:ABM8-272-T3" (pin_names (offset 0.6)) (in_bom yes) (on_board yes)
+(property "Reference" "U" (at 0 6.81 0) (effects (font (size 1 1)) ))
+(property "Value" "ABM8-272-T3" (at 0 5.31 0) (effects (font (size 1 1)) ))
+(symbol "ABM8-272-T3_0_1" (rectangle (start -10.16 3.81) (end 10.16 -3.81) (stroke (width 0.254) (type default)) (fill (type background))))
+(symbol "ABM8-272-T3_1_1"
+(pin passive line (at -12.7 1.27 0) (length 2.54) (name "X1" (effects (font (size 1 1)) )) (number "1" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at -12.7 -1.27 0) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "2" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 1.27 180) (length 2.54) (name "X2" (effects (font (size 1 1)) )) (number "3" (effects (font (size 0.85 0.85)) )))
+(pin passive line (at 12.7 -1.27 180) (length 2.54) (name "CASE" (effects (font (size 1 1)) )) (number "4" (effects (font (size 0.85 0.85)) ))))))
+(text "RP2350B regulator, memory and clock" (at 17 17 0) (effects (font (size 3.1 3.1)) (justify left) ) (uuid f156aa27-89c6-5cc1-ae88-27797859ddee))
+(text "RP2350B internal 1.1 V converter. L4 and the two 4.7 uF local capacitors follow the Raspberry Pi reference. U22 uses QMI chip select 1 on GPIO0." (at 17 25 0) (effects (font (size 1.4 1.4)) (justify left) ) (uuid 9f9fb784-4b87-5bcf-82d0-c3c18743c230))
+(symbol (lib_id "Device:L_Small") (at 36.83 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid 88af78bb-662f-509b-9135-3d8ea9c04bae) (property "Reference" "L4" (at 45 52 0) (effects (font (size 1 1)) ))(property "Value" "3.3uH" (at 45 53.8 0) (effects (font (size 1 1)) ))(property "Footprint" "LAB:Abracon-AOTA-B201610-R3" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/AOTA-B201610S3R3-101-T.pdf" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "AOTA-B201610S3R3-101-T" (at 36.83 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "L4") (unit 1)))))
+(wire (pts (xy 36.83 52.07) (xy 36.83 48.26)) (stroke (width 0) (type default)) (uuid 046a4b78-659a-55f3-acac-fc5786abf539))
+(global_label "RP_CORE" (shape bidirectional) (at 36.83 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 6d06f9a6-40d7-5e11-b214-ea14e294d672))
+(wire (pts (xy 36.83 57.15) (xy 36.83 60.96)) (stroke (width 0) (type default)) (uuid 582bdd0e-b1d4-5b6f-a0fc-c7c0798b0b9b))
+(global_label "RP_REG_LX" (shape bidirectional) (at 36.83 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 296eab7e-6dba-520e-bc30-31fba581d0ac))
+(symbol (lib_id "Device:C_Small") (at 102.87 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid e69ec4aa-c766-50d4-a0ad-eca9cbd529e8) (property "Reference" "C108" (at 113 53.5 0) (effects (font (size 1 1)) ))(property "Value" "4.7u" (at 113 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C475M9PACTU.pdf" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C475M9PACTU" (at 102.87 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C108") (unit 1)))))
+(wire (pts (xy 102.87 52.07) (xy 102.87 48.26)) (stroke (width 0) (type default)) (uuid 8030f121-68f9-5e80-a0d7-10a51fc3b9b4))
+(global_label "3V3" (shape bidirectional) (at 102.87 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 92e5986a-c3cc-5f8a-81bc-d75da5b76447))
+(wire (pts (xy 102.87 57.15) (xy 102.87 60.96)) (stroke (width 0) (type default)) (uuid c412288b-e945-5279-9759-d8bd9bcc4b49))
+(global_label "GND" (shape bidirectional) (at 102.87 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a7d8cb4c-d177-563c-b4a7-082f2b3e9ff2))
+(symbol (lib_id "Device:C_Small") (at 168.91 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid d1b07227-6e7c-5ea4-a022-d5053b0e5b6d) (property "Reference" "C109" (at 179 53.5 0) (effects (font (size 1 1)) ))(property "Value" "4.7u" (at 179 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C475M9PACTU.pdf" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C475M9PACTU" (at 168.91 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C109") (unit 1)))))
+(wire (pts (xy 168.91 52.07) (xy 168.91 48.26)) (stroke (width 0) (type default)) (uuid 142b0c6f-4783-576b-a6a8-431f0a73b721))
+(global_label "RP_CORE" (shape bidirectional) (at 168.91 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 8f5041ad-f02a-557d-8278-3ec817e8824d))
+(wire (pts (xy 168.91 57.15) (xy 168.91 60.96)) (stroke (width 0) (type default)) (uuid b9da11f5-8903-560a-984d-ae938a165f38))
+(global_label "GND" (shape bidirectional) (at 168.91 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid ddb1de28-59c5-5374-be48-3b7b27d1f568))
+(symbol (lib_id "Device:C_Small") (at 234.95 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid aa6a6343-b9aa-511c-a3d4-548cf5e139ec) (property "Reference" "C110" (at 245 53.5 0) (effects (font (size 1 1)) ))(property "Value" "4.7u" (at 245 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C475M9PACTU.pdf" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C475M9PACTU" (at 234.95 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C110") (unit 1)))))
+(wire (pts (xy 234.95 52.07) (xy 234.95 48.26)) (stroke (width 0) (type default)) (uuid 80a92c84-a0f5-5f35-9644-fe9a705edfe0))
+(global_label "RP_REG_AVDD" (shape bidirectional) (at 234.95 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 39c806e6-6448-53ee-ad49-dc440bfd3df8))
+(wire (pts (xy 234.95 57.15) (xy 234.95 60.96)) (stroke (width 0) (type default)) (uuid e40ac6f0-463d-5e43-a773-433faad12481))
+(global_label "GND" (shape bidirectional) (at 234.95 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 854ebefb-7b52-5868-ad32-41ea44fb85ec))
+(symbol (lib_id "Device:R_Small") (at 300.99 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid dd1e50c1-096e-5e5b-a8d7-b6e73e8bebfc) (property "Reference" "R61" (at 311 53.5 0) (effects (font (size 1 1)) ))(property "Value" "33R" (at 311 55.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060333R0FKEA" (at 300.99 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "R61") (unit 1)))))
+(wire (pts (xy 300.99 52.07) (xy 300.99 48.26)) (stroke (width 0) (type default)) (uuid 775edf9e-568d-57c7-b979-d149ca97b5da))
+(global_label "3V3" (shape bidirectional) (at 300.99 48.26 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0cc68d79-8b80-5e23-b3cc-09c119f8e50b))
+(wire (pts (xy 300.99 57.15) (xy 300.99 60.96)) (stroke (width 0) (type default)) (uuid 87a04647-f85f-5919-89e4-9916748d8285))
+(global_label "RP_REG_AVDD" (shape bidirectional) (at 300.99 60.96 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 3b4142a2-50e4-5d5d-a250-ce39cfad5aa4))
+(symbol (lib_id "LAB:APS6404L-3SQR-SN") (at 367.03 54.61 0) (unit 1) (in_bom yes) (on_board yes) (uuid e50c8e10-8bff-5daa-b389-774364285d59) (property "Reference" "U22" (at 367.03 45.72 0) (effects (font (size 1 1)) ))(property "Value" "APS6404L-3SQR-SN" (at 367.03 47.52 0) (effects (font (size 1 1)) ))(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/APS6404L-3SQR.pdf" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "APS6404L-3SQR-SN" (at 367.03 54.61 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "U22") (unit 1)))))
+(wire (pts (xy 354.33 50.8) (xy 350.52 50.8)) (stroke (width 0) (type default)) (uuid d81519be-d784-5cb8-a594-92dd8b6098eb))
+(global_label "RP_RAM_CS_N" (shape bidirectional) (at 350.52 50.8 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1f910b41-d5af-5fe9-ac95-d6a0d0c257ef))
+(wire (pts (xy 354.33 53.34) (xy 350.52 53.34)) (stroke (width 0) (type default)) (uuid 05863180-16f3-5d9c-ab17-223a797472ec))
+(global_label "USER_NOR_D1" (shape bidirectional) (at 350.52 53.34 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b89b1203-c4d9-5434-b873-57e58023eb75))
+(wire (pts (xy 354.33 55.88) (xy 350.52 55.88)) (stroke (width 0) (type default)) (uuid d6590d1b-a161-5182-a2ce-74750052b43c))
+(global_label "USER_NOR_D2" (shape bidirectional) (at 350.52 55.88 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 031f1879-c7aa-5f96-bc0a-39b103bc5702))
+(wire (pts (xy 354.33 58.42) (xy 350.52 58.42)) (stroke (width 0) (type default)) (uuid d84c31ed-0954-51b4-8fe7-85812b24a2fe))
+(global_label "GND" (shape bidirectional) (at 350.52 58.42 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d056c11d-4329-5560-9ff3-dbcd0d3a4aeb))
+(wire (pts (xy 379.73 50.8) (xy 383.54 50.8)) (stroke (width 0) (type default)) (uuid 23980fdb-eac3-52fe-9504-363667e5411c))
+(global_label "3V3" (shape bidirectional) (at 383.54 50.8 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f62dc2e3-bb4a-59e6-b184-2d297d6e1e9b))
+(wire (pts (xy 379.73 53.34) (xy 383.54 53.34)) (stroke (width 0) (type default)) (uuid bce71651-d096-5dfa-a807-74945e12baf2))
+(global_label "USER_NOR_D3" (shape bidirectional) (at 383.54 53.34 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 7548838d-ad5f-51a5-a78a-260b82c0e858))
+(wire (pts (xy 379.73 55.88) (xy 383.54 55.88)) (stroke (width 0) (type default)) (uuid 063bc9cd-bda1-5838-a954-d881dbea5f81))
+(global_label "USER_NOR_CLK" (shape bidirectional) (at 383.54 55.88 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4dfd96f5-835a-52b3-bb81-7e043978d476))
+(wire (pts (xy 379.73 58.42) (xy 383.54 58.42)) (stroke (width 0) (type default)) (uuid 20598bf8-dcf1-54c9-b9ac-2f4b115e4379))
+(global_label "USER_NOR_D0" (shape bidirectional) (at 383.54 58.42 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4dd73375-0cbd-5657-a190-362287691a6f))
+(symbol (lib_id "Device:R_Small") (at 36.83 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid dfb5e4ca-55d0-5f73-88c9-2f829e7a624e) (property "Reference" "R62" (at 47 85.5 0) (effects (font (size 1 1)) ))(property "Value" "10k" (at 47 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW060310K0FKEA" (at 36.83 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "R62") (unit 1)))))
+(wire (pts (xy 36.83 85.09) (xy 36.83 81.28)) (stroke (width 0) (type default)) (uuid 109a32e3-475b-58ae-9a8a-1948dd08abd7))
+(global_label "3V3" (shape bidirectional) (at 36.83 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 92a2aec2-dd16-5142-b533-e02c24c039b8))
+(wire (pts (xy 36.83 90.17) (xy 36.83 93.98)) (stroke (width 0) (type default)) (uuid c25a1393-e0bd-5a2e-852a-64f5fa9ea8e4))
+(global_label "RP_RAM_CS_N" (shape bidirectional) (at 36.83 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid acd02afb-0e02-5d78-ab60-7e4450bd002a))
+(symbol (lib_id "Device:C_Small") (at 102.87 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 5accbdad-f26e-5ea1-954d-2e66a4ab9055) (property "Reference" "C111" (at 113 85.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 113 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 102.87 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C111") (unit 1)))))
+(wire (pts (xy 102.87 85.09) (xy 102.87 81.28)) (stroke (width 0) (type default)) (uuid 4caa506c-b263-52da-bb8d-36ded03eb632))
+(global_label "3V3" (shape bidirectional) (at 102.87 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 74144f11-69aa-52bb-8bef-f18f65559832))
+(wire (pts (xy 102.87 90.17) (xy 102.87 93.98)) (stroke (width 0) (type default)) (uuid 5872f6e9-79ce-5976-8ee5-bfc266a411c9))
+(global_label "GND" (shape bidirectional) (at 102.87 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid d90fc172-82b7-51ea-b910-3d71ba28351c))
+(symbol (lib_id "LAB:ABM8-272-T3") (at 168.91 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid c64f1eb5-0283-55ee-bc49-4ac9193b815c) (property "Reference" "Y2" (at 168.91 81.28 0) (effects (font (size 1 1)) ))(property "Value" "ABM8-272-T3" (at 168.91 83.08 0) (effects (font (size 1 1)) ))(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/ABM8-272-T3.pdf" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "ABM8-272-T3" (at 168.91 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "Y2") (unit 1)))))
+(wire (pts (xy 156.21 86.36) (xy 152.4 86.36)) (stroke (width 0) (type default)) (uuid fd857c74-9d71-5997-975f-8ef2d7b76f2a))
+(global_label "RP_XIN" (shape bidirectional) (at 152.4 86.36 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f88e1588-0b5b-5893-91c3-3d9a844e148d))
+(wire (pts (xy 156.21 88.9) (xy 152.4 88.9)) (stroke (width 0) (type default)) (uuid 14a7c2cc-530f-57e4-9f3e-83b0e3ff59b0))
+(global_label "GND" (shape bidirectional) (at 152.4 88.9 180) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 87f2013d-92bc-5eed-90ab-bfe2f5b04f6a))
+(wire (pts (xy 181.61 86.36) (xy 185.42 86.36)) (stroke (width 0) (type default)) (uuid 7598eaac-0add-543a-b4fb-89c320a90fa6))
+(global_label "RP_XTAL_2" (shape bidirectional) (at 185.42 86.36 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9717a824-0dea-55b4-926b-4bdba8227bdf))
+(wire (pts (xy 181.61 88.9) (xy 185.42 88.9)) (stroke (width 0) (type default)) (uuid 33748a36-7a1a-517e-8b83-93a784b56d9b))
+(global_label "GND" (shape bidirectional) (at 185.42 88.9 0) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 60ff8a32-b29e-5c8e-ad9e-f361ea1c6e4b))
+(symbol (lib_id "Device:R_Small") (at 234.95 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 79075f11-3d8d-5939-af30-09fbbb6bba43) (property "Reference" "R63" (at 245 85.5 0) (effects (font (size 1 1)) ))(property "Value" "1k" (at 245 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/CRCW0603.pdf" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "CRCW06031K00FKEA" (at 234.95 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "R63") (unit 1)))))
+(wire (pts (xy 234.95 85.09) (xy 234.95 81.28)) (stroke (width 0) (type default)) (uuid 4aa507e3-8dbe-54f3-a8be-1b206e57bb66))
+(global_label "RP_XOUT" (shape bidirectional) (at 234.95 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 5703a9f6-a8cf-55bd-a1d5-a208cd007b5b))
+(wire (pts (xy 234.95 90.17) (xy 234.95 93.98)) (stroke (width 0) (type default)) (uuid 86933616-6adf-5858-91e3-ec4d470d9a1b))
+(global_label "RP_XTAL_2" (shape bidirectional) (at 234.95 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 78ac7aca-d3b9-5028-b30d-e5a0f67e86d3))
+(symbol (lib_id "Device:C_Small") (at 300.99 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 057af88a-a345-56a6-a912-6765b90d44e2) (property "Reference" "C112" (at 311 85.5 0) (effects (font (size 1 1)) ))(property "Value" "15p" (at 311 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C150J5GACTU.pdf" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C150J5GACTU" (at 300.99 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C112") (unit 1)))))
+(wire (pts (xy 300.99 85.09) (xy 300.99 81.28)) (stroke (width 0) (type default)) (uuid 671f453d-a73f-5647-81f6-1cf7b5929ae1))
+(global_label "RP_XIN" (shape bidirectional) (at 300.99 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9980d323-be18-523e-9432-c7fa37d1a456))
+(wire (pts (xy 300.99 90.17) (xy 300.99 93.98)) (stroke (width 0) (type default)) (uuid 127d17f4-8d12-5328-86bd-34c543739cb1))
+(global_label "GND" (shape bidirectional) (at 300.99 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2a9b6343-a7e9-5394-9f02-eb24e12fc72a))
+(symbol (lib_id "Device:C_Small") (at 367.03 87.63 0) (unit 1) (in_bom yes) (on_board yes) (uuid 9e9b20db-4f6b-5a3d-908a-5eaef9e8097b) (property "Reference" "C113" (at 377 85.5 0) (effects (font (size 1 1)) ))(property "Value" "15p" (at 377 87.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0603C150J5GACTU.pdf" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0603C150J5GACTU" (at 367.03 87.63 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C113") (unit 1)))))
+(wire (pts (xy 367.03 85.09) (xy 367.03 81.28)) (stroke (width 0) (type default)) (uuid c8fa5ee6-2187-5a94-b7cc-34b2252847dc))
+(global_label "RP_XTAL_2" (shape bidirectional) (at 367.03 81.28 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 4784c3af-39c9-5084-b5df-0c7ebf9bdf01))
+(wire (pts (xy 367.03 90.17) (xy 367.03 93.98)) (stroke (width 0) (type default)) (uuid bf309ac4-0d93-55c3-8c94-00787701e222))
+(global_label "GND" (shape bidirectional) (at 367.03 93.98 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b9031487-79be-5daa-b5d3-fb92cd7961b3))
+(symbol (lib_id "Device:C_Small") (at 36.83 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 679b8efd-255b-5e07-ab8a-be5de085604d) (property "Reference" "C114" (at 47 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 47 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 36.83 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C114") (unit 1)))))
+(wire (pts (xy 36.83 116.84) (xy 36.83 113.03)) (stroke (width 0) (type default)) (uuid 80d690ad-d504-57c5-8ba5-e3169dba7e0e))
+(global_label "3V3" (shape bidirectional) (at 36.83 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid c8d8d62a-ac03-514c-a9f2-bc2d5f8a274a))
+(wire (pts (xy 36.83 121.92) (xy 36.83 125.73)) (stroke (width 0) (type default)) (uuid a753c765-099f-5dae-9129-316c6524a19b))
+(global_label "GND" (shape bidirectional) (at 36.83 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 247ddb2f-1e15-57cc-a4c6-5d5761959860))
+(symbol (lib_id "Device:C_Small") (at 102.87 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 72228fe8-4562-5776-b8ba-950ab803ecd1) (property "Reference" "C115" (at 113 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 113 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 102.87 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C115") (unit 1)))))
+(wire (pts (xy 102.87 116.84) (xy 102.87 113.03)) (stroke (width 0) (type default)) (uuid ad7cd77d-a257-59a2-87ca-b6df039fb665))
+(global_label "3V3" (shape bidirectional) (at 102.87 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f5a5e69b-0cfc-5d07-b884-e25507524a75))
+(wire (pts (xy 102.87 121.92) (xy 102.87 125.73)) (stroke (width 0) (type default)) (uuid d1288879-8374-5fa0-9f7b-aa5ca4d42681))
+(global_label "GND" (shape bidirectional) (at 102.87 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f5806bc7-946e-5dc9-aa44-a2bea26b00df))
+(symbol (lib_id "Device:C_Small") (at 168.91 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 8ca456a4-eb5f-5344-9ec4-2c0b86498c24) (property "Reference" "C116" (at 179 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 179 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 168.91 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C116") (unit 1)))))
+(wire (pts (xy 168.91 116.84) (xy 168.91 113.03)) (stroke (width 0) (type default)) (uuid 9c1f0eb9-0560-5aea-86a7-6e677eec0d3d))
+(global_label "3V3" (shape bidirectional) (at 168.91 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 23807520-9610-56e6-959b-45f7cd23bd68))
+(wire (pts (xy 168.91 121.92) (xy 168.91 125.73)) (stroke (width 0) (type default)) (uuid c2728faf-00bf-560c-8d11-49b0074d6ad4))
+(global_label "GND" (shape bidirectional) (at 168.91 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 2487108c-5d3c-56c5-a7b8-8755a790a69c))
+(symbol (lib_id "Device:C_Small") (at 234.95 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 802fb15f-dd5d-5a3d-a298-a9d3b47719d5) (property "Reference" "C117" (at 245 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 245 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 234.95 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C117") (unit 1)))))
+(wire (pts (xy 234.95 116.84) (xy 234.95 113.03)) (stroke (width 0) (type default)) (uuid 00948d7f-b222-52c6-9032-4752f713e1de))
+(global_label "3V3" (shape bidirectional) (at 234.95 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f4edf2e6-e78a-556b-b1b9-08771caa6a58))
+(wire (pts (xy 234.95 121.92) (xy 234.95 125.73)) (stroke (width 0) (type default)) (uuid 69415f1c-62cf-5857-b6ff-25026709cad8))
+(global_label "GND" (shape bidirectional) (at 234.95 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid f72125a4-ac2b-5def-b51e-4e35da4b7207))
+(symbol (lib_id "Device:C_Small") (at 300.99 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 18755ec2-0a59-526a-b0ad-577717d8d510) (property "Reference" "C118" (at 311 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 311 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 300.99 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C118") (unit 1)))))
+(wire (pts (xy 300.99 116.84) (xy 300.99 113.03)) (stroke (width 0) (type default)) (uuid 71086127-9811-5ffd-a0d2-26943f8e8107))
+(global_label "3V3" (shape bidirectional) (at 300.99 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 0cd946e7-1d7d-5d9a-b1ab-893c48b022ad))
+(wire (pts (xy 300.99 121.92) (xy 300.99 125.73)) (stroke (width 0) (type default)) (uuid 1fbde884-f725-5e4c-8981-e8b75b1e3931))
+(global_label "GND" (shape bidirectional) (at 300.99 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 4bbb9b65-fe2d-57f4-983a-fae86048652f))
+(symbol (lib_id "Device:C_Small") (at 367.03 119.38 0) (unit 1) (in_bom yes) (on_board yes) (uuid 0ecc071a-9858-5bb2-8367-546a275e66d0) (property "Reference" "C119" (at 377 117.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 377 119.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 367.03 119.38 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C119") (unit 1)))))
+(wire (pts (xy 367.03 116.84) (xy 367.03 113.03)) (stroke (width 0) (type default)) (uuid a14363bd-7ff0-56dd-96c3-aa501d9beb7a))
+(global_label "3V3" (shape bidirectional) (at 367.03 113.03 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid f11c636b-fd3e-58d5-9643-6343c695ec32))
+(wire (pts (xy 367.03 121.92) (xy 367.03 125.73)) (stroke (width 0) (type default)) (uuid 7f8f1179-50a2-5457-a1f3-d3a2b6d8249d))
+(global_label "GND" (shape bidirectional) (at 367.03 125.73 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid e5bbd10a-2bf5-5cbd-87f7-0acc255cff54))
+(symbol (lib_id "Device:C_Small") (at 36.83 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 302914b1-fc87-55f6-a282-c4b2f2bd8d85) (property "Reference" "C120" (at 47 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 47 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 36.83 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C120") (unit 1)))))
+(wire (pts (xy 36.83 148.59) (xy 36.83 144.78)) (stroke (width 0) (type default)) (uuid 536ff775-23da-5056-960e-a31631885d78))
+(global_label "3V3" (shape bidirectional) (at 36.83 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 9afa5723-648c-5214-85e8-44f937e85513))
+(wire (pts (xy 36.83 153.67) (xy 36.83 157.48)) (stroke (width 0) (type default)) (uuid 5e352db7-3708-557f-935f-747b5088f833))
+(global_label "GND" (shape bidirectional) (at 36.83 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 9694a5bd-8182-5e13-b182-532fd55a9517))
+(symbol (lib_id "Device:C_Small") (at 102.87 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 93ee5c2a-1034-5675-aafa-c4759099d7e9) (property "Reference" "C121" (at 113 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 113 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 102.87 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C121") (unit 1)))))
+(wire (pts (xy 102.87 148.59) (xy 102.87 144.78)) (stroke (width 0) (type default)) (uuid 61aa7a9e-0c73-5241-8cac-c5dc55cfeff1))
+(global_label "3V3" (shape bidirectional) (at 102.87 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid ac2909d4-5123-5b7a-a4f9-32e6c08ce430))
+(wire (pts (xy 102.87 153.67) (xy 102.87 157.48)) (stroke (width 0) (type default)) (uuid c4e7a599-ab29-5661-a3b9-9dc35f2bd961))
+(global_label "GND" (shape bidirectional) (at 102.87 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 65ed7eae-fd17-5885-b2e6-f5f7b61c7014))
+(symbol (lib_id "Device:C_Small") (at 168.91 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid 9639df6e-1a9d-5a42-8cc6-8127ceb0d178) (property "Reference" "C122" (at 179 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 179 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 168.91 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C122") (unit 1)))))
+(wire (pts (xy 168.91 148.59) (xy 168.91 144.78)) (stroke (width 0) (type default)) (uuid 178b20bd-fd19-5dbe-b470-9f021f662930))
+(global_label "3V3" (shape bidirectional) (at 168.91 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 52aaf097-f1ee-5226-a17b-0d7aa8712b4b))
+(wire (pts (xy 168.91 153.67) (xy 168.91 157.48)) (stroke (width 0) (type default)) (uuid a0b12b4e-4a03-5ef3-b2c2-4e985190f5ee))
+(global_label "GND" (shape bidirectional) (at 168.91 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 1136e0c5-c2c5-5f23-a39b-0aaabf00bc29))
+(symbol (lib_id "Device:C_Small") (at 234.95 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid a551d2dd-7fff-59d4-b90c-fd648d2bfc67) (property "Reference" "C123" (at 245 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 245 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 234.95 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C123") (unit 1)))))
+(wire (pts (xy 234.95 148.59) (xy 234.95 144.78)) (stroke (width 0) (type default)) (uuid f9624ed4-3f40-5553-a474-ae2b22ea5a8e))
+(global_label "3V3" (shape bidirectional) (at 234.95 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 67803347-3f30-5ba5-a9ed-eb83ebe1204c))
+(wire (pts (xy 234.95 153.67) (xy 234.95 157.48)) (stroke (width 0) (type default)) (uuid 7cf112c5-98af-5ca9-a6e3-51f1cab08024))
+(global_label "GND" (shape bidirectional) (at 234.95 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 73a5ddbb-0889-555e-8fdc-bdef1fff3a2a))
+(symbol (lib_id "Device:C_Small") (at 300.99 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid ed127e2f-7a6d-583b-b41d-c01862d28aab) (property "Reference" "C124" (at 311 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 311 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 300.99 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C124") (unit 1)))))
+(wire (pts (xy 300.99 148.59) (xy 300.99 144.78)) (stroke (width 0) (type default)) (uuid b69c6953-c4fa-5217-8874-9efbca6f9523))
+(global_label "3V3" (shape bidirectional) (at 300.99 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 435ddf5b-40b0-5ea2-b541-6bccf436cb5e))
+(wire (pts (xy 300.99 153.67) (xy 300.99 157.48)) (stroke (width 0) (type default)) (uuid a2f5658d-ce55-5f5c-a5cc-299490e2f503))
+(global_label "GND" (shape bidirectional) (at 300.99 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid b4ff48cc-dbe0-5b33-a40e-8fcb48dd847d))
+(symbol (lib_id "Device:C_Small") (at 367.03 151.13 0) (unit 1) (in_bom yes) (on_board yes) (uuid ca7975b1-4eef-55c6-b395-6272c98706dc) (property "Reference" "C125" (at 377 149.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 377 151.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 367.03 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 367.03 151.13 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 367.03 151.13 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C125") (unit 1)))))
+(wire (pts (xy 367.03 148.59) (xy 367.03 144.78)) (stroke (width 0) (type default)) (uuid c17db353-bf49-5a0e-b46e-da8d46f98ca7))
+(global_label "RP_CORE" (shape bidirectional) (at 367.03 144.78 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid 3565ce62-d625-5f7f-8606-3b6b42dc78fe))
+(wire (pts (xy 367.03 153.67) (xy 367.03 157.48)) (stroke (width 0) (type default)) (uuid 89340d80-9e66-5d47-8cae-2566ff758a94))
+(global_label "GND" (shape bidirectional) (at 367.03 157.48 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 452c03d7-7718-5cfb-a24a-3b8a989e506b))
+(symbol (lib_id "Device:C_Small") (at 36.83 182.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid 0849b6b5-24b5-5a5b-95c6-1f90ad2cc1b8) (property "Reference" "C126" (at 47 181.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 47 183.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 36.83 182.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 36.83 182.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 36.83 182.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C126") (unit 1)))))
+(wire (pts (xy 36.83 180.34) (xy 36.83 176.53)) (stroke (width 0) (type default)) (uuid 3e8303cc-6760-56bc-a3c5-72fda5af011d))
+(global_label "RP_CORE" (shape bidirectional) (at 36.83 176.53 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b2638dd6-243c-5922-89b0-daaf230cc7d3))
+(wire (pts (xy 36.83 185.42) (xy 36.83 189.23)) (stroke (width 0) (type default)) (uuid 2345c012-f368-5c28-b175-d8568c5065a7))
+(global_label "GND" (shape bidirectional) (at 36.83 189.23 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid 7e63fd89-3d79-5fc2-a835-5fbe7ad04b8c))
+(symbol (lib_id "Device:C_Small") (at 102.87 182.88 0) (unit 1) (in_bom yes) (on_board yes) (uuid beab3a73-3c69-5378-87b6-cf0cbe162e53) (property "Reference" "C127" (at 113 181.5 0) (effects (font (size 1 1)) ))(property "Value" "100n" (at 113 183.3 0) (effects (font (size 1 1)) ))(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 102.87 182.88 0) (effects (font (size 1 1)) (hide yes)))(property "Datasheet" "${KIPRJMOD}/../datasheets/C0402C104K8RACTU.pdf" (at 102.87 182.88 0) (effects (font (size 1 1)) (hide yes)))(property "MPN" "C0402C104K8RACTU" (at 102.87 182.88 0) (effects (font (size 1 1)) (hide yes)))(instances (project "LAB-Pocket-S31-34-r1" (path "/3143bc99-86be-5bf8-ae75-7f33a7b2ca0a/a71a9c84-0d3d-5292-a274-9cd956ff6d7f" (reference "C127") (unit 1)))))
+(wire (pts (xy 102.87 180.34) (xy 102.87 176.53)) (stroke (width 0) (type default)) (uuid a16e2dc0-73d7-54b4-b936-6d467dd15573))
+(global_label "RP_CORE" (shape bidirectional) (at 102.87 176.53 90) (effects (font (size 0.9 0.9)) (justify left) ) (uuid b9d6ee58-5090-58b0-a3b6-fd23703e5945))
+(wire (pts (xy 102.87 185.42) (xy 102.87 189.23)) (stroke (width 0) (type default)) (uuid 61a6dc7d-540f-52f7-b7f8-6e7451c9c4a6))
+(global_label "GND" (shape bidirectional) (at 102.87 189.23 270) (effects (font (size 0.9 0.9)) (justify right) ) (uuid a7e842aa-6232-59d8-bb4a-b1af300dc73a))
+(embedded_fonts no))

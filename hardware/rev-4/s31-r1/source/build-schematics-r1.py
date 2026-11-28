@@ -114,8 +114,9 @@ def draw_parts(page, name, proj, root, lib, libname, location):
         for k in ('jlc','lcsc','assembly','vendor_id'):
             if part.get(k):props+=prop({'lcsc':'LCSC','jlc':'LCSC'}.get(k,k),part[k],x,y,True)
         dnp=' (dnp yes)' if part.get('dnp') else ''
+        inbom='no' if ref.startswith('TP') else 'yes'
         symuid=uid(proj+'/component/'+ref)
-        pieces.append(f'(symbol (lib_id {q(symid)}) (at {n(x)} {n(y)} 0) (unit 1){dnp} (in_bom yes) (on_board {"yes" if fp else "no"}) (uuid {symuid}) {props} (instances (project {q(proj)} (path "/{root}/{sid}" (reference {q(ref)}) (unit 1)))))')
+        pieces.append(f'(symbol (lib_id {q(symid)}) (at {n(x)} {n(y)} 0) (unit 1){dnp} (in_bom {inbom}) (on_board {"yes" if fp else "no"}) (uuid {symuid}) {props} (instances (project {q(proj)} (path "/{root}/{sid}" (reference {q(ref)}) (unit 1)))))')
         for i,(dx,dy,left,net,kind) in enumerate(ports):
             a=x+dx;b=y-dy;e=a+(-5.08 if left else 5.08); k=proj+'/'+ref+'/'+str(i)
             if net is None or net is False:
@@ -160,9 +161,39 @@ def render(base,out,variant,definitions):
         sheets.append((name,title,sid))
     parts=[page_start(proj,root,'A2')+' (lib_symbols)',text('LAB Pocket Computer',18,20,4.6,proj+'title'),
            text(('4-inch   /   720 × 720   /   Adafruit 5795' if variant=='40' else '3.4-inch   /   480 × 480   /   Adafruit 5825')+'   ·   RGB565   ·   Seeed OV5640 autofocus',18,33,2.1,proj+'caption')]
+    navigator=[
+        'S31 physical pins, parallel video, USB and system buses',
+        'Analog rails, integrated PSRAM and local bypass',
+        'External NOR and quad-SPI terminations',
+        '40 MHz reference, boot straps and recovery pads',
+        'I²C expander for reset, card detect and panel commands',
+        'Antenna, 50-ohm feed and matching components',
+        '24-contact connector, camera module and local bypass',
+        'Eight image data lines, sync and pixel clock',
+        '1.8 V and 2.8 V rails, autofocus and camera control',
+        'Panel flex, RGB565 bit order and timing signals',
+        'Two regulated white-LED strings and hardware PWM',
+        '20 switches, isolation diodes and row scan',
+        'One addressable RGB emitter per key',
+        '12 rear emitters and serial data level shift',
+        'Two host-accessible SPI sockets and card detection',
+        'RP2350B, boot memory and SWD pads',
+        'Core regulator, external RAM, bypass and 12 MHz reference',
+        'Four microphones, inertial sensor and audio connectors',
+        'Headset signal path and stereo Class-D speaker drive',
+        'BMI270 I²C address selection',
+        'USB receptacle, charger and bonded pack harness',
+        'Temperature supervision and fuel gauge',
+        'USB-C current advertisement and charger limit selection',
+        'Buck-boost system supply and undervoltage cutoff',
+        'Switched five-volt addressable LED supply',
+        'External and passively filtered supply entry points',
+    ]
+    if len(navigator)!=len(sheets):raise ValueError("Update schematic sheet index")
     for i,(name,title,sid) in enumerate(sheets):
         x=20+(i%3)*190; y=53+(i//3)*32
         parts.append(f'(sheet (at {x} {y}) (size 167 17) (stroke (width .25)(type default)) (fill (type none)) (uuid {sid}) '+prop('Sheetname',title,x,y-2,justify='left')+prop('Sheetfile',name+'.kicad_sch',x,y+19,justify='left')+f'(instances (project {q(proj)} (path "/{root}" (page "{i+2}")))))')
+        parts.append(text(navigator[i],x+4,y+8.7,1.7,proj+'index'+str(i)))
     (dest/(proj+'.kicad_sch')).write_text('\n'.join(parts+['(embedded_fonts no))\n']))
     (dest/(libname+'-r1.kicad_sym')).write_text('(kicad_symbol_lib (version 20251024) (generator kicad_symbol_editor)\n'+'\n'.join(lib.values())+')\n')
     (dest/'sym-lib-table').write_text(f'(sym_lib_table (version 7) (lib (name "LAB")(type "KiCad")(uri "${{KIPRJMOD}}/../libraries/LAB-r1.kicad_sym")(options "")(descr "")) (lib (name "{libname}")(type "KiCad")(uri "${{KIPRJMOD}}/{libname}-r1.kicad_sym")(options "")(descr "")))\n')
