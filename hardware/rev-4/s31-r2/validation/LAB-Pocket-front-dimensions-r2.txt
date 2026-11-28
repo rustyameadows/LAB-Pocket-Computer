@@ -1,0 +1,14 @@
+Panel 34
+74.000 × 154.295 mm PCB; glass 70.450 × 70.320 mm.
+Screen left/right/top: 1.775, 1.775, 1.775 mm.
+Keypad left/right/top/bottom: 10.000, 10.000, 10.000, 10.000 mm.
+Center pitch X/Y: 12.000/17.000 mm; 20 correctly paired switches, pixels, bypasses and legends.
+206 other front footprints entirely within glass projection (at least 0.55 mm inset).
+Top edge to camera slot: 5.000 mm. Antenna, USB ESD and 11 service pads on rear.
+Panel 40
+80.000 × 163.765 mm PCB; glass 74.830 × 78.980 mm.
+Screen left/right/top: 2.585, 2.585, 2.585 mm.
+Keypad left/right/top/bottom: 10.000, 10.000, 10.000, 10.000 mm.
+Center pitch X/Y: 13.500/17.000 mm; 20 correctly paired switches, pixels, bypasses and legends.
+206 other front footprints entirely within glass projection (at least 0.55 mm inset).
+Top edge to camera slot: 6.000 mm. Antenna, USB ESD and 11 service pads on rear.

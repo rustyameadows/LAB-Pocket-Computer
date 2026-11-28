@@ -1,0 +1,6 @@
+34: PASS - 376 refs, 265 retained Rev 3A components / 876 terminals; 81 S31 pads, native RGB565/DVP, USB, boot, flash, expander, flex and camera translation.
+34 PCB / schematic: PASS - 372 footprints, 1389 numbered lands, both FPC row orientations.
+40: PASS - 376 refs, 265 retained Rev 3A components / 876 terminals; 81 S31 pads, native RGB565/DVP, USB, boot, flash, expander, flex and camera translation.
+40 PCB / schematic: PASS - 372 footprints, 1389 numbered lands, both FPC row orientations.
+Variant comparison: PASS - same electrical connectivity; selected panel MPN and SKU differ.
+Shared supply: 3.2235 V nominal, 3.1834–3.2638 V static; RP analog pin 3.1768 V lower estimate at 200 uA. Transient/ripple and physical hardware require measurement.
