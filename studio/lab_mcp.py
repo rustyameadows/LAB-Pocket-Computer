@@ -7,7 +7,7 @@ import json
 import sqlite3
 import sys
 
-from studio_store import ACTIONS, MAX_SOURCE_BYTES, Store, StoreError
+from studio_store import ACTIONS, MAX_SOURCE_BYTES, Store, StoreError, check_source_text
 
 VERSIONS = ("2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05")
 MAX_PLAYTEST_FRAMES = 600
@@ -31,6 +31,9 @@ def tool(name, description, schema, *, read_only=True, destructive=False):
 IDENTIFIER = {"type": "string", "description": "Project id from lab_list_projects or lab_create_project."}
 TITLE = {"type": "string", "minLength": 1, "maxLength": 80}
 DESCRIPTION = {"type": "string", "maxLength": 1000}
+SOURCE = {"type": "string", "maxLength": MAX_SOURCE_BYTES, "description": "Complete editable main.py."}
+CONTROLS = {"type": "object", "propertyNames": {"enum": sorted(ACTIONS)},
+            "additionalProperties": {"type": "string", "maxLength": 160}}
 BUTTONS = {"type": "array", "items": {"type": "string", "enum": sorted(ACTIONS)},
            "uniqueItems": True}
 SEGMENT = obj({"frames": {"type": "integer", "minimum": 1, "maximum": MAX_PLAYTEST_FRAMES},
@@ -41,28 +44,26 @@ TOOLS = {
         tool("lab_list_projects", "List local Studio games with their revision and active selection.", obj()),
         tool("lab_read_project", "Read a game's complete editable main.py, revision, controls and title.",
              obj({"project_id": IDENTIFIER}, ["project_id"])),
-        tool("lab_create_project", "Create a new game from a bundled template and select it in Studio. "
-             "The falling-blocks template is a playable tetromino game. Get a source revision with "
-             "lab_read_project before customizing it. Each call creates a new project.",
+        tool("lab_create_project", "Create and select a new cartridge. For an original or customized game, "
+             "pass the complete authored source when creating it. Use lab_read_project on a sample ID "
+             "to get starter code. Omitting source copies the template verbatim. Each call creates one project.",
              obj({"title": TITLE, "template": {"type": "string", "default": "falling-blocks"},
-                  "description": DESCRIPTION}, ["title"]), read_only=False),
+                  "description": DESCRIPTION, "source": SOURCE, "controls": CONTROLS}, ["title"]), read_only=False),
         tool("lab_update_project", "Replace main.py after a validation tick, optionally editing the game's "
              "title, description or controls. Supply the revision you read to avoid overwriting newer work.",
              obj({"project_id": IDENTIFIER, "expected_revision": {"type": "integer", "minimum": 1},
-                  "source": {"type": "string", "maxLength": MAX_SOURCE_BYTES}, "title": TITLE,
-                  "description": DESCRIPTION, "controls": {"type": "object",
-                                     "propertyNames": {"enum": sorted(ACTIONS)},
-                                     "additionalProperties": {"type": "string", "maxLength": 160}}},
+                  "source": SOURCE, "title": TITLE,
+                  "description": DESCRIPTION, "controls": CONTROLS},
                  ["project_id", "source", "expected_revision"]), read_only=False, destructive=True),
         tool("lab_open_project", "Select a game in the local Studio workspace. An open Studio window "
              "observes this selection, with unsaved editor drafts protected.",
              obj({"project_id": IDENTIFIER}, ["project_id"]), read_only=False),
-        tool("lab_playtest", "Start a fresh deterministic preview of a saved project. Hold the named "
+        tool("lab_playtest", "Preview exactly one saved project_id or unsaved source. Hold the named "
              "buttons for each segment, in order, up to 600 ticks total at 30 Hz. Use an empty buttons "
              "array to release. Returns game state and an actual 160×160 PNG. Independent of live GUI play.",
-             obj({"project_id": IDENTIFIER, "seed": {"type": "integer", "minimum": 0,
+             obj({"project_id": IDENTIFIER, "source": SOURCE, "seed": {"type": "integer", "minimum": 0,
                   "maximum": 2147483647, "default": 1},
-                  "steps": {"type": "array", "items": SEGMENT, "maxItems": 120}}, ["project_id"])),
+                  "steps": {"type": "array", "items": SEGMENT, "maxItems": 120}})),
         tool("lab_export_project", "Export a saved revision as a .lab ZIP with manifest.json and "
              "main.py for the Studio v0 format. Returns the local artifact path.",
              obj({"project_id": IDENTIFIER}, ["project_id"]), read_only=False),
@@ -99,19 +100,26 @@ def segments(steps):
         yield frames, buttons
 
 
-def playtest(store, project_id, seed=1, steps=None):
+def playtest(store, project_id=None, seed=1, steps=None, source=None):
     from engine import Game
     if type(seed) is not int or not 0 <= seed <= 2147483647:
         raise StoreError("seed must be an integer between 0 and 2147483647.")
     script = list(segments([] if steps is None else steps))
-    project = store.get_project(project_id)
-    game = Game(project["source"], seed=seed)
+    if (source is None) == (project_id is None):
+        raise StoreError("Provide exactly one of project_id or source.")
+    revision = None
+    if project_id is not None:
+        project = store.get_project(project_id)
+        source, revision = project["source"], project["revision"]
+    else:
+        check_source_text(source)
+    game = Game(source, seed=seed)
     for frames, buttons in script:
         for _ in range(frames):
             game.step(buttons)
     png = BytesIO()
     game.image().save(png, format="PNG")
-    metadata = {"project_id": project_id, "revision": project["revision"], "seed": seed,
+    metadata = {"project_id": project_id, "revision": revision, "seed": seed,
                 "frames": sum(frames for frames, _ in script), "state": game.inspect()}
     return [json_content(metadata),
             {"type": "image", "mimeType": "image/png", "data": base64.b64encode(png.getvalue()).decode("ascii")}]
@@ -137,8 +145,11 @@ def dispatch(store, name, args):
         data = {
             "runtime": "lab-python-v0", "display": [160, 160], "ticks_per_second": 30,
             "api": API_DOC, "actions": sorted(ACTIONS), "templates": store.list_templates(),
-            "workflow": ["lab_create_project", "lab_read_project", "lab_update_project",
-                         "lab_playtest", "lab_export_project"],
+            "workflow": ["lab_read_project", "lab_create_project", "lab_playtest",
+                         "lab_open_project", "lab_export_project"],
+            "new_game": "Read a starter using its template id, write the requested mechanics, and pass "
+                        "the full source to lab_create_project. Optionally use lab_playtest(source=...) "
+                        "to iterate privately before creating. Test the saved project by id.",
             "exports": "Portable Studio v0 preview packages. Hardware deployment requires compatible Pocket firmware.",
         }
     elif name == "lab_list_projects":
@@ -192,7 +203,8 @@ class Server:
                 "capabilities": {"tools": {}},
                 "serverInfo": {"name": "lab-studio", "version": "0.1.0"},
                 "instructions": "Use lab_info to discover the LAB Pocket game API and templates. "
-                                "Create, read, edit, playtest, then export the user's game.",
+                                "For a new game, read a starter, author the requested rules, then send the "
+                                "finished source to lab_create_project in a single call. Playtest, open and export.",
             }
         elif method == "ping":
             result = {}

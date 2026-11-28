@@ -29,17 +29,19 @@ Other clients can launch the same executable with the argument `mcp` and stdio t
 
 Try asking:
 
-> Use LAB to make a simple falling-block game for my Pocket Computer. Call it Pocket Cascade. Give it a sunset palette, playtest a hard drop, and open it in Studio.
+> Use LAB to make a falling-block game for my Pocket Computer. Give it an ocean palette and a bonus for clearing two rows at once. Playtest a line clear and open the game in Studio.
+
+For a new game, the agent can read a sample such as `falling-blocks`, write its own `main.py`, and send the finished source and control labels to `lab_create_project`. This creates one new cartridge with its own ID. To try a draft before saving, call `lab_playtest` with `source`; after saving, replay the same inputs with `project_id`. Use `lab_update_project` when the user asks to edit a saved cartridge. MCP clients can request approval for that replacement.
 
 | Tool | Result |
 | --- | --- |
 | `lab_info` | Game API, controls, templates and runtime limits |
 | `lab_list_projects` | Cartridge library and selected project |
-| `lab_create_project` | New project from a playable template, selected in Studio |
+| `lab_create_project` | New project with authored source or a copy of a playable template, selected in Studio |
 | `lab_read_project` | Editable source, metadata and revision |
 | `lab_update_project` | Validate and save replacement source using the expected revision |
 | `lab_open_project` | Select a project in Studio |
-| `lab_playtest` | Start a deterministic session, replay held-button segments and return state plus a 160 × 160 PNG |
+| `lab_playtest` | Replay held-button segments against a saved project or unsaved source and return state plus a 160 × 160 PNG |
 | `lab_export_project` | Export the saved revision as a portable `.lab` archive |
 
 For example, send `lab_playtest` the new project's ID, seed `1`, and `steps: [{"buttons":["b"],"frames":1}]`. Its returned frame belongs to that replay. The user's live game continues independently.
@@ -73,6 +75,8 @@ game.step(("key09",))
 A board adapter must poll the keypad, call `step` at the desired cadence, send frames to the ESP display host, and apply LED changes. Connectors, firmware installation and board timing await physical bring-up. The MicroPython reference executes trusted cartridge source as native MicroPython. The desktop editor uses its own restricted interpreter.
 
 The exported example in `examples/Pocket-Cascade-v0-r1.lab` was created and edited through MCP. It adds a sunset palette and a scoring bonus for consecutive line clears.
+
+`examples/Twin-Tide.lab` came from a fresh Codex agent given the ocean-game prompt above. It read the game API and starter, playtested its draft, created the cartridge with its authored source, then played, opened and exported the saved game through LAB MCP. To reproduce its double clear, start a new round, tap Up and then X (Pocket B). The two rows earn 200 points and the Twin Tide bonus adds 150. For a single clear, reset, move left once and hard-drop for 100 points. The agent tested both openings with seed 8.
 
 ## Checks
 

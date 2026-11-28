@@ -42,11 +42,15 @@ def _controls(mapping):
     return {key: _text(label, "Control description", 160) for key, label in mapping.items()}
 
 
-def _check_source(value):
+def check_source_text(value):
     if not isinstance(value, str) or not value.strip() or "\0" in value:
         raise StoreError("Game source must contain Python text.")
     if len(value.encode("utf-8")) > MAX_SOURCE_BYTES:
         raise StoreError(f"Game source exceeds {MAX_SOURCE_BYTES} UTF-8 bytes.")
+
+
+def _check_source(value):
+    check_source_text(value)
     game = Game(value, seed=1)
     game.step(())
 
@@ -175,11 +179,17 @@ class Store:
                    (result["id"],))
         return result
 
-    def create_project(self, title, template="falling-blocks", description=None):
+    def create_project(self, title, template="falling-blocks", description=None, *, source=None, controls=None):
         if not isinstance(template, str) or template not in self.templates:
             raise StoreError(f"Unknown template. Choose from {', '.join(sorted(self.templates))}.")
+        project = dict(self.templates[template])
+        if source is not None:
+            _check_source(source)
+            project["source"] = source
+        if controls is not None:
+            project["controls"] = _controls(controls)
         with self._db(write=True) as db:
-            return self._add_and_open(db, self.templates[template], title, description)
+            return self._add_and_open(db, project, title, description)
 
     def duplicate_project(self, project_id, title):
         with self._db(write=True) as db:
